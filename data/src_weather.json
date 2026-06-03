@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-03T16:22:30.449000+09:00",
+  "generated_at": "2026-06-03T21:20:02.892756+09:00",
   "courses": [
     {
       "id": "seoho-park",
       "name_ko": "서호공원",
       "name_en": "Seoho Park",
       "name": "서호공원",
-      "updated_at": "2026-06-03T16:20:39+09:00",
+      "updated_at": "2026-06-03T21:18:29+09:00",
       "lat": 37.280325,
       "lon": 126.990396,
-      "temperature": 27.2,
-      "apparent_temperature": 28.030491895751087,
-      "wind_speed": 2.6,
-      "wind_direction": 207.0,
+      "temperature": 20.9,
+      "apparent_temperature": 20.9,
+      "wind_speed": 2.1,
+      "wind_direction": 225.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -24,51 +24,45 @@
         "text_ko": "노면 건조",
         "text_en": "Dry surface"
       },
-      "run_score": 49,
-      "temp_score": 40,
+      "run_score": 77,
+      "temp_score": 75,
       "wind_score": 80,
       "wet_score": 100,
       "surface_score": 100,
       "air_score": 80,
-      "risk_flags_ko": [
-        "고온 주의"
-      ],
-      "risk_flags_en": [
-        "Extreme heat"
-      ],
+      "risk_flags_ko": [],
+      "risk_flags_en": [],
       "tags_ko": [
-        "더움",
+        "다소 따뜻함",
         "약한 바람",
         "노면 건조",
-        "공기질 보통",
-        "고온 주의"
+        "공기질 보통"
       ],
       "tags_en": [
-        "Hot",
+        "Warm",
         "Light breeze",
         "Dry surface",
-        "Moderate air",
-        "Extreme heat"
+        "Moderate air"
       ],
-      "advice_short_ko": "주의하면서 뛰면 괜찮은 컨디션입니다 ⚠️",
-      "advice_short_en": "Okay to run with some caution ⚠️",
-      "advice_detail_ko": "더운 편입니다. 강도를 낮추고 자주 수분을 섭취하는 것이 좋습니다. 약한 바람으로 러닝에 큰 지장은 없습니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 추가 주의 요인: 고온 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
-      "advice_detail_en": "Warm conditions. Lower your intensity and hydrate frequently. Light breeze with little impact on running. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Extra cautions: Extreme heat. Adjust intensity based on how you feel and check your condition more often than usual.",
-      "pm10": 37.0,
-      "pm25": 21.0
+      "advice_short_ko": "러닝하기 무난한 컨디션입니다 🙂",
+      "advice_short_en": "Decent conditions for running 🙂",
+      "advice_detail_ko": "다소 따뜻한 편입니다. 통풍 잘 되는 옷과 충분한 수분 섭취를 추천합니다. 약한 바람으로 러닝에 큰 지장은 없습니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
+      "advice_detail_en": "Slightly warm. Wear breathable clothes and make sure to hydrate. Light breeze with little impact on running. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Adjust intensity based on how you feel and check your condition more often than usual.",
+      "pm10": 33.0,
+      "pm25": 22.0
     },
     {
       "id": "youth-center",
       "name_ko": "청소년문화센터",
       "name_en": "Youth Culture Center",
       "name": "청소년문화센터",
-      "updated_at": "2026-06-03T16:20:49+09:00",
+      "updated_at": "2026-06-03T21:18:37+09:00",
       "lat": 37.274248,
       "lon": 127.034519,
-      "temperature": 27.6,
-      "apparent_temperature": 28.255080958417867,
-      "wind_speed": 3.1,
-      "wind_direction": 290.0,
+      "temperature": 21.7,
+      "apparent_temperature": 21.7,
+      "wind_speed": 1.7,
+      "wind_direction": 239.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -80,51 +74,45 @@
         "text_ko": "노면 건조",
         "text_en": "Dry surface"
       },
-      "run_score": 48,
-      "temp_score": 40,
-      "wind_score": 80,
+      "run_score": 81,
+      "temp_score": 75,
+      "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
       "air_score": 80,
-      "risk_flags_ko": [
-        "고온 주의"
-      ],
-      "risk_flags_en": [
-        "Extreme heat"
-      ],
+      "risk_flags_ko": [],
+      "risk_flags_en": [],
       "tags_ko": [
-        "더움",
-        "약한 바람",
+        "다소 따뜻함",
+        "바람 거의 없음",
         "노면 건조",
-        "공기질 보통",
-        "고온 주의"
+        "공기질 보통"
       ],
       "tags_en": [
-        "Hot",
-        "Light breeze",
+        "Warm",
+        "Calm",
         "Dry surface",
-        "Moderate air",
-        "Extreme heat"
+        "Moderate air"
       ],
-      "advice_short_ko": "주의하면서 뛰면 괜찮은 컨디션입니다 ⚠️",
-      "advice_short_en": "Okay to run with some caution ⚠️",
-      "advice_detail_ko": "더운 편입니다. 강도를 낮추고 자주 수분을 섭취하는 것이 좋습니다. 약한 바람으로 러닝에 큰 지장은 없습니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 추가 주의 요인: 고온 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
-      "advice_detail_en": "Warm conditions. Lower your intensity and hydrate frequently. Light breeze with little impact on running. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Extra cautions: Extreme heat. Adjust intensity based on how you feel and check your condition more often than usual.",
-      "pm10": 37.0,
-      "pm25": 21.0
+      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
+      "advice_short_en": "Great conditions for running 😄",
+      "advice_detail_ko": "다소 따뜻한 편입니다. 통풍 잘 되는 옷과 충분한 수분 섭취를 추천합니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
+      "advice_detail_en": "Slightly warm. Wear breathable clothes and make sure to hydrate. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Adjust intensity based on how you feel and check your condition more often than usual.",
+      "pm10": 33.0,
+      "pm25": 22.0
     },
     {
       "id": "gwanggyo-lake-park",
       "name_ko": "광교호수공원",
       "name_en": "Gwanggyo Lake Park",
       "name": "광교호수공원",
-      "updated_at": "2026-06-03T16:21:00+09:00",
+      "updated_at": "2026-06-03T21:18:46+09:00",
       "lat": 37.283439,
       "lon": 127.065989,
-      "temperature": 29.3,
-      "apparent_temperature": 30.057793583384452,
+      "temperature": 25.3,
+      "apparent_temperature": 25.3,
       "wind_speed": 0.7,
-      "wind_direction": 247.0,
+      "wind_direction": 304.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -136,51 +124,45 @@
         "text_ko": "노면 건조",
         "text_en": "Dry surface"
       },
-      "run_score": 25,
-      "temp_score": 25,
+      "run_score": 69,
+      "temp_score": 55,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
       "air_score": 80,
-      "risk_flags_ko": [
-        "고온 주의"
-      ],
-      "risk_flags_en": [
-        "Extreme heat"
-      ],
+      "risk_flags_ko": [],
+      "risk_flags_en": [],
       "tags_ko": [
-        "꽤 더움",
+        "조금 더움",
         "바람 거의 없음",
         "노면 건조",
-        "공기질 보통",
-        "고온 주의"
+        "공기질 보통"
       ],
       "tags_en": [
-        "Quite hot",
+        "Very warm",
         "Calm",
         "Dry surface",
-        "Moderate air",
-        "Extreme heat"
+        "Moderate air"
       ],
-      "advice_short_ko": "러닝 강도/시간을 줄이거나 실외 러닝을 피하는 것이 좋습니다 🚨",
-      "advice_short_en": "Consider reducing intensity/duration or avoiding outdoor running 🚨",
-      "advice_detail_ko": "상당히 덥습니다. 장거리나 고강도 러닝은 피하고, 그늘 위주 코스를 추천합니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 추가 주의 요인: 고온 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
-      "advice_detail_en": "It is quite hot. Avoid long or high-intensity runs and seek shaded routes. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Extra cautions: Extreme heat. Adjust intensity based on how you feel and check your condition more often than usual.",
-      "pm10": 37.0,
-      "pm25": 21.0
+      "advice_short_ko": "러닝하기 무난한 컨디션입니다 🙂",
+      "advice_short_en": "Decent conditions for running 🙂",
+      "advice_detail_ko": "조금 더운 편입니다. 강도 높은 훈련보다는 적당한 강도의 러닝이 좋습니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
+      "advice_detail_en": "Slightly hot. Moderate intensity runs are better than hard workouts. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Adjust intensity based on how you feel and check your condition more often than usual.",
+      "pm10": 33.0,
+      "pm25": 22.0
     },
     {
       "id": "skku",
       "name_ko": "성균관대학교",
       "name_en": "Sungkyunkwan Univ. (Suwon)",
       "name": "성균관대학교",
-      "updated_at": "2026-06-03T16:21:10+09:00",
+      "updated_at": "2026-06-03T21:18:54+09:00",
       "lat": 37.293788,
       "lon": 126.974365,
-      "temperature": 27.2,
-      "apparent_temperature": 28.030491895751087,
-      "wind_speed": 2.6,
-      "wind_direction": 207.0,
+      "temperature": 20.9,
+      "apparent_temperature": 20.9,
+      "wind_speed": 2.1,
+      "wind_direction": 225.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -192,51 +174,45 @@
         "text_ko": "노면 건조",
         "text_en": "Dry surface"
       },
-      "run_score": 49,
-      "temp_score": 40,
+      "run_score": 77,
+      "temp_score": 75,
       "wind_score": 80,
       "wet_score": 100,
       "surface_score": 100,
       "air_score": 80,
-      "risk_flags_ko": [
-        "고온 주의"
-      ],
-      "risk_flags_en": [
-        "Extreme heat"
-      ],
+      "risk_flags_ko": [],
+      "risk_flags_en": [],
       "tags_ko": [
-        "더움",
+        "다소 따뜻함",
         "약한 바람",
         "노면 건조",
-        "공기질 보통",
-        "고온 주의"
+        "공기질 보통"
       ],
       "tags_en": [
-        "Hot",
+        "Warm",
         "Light breeze",
         "Dry surface",
-        "Moderate air",
-        "Extreme heat"
+        "Moderate air"
       ],
-      "advice_short_ko": "주의하면서 뛰면 괜찮은 컨디션입니다 ⚠️",
-      "advice_short_en": "Okay to run with some caution ⚠️",
-      "advice_detail_ko": "더운 편입니다. 강도를 낮추고 자주 수분을 섭취하는 것이 좋습니다. 약한 바람으로 러닝에 큰 지장은 없습니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 추가 주의 요인: 고온 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
-      "advice_detail_en": "Warm conditions. Lower your intensity and hydrate frequently. Light breeze with little impact on running. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Extra cautions: Extreme heat. Adjust intensity based on how you feel and check your condition more often than usual.",
-      "pm10": 37.0,
-      "pm25": 21.0
+      "advice_short_ko": "러닝하기 무난한 컨디션입니다 🙂",
+      "advice_short_en": "Decent conditions for running 🙂",
+      "advice_detail_ko": "다소 따뜻한 편입니다. 통풍 잘 되는 옷과 충분한 수분 섭취를 추천합니다. 약한 바람으로 러닝에 큰 지장은 없습니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
+      "advice_detail_en": "Slightly warm. Wear breathable clothes and make sure to hydrate. Light breeze with little impact on running. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Adjust intensity based on how you feel and check your condition more often than usual.",
+      "pm10": 33.0,
+      "pm25": 22.0
     },
     {
       "id": "woncheon-stream-sindong",
       "name_ko": "원천리천(신동)",
       "name_en": "Woncheon Stream (Sindong)",
       "name": "원천리천(신동)",
-      "updated_at": "2026-06-03T16:21:20+09:00",
+      "updated_at": "2026-06-03T21:19:02+09:00",
       "lat": 37.248469,
       "lon": 127.041965,
-      "temperature": 27.6,
-      "apparent_temperature": 28.255080958417867,
-      "wind_speed": 3.1,
-      "wind_direction": 290.0,
+      "temperature": 21.7,
+      "apparent_temperature": 21.7,
+      "wind_speed": 1.7,
+      "wind_direction": 239.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -248,51 +224,45 @@
         "text_ko": "노면 건조",
         "text_en": "Dry surface"
       },
-      "run_score": 48,
-      "temp_score": 40,
-      "wind_score": 80,
+      "run_score": 81,
+      "temp_score": 75,
+      "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
       "air_score": 80,
-      "risk_flags_ko": [
-        "고온 주의"
-      ],
-      "risk_flags_en": [
-        "Extreme heat"
-      ],
+      "risk_flags_ko": [],
+      "risk_flags_en": [],
       "tags_ko": [
-        "더움",
-        "약한 바람",
+        "다소 따뜻함",
+        "바람 거의 없음",
         "노면 건조",
-        "공기질 보통",
-        "고온 주의"
+        "공기질 보통"
       ],
       "tags_en": [
-        "Hot",
-        "Light breeze",
+        "Warm",
+        "Calm",
         "Dry surface",
-        "Moderate air",
-        "Extreme heat"
+        "Moderate air"
       ],
-      "advice_short_ko": "주의하면서 뛰면 괜찮은 컨디션입니다 ⚠️",
-      "advice_short_en": "Okay to run with some caution ⚠️",
-      "advice_detail_ko": "더운 편입니다. 강도를 낮추고 자주 수분을 섭취하는 것이 좋습니다. 약한 바람으로 러닝에 큰 지장은 없습니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 추가 주의 요인: 고온 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
-      "advice_detail_en": "Warm conditions. Lower your intensity and hydrate frequently. Light breeze with little impact on running. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Extra cautions: Extreme heat. Adjust intensity based on how you feel and check your condition more often than usual.",
-      "pm10": 37.0,
-      "pm25": 21.0
+      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
+      "advice_short_en": "Great conditions for running 😄",
+      "advice_detail_ko": "다소 따뜻한 편입니다. 통풍 잘 되는 옷과 충분한 수분 섭취를 추천합니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
+      "advice_detail_en": "Slightly warm. Wear breathable clothes and make sure to hydrate. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Adjust intensity based on how you feel and check your condition more often than usual.",
+      "pm10": 33.0,
+      "pm25": 22.0
     },
     {
       "id": "paldalsan-hwaseong",
       "name_ko": "팔달산(수원화성, 행궁동)",
       "name_en": "Paldalsan Fortress Area",
       "name": "팔달산(수원화성, 행궁동)",
-      "updated_at": "2026-06-03T16:21:31+09:00",
+      "updated_at": "2026-06-03T21:19:10+09:00",
       "lat": 37.277614,
       "lon": 127.01065,
-      "temperature": 27.6,
-      "apparent_temperature": 28.255080958417867,
-      "wind_speed": 3.1,
-      "wind_direction": 290.0,
+      "temperature": 21.7,
+      "apparent_temperature": 21.7,
+      "wind_speed": 1.7,
+      "wind_direction": 239.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -304,51 +274,45 @@
         "text_ko": "노면 건조",
         "text_en": "Dry surface"
       },
-      "run_score": 48,
-      "temp_score": 40,
-      "wind_score": 80,
+      "run_score": 81,
+      "temp_score": 75,
+      "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
       "air_score": 80,
-      "risk_flags_ko": [
-        "고온 주의"
-      ],
-      "risk_flags_en": [
-        "Extreme heat"
-      ],
+      "risk_flags_ko": [],
+      "risk_flags_en": [],
       "tags_ko": [
-        "더움",
-        "약한 바람",
+        "다소 따뜻함",
+        "바람 거의 없음",
         "노면 건조",
-        "공기질 보통",
-        "고온 주의"
+        "공기질 보통"
       ],
       "tags_en": [
-        "Hot",
-        "Light breeze",
+        "Warm",
+        "Calm",
         "Dry surface",
-        "Moderate air",
-        "Extreme heat"
+        "Moderate air"
       ],
-      "advice_short_ko": "주의하면서 뛰면 괜찮은 컨디션입니다 ⚠️",
-      "advice_short_en": "Okay to run with some caution ⚠️",
-      "advice_detail_ko": "더운 편입니다. 강도를 낮추고 자주 수분을 섭취하는 것이 좋습니다. 약한 바람으로 러닝에 큰 지장은 없습니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 추가 주의 요인: 고온 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
-      "advice_detail_en": "Warm conditions. Lower your intensity and hydrate frequently. Light breeze with little impact on running. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Extra cautions: Extreme heat. Adjust intensity based on how you feel and check your condition more often than usual.",
-      "pm10": 37.0,
-      "pm25": 21.0
+      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
+      "advice_short_en": "Great conditions for running 😄",
+      "advice_detail_ko": "다소 따뜻한 편입니다. 통풍 잘 되는 옷과 충분한 수분 섭취를 추천합니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
+      "advice_detail_en": "Slightly warm. Wear breathable clothes and make sure to hydrate. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Adjust intensity based on how you feel and check your condition more often than usual.",
+      "pm10": 33.0,
+      "pm25": 22.0
     },
     {
       "id": "suwon-stream",
       "name_ko": "수원천",
       "name_en": "Suwoncheon Stream",
       "name": "수원천",
-      "updated_at": "2026-06-03T16:21:40+09:00",
+      "updated_at": "2026-06-03T21:19:18+09:00",
       "lat": 37.266571,
       "lon": 127.015022,
-      "temperature": 27.6,
-      "apparent_temperature": 28.255080958417867,
-      "wind_speed": 3.1,
-      "wind_direction": 290.0,
+      "temperature": 21.7,
+      "apparent_temperature": 21.7,
+      "wind_speed": 1.7,
+      "wind_direction": 239.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -360,51 +324,45 @@
         "text_ko": "노면 건조",
         "text_en": "Dry surface"
       },
-      "run_score": 48,
-      "temp_score": 40,
-      "wind_score": 80,
+      "run_score": 81,
+      "temp_score": 75,
+      "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
       "air_score": 80,
-      "risk_flags_ko": [
-        "고온 주의"
-      ],
-      "risk_flags_en": [
-        "Extreme heat"
-      ],
+      "risk_flags_ko": [],
+      "risk_flags_en": [],
       "tags_ko": [
-        "더움",
-        "약한 바람",
+        "다소 따뜻함",
+        "바람 거의 없음",
         "노면 건조",
-        "공기질 보통",
-        "고온 주의"
+        "공기질 보통"
       ],
       "tags_en": [
-        "Hot",
-        "Light breeze",
+        "Warm",
+        "Calm",
         "Dry surface",
-        "Moderate air",
-        "Extreme heat"
+        "Moderate air"
       ],
-      "advice_short_ko": "주의하면서 뛰면 괜찮은 컨디션입니다 ⚠️",
-      "advice_short_en": "Okay to run with some caution ⚠️",
-      "advice_detail_ko": "더운 편입니다. 강도를 낮추고 자주 수분을 섭취하는 것이 좋습니다. 약한 바람으로 러닝에 큰 지장은 없습니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 추가 주의 요인: 고온 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
-      "advice_detail_en": "Warm conditions. Lower your intensity and hydrate frequently. Light breeze with little impact on running. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Extra cautions: Extreme heat. Adjust intensity based on how you feel and check your condition more often than usual.",
-      "pm10": 37.0,
-      "pm25": 21.0
+      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
+      "advice_short_en": "Great conditions for running 😄",
+      "advice_detail_ko": "다소 따뜻한 편입니다. 통풍 잘 되는 옷과 충분한 수분 섭취를 추천합니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
+      "advice_detail_en": "Slightly warm. Wear breathable clothes and make sure to hydrate. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Adjust intensity based on how you feel and check your condition more often than usual.",
+      "pm10": 33.0,
+      "pm25": 22.0
     },
     {
       "id": "gwanggyo-mountain",
       "name_ko": "광교산",
       "name_en": "Gwanggyo Mountain",
       "name": "광교산",
-      "updated_at": "2026-06-03T16:21:48+09:00",
+      "updated_at": "2026-06-03T21:19:25+09:00",
       "lat": 37.328633,
       "lon": 127.038172,
-      "temperature": 29.3,
-      "apparent_temperature": 30.057793583384452,
+      "temperature": 25.3,
+      "apparent_temperature": 25.3,
       "wind_speed": 0.7,
-      "wind_direction": 247.0,
+      "wind_direction": 304.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -416,51 +374,45 @@
         "text_ko": "노면 건조",
         "text_en": "Dry surface"
       },
-      "run_score": 25,
-      "temp_score": 25,
+      "run_score": 69,
+      "temp_score": 55,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
       "air_score": 80,
-      "risk_flags_ko": [
-        "고온 주의"
-      ],
-      "risk_flags_en": [
-        "Extreme heat"
-      ],
+      "risk_flags_ko": [],
+      "risk_flags_en": [],
       "tags_ko": [
-        "꽤 더움",
+        "조금 더움",
         "바람 거의 없음",
         "노면 건조",
-        "공기질 보통",
-        "고온 주의"
+        "공기질 보통"
       ],
       "tags_en": [
-        "Quite hot",
+        "Very warm",
         "Calm",
         "Dry surface",
-        "Moderate air",
-        "Extreme heat"
+        "Moderate air"
       ],
-      "advice_short_ko": "러닝 강도/시간을 줄이거나 실외 러닝을 피하는 것이 좋습니다 🚨",
-      "advice_short_en": "Consider reducing intensity/duration or avoiding outdoor running 🚨",
-      "advice_detail_ko": "상당히 덥습니다. 장거리나 고강도 러닝은 피하고, 그늘 위주 코스를 추천합니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 추가 주의 요인: 고온 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
-      "advice_detail_en": "It is quite hot. Avoid long or high-intensity runs and seek shaded routes. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Extra cautions: Extreme heat. Adjust intensity based on how you feel and check your condition more often than usual.",
-      "pm10": 37.0,
-      "pm25": 21.0
+      "advice_short_ko": "러닝하기 무난한 컨디션입니다 🙂",
+      "advice_short_en": "Decent conditions for running 🙂",
+      "advice_detail_ko": "조금 더운 편입니다. 강도 높은 훈련보다는 적당한 강도의 러닝이 좋습니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
+      "advice_detail_en": "Slightly hot. Moderate intensity runs are better than hard workouts. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Adjust intensity based on how you feel and check your condition more often than usual.",
+      "pm10": 33.0,
+      "pm25": 22.0
     },
     {
       "id": "suwon-worldcup",
       "name_ko": "수원월드컵경기장",
       "name_en": "Suwon World Cup Stadium",
       "name": "수원월드컵경기장",
-      "updated_at": "2026-06-03T16:21:57+09:00",
+      "updated_at": "2026-06-03T21:19:33+09:00",
       "lat": 37.286545,
       "lon": 127.036871,
-      "temperature": 29.3,
-      "apparent_temperature": 30.057793583384452,
+      "temperature": 25.3,
+      "apparent_temperature": 25.3,
       "wind_speed": 0.7,
-      "wind_direction": 247.0,
+      "wind_direction": 304.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -472,51 +424,45 @@
         "text_ko": "노면 건조",
         "text_en": "Dry surface"
       },
-      "run_score": 25,
-      "temp_score": 25,
+      "run_score": 69,
+      "temp_score": 55,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
       "air_score": 80,
-      "risk_flags_ko": [
-        "고온 주의"
-      ],
-      "risk_flags_en": [
-        "Extreme heat"
-      ],
+      "risk_flags_ko": [],
+      "risk_flags_en": [],
       "tags_ko": [
-        "꽤 더움",
+        "조금 더움",
         "바람 거의 없음",
         "노면 건조",
-        "공기질 보통",
-        "고온 주의"
+        "공기질 보통"
       ],
       "tags_en": [
-        "Quite hot",
+        "Very warm",
         "Calm",
         "Dry surface",
-        "Moderate air",
-        "Extreme heat"
+        "Moderate air"
       ],
-      "advice_short_ko": "러닝 강도/시간을 줄이거나 실외 러닝을 피하는 것이 좋습니다 🚨",
-      "advice_short_en": "Consider reducing intensity/duration or avoiding outdoor running 🚨",
-      "advice_detail_ko": "상당히 덥습니다. 장거리나 고강도 러닝은 피하고, 그늘 위주 코스를 추천합니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 추가 주의 요인: 고온 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
-      "advice_detail_en": "It is quite hot. Avoid long or high-intensity runs and seek shaded routes. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Extra cautions: Extreme heat. Adjust intensity based on how you feel and check your condition more often than usual.",
-      "pm10": 37.0,
-      "pm25": 21.0
+      "advice_short_ko": "러닝하기 무난한 컨디션입니다 🙂",
+      "advice_short_en": "Decent conditions for running 🙂",
+      "advice_detail_ko": "조금 더운 편입니다. 강도 높은 훈련보다는 적당한 강도의 러닝이 좋습니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
+      "advice_detail_en": "Slightly hot. Moderate intensity runs are better than hard workouts. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Adjust intensity based on how you feel and check your condition more often than usual.",
+      "pm10": 33.0,
+      "pm25": 22.0
     },
     {
       "id": "dongtan-yeoul-park",
       "name_ko": "동탄여울공원",
       "name_en": "Dongtan Yeoul Park",
       "name": "동탄여울공원",
-      "updated_at": "2026-06-03T16:22:07+09:00",
+      "updated_at": "2026-06-03T21:19:41+09:00",
       "lat": 37.198689,
       "lon": 127.086609,
-      "temperature": 29.4,
-      "apparent_temperature": 30.194046724604465,
-      "wind_speed": 3.2,
-      "wind_direction": 231.0,
+      "temperature": 24.4,
+      "apparent_temperature": 24.4,
+      "wind_speed": 0.7,
+      "wind_direction": 337.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -528,51 +474,45 @@
         "text_ko": "노면 건조",
         "text_en": "Dry surface"
       },
-      "run_score": 25,
-      "temp_score": 25,
-      "wind_score": 80,
+      "run_score": 69,
+      "temp_score": 55,
+      "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
       "air_score": 80,
-      "risk_flags_ko": [
-        "고온 주의"
-      ],
-      "risk_flags_en": [
-        "Extreme heat"
-      ],
+      "risk_flags_ko": [],
+      "risk_flags_en": [],
       "tags_ko": [
-        "꽤 더움",
-        "약한 바람",
+        "조금 더움",
+        "바람 거의 없음",
         "노면 건조",
-        "공기질 보통",
-        "고온 주의"
+        "공기질 보통"
       ],
       "tags_en": [
-        "Quite hot",
-        "Light breeze",
+        "Very warm",
+        "Calm",
         "Dry surface",
-        "Moderate air",
-        "Extreme heat"
+        "Moderate air"
       ],
-      "advice_short_ko": "러닝 강도/시간을 줄이거나 실외 러닝을 피하는 것이 좋습니다 🚨",
-      "advice_short_en": "Consider reducing intensity/duration or avoiding outdoor running 🚨",
-      "advice_detail_ko": "상당히 덥습니다. 장거리나 고강도 러닝은 피하고, 그늘 위주 코스를 추천합니다. 약한 바람으로 러닝에 큰 지장은 없습니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 추가 주의 요인: 고온 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
-      "advice_detail_en": "It is quite hot. Avoid long or high-intensity runs and seek shaded routes. Light breeze with little impact on running. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Extra cautions: Extreme heat. Adjust intensity based on how you feel and check your condition more often than usual.",
-      "pm10": 37.0,
-      "pm25": 21.0
+      "advice_short_ko": "러닝하기 무난한 컨디션입니다 🙂",
+      "advice_short_en": "Decent conditions for running 🙂",
+      "advice_detail_ko": "조금 더운 편입니다. 강도 높은 훈련보다는 적당한 강도의 러닝이 좋습니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
+      "advice_detail_en": "Slightly hot. Moderate intensity runs are better than hard workouts. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Adjust intensity based on how you feel and check your condition more often than usual.",
+      "pm10": 33.0,
+      "pm25": 22.0
     },
     {
       "id": "yeongheung-forest-park",
       "name_ko": "영흥숲공원",
       "name_en": "Yeongheung Forest Park",
       "name": "영흥숲공원",
-      "updated_at": "2026-06-03T16:22:16+09:00",
+      "updated_at": "2026-06-03T21:19:49+09:00",
       "lat": 37.261067,
       "lon": 127.07047,
-      "temperature": 27.6,
-      "apparent_temperature": 28.255080958417867,
-      "wind_speed": 3.1,
-      "wind_direction": 290.0,
+      "temperature": 21.7,
+      "apparent_temperature": 21.7,
+      "wind_speed": 1.7,
+      "wind_direction": 239.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -584,51 +524,45 @@
         "text_ko": "노면 건조",
         "text_en": "Dry surface"
       },
-      "run_score": 48,
-      "temp_score": 40,
-      "wind_score": 80,
+      "run_score": 81,
+      "temp_score": 75,
+      "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
       "air_score": 80,
-      "risk_flags_ko": [
-        "고온 주의"
-      ],
-      "risk_flags_en": [
-        "Extreme heat"
-      ],
+      "risk_flags_ko": [],
+      "risk_flags_en": [],
       "tags_ko": [
-        "더움",
-        "약한 바람",
+        "다소 따뜻함",
+        "바람 거의 없음",
         "노면 건조",
-        "공기질 보통",
-        "고온 주의"
+        "공기질 보통"
       ],
       "tags_en": [
-        "Hot",
-        "Light breeze",
+        "Warm",
+        "Calm",
         "Dry surface",
-        "Moderate air",
-        "Extreme heat"
+        "Moderate air"
       ],
-      "advice_short_ko": "주의하면서 뛰면 괜찮은 컨디션입니다 ⚠️",
-      "advice_short_en": "Okay to run with some caution ⚠️",
-      "advice_detail_ko": "더운 편입니다. 강도를 낮추고 자주 수분을 섭취하는 것이 좋습니다. 약한 바람으로 러닝에 큰 지장은 없습니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 추가 주의 요인: 고온 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
-      "advice_detail_en": "Warm conditions. Lower your intensity and hydrate frequently. Light breeze with little impact on running. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Extra cautions: Extreme heat. Adjust intensity based on how you feel and check your condition more often than usual.",
-      "pm10": 37.0,
-      "pm25": 21.0
+      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
+      "advice_short_en": "Great conditions for running 😄",
+      "advice_detail_ko": "다소 따뜻한 편입니다. 통풍 잘 되는 옷과 충분한 수분 섭취를 추천합니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
+      "advice_detail_en": "Slightly warm. Wear breathable clothes and make sure to hydrate. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Adjust intensity based on how you feel and check your condition more often than usual.",
+      "pm10": 33.0,
+      "pm25": 22.0
     },
     {
       "id": "majung-park",
       "name_ko": "마중공원",
       "name_en": "Majung Park",
       "name": "마중공원",
-      "updated_at": "2026-06-03T16:22:24+09:00",
+      "updated_at": "2026-06-03T21:19:56+09:00",
       "lat": 37.236832,
       "lon": 127.020592,
-      "temperature": 27.6,
-      "apparent_temperature": 28.255080958417867,
-      "wind_speed": 3.1,
-      "wind_direction": 290.0,
+      "temperature": 21.7,
+      "apparent_temperature": 21.7,
+      "wind_speed": 1.7,
+      "wind_direction": 239.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -640,38 +574,32 @@
         "text_ko": "노면 건조",
         "text_en": "Dry surface"
       },
-      "run_score": 48,
-      "temp_score": 40,
-      "wind_score": 80,
+      "run_score": 81,
+      "temp_score": 75,
+      "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
       "air_score": 80,
-      "risk_flags_ko": [
-        "고온 주의"
-      ],
-      "risk_flags_en": [
-        "Extreme heat"
-      ],
+      "risk_flags_ko": [],
+      "risk_flags_en": [],
       "tags_ko": [
-        "더움",
-        "약한 바람",
+        "다소 따뜻함",
+        "바람 거의 없음",
         "노면 건조",
-        "공기질 보통",
-        "고온 주의"
+        "공기질 보통"
       ],
       "tags_en": [
-        "Hot",
-        "Light breeze",
+        "Warm",
+        "Calm",
         "Dry surface",
-        "Moderate air",
-        "Extreme heat"
+        "Moderate air"
       ],
-      "advice_short_ko": "주의하면서 뛰면 괜찮은 컨디션입니다 ⚠️",
-      "advice_short_en": "Okay to run with some caution ⚠️",
-      "advice_detail_ko": "더운 편입니다. 강도를 낮추고 자주 수분을 섭취하는 것이 좋습니다. 약한 바람으로 러닝에 큰 지장은 없습니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 추가 주의 요인: 고온 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
-      "advice_detail_en": "Warm conditions. Lower your intensity and hydrate frequently. Light breeze with little impact on running. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Extra cautions: Extreme heat. Adjust intensity based on how you feel and check your condition more often than usual.",
-      "pm10": 37.0,
-      "pm25": 21.0
+      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
+      "advice_short_en": "Great conditions for running 😄",
+      "advice_detail_ko": "다소 따뜻한 편입니다. 통풍 잘 되는 옷과 충분한 수분 섭취를 추천합니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
+      "advice_detail_en": "Slightly warm. Wear breathable clothes and make sure to hydrate. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is moderate. Consider a mask if you are sensitive to fine dust. Adjust intensity based on how you feel and check your condition more often than usual.",
+      "pm10": 33.0,
+      "pm25": 22.0
     }
   ]
 }
