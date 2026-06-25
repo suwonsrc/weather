@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-26T01:20:32.480971+09:00",
+  "generated_at": "2026-06-26T03:32:16.064347+09:00",
   "courses": [
     {
       "id": "seoho-park",
       "name_ko": "서호공원",
       "name_en": "Seoho Park",
       "name": "서호공원",
-      "updated_at": "2026-06-26T01:19:24+09:00",
+      "updated_at": "2026-06-26T03:31:01+09:00",
       "lat": 37.280325,
       "lon": 126.990396,
-      "temperature": 18.2,
-      "apparent_temperature": 18.2,
-      "wind_speed": 0.6,
-      "wind_direction": 207.0,
+      "temperature": 16.7,
+      "apparent_temperature": 16.7,
+      "wind_speed": 1.4,
+      "wind_direction": 222.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -24,8 +24,8 @@
         "text_ko": "노면 건조",
         "text_en": "Dry surface"
       },
-      "run_score": 76,
-      "temp_score": 75,
+      "run_score": 85,
+      "temp_score": 90,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
@@ -37,80 +37,24 @@
         "Night caution"
       ],
       "tags_ko": [
-        "다소 따뜻함",
+        "적당함",
         "바람 거의 없음",
         "노면 건조",
         "공기질 좋음",
         "야간 주의"
       ],
       "tags_en": [
-        "Warm",
+        "Comfortable",
         "Calm",
         "Dry surface",
         "Good air",
         "Night caution"
       ],
-      "advice_short_ko": "러닝하기 무난한 컨디션입니다 🙂",
-      "advice_short_en": "Decent conditions for running 🙂",
-      "advice_detail_ko": "다소 따뜻한 편입니다. 통풍 잘 되는 옷과 충분한 수분 섭취를 추천합니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 좋아 러닝에 거의 지장이 없습니다. 추가 주의 요인: 야간 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
-      "advice_detail_en": "Slightly warm. Wear breathable clothes and make sure to hydrate. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is good with little impact on running. Extra cautions: Night caution. Adjust intensity based on how you feel and check your condition more often than usual.",
-      "pm10": 7.0,
-      "pm25": 0.0
-    },
-    {
-      "id": "skku",
-      "name_ko": "성균관대학교",
-      "name_en": "Sungkyunkwan Univ. (Suwon)",
-      "name": "성균관대학교",
-      "updated_at": "2026-06-26T01:19:36+09:00",
-      "lat": 37.293788,
-      "lon": 126.974365,
-      "temperature": 18.2,
-      "apparent_temperature": 18.2,
-      "wind_speed": 0.6,
-      "wind_direction": 207.0,
-      "rain_now": 0.0,
-      "snow_now": 0.0,
-      "snow_memory_mm": 0.0,
-      "freeze_surface_risk": false,
-      "recent_rain_3h": 0.0,
-      "recent_snow_3h": 0.0,
-      "wet_badge": {
-        "level": "good",
-        "text_ko": "노면 건조",
-        "text_en": "Dry surface"
-      },
-      "run_score": 76,
-      "temp_score": 75,
-      "wind_score": 100,
-      "wet_score": 100,
-      "surface_score": 100,
-      "air_score": 100,
-      "risk_flags_ko": [
-        "야간 주의"
-      ],
-      "risk_flags_en": [
-        "Night caution"
-      ],
-      "tags_ko": [
-        "다소 따뜻함",
-        "바람 거의 없음",
-        "노면 건조",
-        "공기질 좋음",
-        "야간 주의"
-      ],
-      "tags_en": [
-        "Warm",
-        "Calm",
-        "Dry surface",
-        "Good air",
-        "Night caution"
-      ],
-      "advice_short_ko": "러닝하기 무난한 컨디션입니다 🙂",
-      "advice_short_en": "Decent conditions for running 🙂",
-      "advice_detail_ko": "다소 따뜻한 편입니다. 통풍 잘 되는 옷과 충분한 수분 섭취를 추천합니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 좋아 러닝에 거의 지장이 없습니다. 추가 주의 요인: 야간 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
-      "advice_detail_en": "Slightly warm. Wear breathable clothes and make sure to hydrate. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is good with little impact on running. Extra cautions: Night caution. Adjust intensity based on how you feel and check your condition more often than usual.",
-      "pm10": 7.0,
+      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
+      "advice_short_en": "Great conditions for running 😄",
+      "advice_detail_ko": "적당한 온도입니다. 평소 복장으로 무리 없이 러닝하기 좋습니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 좋아 러닝에 거의 지장이 없습니다. 추가 주의 요인: 야간 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
+      "advice_detail_en": "Comfortable temperature. Your usual outfit should be fine for running. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is good with little impact on running. Extra cautions: Night caution. Adjust intensity based on how you feel and check your condition more often than usual.",
+      "pm10": 4.0,
       "pm25": 0.0
     },
     {
@@ -118,13 +62,13 @@
       "name_ko": "원천리천(신동)",
       "name_en": "Woncheon Stream (Sindong)",
       "name": "원천리천(신동)",
-      "updated_at": "2026-06-26T01:19:46+09:00",
+      "updated_at": "2026-06-26T03:31:21+09:00",
       "lat": 37.248469,
       "lon": 127.041965,
-      "temperature": 20.3,
-      "apparent_temperature": 20.3,
-      "wind_speed": 0.2,
-      "wind_direction": 270.0,
+      "temperature": 19.4,
+      "apparent_temperature": 19.4,
+      "wind_speed": 1.0,
+      "wind_direction": 292.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -166,7 +110,175 @@
       "advice_short_en": "Decent conditions for running 🙂",
       "advice_detail_ko": "다소 따뜻한 편입니다. 통풍 잘 되는 옷과 충분한 수분 섭취를 추천합니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 좋아 러닝에 거의 지장이 없습니다. 추가 주의 요인: 야간 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
       "advice_detail_en": "Slightly warm. Wear breathable clothes and make sure to hydrate. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is good with little impact on running. Extra cautions: Night caution. Adjust intensity based on how you feel and check your condition more often than usual.",
-      "pm10": 7.0,
+      "pm10": 4.0,
+      "pm25": 0.0
+    },
+    {
+      "id": "paldalsan-hwaseong",
+      "name_ko": "팔달산(수원화성, 행궁동)",
+      "name_en": "Paldalsan Fortress Area",
+      "name": "팔달산(수원화성, 행궁동)",
+      "updated_at": "2026-06-26T03:31:32+09:00",
+      "lat": 37.277614,
+      "lon": 127.01065,
+      "temperature": 19.4,
+      "apparent_temperature": 19.4,
+      "wind_speed": 1.0,
+      "wind_direction": 292.0,
+      "rain_now": 0.0,
+      "snow_now": 0.0,
+      "snow_memory_mm": 0.0,
+      "freeze_surface_risk": false,
+      "recent_rain_3h": 0.0,
+      "recent_snow_3h": 0.0,
+      "wet_badge": {
+        "level": "good",
+        "text_ko": "노면 건조",
+        "text_en": "Dry surface"
+      },
+      "run_score": 76,
+      "temp_score": 75,
+      "wind_score": 100,
+      "wet_score": 100,
+      "surface_score": 100,
+      "air_score": 100,
+      "risk_flags_ko": [
+        "야간 주의"
+      ],
+      "risk_flags_en": [
+        "Night caution"
+      ],
+      "tags_ko": [
+        "다소 따뜻함",
+        "바람 거의 없음",
+        "노면 건조",
+        "공기질 좋음",
+        "야간 주의"
+      ],
+      "tags_en": [
+        "Warm",
+        "Calm",
+        "Dry surface",
+        "Good air",
+        "Night caution"
+      ],
+      "advice_short_ko": "러닝하기 무난한 컨디션입니다 🙂",
+      "advice_short_en": "Decent conditions for running 🙂",
+      "advice_detail_ko": "다소 따뜻한 편입니다. 통풍 잘 되는 옷과 충분한 수분 섭취를 추천합니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 좋아 러닝에 거의 지장이 없습니다. 추가 주의 요인: 야간 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
+      "advice_detail_en": "Slightly warm. Wear breathable clothes and make sure to hydrate. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is good with little impact on running. Extra cautions: Night caution. Adjust intensity based on how you feel and check your condition more often than usual.",
+      "pm10": 4.0,
+      "pm25": 0.0
+    },
+    {
+      "id": "suwon-stream",
+      "name_ko": "수원천",
+      "name_en": "Suwoncheon Stream",
+      "name": "수원천",
+      "updated_at": "2026-06-26T03:31:43+09:00",
+      "lat": 37.266571,
+      "lon": 127.015022,
+      "temperature": 19.4,
+      "apparent_temperature": 19.4,
+      "wind_speed": 1.0,
+      "wind_direction": 292.0,
+      "rain_now": 0.0,
+      "snow_now": 0.0,
+      "snow_memory_mm": 0.0,
+      "freeze_surface_risk": false,
+      "recent_rain_3h": 0.0,
+      "recent_snow_3h": 0.0,
+      "wet_badge": {
+        "level": "good",
+        "text_ko": "노면 건조",
+        "text_en": "Dry surface"
+      },
+      "run_score": 76,
+      "temp_score": 75,
+      "wind_score": 100,
+      "wet_score": 100,
+      "surface_score": 100,
+      "air_score": 100,
+      "risk_flags_ko": [
+        "야간 주의"
+      ],
+      "risk_flags_en": [
+        "Night caution"
+      ],
+      "tags_ko": [
+        "다소 따뜻함",
+        "바람 거의 없음",
+        "노면 건조",
+        "공기질 좋음",
+        "야간 주의"
+      ],
+      "tags_en": [
+        "Warm",
+        "Calm",
+        "Dry surface",
+        "Good air",
+        "Night caution"
+      ],
+      "advice_short_ko": "러닝하기 무난한 컨디션입니다 🙂",
+      "advice_short_en": "Decent conditions for running 🙂",
+      "advice_detail_ko": "다소 따뜻한 편입니다. 통풍 잘 되는 옷과 충분한 수분 섭취를 추천합니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 좋아 러닝에 거의 지장이 없습니다. 추가 주의 요인: 야간 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
+      "advice_detail_en": "Slightly warm. Wear breathable clothes and make sure to hydrate. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is good with little impact on running. Extra cautions: Night caution. Adjust intensity based on how you feel and check your condition more often than usual.",
+      "pm10": 4.0,
+      "pm25": 0.0
+    },
+    {
+      "id": "gwanggyo-mountain",
+      "name_ko": "광교산",
+      "name_en": "Gwanggyo Mountain",
+      "name": "광교산",
+      "updated_at": "2026-06-26T03:31:55+09:00",
+      "lat": 37.328633,
+      "lon": 127.038172,
+      "temperature": 18.2,
+      "apparent_temperature": 18.2,
+      "wind_speed": 0.3,
+      "wind_direction": 342.0,
+      "rain_now": 0.0,
+      "snow_now": 0.0,
+      "snow_memory_mm": 0.0,
+      "freeze_surface_risk": false,
+      "recent_rain_3h": 0.0,
+      "recent_snow_3h": 0.0,
+      "wet_badge": {
+        "level": "good",
+        "text_ko": "노면 건조",
+        "text_en": "Dry surface"
+      },
+      "run_score": 76,
+      "temp_score": 75,
+      "wind_score": 100,
+      "wet_score": 100,
+      "surface_score": 100,
+      "air_score": 100,
+      "risk_flags_ko": [
+        "야간 주의"
+      ],
+      "risk_flags_en": [
+        "Night caution"
+      ],
+      "tags_ko": [
+        "다소 따뜻함",
+        "바람 거의 없음",
+        "노면 건조",
+        "공기질 좋음",
+        "야간 주의"
+      ],
+      "tags_en": [
+        "Warm",
+        "Calm",
+        "Dry surface",
+        "Good air",
+        "Night caution"
+      ],
+      "advice_short_ko": "러닝하기 무난한 컨디션입니다 🙂",
+      "advice_short_en": "Decent conditions for running 🙂",
+      "advice_detail_ko": "다소 따뜻한 편입니다. 통풍 잘 되는 옷과 충분한 수분 섭취를 추천합니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 좋아 러닝에 거의 지장이 없습니다. 추가 주의 요인: 야간 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
+      "advice_detail_en": "Slightly warm. Wear breathable clothes and make sure to hydrate. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is good with little impact on running. Extra cautions: Night caution. Adjust intensity based on how you feel and check your condition more often than usual.",
+      "pm10": 4.0,
       "pm25": 0.0
     },
     {
@@ -174,13 +286,13 @@
       "name_ko": "수원월드컵경기장",
       "name_en": "Suwon World Cup Stadium",
       "name": "수원월드컵경기장",
-      "updated_at": "2026-06-26T01:19:58+09:00",
+      "updated_at": "2026-06-26T03:32:04+09:00",
       "lat": 37.286545,
       "lon": 127.036871,
-      "temperature": 18.7,
-      "apparent_temperature": 18.7,
-      "wind_speed": 0.2,
-      "wind_direction": 333.0,
+      "temperature": 18.2,
+      "apparent_temperature": 18.2,
+      "wind_speed": 0.3,
+      "wind_direction": 342.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -222,119 +334,7 @@
       "advice_short_en": "Decent conditions for running 🙂",
       "advice_detail_ko": "다소 따뜻한 편입니다. 통풍 잘 되는 옷과 충분한 수분 섭취를 추천합니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 좋아 러닝에 거의 지장이 없습니다. 추가 주의 요인: 야간 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
       "advice_detail_en": "Slightly warm. Wear breathable clothes and make sure to hydrate. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is good with little impact on running. Extra cautions: Night caution. Adjust intensity based on how you feel and check your condition more often than usual.",
-      "pm10": 7.0,
-      "pm25": 0.0
-    },
-    {
-      "id": "yeongheung-forest-park",
-      "name_ko": "영흥숲공원",
-      "name_en": "Yeongheung Forest Park",
-      "name": "영흥숲공원",
-      "updated_at": "2026-06-26T01:20:06+09:00",
-      "lat": 37.261067,
-      "lon": 127.07047,
-      "temperature": 20.3,
-      "apparent_temperature": 20.3,
-      "wind_speed": 0.2,
-      "wind_direction": 270.0,
-      "rain_now": 0.0,
-      "snow_now": 0.0,
-      "snow_memory_mm": 0.0,
-      "freeze_surface_risk": false,
-      "recent_rain_3h": 0.0,
-      "recent_snow_3h": 0.0,
-      "wet_badge": {
-        "level": "good",
-        "text_ko": "노면 건조",
-        "text_en": "Dry surface"
-      },
-      "run_score": 76,
-      "temp_score": 75,
-      "wind_score": 100,
-      "wet_score": 100,
-      "surface_score": 100,
-      "air_score": 100,
-      "risk_flags_ko": [
-        "야간 주의"
-      ],
-      "risk_flags_en": [
-        "Night caution"
-      ],
-      "tags_ko": [
-        "다소 따뜻함",
-        "바람 거의 없음",
-        "노면 건조",
-        "공기질 좋음",
-        "야간 주의"
-      ],
-      "tags_en": [
-        "Warm",
-        "Calm",
-        "Dry surface",
-        "Good air",
-        "Night caution"
-      ],
-      "advice_short_ko": "러닝하기 무난한 컨디션입니다 🙂",
-      "advice_short_en": "Decent conditions for running 🙂",
-      "advice_detail_ko": "다소 따뜻한 편입니다. 통풍 잘 되는 옷과 충분한 수분 섭취를 추천합니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 좋아 러닝에 거의 지장이 없습니다. 추가 주의 요인: 야간 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
-      "advice_detail_en": "Slightly warm. Wear breathable clothes and make sure to hydrate. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is good with little impact on running. Extra cautions: Night caution. Adjust intensity based on how you feel and check your condition more often than usual.",
-      "pm10": 7.0,
-      "pm25": 0.0
-    },
-    {
-      "id": "majung-park",
-      "name_ko": "마중공원",
-      "name_en": "Majung Park",
-      "name": "마중공원",
-      "updated_at": "2026-06-26T01:20:23+09:00",
-      "lat": 37.236832,
-      "lon": 127.020592,
-      "temperature": 20.3,
-      "apparent_temperature": 20.3,
-      "wind_speed": 0.2,
-      "wind_direction": 270.0,
-      "rain_now": 0.0,
-      "snow_now": 0.0,
-      "snow_memory_mm": 0.0,
-      "freeze_surface_risk": false,
-      "recent_rain_3h": 0.0,
-      "recent_snow_3h": 0.0,
-      "wet_badge": {
-        "level": "good",
-        "text_ko": "노면 건조",
-        "text_en": "Dry surface"
-      },
-      "run_score": 76,
-      "temp_score": 75,
-      "wind_score": 100,
-      "wet_score": 100,
-      "surface_score": 100,
-      "air_score": 100,
-      "risk_flags_ko": [
-        "야간 주의"
-      ],
-      "risk_flags_en": [
-        "Night caution"
-      ],
-      "tags_ko": [
-        "다소 따뜻함",
-        "바람 거의 없음",
-        "노면 건조",
-        "공기질 좋음",
-        "야간 주의"
-      ],
-      "tags_en": [
-        "Warm",
-        "Calm",
-        "Dry surface",
-        "Good air",
-        "Night caution"
-      ],
-      "advice_short_ko": "러닝하기 무난한 컨디션입니다 🙂",
-      "advice_short_en": "Decent conditions for running 🙂",
-      "advice_detail_ko": "다소 따뜻한 편입니다. 통풍 잘 되는 옷과 충분한 수분 섭취를 추천합니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 좋아 러닝에 거의 지장이 없습니다. 추가 주의 요인: 야간 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
-      "advice_detail_en": "Slightly warm. Wear breathable clothes and make sure to hydrate. Almost no wind, good for maintaining your pace. Surface is dry with low risk of slipping. Air quality is good with little impact on running. Extra cautions: Night caution. Adjust intensity based on how you feel and check your condition more often than usual.",
-      "pm10": 7.0,
+      "pm10": 4.0,
       "pm25": 0.0
     }
   ]
