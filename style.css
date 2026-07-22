@@ -155,22 +155,25 @@ body {
 }
 
 /* 테마 & 언어 버튼 그룹 */
-.theme-btn, .lang-btn {
+.theme-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
   border: 1px solid var(--card-border);
   background: var(--card-bg);
-  color: var(--text-secondary);
-  border-radius: 12px;
-  padding: 6px 12px;
-  font-size: 0.82rem;
-  font-weight: 700;
+  color: var(--text-primary);
+  font-size: 1rem;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.2s ease;
+  padding: 0;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
 }
 
-.theme-btn:hover, .lang-btn:hover {
+.theme-btn:hover {
+  transform: scale(1.08);
   border-color: var(--text-muted);
 }
 
@@ -178,15 +181,20 @@ body {
   display: flex;
   background: var(--card-bg);
   border: 1px solid var(--card-border);
-  border-radius: 12px;
-  padding: 2px;
+  border-radius: 20px;
+  padding: 3px;
 }
 
 .lang-btn {
   border: none;
-  border-radius: 10px;
+  background: transparent;
+  color: var(--text-secondary);
+  border-radius: 16px;
   padding: 4px 10px;
   font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 .lang-btn.active {
