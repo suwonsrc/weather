@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
-    <title>SRC Weather - 러너 전용 코스 컨디션 보드</title>
+    <title>SRC Weather - 수원 주요 12개 코스 현황</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,7 +26,7 @@
               <span class="pulse-dot"></span>
               <h1 id="app-title">SRC Weather</h1>
             </div>
-            <p id="app-subtitle">SRC 러너들을 위한 수원 주요 코스 쾌적도 보드</p>
+            <p id="app-subtitle">SRC 러너들을 위한 수원 12개 러닝 코스 기상 모니터링</p>
           </div>
           <div class="header-right">
             <div class="lang-switch">
@@ -41,7 +41,7 @@
       </header>
 
       <main class="main-content">
-        <!-- 상태 개요 카너 -->
+        <!-- 상단 현황 요약 배너 -->
         <section class="status-banner">
           <div id="status" class="status-inner">
             <p>SRC 러너용 기상 정보 불러오는 중…</p>
@@ -49,33 +49,10 @@
           <div id="course-list-updated" class="course-list-updated"></div>
         </section>
 
-        <!-- 필터 & 검색 툴바 -->
-        <section class="toolbar">
-          <div class="search-box">
-            <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <circle cx="11" cy="11" r="8"></circle>
-              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-            </svg>
-            <input type="text" id="course-search" placeholder="코스명 검색..." />
-          </div>
-          <div class="filter-tabs">
-            <button class="tab-btn active" data-filter="all" id="tab-all">전체</button>
-            <button class="tab-btn" data-filter="great" id="tab-great">🟢 최적 (80+)</button>
-            <button class="tab-btn" data-filter="caution" id="tab-caution">🟡 주의</button>
-          </div>
-          <div class="sort-select-wrap">
-            <select id="course-sort">
-              <option value="score-desc" id="opt-score-desc">🏆 점수 높은 순</option>
-              <option value="score-asc" id="opt-score-asc">⚠️ 점수 낮은 순</option>
-              <option value="name" id="opt-name">🔤 코스 이름순</option>
-            </select>
-          </div>
-        </section>
-
-        <!-- 코스 카드 리스트 -->
+        <!-- 12개 코스 전체 그리드 리스트 -->
         <section class="course-section">
           <div id="courses" class="course-grid">
-            <!-- app.js에서 생성된 동적 카드 삽입 -->
+            <!-- 12개 코스가 한눈에 들어오도록 카드 삽입 -->
           </div>
         </section>
       </main>

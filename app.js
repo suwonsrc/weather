@@ -1,8 +1,5 @@
 let currentLang = "ko";
 let LAST_DATA = null;
-let currentFilter = "all";
-let currentSort = "score-desc";
-let searchQuery = "";
 
 const statusEl = document.getElementById("status");
 const coursesEl = document.getElementById("courses");
@@ -10,17 +7,9 @@ const appTitleEl = document.getElementById("app-title");
 const appSubtitleEl = document.getElementById("app-subtitle");
 const courseListUpdatedEl = document.getElementById("course-list-updated");
 
-// 필터 및 검색 요소
-const searchInput = document.getElementById("course-search");
-const tabAll = document.getElementById("tab-all");
-const tabGreat = document.getElementById("tab-great");
-const tabCaution = document.getElementById("tab-caution");
-const sortSelect = document.getElementById("course-sort");
-const optScoreDesc = document.getElementById("opt-score-desc");
-const optScoreAsc = document.getElementById("opt-score-asc");
-const optName = document.getElementById("opt-name");
-
-const JSON_URL = "https://jcoderain.github.io/src-weather/data/src_weather.json";
+// 우선 상대 경로('./data/src_weather.json')로 접근하여 로컬 및 GitHub Pages 모두 정상 작동하게 함
+const PRIMARY_JSON_URL = "./data/src_weather.json";
+const FALLBACK_JSON_URL = "https://jcoderain.github.io/src-weather/data/src_weather.json";
 
 const uiText = {
   appTitle: {
@@ -28,16 +17,16 @@ const uiText = {
     en: "SRC Weather",
   },
   appSubtitle: {
-    ko: "SRC 러너들을 위한 수원 주요 코스 쾌적도 보드",
-    en: "Current course conditions for SRC runners",
+    ko: "SRC 러너들을 위한 수원 12개 러닝 코스 기상 모니터링",
+    en: "Current course conditions for 12 SRC running courses",
   },
   statusLoading: {
     ko: "SRC 러너용 기상 데이터를 불러오는 중…",
     en: "Loading weather data for SRC runners…",
   },
   statusLoaded: (count) => ({
-    ko: `SRC 주요 ${count}개 코스의 쾌적도를 모니터링 중입니다. 🏃‍♂️`,
-    en: `Monitoring conditions for ${count} SRC major courses. 🏃‍♂️`,
+    ko: `SRC의 주요 ${count}개 코스 현황을 한눈에 확인하세요. 화이팅! 🏃‍♂️`,
+    en: `Current conditions for ${count} major SRC courses. Fighting! 🏃‍♂️`,
   }),
   fail: {
     ko: "코스 데이터를 불러오는데 실패했습니다. 잠시 후 다시 시도해 주세요.",
@@ -56,26 +45,11 @@ const uiText = {
   precipLabel: { ko: "습도 / 예보강수", en: "Hum / Forecast Rain" },
   airLabel: { ko: "공기질 (PM)", en: "Air Quality" },
   openMap: { ko: "구글맵 지점 보기 📍", en: "View on Google Maps 📍" },
-  tabAll: { ko: "전체", en: "All" },
-  tabGreat: { ko: "🟢 최적 (80+)", en: "🟢 Optimal (80+)" },
-  tabCaution: { ko: "🟡 주의", en: "🟡 Caution" },
-  sortScoreDesc: { ko: "🏆 점수 높은 순", en: "🏆 Highest Score" },
-  sortScoreAsc: { ko: "⚠️ 점수 낮은 순", en: "⚠️ Lowest Score" },
-  sortName: { ko: "🔤 코스 이름순", en: "🔤 Course Name" },
-  searchPlaceholder: { ko: "코스명 검색...", en: "Search course..." }
 };
 
 function applyLanguage() {
   appTitleEl.textContent = uiText.appTitle[currentLang];
   appSubtitleEl.textContent = uiText.appSubtitle[currentLang];
-  
-  if (tabAll) tabAll.textContent = uiText.tabAll[currentLang];
-  if (tabGreat) tabGreat.textContent = uiText.tabGreat[currentLang];
-  if (tabCaution) tabCaution.textContent = uiText.tabCaution[currentLang];
-  if (optScoreDesc) optScoreDesc.textContent = uiText.sortScoreDesc[currentLang];
-  if (optScoreAsc) optScoreAsc.textContent = uiText.sortScoreAsc[currentLang];
-  if (optName) optName.textContent = uiText.sortName[currentLang];
-  if (searchInput) searchInput.placeholder = uiText.searchPlaceholder[currentLang];
 
   document.querySelectorAll(".lang-btn").forEach((btn) => {
     const lang = btn.dataset.lang;
@@ -97,7 +71,7 @@ function formatUpdatedAtLocalized(isoLikeStr) {
   const pad2 = (v) => String(v).padStart(2, "0");
 
   if (currentLang === "ko") {
-    return `${y}년 ${Number(m)}월 ${Number(d)}일 ${pad2(hh)}시 ${pad2(mm)}분 KMA 수집 기준`;
+    return `${y}년 ${Number(m)}월 ${Number(d)}일 ${pad2(hh)}시 ${pad2(mm)}분 수집 기준`;
   } else {
     return `Updated at ${y}-${pad2(m)}-${pad2(d)} ${pad2(hh)}:${pad2(mm)} (KST)`;
   }
@@ -159,8 +133,7 @@ function classifyAirQualityText(pm10, pm25) {
   if (pm10 == null && pm25 == null) return "-";
   const pm10Str = pm10 != null ? `PM10 ${pm10.toFixed(0)}` : "";
   const pm25Str = pm25 != null ? `PM2.5 ${pm25.toFixed(0)}` : "";
-  const parts = [pm10Str, pm25Str].filter(Boolean).join(" · ");
-  return parts;
+  return [pm10Str, pm25Str].filter(Boolean).join(" · ");
 }
 
 function renderCourseCard(info) {
@@ -193,16 +166,14 @@ function renderCourseCard(info) {
 
   div.innerHTML = `
     <div>
-      <!-- 상단 제목 & 점수 게이지 -->
       <div class="card-header-row">
         <div class="course-name-box">
           <h2 class="course-name">${displayName}</h2>
-          <span class="course-location-sub">${info.lat ? info.lat.toFixed(4) : ''}, ${info.lon ? info.lon.toFixed(4) : ''}</span>
+          <span class="course-location-sub">GPS ${info.lat ? info.lat.toFixed(3) : ''}, ${info.lon ? info.lon.toFixed(3) : ''}</span>
         </div>
         ${createScoreGaugeSvg(info.run_score ?? 0)}
       </div>
 
-      <!-- 4구획 메트릭 카너 -->
       <div class="metrics-grid">
         <div class="metric-item">
           <span class="metric-icon">🌡️</span>
@@ -237,7 +208,6 @@ function renderCourseCard(info) {
         </div>
       </div>
 
-      <!-- 태그 그룹 -->
       <div class="tags-group">
         ${tags.map(t => {
           let extraClass = "";
@@ -248,7 +218,6 @@ function renderCourseCard(info) {
         }).join("")}
       </div>
 
-      <!-- 가이드 & 팁 영역 -->
       <div class="advice-section">
         <div class="advice-card advice-outfit">
           <div class="advice-title">${uiText.outfitTitle[currentLang]}</div>
@@ -261,58 +230,18 @@ function renderCourseCard(info) {
       </div>
     </div>
 
-    <!-- 카너 하단 구글맵 연동 -->
     <div class="card-bottom-bar">
-      <span class="location-coords">GPS: ${info.lat ? info.lat.toFixed(3) : ''}, ${info.lon ? info.lon.toFixed(3) : ''}</span>
+      <span class="location-coords">수원/경기 코스</span>
       ${googleLink ? `<a href="${googleLink}" target="_blank" rel="noopener" class="map-btn">${uiText.openMap[currentLang]}</a>` : ""}
     </div>
   `;
   return div;
 }
 
-function getFilteredAndSortedCourses() {
-  if (!LAST_DATA || !LAST_DATA.courses) return [];
-  let courses = [...LAST_DATA.courses];
-
-  // 1) 검색어 필터ing
-  if (searchQuery.trim() !== "") {
-    const q = searchQuery.trim().toLowerCase();
-    courses = courses.filter(c => 
-      (c.name_ko && c.name_ko.toLowerCase().includes(q)) ||
-      (c.name_en && c.name_en.toLowerCase().includes(q))
-    );
-  }
-
-  // 2) 탭 필터링
-  if (currentFilter === "great") {
-    courses = courses.filter(c => (c.run_score ?? 0) >= 80);
-  } else if (currentFilter === "caution") {
-    courses = courses.filter(c => (c.run_score ?? 0) < 80);
-  }
-
-  // 3) 정렬
-  if (currentSort === "score-desc") {
-    courses.sort((a, b) => (b.run_score ?? 0) - (a.run_score ?? 0));
-  } else if (currentSort === "score-asc") {
-    courses.sort((a, b) => (a.run_score ?? 0) - (b.run_score ?? 0));
-  } else if (currentSort === "name") {
-    courses.sort((a, b) => (a.name_ko || "").localeCompare(b.name_ko || ""));
-  }
-
-  return courses;
-}
-
 function renderAllCourses() {
-  if (!LAST_DATA) return;
-  const courses = getFilteredAndSortedCourses();
+  if (!LAST_DATA || !LAST_DATA.courses) return;
+  const courses = LAST_DATA.courses;
   coursesEl.innerHTML = "";
-  
-  if (courses.length === 0) {
-    coursesEl.innerHTML = `<div style="grid-column: 1/-1; text-align:center; padding: 40px; color:#94a3b8;">
-      ${currentLang === "ko" ? "조건에 해당하는 러닝 코스가 없습니다." : "No running courses match the criteria."}
-    </div>`;
-    return;
-  }
 
   courses.forEach((info) => {
     coursesEl.appendChild(renderCourseCard(info));
@@ -330,40 +259,26 @@ function renderStatus() {
 }
 
 function setupEventListeners() {
-  // 언어 스위치
   document.querySelectorAll(".lang-btn").forEach((btn) => {
     btn.addEventListener("click", (e) => {
       currentLang = e.target.dataset.lang;
       applyLanguage();
     });
   });
+}
 
-  // 검색
-  if (searchInput) {
-    searchInput.addEventListener("input", (e) => {
-      searchQuery = e.target.value;
-      renderAllCourses();
-    });
+async function fetchWeatherData() {
+  const timestamp = Date.now();
+  try {
+    const resp = await fetch(`${PRIMARY_JSON_URL}?t=${timestamp}`, { cache: "no-store" });
+    if (resp.ok) return await resp.json();
+  } catch (e) {
+    console.warn("Primary JSON fetch failed, trying fallback...", e);
   }
 
-  // 필터 탭
-  [tabAll, tabGreat, tabCaution].forEach(btn => {
-    if (!btn) return;
-    btn.addEventListener("click", (e) => {
-      document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
-      e.target.classList.add("active");
-      currentFilter = e.target.dataset.filter;
-      renderAllCourses();
-    });
-  });
-
-  // 정렬
-  if (sortSelect) {
-    sortSelect.addEventListener("change", (e) => {
-      currentSort = e.target.value;
-      renderAllCourses();
-    });
-  }
+  const fallbackResp = await fetch(`${FALLBACK_JSON_URL}?t=${timestamp}`, { cache: "no-store" });
+  if (!fallbackResp.ok) throw new Error(`HTTP ${fallbackResp.status}`);
+  return await fallbackResp.json();
 }
 
 async function init() {
@@ -372,13 +287,7 @@ async function init() {
     applyLanguage();
     renderStatus();
 
-    const resp = await fetch(`${JSON_URL}?t=${Date.now()}`, {
-      cache: "no-store",
-    });
-    if (!resp.ok) {
-      throw new Error(`HTTP ${resp.status}`);
-    }
-    const data = await resp.json();
+    const data = await fetchWeatherData();
     LAST_DATA = data;
 
     renderStatus();
