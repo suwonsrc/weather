@@ -7,9 +7,12 @@ const appTitleEl = document.getElementById("app-title");
 const appSubtitleEl = document.getElementById("app-subtitle");
 const courseListUpdatedEl = document.getElementById("course-list-updated");
 
-// 우선 상대 경로('./data/src_weather.json')로 접근하여 로컬 및 GitHub Pages 모두 정상 작동하게 함
-const PRIMARY_JSON_URL = "./data/src_weather.json";
-const FALLBACK_JSON_URL = "https://jcoderain.github.io/src-weather/data/src_weather.json";
+// 다중 앤드포인트 URL (GitHub Raw는 CORS 완전 허용 및 Push 즉시 반영됨)
+const JSON_URLS = [
+  "https://raw.githubusercontent.com/jcoderain/src-weather/main/data/src_weather.json",
+  "https://jcoderain.github.io/src-weather/data/src_weather.json",
+  "./data/src_weather.json"
+];
 
 const uiText = {
   appTitle: {
@@ -48,8 +51,8 @@ const uiText = {
 };
 
 function applyLanguage() {
-  appTitleEl.textContent = uiText.appTitle[currentLang];
-  appSubtitleEl.textContent = uiText.appSubtitle[currentLang];
+  if (appTitleEl) appTitleEl.textContent = uiText.appTitle[currentLang];
+  if (appSubtitleEl) appSubtitleEl.textContent = uiText.appSubtitle[currentLang];
 
   document.querySelectorAll(".lang-btn").forEach((btn) => {
     const lang = btn.dataset.lang;
@@ -64,11 +67,14 @@ function applyLanguage() {
 
 function formatUpdatedAtLocalized(isoLikeStr) {
   if (!isoLikeStr) return "";
-  const [datePart, timePart] = isoLikeStr.split("T");
-  if (!datePart || !timePart) return "";
+  const parts = String(isoLikeStr).split("T");
+  if (parts.length < 2) return "";
+  const datePart = parts[0];
+  const timePart = parts[1];
+  
   const [y, m, d] = datePart.split("-");
   const [hh, mm] = timePart.split(":");
-  const pad2 = (v) => String(v).padStart(2, "0");
+  const pad2 = (v) => String(v || "00").padStart(2, "0");
 
   if (currentLang === "ko") {
     return `${y}년 ${Number(m)}월 ${Number(d)}일 ${pad2(hh)}시 ${pad2(mm)}분 수집 기준`;
@@ -95,25 +101,28 @@ function renderUpdatedAt() {
 }
 
 function windDirectionToText(deg) {
-  if (deg == null) return "-";
+  if (deg == null || typeof deg !== "number" || isNaN(deg)) return "-";
   const dirsKo = ["북", "북동", "동", "남동", "남", "남서", "서", "북서"];
   const dirsEn = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"];
   const idx = Math.round((deg % 360) / 45) % 8;
-  return currentLang === "ko" ? dirsKo[idx] : dirsEn[idx];
+  const validIdx = isNaN(idx) ? 0 : (idx < 0 ? idx + 8 : idx);
+  return currentLang === "ko" ? dirsKo[validIdx] : dirsEn[validIdx];
 }
 
 function getScoreColor(score) {
-  if (score >= 80) return "#10b981"; // Emerald
-  if (score >= 60) return "#3b82f6"; // Blue
-  if (score >= 40) return "#f59e0b"; // Amber
+  const s = Number(score) || 0;
+  if (s >= 80) return "#10b981"; // Emerald
+  if (s >= 60) return "#3b82f6"; // Blue
+  if (s >= 40) return "#f59e0b"; // Amber
   return "#ef4444"; // Red
 }
 
 function createScoreGaugeSvg(score) {
-  const color = getScoreColor(score);
+  const numScore = Number(score) || 0;
+  const color = getScoreColor(numScore);
   const radius = 22;
   const circumference = 2 * Math.PI * radius;
-  const strokeDashoffset = circumference - (score / 100) * circumference;
+  const strokeDashoffset = circumference - (numScore / 100) * circumference;
 
   return `
     <div class="score-gauge-wrap">
@@ -131,37 +140,46 @@ function createScoreGaugeSvg(score) {
 
 function classifyAirQualityText(pm10, pm25) {
   if (pm10 == null && pm25 == null) return "-";
-  const pm10Str = pm10 != null ? `PM10 ${pm10.toFixed(0)}` : "";
-  const pm25Str = pm25 != null ? `PM2.5 ${pm25.toFixed(0)}` : "";
-  return [pm10Str, pm25Str].filter(Boolean).join(" · ");
+  const pm10Str = pm10 != null && typeof pm10 === "number" ? `PM10 ${pm10.toFixed(0)}` : "";
+  const pm25Str = pm25 != null && typeof pm25 === "number" ? `PM2.5 ${pm25.toFixed(0)}` : "";
+  const res = [pm10Str, pm25Str].filter(Boolean).join(" · ");
+  return res || "-";
 }
 
 function renderCourseCard(info) {
+  if (!info) return document.createElement("div");
+
   const div = document.createElement("div");
   div.className = "course-card";
 
-  const displayName = currentLang === "ko" ? (info.name_ko || info.name) : (info.name_en || info.name);
+  const displayName = currentLang === "ko" ? (info.name_ko || info.name || "코스") : (info.name_en || info.name || "Course");
   const windDirText = windDirectionToText(info.wind_direction);
-  const windSpeedText = info.wind_speed != null ? `${info.wind_speed.toFixed(1)}m/s` : "-";
+  const windSpeedText = info.wind_speed != null && typeof info.wind_speed === "number" ? `${info.wind_speed.toFixed(1)}m/s` : "-";
   
-  const temp = info.temperature != null ? info.temperature.toFixed(1) : "-";
-  const apparent = info.apparent_temperature != null ? info.apparent_temperature.toFixed(1) : "-";
-  const humidity = info.humidity != null ? `${info.humidity.toFixed(0)}%` : "60%";
-  const forecastRain = info.forecast_rain_3h != null ? `${info.forecast_rain_3h.toFixed(1)}mm` : "0.0mm";
+  const temp = info.temperature != null && typeof info.temperature === "number" ? info.temperature.toFixed(1) : "-";
+  const apparent = info.apparent_temperature != null && typeof info.apparent_temperature === "number" ? info.apparent_temperature.toFixed(1) : "-";
+  const humidity = info.humidity != null && typeof info.humidity === "number" ? `${info.humidity.toFixed(0)}%` : "60%";
+  
+  const rainVal = info.forecast_rain_3h ?? info.recent_rain_3h ?? 0;
+  const forecastRain = typeof rainVal === "number" ? `${rainVal.toFixed(1)}mm` : "0.0mm";
   
   const airText = classifyAirQualityText(info.pm10, info.pm25);
 
   const outfit = currentLang === "ko" 
-    ? (info.outfit_ko || "반팔 T셔츠 + 러닝 숏츠") 
-    : (info.outfit_en || "Short sleeves & running shorts");
+    ? (info.outfit_ko || "통풍 좋은 반팔 T셔츠 + 러닝 숏츠") 
+    : (info.outfit_en || "Breathable short-sleeve T-shirt & running shorts");
 
   const paceTip = currentLang === "ko"
     ? (info.pace_tip_ko || info.advice_detail_ko || "컨디션에 따라 페이스를 조절하세요.")
     : (info.pace_tip_en || info.advice_detail_en || "Adjust pace according to weather conditions.");
 
-  const tags = currentLang === "ko" ? (info.tags_ko || []) : (info.tags_en || []);
-  const googleLink = info.lat != null && info.lon != null 
-    ? `https://www.google.com/maps/search/?api=1&query=${info.lat},${info.lon}`
+  const rawTags = currentLang === "ko" ? (info.tags_ko || []) : (info.tags_en || []);
+  const safeTags = Array.isArray(rawTags) ? rawTags.filter(t => typeof t === "string" && t.trim() !== "") : [];
+
+  const lat = typeof info.lat === "number" ? info.lat : null;
+  const lon = typeof info.lon === "number" ? info.lon : null;
+  const googleLink = lat != null && lon != null 
+    ? `https://www.google.com/maps/search/?api=1&query=${lat},${lon}`
     : null;
 
   div.innerHTML = `
@@ -169,7 +187,7 @@ function renderCourseCard(info) {
       <div class="card-header-row">
         <div class="course-name-box">
           <h2 class="course-name">${displayName}</h2>
-          <span class="course-location-sub">GPS ${info.lat ? info.lat.toFixed(3) : ''}, ${info.lon ? info.lon.toFixed(3) : ''}</span>
+          <span class="course-location-sub">GPS ${lat ? lat.toFixed(3) : ''}, ${lon ? lon.toFixed(3) : ''}</span>
         </div>
         ${createScoreGaugeSvg(info.run_score ?? 0)}
       </div>
@@ -209,7 +227,7 @@ function renderCourseCard(info) {
       </div>
 
       <div class="tags-group">
-        ${tags.map(t => {
+        ${safeTags.map(t => {
           let extraClass = "";
           if (t.includes("좋음") || t.includes("최적") || t.includes("Good") || t.includes("Optimal")) extraClass = "tag-great";
           else if (t.includes("주의") || t.includes("Caution") || t.includes("젖음")) extraClass = "tag-caution";
@@ -239,16 +257,21 @@ function renderCourseCard(info) {
 }
 
 function renderAllCourses() {
-  if (!LAST_DATA || !LAST_DATA.courses) return;
+  if (!coursesEl || !LAST_DATA || !LAST_DATA.courses) return;
   const courses = LAST_DATA.courses;
   coursesEl.innerHTML = "";
 
   courses.forEach((info) => {
-    coursesEl.appendChild(renderCourseCard(info));
+    try {
+      coursesEl.appendChild(renderCourseCard(info));
+    } catch (e) {
+      console.error("Error rendering course card:", e, info);
+    }
   });
 }
 
 function renderStatus() {
+  if (!statusEl) return;
   if (!LAST_DATA) {
     statusEl.innerHTML = `<p>${uiText.statusLoading[currentLang]}</p>`;
     return;
@@ -269,16 +292,24 @@ function setupEventListeners() {
 
 async function fetchWeatherData() {
   const timestamp = Date.now();
-  try {
-    const resp = await fetch(`${PRIMARY_JSON_URL}?t=${timestamp}`, { cache: "no-store" });
-    if (resp.ok) return await resp.json();
-  } catch (e) {
-    console.warn("Primary JSON fetch failed, trying fallback...", e);
+  let lastError = null;
+
+  for (const url of JSON_URLS) {
+    try {
+      const resp = await fetch(`${url}?t=${timestamp}`, { cache: "no-store" });
+      if (resp.ok) {
+        const json = await resp.json();
+        if (json && Array.isArray(json.courses)) {
+          return json;
+        }
+      }
+    } catch (e) {
+      console.warn(`Fetch failed for ${url}:`, e);
+      lastError = e;
+    }
   }
 
-  const fallbackResp = await fetch(`${FALLBACK_JSON_URL}?t=${timestamp}`, { cache: "no-store" });
-  if (!fallbackResp.ok) throw new Error(`HTTP ${fallbackResp.status}`);
-  return await fallbackResp.json();
+  throw lastError || new Error("All JSON fetch attempts failed");
 }
 
 async function init() {
