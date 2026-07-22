@@ -141,7 +141,7 @@ def summarize_course_weather(
         hard_caps.append(50)
         risk_flags_ko.append("고습도 찜통 더위 💦")
         risk_flags_en.append("High Humid Heat 💦")
-        temp_tag_ko, temp_tag_en = "고습도 찜통더위 💦", "Humid Heat 💦"
+        temp_tag_ko, temp_tag_en = "무덥고 끈적임", "Warm & Humid"
     elif apparent > 24:
         temp_score = 50
         temp_tag_ko, temp_tag_en = "조금 더움", "Warm"
@@ -232,8 +232,9 @@ def summarize_course_weather(
         advice_short_ko = "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다."
         advice_short_en = "🚨 Poor conditions! Reduce intensity or train indoors."
 
-    tags_ko = [temp_tag_ko, wind_tag_ko, wet_tag_ko, air_tag_ko] + risk_flags_ko
-    tags_en = [temp_tag_en, wind_tag_en, wet_tag_en, air_tag_en] + risk_flags_en
+    # 태그 중복 제거
+    tags_ko = list(dict.fromkeys([temp_tag_ko, wind_tag_ko, wet_tag_ko, air_tag_ko] + risk_flags_ko))
+    tags_en = list(dict.fromkeys([temp_tag_en, wind_tag_en, wet_tag_en, air_tag_en] + risk_flags_en))
 
     return {
         "id": course.id,
