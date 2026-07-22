@@ -226,7 +226,6 @@ function renderCourseCard(info) {
       <div class="card-header-row">
         <div class="course-name-box">
           <h2 class="course-name">${displayName}</h2>
-          <span class="course-location-sub">📍 ${locationText}</span>
         </div>
         ${createScoreGaugeSvg(info.run_score ?? 0, info.run_grade)}
       </div>
