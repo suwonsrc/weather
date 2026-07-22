@@ -254,11 +254,11 @@ function renderCourseCard(info) {
       <div class="tags-group">
         ${safeTags.map(t => {
           let extraClass = "";
-          if (t.includes("좋음") || t.includes("최적") || t.includes("건조") || t.includes("쾌적") || t.includes("Good") || t.includes("Optimal")) {
+          if (t.includes("최적") || t.includes("쾌적") || t.includes("건조") || t.includes("공기좋음") || t.includes("Good") || t.includes("Optimal") || t.includes("Comfortable") || t.includes("Dry")) {
             extraClass = "tag-great";
-          } else if (t.includes("보통") || t.includes("다소") || t.includes("젖음") || t.includes("더움") || t.includes("Moderate") || t.includes("Slightly") || t.includes("Warm")) {
+          } else if (t.includes("더움") || t.includes("다소바람") || t.includes("살짝젖음") || t.includes("공기보통") || t.includes("Warm") || t.includes("Damp")) {
             extraClass = "tag-caution";
-          } else if (t.includes("위험") || t.includes("나쁨") || t.includes("폭우") || t.includes("빙판") || t.includes("찜통") || t.includes("폭염") || t.includes("혹한") || t.includes("강한") || t.includes("Warning") || t.includes("Hazard")) {
+          } else if (t.includes("찜통") || t.includes("폭염") || t.includes("쌀쌀") || t.includes("혹한") || t.includes("강풍") || t.includes("노면젖음") || t.includes("폭우") || t.includes("결빙") || t.includes("눈슬러시") || t.includes("공기나쁨") || t.includes("황사경보") || t.includes("Bad") || t.includes("Severe")) {
             extraClass = "tag-risk";
           }
           return `<span class="badge-tag ${extraClass}">${t}</span>`;

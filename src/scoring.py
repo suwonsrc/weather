@@ -93,73 +93,73 @@ def summarize_course_weather(
     snow_memory_mm = estimate_snow_memory_mm(prev_snow_mm, 0.5, current_snow, current_temp, current_rain)
     freeze_surface_risk = (snow_memory_mm >= 0.8 or current_snow > 0) and (current_temp <= 0.0)
 
-    # 1) 노면/강수 지표 태그 (4가지 지표 중 3번째) - 텍스트 전용
+    # 1) 습도/예보강수/노면 지표 태그 (간결 표준화)
     if freeze_surface_risk:
         surface_score = 10
         hard_caps.append(15)
-        wet_badge = {"level": "bad", "text_ko": "빙판길 결빙", "text_en": "Icy Hazard"}
-        wet_tag_ko, wet_tag_en = "빙판길 결빙", "Ice Hazard"
+        wet_badge = {"level": "bad", "text_ko": "결빙", "text_en": "Icy"}
+        wet_tag_ko, wet_tag_en = "결빙", "Icy"
     elif snow_memory_mm >= 0.8 or current_snow > 0:
         surface_score = 45
-        wet_badge = {"level": "wet", "text_ko": "눈 녹음 슬러시", "text_en": "Melting Snow"}
-        wet_tag_ko, wet_tag_en = "눈 녹음 슬러시", "Slushy Snow"
+        wet_badge = {"level": "wet", "text_ko": "눈슬러시", "text_en": "Slush"}
+        wet_tag_ko, wet_tag_en = "눈슬러시", "Slush"
     elif current_rain >= 8.0 or recent_rain >= 15.0:
         surface_score = 15
         hard_caps.append(20)
-        wet_badge = {"level": "bad", "text_ko": "폭우 물웅덩이", "text_en": "Torrential Rain"}
-        wet_tag_ko, wet_tag_en = "폭우 물웅덩이", "Torrential Rain"
+        wet_badge = {"level": "bad", "text_ko": "폭우", "text_en": "Heavy Rain"}
+        wet_tag_ko, wet_tag_en = "폭우", "Heavy Rain"
     elif current_rain >= 3.0 or recent_rain >= 6.0:
         surface_score = 35
         hard_caps.append(40)
-        wet_badge = {"level": "bad", "text_ko": "젖은 노면", "text_en": "Heavy Wet"}
-        wet_tag_ko, wet_tag_en = "젖은 노면", "Wet Surface"
+        wet_badge = {"level": "bad", "text_ko": "노면젖음", "text_en": "Wet"}
+        wet_tag_ko, wet_tag_en = "노면젖음", "Wet"
     elif current_rain > 0 or recent_rain > 0:
         surface_score = 65
-        wet_badge = {"level": "wet", "text_ko": "살짝 젖음", "text_en": "Slightly wet"}
-        wet_tag_ko, wet_tag_en = "살짝 젖음", "Slightly Wet"
+        wet_badge = {"level": "wet", "text_ko": "살짝젖음", "text_en": "Damp"}
+        wet_tag_ko, wet_tag_en = "살짝젖음", "Damp"
     else:
         surface_score = 100
-        wet_badge = {"level": "good", "text_ko": "노면 건조", "text_en": "Dry surface"}
-        wet_tag_ko, wet_tag_en = "노면 건조", "Dry Surface"
+        wet_badge = {"level": "good", "text_ko": "건조", "text_en": "Dry"}
+        wet_tag_ko, wet_tag_en = "건조", "Dry"
 
-    # 2) 기온 지표 태그 (4가지 지표 중 1번째) - 텍스트 전용
+    # 2) 기온 지표 태그 (간결 표준화: 최적, 쾌적, 더움, 찜통, 폭염, 쌀쌀, 혹한)
     if apparent <= -12:
         temp_score = 20
         hard_caps.append(20)
-        temp_tag_ko, temp_tag_en = "혹한 동상주의", "Severe Cold"
+        temp_tag_ko, temp_tag_en = "혹한", "Severe Cold"
     elif apparent >= 33:
         temp_score = 20
         hard_caps.append(20)
-        temp_tag_ko, temp_tag_en = "폭염 온열주의", "Extreme Heat"
+        temp_tag_ko, temp_tag_en = "폭염", "Extreme Heat"
     elif apparent >= 28 and humidity >= 85:
         temp_score = 30
         hard_caps.append(50)
-        temp_tag_ko, temp_tag_en = "고습도 찜통더위", "Humid Heat"
+        temp_tag_ko, temp_tag_en = "찜통", "Humid Heat"
     elif apparent > 24:
         temp_score = 50
-        temp_tag_ko, temp_tag_en = "조금 더움", "Warm"
+        temp_tag_ko, temp_tag_en = "더움", "Warm"
     elif 5 <= apparent <= 18:
         temp_score = 100
-        temp_tag_ko, temp_tag_en = "러닝 최적 기온", "Optimal Temp"
+        temp_tag_ko, temp_tag_en = "최적", "Optimal"
     elif 0 <= apparent < 5 or 18 < apparent <= 24:
         temp_score = 80
-        temp_tag_ko, temp_tag_en = "쾌적함", "Comfortable"
+        temp_tag_ko, temp_tag_en = "쾌적", "Comfortable"
     else:
         temp_score = 40
-        temp_tag_ko, temp_tag_en = "쌀쌀함", "Chilly"
+        temp_tag_ko, temp_tag_en = "쌀쌀", "Chilly"
 
-    # 3) 바람 지표 태그 (4가지 지표 중 2번째) - 텍스트 전용
+    # 3) 바람 지표 태그 (간결 표준화: 약한바람, 다소바람, 강풍)
     if wind_speed < 3.0:
         wind_score = 100
-        wind_tag_ko, wind_tag_en = "약한 바람", "Light Breeze"
+        wind_tag_ko, wind_tag_en = "약한바람", "Light Breeze"
     elif wind_speed < 6.0:
         wind_score = 70
-        wind_tag_ko, wind_tag_en = "다소 바람", "Moderate Wind"
+        wind_tag_ko, wind_tag_en = "다소바람", "Moderate Wind"
     else:
         wind_score = 40
-        wind_tag_ko, wind_tag_en = "강한 바람", "Strong Wind"
+        wind_tag_ko, wind_tag_en = "강풍", "Strong Wind"
 
-    # 4) 공기질 지표 태그 (4가지 지표 중 4번째) - 텍스트 전용
+    # 4) 공기질 지표 태그 (간결 표준화: 공기좋음, 공기보통, 공기나쁨, 황사경보)
     pm10 = None
     pm25 = None
     if raw_air and "current" in raw_air:
@@ -170,17 +170,17 @@ def summarize_course_weather(
     if (pm10 is not None and pm10 > 150) or (pm25 is not None and pm25 > 75):
         air_score = 15
         hard_caps.append(25)
-        air_tag_ko, air_tag_en = "황사/미세먼지 매우나쁨", "Severe Dust Warning"
+        air_tag_ko, air_tag_en = "황사경보", "Dust Warning"
     elif (pm10 is not None and pm10 > 80) or (pm25 is not None and pm25 > 35):
         air_score = 40
         hard_caps.append(50)
-        air_tag_ko, air_tag_en = "공기질 나쁨", "Bad Air Quality"
+        air_tag_ko, air_tag_en = "공기나쁨", "Bad Air"
     elif (pm10 is not None and pm10 > 30) or (pm25 is not None and pm25 > 15):
         air_score = 75
-        air_tag_ko, air_tag_en = "공기질 보통", "Moderate Air"
+        air_tag_ko, air_tag_en = "공기보통", "Moderate Air"
     else:
         air_score = 100
-        air_tag_ko, air_tag_en = "공기질 좋음", "Good Air"
+        air_tag_ko, air_tag_en = "공기좋음", "Good Air"
 
     # 종합점수 산출 & 안전 상한선(hard cap) 적용
     base_score = (temp_score * 0.45 + wind_score * 0.25 + surface_score * 0.30)
@@ -218,7 +218,7 @@ def summarize_course_weather(
         advice_short_ko = "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다."
         advice_short_en = "🚨 Poor conditions! Reduce intensity or train indoors."
 
-    # 상단 4개 지표(기온, 바람, 습도/강수, 공기질)와 1:1 대응되는 깔끔한 4개 태그
+    # 상단 4개 지표(기온, 바람, 습도/강수, 공기질)와 1:1 대응되는 깔끔한 4개 표준화 태그
     tags_ko = [temp_tag_ko, wind_tag_ko, wet_tag_ko, air_tag_ko]
     tags_en = [temp_tag_en, wind_tag_en, wet_tag_en, air_tag_en]
 
