@@ -47,7 +47,10 @@ const uiText = {
 };
 
 function applyTheme() {
-  document.documentElement.dataset.theme = currentTheme;
+  document.documentElement.setAttribute("data-theme", currentTheme);
+  if (document.body) {
+    document.body.setAttribute("data-theme", currentTheme);
+  }
   const themeIcon = document.getElementById("theme-icon");
   if (themeIcon) {
     themeIcon.textContent = currentTheme === "dark" ? "☀️" : "🌙";
@@ -59,6 +62,10 @@ function toggleTheme() {
   localStorage.setItem("theme", currentTheme);
   applyTheme();
 }
+
+window.toggleTheme = toggleTheme;
+window.applyTheme = applyTheme;
+applyTheme();
 
 function applyLanguage() {
   if (appTitleEl) appTitleEl.textContent = uiText.appTitle[currentLang];

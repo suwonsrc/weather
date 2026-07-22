@@ -3,7 +3,7 @@
    ========================================================= */
 
 /* Light Theme (Default - Non-glare, eye-comfortable soft palette) */
-:root, html[data-theme="light"] {
+:root, [data-theme="light"] {
   --bg-color: #f8fafc;
   --bg-gradient: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
   --card-bg: #ffffff;
@@ -42,7 +42,7 @@
 }
 
 /* Dark Theme (Comfortable Charcoal Slate - No harsh blue glare) */
-html[data-theme="dark"] {
+[data-theme="dark"] {
   --bg-color: #0f172a;
   --bg-gradient: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
   --card-bg: #1e293b;
