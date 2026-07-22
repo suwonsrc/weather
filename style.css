@@ -136,22 +136,6 @@ body {
   object-fit: contain;
 }
 
-.pulse-dot {
-  width: 9px;
-  height: 9px;
-  background-color: var(--pulse-color);
-  border-radius: 50%;
-  box-shadow: 0 0 8px var(--pulse-color);
-  animation: pulse 2s infinite;
-  flex-shrink: 0;
-}
-
-@keyframes pulse {
-  0% { transform: scale(0.95); opacity: 1; }
-  50% { transform: scale(1.2); opacity: 0.7; }
-  100% { transform: scale(0.95); opacity: 1; }
-}
-
 /* 우측 설정 타일 바 (가로 1줄 고정, 크기/높이 완벽 매칭) */
 .settings-tile-bar {
   display: flex;
