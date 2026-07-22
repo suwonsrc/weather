@@ -126,7 +126,7 @@ def summarize_course_weather(
         wet_badge = {"level": "good", "text_ko": "노면 건조", "text_en": "Dry surface"}
         wet_tag_ko, wet_tag_en = "노면 건조", "Dry surface"
 
-    # 2) 기온 점수 & 극단 기온 안전 캡
+    # 2) 기온 점수 & 무더위/고습도 세분화 및 극단 기온 안전 캡
     if apparent <= -12:
         hard_caps.append(20)
         risk_flags_ko.append("한파 동상 주의 🚨")
@@ -136,15 +136,21 @@ def summarize_course_weather(
         risk_flags_ko.append("폭염 온열질환 🚨")
         risk_flags_en.append("Extreme Heat Hazard 🚨")
 
-    if 5 <= apparent <= 18:
+    if apparent >= 28 and humidity >= 85:
+        temp_score = 30
+        hard_caps.append(50)
+        risk_flags_ko.append("고습도 찜통 더위 💦")
+        risk_flags_en.append("High Humid Heat 💦")
+        temp_tag_ko, temp_tag_en = "고습도 찜통더위 💦", "Humid Heat 💦"
+    elif apparent > 24:
+        temp_score = 50
+        temp_tag_ko, temp_tag_en = "조금 더움", "Warm"
+    elif 5 <= apparent <= 18:
         temp_score = 100
         temp_tag_ko, temp_tag_en = "러닝 최적 기온", "Optimal temp"
     elif 0 <= apparent < 5 or 18 < apparent <= 24:
         temp_score = 80
         temp_tag_ko, temp_tag_en = "쾌적함", "Comfortable"
-    elif apparent > 24:
-        temp_score = 50
-        temp_tag_ko, temp_tag_en = "조금 더움", "Warm"
     else:
         temp_score = 40
         temp_tag_ko, temp_tag_en = "쌀쌀함", "Chilly"
