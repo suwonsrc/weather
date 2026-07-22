@@ -107,9 +107,9 @@ body {
 
 /* 헤더 스타일 */
 .app-header {
-  padding: 20px 0 16px;
+  padding: 16px 0 14px;
   border-bottom: 1px solid var(--card-border);
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 .header-main {
@@ -118,15 +118,21 @@ body {
   align-items: center;
 }
 
-.brand-title-wrap {
+.header-left {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
+.src-logo img {
+  height: 52px;
+  width: auto;
+  display: block;
+}
+
 .pulse-dot {
-  width: 11px;
-  height: 11px;
+  width: 10px;
+  height: 10px;
   background-color: var(--pulse-color);
   border-radius: 50%;
   box-shadow: 0 0 10px var(--pulse-color);
@@ -135,41 +141,36 @@ body {
 
 @keyframes pulse {
   0% { transform: scale(0.95); opacity: 1; }
-  50% { transform: scale(1.1); opacity: 0.7; }
+  50% { transform: scale(1.15); opacity: 0.7; }
   100% { transform: scale(0.95); opacity: 1; }
 }
 
-.app-header h1 {
-  margin: 0;
-  font-size: 1.75rem;
-  font-weight: 800;
-  font-family: "Outfit", sans-serif;
-  letter-spacing: -0.5px;
-  color: var(--text-primary);
-}
-
-.header-right {
+/* 우측 설정 타일 바 */
+.settings-tile-bar {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  padding: 4px 6px;
+  border-radius: 24px;
+  box-shadow: var(--card-shadow);
 }
 
-/* 테마 & 언어 버튼 그룹 */
 .theme-btn {
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   border: 1px solid var(--card-border);
-  background: var(--card-bg);
+  background: var(--metric-bg);
   color: var(--text-primary);
-  font-size: 1rem;
+  font-size: 0.92rem;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 0;
-  box-shadow: var(--card-shadow);
-  transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+  transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
 .theme-btn:hover {
@@ -179,19 +180,17 @@ body {
 
 .lang-switch {
   display: flex;
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  border-radius: 20px;
-  padding: 3px;
+  background: transparent;
+  gap: 2px;
 }
 
 .lang-btn {
   border: none;
   background: transparent;
   color: var(--text-secondary);
-  border-radius: 16px;
-  padding: 4px 10px;
-  font-size: 0.78rem;
+  border-radius: 14px;
+  padding: 3px 9px;
+  font-size: 0.76rem;
   font-weight: 700;
   cursor: pointer;
   transition: all 0.2s ease;

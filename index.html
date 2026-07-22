@@ -18,25 +18,23 @@
   </head>
   <body>
     <div class="app-container">
-      <!-- 깔끔한 헤더 영역 (서브타이틀 삭제, 한/영 마크 및 테마 버튼 배치) -->
+      <!-- 모바일 모던 타일 헤더 (좌측: 대형 SRC 로고, 우측: 설정 타일 바) -->
       <header class="app-header">
         <div class="header-main">
-          <div class="brand">
-            <div class="brand-title-wrap">
-              <span class="pulse-dot"></span>
-              <h1 id="app-title">SRC Weather</h1>
+          <div class="header-left">
+            <div class="src-logo">
+              <img src="images/src-logo.png" alt="SRC Weather" />
             </div>
+            <span class="pulse-dot"></span>
           </div>
-          <div class="header-right">
+          <div class="settings-tile-bar">
             <button id="theme-toggle" class="theme-btn" title="Light/Dark Mode" onclick="toggleTheme()">
               <span id="theme-icon">🌙</span>
             </button>
+
             <div class="lang-switch">
               <button class="lang-btn active" data-lang="ko">한</button>
               <button class="lang-btn" data-lang="en">EN</button>
-            </div>
-            <div class="src-logo">
-              <img src="images/src-logo.png" alt="SRC logo" />
             </div>
           </div>
         </div>
