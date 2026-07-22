@@ -1,10 +1,10 @@
 let currentLang = "ko";
 let LAST_DATA = null;
+let currentTheme = localStorage.getItem("theme") || "light";
 
 const statusEl = document.getElementById("status");
 const coursesEl = document.getElementById("courses");
 const appTitleEl = document.getElementById("app-title");
-const appSubtitleEl = document.getElementById("app-subtitle");
 const courseListUpdatedEl = document.getElementById("course-list-updated");
 
 // 다중 앤드포인트 URL (GitHub Raw는 CORS 완전 허용 및 Push 즉시 반영됨)
@@ -19,17 +19,13 @@ const uiText = {
     ko: "SRC Weather",
     en: "SRC Weather",
   },
-  appSubtitle: {
-    ko: "SRC 러너들을 위한 수원 12개 러닝 코스 기상 모니터링",
-    en: "Current course conditions for 12 SRC running courses",
-  },
   statusLoading: {
-    ko: "SRC 러너용 기상 데이터를 불러오는 중…",
-    en: "Loading weather data for SRC runners…",
+    ko: "기상 데이터를 불러오는 중…",
+    en: "Loading weather data…",
   },
   statusLoaded: (count) => ({
-    ko: `SRC의 주요 ${count}개 코스 현황을 한눈에 확인하세요. 화이팅! 🏃‍♂️`,
-    en: `Current conditions for ${count} major SRC courses. Fighting! 🏃‍♂️`,
+    ko: `SRC 주요 ${count}개 코스 현황 모니터링 중 🏃‍♂️`,
+    en: `Monitoring ${count} major SRC courses 🏃‍♂️`,
   }),
   fail: {
     ko: "코스 데이터를 불러오는데 실패했습니다. 잠시 후 다시 시도해 주세요.",
@@ -50,9 +46,22 @@ const uiText = {
   openMap: { ko: "구글맵 지점 보기 📍", en: "View on Google Maps 📍" },
 };
 
+function applyTheme() {
+  document.documentElement.dataset.theme = currentTheme;
+  const themeIcon = document.getElementById("theme-icon");
+  if (themeIcon) {
+    themeIcon.textContent = currentTheme === "dark" ? "☀️" : "🌙";
+  }
+}
+
+function toggleTheme() {
+  currentTheme = currentTheme === "dark" ? "light" : "dark";
+  localStorage.setItem("theme", currentTheme);
+  applyTheme();
+}
+
 function applyLanguage() {
   if (appTitleEl) appTitleEl.textContent = uiText.appTitle[currentLang];
-  if (appSubtitleEl) appSubtitleEl.textContent = uiText.appSubtitle[currentLang];
 
   document.querySelectorAll(".lang-btn").forEach((btn) => {
     const lang = btn.dataset.lang;
@@ -201,7 +210,7 @@ function renderCourseCard(info) {
           <span class="metric-icon">🌡️</span>
           <div class="metric-data">
             <span class="metric-label">${uiText.tempLabel[currentLang]}</span>
-            <span class="metric-val">${temp}°C <span style="font-weight:400; font-size:0.75rem; color:#94a3b8;">(${apparent}°C)</span></span>
+            <span class="metric-val">${temp}°C <span style="font-weight:400; font-size:0.75rem; color:var(--text-muted);">(${apparent}°C)</span></span>
           </div>
         </div>
 
@@ -286,6 +295,11 @@ function renderStatus() {
 }
 
 function setupEventListeners() {
+  const themeBtn = document.getElementById("theme-toggle");
+  if (themeBtn) {
+    themeBtn.addEventListener("click", toggleTheme);
+  }
+
   document.querySelectorAll(".lang-btn").forEach((btn) => {
     btn.addEventListener("click", (e) => {
       currentLang = e.target.dataset.lang;
@@ -318,6 +332,7 @@ async function fetchWeatherData() {
 
 async function init() {
   try {
+    applyTheme();
     setupEventListeners();
     applyLanguage();
     renderStatus();
