@@ -195,6 +195,17 @@ def summarize_course_weather(
 
     run_score = int(round(max(0, min(100, run_score))))
 
+    if run_score >= 80:
+        run_grade = "A"
+    elif run_score >= 65:
+        run_grade = "B"
+    elif run_score >= 50:
+        run_grade = "C"
+    elif run_score >= 35:
+        run_grade = "D"
+    else:
+        run_grade = "E"
+
     outfit_ko, outfit_en = get_outfit_recommendation(
         current_temp, apparent, current_rain, current_snow, wind_speed, surface_score, freeze_surface_risk, is_night=is_night
     )
@@ -247,6 +258,7 @@ def summarize_course_weather(
         "recent_snow_3h": recent_snow,
         "wet_badge": wet_badge,
         "run_score": run_score,
+        "run_grade": run_grade,
         "temp_score": temp_score,
         "wind_score": wind_score,
         "wet_score": surface_score,

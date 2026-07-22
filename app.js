@@ -42,9 +42,9 @@ const uiText = {
   },
   tempLabel: { ko: "기온 / 체감", en: "Air / Feels" },
   windLabel: { ko: "바람", en: "Wind" },
-  precipLabel: { ko: "습도 / 예보강수", en: "Hum / Forecast Rain" },
+  precipLabel: { ko: "습도 / 예보강수", en: "Hum / Rain" },
   airLabel: { ko: "공기질 (PM)", en: "Air Quality" },
-  openMap: { ko: "구글맵 지점 보기 📍", en: "View on Google Maps 📍" },
+  openMap: { ko: "구글맵 지점 보기 📍", en: "Google Maps 📍" },
 };
 
 function applyTheme() {
@@ -127,17 +127,31 @@ function windDirectionToText(deg) {
   return currentLang === "ko" ? dirsKo[validIdx] : dirsEn[validIdx];
 }
 
-function getScoreColor(score) {
+function getScoreGrade(score, explicitGrade) {
+  if (explicitGrade && ["A", "B", "C", "D", "E"].includes(explicitGrade.toUpperCase())) {
+    const g = explicitGrade.toUpperCase();
+    if (g === "A") return { grade: "A", color: "#10b981", bgClass: "score-grade-a" };
+    if (g === "B") return { grade: "B", color: "#3b82f6", bgClass: "score-grade-b" };
+    if (g === "C") return { grade: "C", color: "#8b5cf6", bgClass: "score-grade-c" };
+    if (g === "D") return { grade: "D", color: "#f59e0b", bgClass: "score-grade-d" };
+    return { grade: "E", color: "#ef4444", bgClass: "score-grade-e" };
+  }
+
   const s = Number(score) || 0;
-  if (s >= 80) return "#10b981"; // Emerald
-  if (s >= 60) return "#3b82f6"; // Blue
-  if (s >= 40) return "#f59e0b"; // Amber
-  return "#ef4444"; // Red
+  if (s >= 80) return { grade: "A", color: "#10b981", bgClass: "score-grade-a" };
+  if (s >= 65) return { grade: "B", color: "#3b82f6", bgClass: "score-grade-b" };
+  if (s >= 50) return { grade: "C", color: "#8b5cf6", bgClass: "score-grade-c" };
+  if (s >= 35) return { grade: "D", color: "#f59e0b", bgClass: "score-grade-d" };
+  return { grade: "E", color: "#ef4444", bgClass: "score-grade-e" };
 }
 
-function createScoreGaugeSvg(score) {
+function getScoreColor(score) {
+  return getScoreGrade(score).color;
+}
+
+function createScoreGaugeSvg(score, grade) {
   const numScore = Number(score) || 0;
-  const color = getScoreColor(numScore);
+  const gradeInfo = getScoreGrade(numScore, grade);
   const radius = 22;
   const circumference = 2 * Math.PI * radius;
   const strokeDashoffset = circumference - (numScore / 100) * circumference;
@@ -147,11 +161,11 @@ function createScoreGaugeSvg(score) {
       <svg class="gauge-svg" viewBox="0 0 52 52">
         <circle class="gauge-bg" cx="26" cy="26" r="${radius}"></circle>
         <circle class="gauge-fill" cx="26" cy="26" r="${radius}" 
-          stroke="${color}" 
+          stroke="${gradeInfo.color}" 
           stroke-dasharray="${circumference}" 
           stroke-dashoffset="${strokeDashoffset}"></circle>
       </svg>
-      <span class="gauge-score-val" style="color: ${color}">${score ?? "?"}</span>
+      <span class="gauge-score-val" style="color: ${gradeInfo.color}">${gradeInfo.grade}</span>
     </div>
   `;
 }
@@ -214,7 +228,7 @@ function renderCourseCard(info) {
           <h2 class="course-name">${displayName}</h2>
           <span class="course-location-sub">📍 ${locationText}</span>
         </div>
-        ${createScoreGaugeSvg(info.run_score ?? 0)}
+        ${createScoreGaugeSvg(info.run_score ?? 0, info.run_grade)}
       </div>
 
       <div class="metrics-grid">
@@ -298,16 +312,11 @@ function renderSummaryShortcuts() {
 
     const name = currentLang === "ko" ? (c.name_ko || c.name) : (c.name_en || c.name);
     const score = c.run_score ?? 0;
-
-    let scoreClass = "score-caution-bg";
-    if (score >= 80) scoreClass = "score-great-bg";
-    else if (score >= 60) scoreClass = "score-good-bg";
-    else if (score >= 40) scoreClass = "score-caution-bg";
-    else scoreClass = "score-risk-bg";
+    const gradeInfo = getScoreGrade(score, c.run_grade);
 
     chip.innerHTML = `
       <span class="shortcut-name">${name}</span>
-      <span class="shortcut-score ${scoreClass}">${score}</span>
+      <span class="shortcut-score ${gradeInfo.bgClass}">${gradeInfo.grade}</span>
     `;
 
     chip.addEventListener("click", () => {
