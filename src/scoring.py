@@ -183,13 +183,14 @@ def summarize_course_weather(
     if hard_caps:
         run_score = min(run_score, min(hard_caps))
 
-    run_score = int(round(max(0, min(100, run_score))))
+    dt_now = parse_iso_datetime(current.get("time")) or datetime.now(tz=KST)
+    is_night = dt_now.hour >= 19 or dt_now.hour < 6
 
     outfit_ko, outfit_en = get_outfit_recommendation(
-        current_temp, apparent, current_rain, current_snow, wind_speed, surface_score, freeze_surface_risk
+        current_temp, apparent, current_rain, current_snow, wind_speed, surface_score, freeze_surface_risk, is_night=is_night
     )
     pace_tip_ko, pace_tip_en = get_pace_and_running_tip(
-        current_temp, apparent, humidity, wind_speed, air_score, surface_score, freeze_surface_risk, current_rain
+        current_temp, apparent, humidity, wind_speed, air_score, surface_score, freeze_surface_risk, current_rain, is_night=is_night
     )
 
     if freeze_surface_risk:

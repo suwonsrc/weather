@@ -12,19 +12,26 @@ def get_outfit_recommendation(
     wind_ms: float,
     surface_score: int = 100,
     freeze_risk: bool = False,
+    is_night: bool = False,
 ) -> Tuple[str, str]:
-    """기온, 체감온도, 강수량, 결빙 위험에 따른 상하의 복장 및 러닝화 추천 가이드를 반환합니다."""
+    """기온, 체감온도, 주/야간 구분, 강수량, 결빙 위험에 따른 상하의 복장 및 러닝화 추천 가이드를 반환합니다."""
     t = apparent if apparent is not None else temp_c
     parts_ko = []
     parts_en = []
 
-    # 1) 상하의 복장 추천
+    # 1) 주간/야간 차양 및 자외선/반사 의류 분기
+    sun_gear_ko = " (야간 반사 밴드/리플렉티브 의류 🌙)" if is_night else " (선크림·햇빛 차단 모자 필수 ☀️)"
+    sun_gear_en = " (Reflective gear recommended 🌙)" if is_night else " (Sunscreen & cap required ☀️)"
+
+    # 2) 상하의 복장 추천
     if t >= 27:
-        parts_ko.append("👕 싱글렛/민소매 + 초경량 러닝 숏츠 (선크림·모자 필수)")
-        parts_en.append("👕 Singlet & ultra-light shorts (Sunscreen & cap required)")
+        parts_ko.append(f"👕 싱글렛/민소매 + 초경량 러닝 숏츠{sun_gear_ko}")
+        parts_en.append(f"👕 Singlet & ultra-light shorts{sun_gear_en}")
     elif t >= 20:
-        parts_ko.append("👕 통풍 좋은 반팔 T셔츠 + 러닝 숏츠")
-        parts_en.append("👕 Breathable short-sleeve T-shirt & running shorts")
+        day_sun_ko = " (선크림 착용 권장 ☀️)" if not is_night else " (야간 반사 밴드 🌙)"
+        day_sun_en = " (Sunscreen recommended ☀️)" if not is_night else " (Reflective band 🌙)"
+        parts_ko.append(f"👕 통풍 좋은 반팔 T셔츠 + 러닝 숏츠{day_sun_ko}")
+        parts_en.append(f"👕 Breathable short-sleeve T-shirt & running shorts{day_sun_en}")
     elif t >= 13:
         parts_ko.append("👕 반팔 또는 얇은 긴팔 + 러닝 숏츠 (러닝 최적 복장)")
         parts_en.append("👕 Short/thin long sleeves & shorts (Optimal running gear)")
@@ -38,7 +45,7 @@ def get_outfit_recommendation(
         parts_ko.append("👕 방한 자켓 + 방풍 타이츠 + 귀마개·장갑·넥워머 필수")
         parts_en.append("👕 Thermal jacket, windproof tights, gloves, beanie & neck warmer")
 
-    # 2) 상황별 러닝화(Shoes) 및 전용 용품 추천
+    # 3) 상황별 러닝화(Shoes) 및 전용 용품 추천
     if freeze_risk:
         parts_ko.append("👟 추천 러닝화: 트레일러닝화(Trail shoes) 또는 아이젠/접지 강화화 (카본 레이싱화 절대 금지 🚨)")
         parts_en.append("👟 Shoes: Trail running shoes or high-traction shoes (AVOID carbon racing shoes 🚨)")
@@ -67,8 +74,9 @@ def get_pace_and_running_tip(
     surface_score: int,
     freeze_risk: bool = False,
     rain_mm: float = 0.0,
+    is_night: bool = False,
 ) -> Tuple[str, str]:
-    """강수량, 빙판 위험, 무더위, 한파 등을 정밀 반영한 페이스 및 안전 가이드를 제공합니다."""
+    """강수량, 빙판 위험, 무더위, 한파, 주/야간 시야를 정밀 반영한 페이스 및 안전 가이드를 제공합니다."""
     tips_ko = []
     tips_en = []
 
@@ -96,13 +104,17 @@ def get_pace_and_running_tip(
         tips_ko.append("🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요.")
         tips_en.append("🏃‍♂️ [Optimal Temp] Great running environment. Maintain your target pace after a proper warmup.")
 
-    # 3) 노면 및 바람 상태
+    # 3) 노면, 바람, 야간 안전
     if surface_score <= 50:
         tips_ko.append("☔ 노면이 젖어있으므로 코너링 시 속도를 줄이고 내리막/만곡 보도블럭 구간에서 발목 착지에 유의하세요.")
         tips_en.append("☔ Wet surface. Slow down on turns and exercise ankle care on slippery downhills.")
     elif wind_ms >= 5.5:
         tips_ko.append("💨 맞바람이 강하므로 시선과 상체를 약간 낮추고, 크루원들과 그룹 주행 시 팩 후미에서 체력을 안배하세요.")
         tips_en.append("💨 Strong headwinds. Lean slightly forward and draft behind your running pack to save energy.")
+
+    if is_night:
+        tips_ko.append("🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.")
+        tips_en.append("🌙 [Night Running Safety] Wear reflective gear or LED band for visibility and traffic safety.")
 
     if air_score <= 55:
         tips_ko.append("😷 공기질 나쁨 수준입니다. 대량의 호흡이 필요한 인터벌/빌드업 훈련은 자제하는 편이 좋습니다.")
