@@ -60,7 +60,9 @@
       "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
       "outfit_en": "Breathable running gear recommended",
       "pace_tip_ko": "체온 조절이 용이한 기온입니다. 충분한 워밍업 후 목표 페이스 유지를 시도해보세요. 노면이 젖어있으므로 코너링 및 보도블럭 구간에서 슬립에 주의하세요.",
-      "pace_tip_en": "Adjust pace according to weather conditions."
+      "pace_tip_en": "Adjust pace according to weather conditions.",
+      "location_ko": "수원시 권선구 서둔동",
+      "location_en": "Seodun-dong, Suwon"
     },
     {
       "id": "youth-center",
@@ -125,7 +127,9 @@
       "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
       "outfit_en": "Breathable running gear recommended",
       "pace_tip_ko": "습도와 기온이 높아 땀 증발이 느립니다. 기존 목표 페이스보다 15~30초 낮추고 15분마다 수분을 섭취하세요.",
-      "pace_tip_en": "Adjust pace according to weather conditions."
+      "pace_tip_en": "Adjust pace according to weather conditions.",
+      "location_ko": "수원시 팔달구 인계동",
+      "location_en": "Ingye-dong, Suwon"
     },
     {
       "id": "gwanggyo-lake-park",
@@ -186,7 +190,9 @@
       "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
       "outfit_en": "Breathable running gear recommended",
       "pace_tip_ko": "체온 조절이 용이한 기온입니다. 충분한 워밍업 후 목표 페이스 유지를 시도해보세요.",
-      "pace_tip_en": "Adjust pace according to weather conditions."
+      "pace_tip_en": "Adjust pace according to weather conditions.",
+      "location_ko": "수원시 영통구 하동",
+      "location_en": "Ha-dong, Suwon"
     },
     {
       "id": "skku",
@@ -247,7 +253,9 @@
       "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
       "outfit_en": "Breathable running gear recommended",
       "pace_tip_ko": "체온 조절이 용이한 기온입니다. 충분한 워밍업 후 목표 페이스 유지를 시도해보세요. 노면이 젖어있으므로 코너링 및 보도블럭 구간에서 슬립에 주의하세요.",
-      "pace_tip_en": "Adjust pace according to weather conditions."
+      "pace_tip_en": "Adjust pace according to weather conditions.",
+      "location_ko": "수원시 장안구 율전동",
+      "location_en": "Yuljeon-dong, Suwon"
     },
     {
       "id": "woncheon-stream-sindong",
@@ -312,7 +320,9 @@
       "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
       "outfit_en": "Breathable running gear recommended",
       "pace_tip_ko": "습도와 기온이 높아 땀 증발이 느립니다. 기존 목표 페이스보다 15~30초 낮추고 15분마다 수분을 섭취하세요.",
-      "pace_tip_en": "Adjust pace according to weather conditions."
+      "pace_tip_en": "Adjust pace according to weather conditions.",
+      "location_ko": "수원시 영통구 신동",
+      "location_en": "Sin-dong, Suwon"
     },
     {
       "id": "paldalsan-hwaseong",
@@ -377,7 +387,9 @@
       "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
       "outfit_en": "Breathable running gear recommended",
       "pace_tip_ko": "습도와 기온이 높아 땀 증발이 느립니다. 기존 목표 페이스보다 15~30초 낮추고 15분마다 수분을 섭취하세요.",
-      "pace_tip_en": "Adjust pace according to weather conditions."
+      "pace_tip_en": "Adjust pace according to weather conditions.",
+      "location_ko": "수원시 팔달구 행궁동",
+      "location_en": "Haenggung-dong, Suwon"
     },
     {
       "id": "suwon-stream",
@@ -442,7 +454,9 @@
       "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
       "outfit_en": "Breathable running gear recommended",
       "pace_tip_ko": "습도와 기온이 높아 땀 증발이 느립니다. 기존 목표 페이스보다 15~30초 낮추고 15분마다 수분을 섭취하세요.",
-      "pace_tip_en": "Adjust pace according to weather conditions."
+      "pace_tip_en": "Adjust pace according to weather conditions.",
+      "location_ko": "수원시 팔달구 지동",
+      "location_en": "Ji-dong, Suwon"
     },
     {
       "id": "gwanggyo-mountain",
@@ -503,7 +517,9 @@
       "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
       "outfit_en": "Breathable running gear recommended",
       "pace_tip_ko": "체온 조절이 용이한 기온입니다. 충분한 워밍업 후 목표 페이스 유지를 시도해보세요.",
-      "pace_tip_en": "Adjust pace according to weather conditions."
+      "pace_tip_en": "Adjust pace according to weather conditions.",
+      "location_ko": "수원시 장안구 하광교동",
+      "location_en": "Hagwanggyo-dong, Suwon"
     },
     {
       "id": "suwon-worldcup",
@@ -564,7 +580,9 @@
       "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
       "outfit_en": "Breathable running gear recommended",
       "pace_tip_ko": "체온 조절이 용이한 기온입니다. 충분한 워밍업 후 목표 페이스 유지를 시도해보세요.",
-      "pace_tip_en": "Adjust pace according to weather conditions."
+      "pace_tip_en": "Adjust pace according to weather conditions.",
+      "location_ko": "수원시 팔달구 우만동",
+      "location_en": "Uman-dong, Suwon"
     },
     {
       "id": "dongtan-yeoul-park",
@@ -625,7 +643,9 @@
       "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
       "outfit_en": "Breathable running gear recommended",
       "pace_tip_ko": "습도와 기온이 높아 땀 증발이 느립니다. 기존 목표 페이스보다 15~30초 낮추고 15분마다 수분을 섭취하세요.",
-      "pace_tip_en": "Adjust pace according to weather conditions."
+      "pace_tip_en": "Adjust pace according to weather conditions.",
+      "location_ko": "화성시 동탄 오산동",
+      "location_en": "Osan-dong, Dongtan"
     },
     {
       "id": "yeongheung-forest-park",
@@ -690,7 +710,9 @@
       "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
       "outfit_en": "Breathable running gear recommended",
       "pace_tip_ko": "습도와 기온이 높아 땀 증발이 느립니다. 기존 목표 페이스보다 15~30초 낮추고 15분마다 수분을 섭취하세요.",
-      "pace_tip_en": "Adjust pace according to weather conditions."
+      "pace_tip_en": "Adjust pace according to weather conditions.",
+      "location_ko": "수원시 영통구 원천동",
+      "location_en": "Woncheon-dong, Suwon"
     },
     {
       "id": "majung-park",
@@ -755,7 +777,9 @@
       "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
       "outfit_en": "Breathable running gear recommended",
       "pace_tip_ko": "습도와 기온이 높아 땀 증발이 느립니다. 기존 목표 페이스보다 15~30초 낮추고 15분마다 수분을 섭취하세요.",
-      "pace_tip_en": "Adjust pace according to weather conditions."
+      "pace_tip_en": "Adjust pace according to weather conditions.",
+      "location_ko": "수원시 권선구 세류동",
+      "location_en": "Seryu-dong, Suwon"
     }
   ]
 }

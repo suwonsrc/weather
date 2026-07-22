@@ -182,12 +182,16 @@ function renderCourseCard(info) {
     ? `https://www.google.com/maps/search/?api=1&query=${lat},${lon}`
     : null;
 
+  const locationText = currentLang === "ko" 
+    ? (info.location_ko || "수원시 코스") 
+    : (info.location_en || "Suwon Area");
+
   div.innerHTML = `
     <div>
       <div class="card-header-row">
         <div class="course-name-box">
           <h2 class="course-name">${displayName}</h2>
-          <span class="course-location-sub">GPS ${lat ? lat.toFixed(3) : ''}, ${lon ? lon.toFixed(3) : ''}</span>
+          <span class="course-location-sub">📍 ${locationText}</span>
         </div>
         ${createScoreGaugeSvg(info.run_score ?? 0)}
       </div>
@@ -249,7 +253,7 @@ function renderCourseCard(info) {
     </div>
 
     <div class="card-bottom-bar">
-      <span class="location-coords">수원/경기 코스</span>
+      <span class="location-coords">GPS: ${lat ? lat.toFixed(3) : ''}, ${lon ? lon.toFixed(3) : ''}</span>
       ${googleLink ? `<a href="${googleLink}" target="_blank" rel="noopener" class="map-btn">${uiText.openMap[currentLang]}</a>` : ""}
     </div>
   `;
