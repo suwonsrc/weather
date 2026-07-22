@@ -6,43 +6,82 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
-    <title>SRC Weather</title>
+    <title>SRC Weather - 러너 전용 코스 컨디션 보드</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Pretendard:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="app">
+    <div class="app-container">
+      <!-- 헤더 영역 -->
       <header class="app-header">
-        <div>
-          <h1 id="app-title">SRC Weather Info</h1>
-          <p id="app-subtitle">Current course conditions for SRC runner</p>
-        </div>
-        <div class="lang-switch">
-          <button class="lang-btn active" data-lang="ko">한</button>
-          <button class="lang-btn" data-lang="en">EN</button>
-        </div>
-          <div class="src-logo">
-            <img src="images/src-logo.png" alt="SRC logo">
+        <div class="header-main">
+          <div class="brand">
+            <div class="brand-title-wrap">
+              <span class="pulse-dot"></span>
+              <h1 id="app-title">SRC Weather</h1>
+            </div>
+            <p id="app-subtitle">SRC 러너들을 위한 수원 주요 코스 쾌적도 보드</p>
           </div>
+          <div class="header-right">
+            <div class="lang-switch">
+              <button class="lang-btn active" data-lang="ko">한</button>
+              <button class="lang-btn" data-lang="en">EN</button>
+            </div>
+            <div class="src-logo">
+              <img src="images/src-logo.png" alt="SRC logo" />
+            </div>
+          </div>
+        </div>
       </header>
 
-      <main>
-        <section class="status-card">
-          <div id="status">
-            <p>Loading the weather data for SRC runners…</p>
+      <main class="main-content">
+        <!-- 상태 개요 카너 -->
+        <section class="status-banner">
+          <div id="status" class="status-inner">
+            <p>SRC 러너용 기상 정보 불러오는 중…</p>
+          </div>
+          <div id="course-list-updated" class="course-list-updated"></div>
+        </section>
+
+        <!-- 필터 & 검색 툴바 -->
+        <section class="toolbar">
+          <div class="search-box">
+            <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="course-search" placeholder="코스명 검색..." />
+          </div>
+          <div class="filter-tabs">
+            <button class="tab-btn active" data-filter="all" id="tab-all">전체</button>
+            <button class="tab-btn" data-filter="great" id="tab-great">🟢 최적 (80+)</button>
+            <button class="tab-btn" data-filter="caution" id="tab-caution">🟡 주의</button>
+          </div>
+          <div class="sort-select-wrap">
+            <select id="course-sort">
+              <option value="score-desc" id="opt-score-desc">🏆 점수 높은 순</option>
+              <option value="score-asc" id="opt-score-asc">⚠️ 점수 낮은 순</option>
+              <option value="name" id="opt-name">🔤 코스 이름순</option>
+            </select>
           </div>
         </section>
 
-        <section class="course-list">
-          <h2 id="course-list-title">Current course conditions</h2>
-          <div id="course-list-updated" class="course-list-updated"></div>
-          <div id="courses" class="course-grid">          
-            <!-- JS(app.js)에서 코스 카드가 들어옵니다 -->
+        <!-- 코스 카드 리스트 -->
+        <section class="course-section">
+          <div id="courses" class="course-grid">
+            <!-- app.js에서 생성된 동적 카드 삽입 -->
           </div>
         </section>
       </main>
 
       <footer class="app-footer">
-        Powered by KMA, Run with SRC!
+        Powered by KMA & AirKorea · Run with <strong>SRC</strong>!
       </footer>
     </div>
 

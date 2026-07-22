@@ -1,58 +1,81 @@
 let currentLang = "ko";
 let LAST_DATA = null;
+let currentFilter = "all";
+let currentSort = "score-desc";
+let searchQuery = "";
 
 const statusEl = document.getElementById("status");
 const coursesEl = document.getElementById("courses");
 const appTitleEl = document.getElementById("app-title");
 const appSubtitleEl = document.getElementById("app-subtitle");
-const courseListTitleEl = document.getElementById("course-list-title");
-const courseListUpdatedEl = document.getElementById("course-list-updated"); // ✅ 추가
+const courseListUpdatedEl = document.getElementById("course-list-updated");
 
+// 필터 및 검색 요소
+const searchInput = document.getElementById("course-search");
+const tabAll = document.getElementById("tab-all");
+const tabGreat = document.getElementById("tab-great");
+const tabCaution = document.getElementById("tab-caution");
+const sortSelect = document.getElementById("course-sort");
+const optScoreDesc = document.getElementById("opt-score-desc");
+const optScoreAsc = document.getElementById("opt-score-asc");
+const optName = document.getElementById("opt-name");
 
-// 절대 경로 + 캐시 방지
-const JSON_URL =
-  "https://jcoderain.github.io/src-weather/data/src_weather.json";
-
-// ✅ wind_speed 값의 단위 설정
-// true  => src_weather.json 의 wind_speed 가 m/s 라고 가정
-// false => src_weather.json 의 wind_speed 가 km/h 라고 가정 (자동으로 m/s 로 환산해서 표시)
-const WIND_SOURCE_IS_MS = true;
+const JSON_URL = "https://jcoderain.github.io/src-weather/data/src_weather.json";
 
 const uiText = {
   appTitle: {
-    ko: "SRC 날씨 정보",
-    en: "SRC Weather Information",
+    ko: "SRC Weather",
+    en: "SRC Weather",
   },
   appSubtitle: {
-    ko: "SRC 러너들을 위한 현재 코스 상황",
+    ko: "SRC 러너들을 위한 수원 주요 코스 쾌적도 보드",
     en: "Current course conditions for SRC runners",
   },
-  courseListTitle: {
-    ko: "코스별 현재 상황",
-    en: "Current conditions by course",
-  },
   statusLoading: {
-    ko: "SRC 러너용 날씨 데이터를 불러오는 중…",
+    ko: "SRC 러너용 기상 데이터를 불러오는 중…",
     en: "Loading weather data for SRC runners…",
   },
   statusLoaded: (count) => ({
-    ko: `SRC의 주요 ${count}개 코스의 날씨를 불러왔습니다. 화이팅! 🏃‍♂️`,
-    en: `Loaded conditions for SRC major ${count} courses. Fighting! 🏃‍♂️`,
+    ko: `SRC 주요 ${count}개 코스의 쾌적도를 모니터링 중입니다. 🏃‍♂️`,
+    en: `Monitoring conditions for ${count} SRC major courses. 🏃‍♂️`,
   }),
   fail: {
     ko: "코스 데이터를 불러오는데 실패했습니다. 잠시 후 다시 시도해 주세요.",
     en: "Failed to load course data. Please try again later.",
   },
-  airQualityLabel: {
-    ko: "공기질",
-    en: "Air quality",
+  outfitTitle: {
+    ko: "👕 추천 복장 가이드",
+    en: "👕 Outfit Guide",
   },
+  paceTitle: {
+    ko: "⏱️ 러닝 페이스 & 안전 팁",
+    en: "⏱️ Pace & Safety Tip",
+  },
+  tempLabel: { ko: "기온 / 체감", en: "Air / Feels" },
+  windLabel: { ko: "바람", en: "Wind" },
+  precipLabel: { ko: "습도 / 예보강수", en: "Hum / Forecast Rain" },
+  airLabel: { ko: "공기질 (PM)", en: "Air Quality" },
+  openMap: { ko: "구글맵 지점 보기 📍", en: "View on Google Maps 📍" },
+  tabAll: { ko: "전체", en: "All" },
+  tabGreat: { ko: "🟢 최적 (80+)", en: "🟢 Optimal (80+)" },
+  tabCaution: { ko: "🟡 주의", en: "🟡 Caution" },
+  sortScoreDesc: { ko: "🏆 점수 높은 순", en: "🏆 Highest Score" },
+  sortScoreAsc: { ko: "⚠️ 점수 낮은 순", en: "⚠️ Lowest Score" },
+  sortName: { ko: "🔤 코스 이름순", en: "🔤 Course Name" },
+  searchPlaceholder: { ko: "코스명 검색...", en: "Search course..." }
 };
 
 function applyLanguage() {
   appTitleEl.textContent = uiText.appTitle[currentLang];
   appSubtitleEl.textContent = uiText.appSubtitle[currentLang];
-  courseListTitleEl.textContent = uiText.courseListTitle[currentLang];
+  
+  if (tabAll) tabAll.textContent = uiText.tabAll[currentLang];
+  if (tabGreat) tabGreat.textContent = uiText.tabGreat[currentLang];
+  if (tabCaution) tabCaution.textContent = uiText.tabCaution[currentLang];
+  if (optScoreDesc) optScoreDesc.textContent = uiText.sortScoreDesc[currentLang];
+  if (optScoreAsc) optScoreAsc.textContent = uiText.sortScoreAsc[currentLang];
+  if (optName) optName.textContent = uiText.sortName[currentLang];
+  if (searchInput) searchInput.placeholder = uiText.searchPlaceholder[currentLang];
 
   document.querySelectorAll(".lang-btn").forEach((btn) => {
     const lang = btn.dataset.lang;
@@ -60,45 +83,26 @@ function applyLanguage() {
     else btn.classList.remove("active");
   });
 
-  // ✅ 언어 바꿀 때 status 문구도 다시 렌더
   renderStatus();
-  renderUpdatedAt(); // ✅ 언어 바뀔 때도 같이 갱신
+  renderUpdatedAt();
+  renderAllCourses();
 }
 
-// "2025-11-26T21:00" 같은 문자열을 한/영으로 포맷
 function formatUpdatedAtLocalized(isoLikeStr) {
   if (!isoLikeStr) return "";
-
   const [datePart, timePart] = isoLikeStr.split("T");
   if (!datePart || !timePart) return "";
-
   const [y, m, d] = datePart.split("-");
   const [hh, mm] = timePart.split(":");
-
-  const pad2 = (v) => String(v).padStart(2, "0");  // ✅ 여기서 pad2 정의
+  const pad2 = (v) => String(v).padStart(2, "0");
 
   if (currentLang === "ko") {
-    // 시/분 모두 2자리로 (21시 00분)
-    return `${y}년 ${Number(m)}월 ${Number(d)}일 ${pad2(hh)}시 ${pad2(mm)}분에 업데이트됨`;
+    return `${y}년 ${Number(m)}월 ${Number(d)}일 ${pad2(hh)}시 ${pad2(mm)}분 KMA 수집 기준`;
   } else {
-    // 2025-11-26 21:00 (KST)
     return `Updated at ${y}-${pad2(m)}-${pad2(d)} ${pad2(hh)}:${pad2(mm)} (KST)`;
   }
 }
 
-// KST 기준 겨울철(12/1~3/31)인지 확인
-function isSnowSeason(dateObj) {
-  const kstNow =
-    dateObj ||
-    new Date(
-      new Date().toLocaleString("en-US", { timeZone: "Asia/Seoul" })
-    );
-  const month = kstNow.getMonth() + 1; // 1-12
-  return month === 12 || month <= 3;
-}
-
-
-// 공통 updated_at (첫 코스 기준) 가져오기
 function getCommonUpdatedAt() {
   if (!LAST_DATA) return null;
   const courses = LAST_DATA.courses || [];
@@ -106,7 +110,6 @@ function getCommonUpdatedAt() {
   return courses[0].updated_at || null;
 }
 
-// 실제로 DOM에 렌더
 function renderUpdatedAt() {
   if (!courseListUpdatedEl) return;
   const iso = getCommonUpdatedAt();
@@ -117,280 +120,257 @@ function renderUpdatedAt() {
   courseListUpdatedEl.textContent = formatUpdatedAtLocalized(iso);
 }
 
-// ✅ 풍향(deg)을 한/영 텍스트로 변환
 function windDirectionToText(deg) {
-  if (deg === null || deg === undefined) return "-";
+  if (deg == null) return "-";
   const dirsKo = ["북", "북동", "동", "남동", "남", "남서", "서", "북서"];
   const dirsEn = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"];
   const idx = Math.round((deg % 360) / 45) % 8;
   return currentLang === "ko" ? dirsKo[idx] : dirsEn[idx];
 }
 
-// ✅ 풍속 포맷팅 (단위 변환 포함)
-function formatWindText(speed, deg) {
-  if (speed == null) return "-";
-
-  let valueMs;
-  if (WIND_SOURCE_IS_MS) {
-    valueMs = speed;
-  } else {
-    // JSON 이 km/h 라면 m/s 로 변환
-    valueMs = speed / 3.6;
-  }
-
-  const dirText = windDirectionToText(deg);
-  const unitLabel = "m/s"; // 화면에는 m/s 기준으로 표시
-
-  return `${dirText} ${valueMs.toFixed(1)} ${unitLabel}`;
+function getScoreColor(score) {
+  if (score >= 80) return "#10b981"; // Emerald
+  if (score >= 60) return "#3b82f6"; // Blue
+  if (score >= 40) return "#f59e0b"; // Amber
+  return "#ef4444"; // Red
 }
 
-// (지금은 안 쓰이지만 놔둬도 상관 없음)
-function badgeClass(level) {
-  switch (level) {
-    case "good":
-      return "badge badge-good";
-    case "wet":
-      return "badge badge-wet";
-    case "bad":
-      return "badge badge-bad";
-    default:
-      return "badge";
-  }
+function createScoreGaugeSvg(score) {
+  const color = getScoreColor(score);
+  const radius = 22;
+  const circumference = 2 * Math.PI * radius;
+  const strokeDashoffset = circumference - (score / 100) * circumference;
+
+  return `
+    <div class="score-gauge-wrap">
+      <svg class="gauge-svg" viewBox="0 0 52 52">
+        <circle class="gauge-bg" cx="26" cy="26" r="${radius}"></circle>
+        <circle class="gauge-fill" cx="26" cy="26" r="${radius}" 
+          stroke="${color}" 
+          stroke-dasharray="${circumference}" 
+          stroke-dashoffset="${strokeDashoffset}"></circle>
+      </svg>
+      <span class="gauge-score-val" style="color: ${color}">${score ?? "?"}</span>
+    </div>
+  `;
 }
 
-// ✅ run_score 색상 클래스 결정
-function runScoreClass(score) {
-  if (score == null) return "run-score run-score-unknown";
-  if (score >= 80) return "run-score run-score-great"; // 매우 좋음
-  if (score >= 60) return "run-score run-score-good"; // 괜찮음
-  if (score >= 40) return "run-score run-score-caution"; // 주의
-  return "run-score run-score-bad"; // 비추천
-}
-
-// ✅ 미세먼지/초미세먼지 등급 분류
-function classifyPm10(value) {
-  if (value == null) return null;
-  if (value <= 30) return { level: "good", ko: "좋음", en: "Good" };
-  if (value <= 80) return { level: "moderate", ko: "보통", en: "Moderate" };
-  if (value <= 150) return { level: "bad", ko: "나쁨", en: "Bad" };
-  return { level: "very-bad", ko: "매우 나쁨", en: "Very bad" };
-}
-
-function classifyPm25(value) {
-  if (value == null) return null;
-  if (value <= 15) return { level: "good", ko: "좋음", en: "Good" };
-  if (value <= 35) return { level: "moderate", ko: "보통", en: "Moderate" };
-  if (value <= 75) return { level: "bad", ko: "나쁨", en: "Bad" };
-  return { level: "very-bad", ko: "매우 나쁨", en: "Very bad" };
-}
-
-function buildGoogleMapLink(lat, lon) {
-  if (lat == null || lon == null) return null;
-  return `https://www.google.com/maps/search/?api=1&query=${lat},${lon}`;
-}
-
-// ✅ 공기질 한 줄 HTML 생성
-function buildAirQualityHtml(info) {
-  const pm10 = info.pm10;
-  const pm25 = info.pm25;
-
-  if (pm10 == null && pm25 == null) {
-    return "";
-  }
-
-  const pm10Info = classifyPm10(pm10);
-  const pm25Info = classifyPm25(pm25);
-
-  const label = uiText.airQualityLabel[currentLang];
-  const unit = "㎍/m³";
-
-  const pm10Text =
-    pm10 != null && pm10Info
-      ? `PM10 ${pm10.toFixed(0)} ${unit} (${
-          currentLang === "ko" ? pm10Info.ko : pm10Info.en
-        })`
-      : "";
-
-  const pm25Text =
-    pm25 != null && pm25Info
-      ? `PM2.5 ${pm25.toFixed(0)} ${unit} (${
-          currentLang === "ko" ? pm25Info.ko : pm25Info.en
-        })`
-      : "";
-
-  const parts = [pm10Text, pm25Text].filter((x) => x);
-
-  if (!parts.length) return "";
-
-  return `<div>${label} · ${parts.join(" · ")}</div>`;
+function classifyAirQualityText(pm10, pm25) {
+  if (pm10 == null && pm25 == null) return "-";
+  const pm10Str = pm10 != null ? `PM10 ${pm10.toFixed(0)}` : "";
+  const pm25Str = pm25 != null ? `PM2.5 ${pm25.toFixed(0)}` : "";
+  const parts = [pm10Str, pm25Str].filter(Boolean).join(" · ");
+  return parts;
 }
 
 function renderCourseCard(info) {
   const div = document.createElement("div");
   div.className = "course-card";
 
-  // 이름 한/영
-  const displayName =
-    currentLang === "ko"
-      ? info.name_ko || info.name
-      : info.name_en || info.name;
+  const displayName = currentLang === "ko" ? (info.name_ko || info.name) : (info.name_en || info.name);
+  const windDirText = windDirectionToText(info.wind_direction);
+  const windSpeedText = info.wind_speed != null ? `${info.wind_speed.toFixed(1)}m/s` : "-";
+  
+  const temp = info.temperature != null ? info.temperature.toFixed(1) : "-";
+  const apparent = info.apparent_temperature != null ? info.apparent_temperature.toFixed(1) : "-";
+  const humidity = info.humidity != null ? `${info.humidity.toFixed(0)}%` : "60%";
+  const forecastRain = info.forecast_rain_3h != null ? `${info.forecast_rain_3h.toFixed(1)}mm` : "0.0mm";
+  
+  const airText = classifyAirQualityText(info.pm10, info.pm25);
 
-  const windText = formatWindText(info.wind_speed, info.wind_direction);
+  const outfit = currentLang === "ko" 
+    ? (info.outfit_ko || "반팔 T셔츠 + 러닝 숏츠") 
+    : (info.outfit_en || "Short sleeves & running shorts");
 
-  // 태그는 원래대로(온도/바람/노면 모두) 사용
-  const tags =
-    currentLang === "ko" ? info.tags_ko || [] : info.tags_en || [];
+  const paceTip = currentLang === "ko"
+    ? (info.pace_tip_ko || info.advice_detail_ko || "컨디션에 따라 페이스를 조절하세요.")
+    : (info.pace_tip_en || info.advice_detail_en || "Adjust pace according to weather conditions.");
 
-  const adviceShort =
-    currentLang === "ko" ? info.advice_short_ko : info.advice_short_en;
-  const adviceDetail =
-    currentLang === "ko" ? info.advice_detail_ko : info.advice_detail_en;
-
-  const lat = info.lat ?? info.latitude;
-  const lon = info.lon ?? info.longitude;
-  const googleLink = buildGoogleMapLink(lat, lon);
-
-  const windTag =
-    currentLang === "ko"
-      ? (info.tags_ko && info.tags_ko[1]) || null
-      : (info.tags_en && info.tags_en[1]) || null;
-  const airTag =
-    currentLang === "ko"
-      ? info.tags_ko && info.tags_ko.length > 3
-        ? info.tags_ko[3]
-        : null
-      : info.tags_en && info.tags_en.length > 3
-        ? info.tags_en[3]
-        : null;
-
-  const runLabel = currentLang === "ko" ? "러닝 지수" : "Run index";
-  const tempLabel = currentLang === "ko" ? "현재 기온" : "Air temp";
-  const feelsLabel = currentLang === "ko" ? "체감" : "Feels like";
-  const windLabel = currentLang === "ko" ? "바람" : "Wind";
-  const rainNowLabel = currentLang === "ko" ? "현재 비" : "Rain now";
-  const rain3hLabel =
-    currentLang === "ko" ? "최근 3시간 비" : "Rain (last 3h)";
-  const snowNowLabel = currentLang === "ko" ? "현재 눈" : "Snow now";
-  const snow3hLabel =
-    currentLang === "ko" ? "최근 3시간 눈" : "Snow (last 3h)";
-
-  const airQualityHtml = buildAirQualityHtml(info);
-  const rainNow = Number(info.rain_now ?? 0);
-  const rain3h = Number(info.recent_rain_3h ?? 0);
-  const snowNow = Number(info.snow_now ?? 0);
-  const snow3h = Number(info.recent_snow_3h ?? 0);
-  const showSnow = isSnowSeason();
+  const tags = currentLang === "ko" ? (info.tags_ko || []) : (info.tags_en || []);
+  const googleLink = info.lat != null && info.lon != null 
+    ? `https://www.google.com/maps/search/?api=1&query=${info.lat},${info.lon}`
+    : null;
 
   div.innerHTML = `
-    <div class="course-title">
-      <span>${displayName}</span>
-      <!-- ✅ 여기 원래 노면 건조가 있던 자리에 run_score 하이라이트 -->
-      <span class="${runScoreClass(info.run_score)}">${info.run_score ?? "?"}</span>
+    <div>
+      <!-- 상단 제목 & 점수 게이지 -->
+      <div class="card-header-row">
+        <div class="course-name-box">
+          <h2 class="course-name">${displayName}</h2>
+          <span class="course-location-sub">${info.lat ? info.lat.toFixed(4) : ''}, ${info.lon ? info.lon.toFixed(4) : ''}</span>
+        </div>
+        ${createScoreGaugeSvg(info.run_score ?? 0)}
+      </div>
+
+      <!-- 4구획 메트릭 카너 -->
+      <div class="metrics-grid">
+        <div class="metric-item">
+          <span class="metric-icon">🌡️</span>
+          <div class="metric-data">
+            <span class="metric-label">${uiText.tempLabel[currentLang]}</span>
+            <span class="metric-val">${temp}°C <span style="font-weight:400; font-size:0.75rem; color:#94a3b8;">(${apparent}°C)</span></span>
+          </div>
+        </div>
+
+        <div class="metric-item">
+          <span class="metric-icon">💨</span>
+          <div class="metric-data">
+            <span class="metric-label">${uiText.windLabel[currentLang]}</span>
+            <span class="metric-val">${windDirText} ${windSpeedText}</span>
+          </div>
+        </div>
+
+        <div class="metric-item">
+          <span class="metric-icon">💧</span>
+          <div class="metric-data">
+            <span class="metric-label">${uiText.precipLabel[currentLang]}</span>
+            <span class="metric-val">${humidity} · ${forecastRain}</span>
+          </div>
+        </div>
+
+        <div class="metric-item">
+          <span class="metric-icon">😷</span>
+          <div class="metric-data">
+            <span class="metric-label">${uiText.airLabel[currentLang]}</span>
+            <span class="metric-val">${airText}</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 태그 그룹 -->
+      <div class="tags-group">
+        ${tags.map(t => {
+          let extraClass = "";
+          if (t.includes("좋음") || t.includes("최적") || t.includes("Good") || t.includes("Optimal")) extraClass = "tag-great";
+          else if (t.includes("주의") || t.includes("Caution") || t.includes("젖음")) extraClass = "tag-caution";
+          else if (t.includes("위험") || t.includes("나쁨") || t.includes("Extreme")) extraClass = "tag-risk";
+          return `<span class="badge-tag ${extraClass}">${t}</span>`;
+        }).join("")}
+      </div>
+
+      <!-- 가이드 & 팁 영역 -->
+      <div class="advice-section">
+        <div class="advice-card advice-outfit">
+          <div class="advice-title">${uiText.outfitTitle[currentLang]}</div>
+          <div>${outfit}</div>
+        </div>
+        <div class="advice-card advice-pace">
+          <div class="advice-title">${uiText.paceTitle[currentLang]}</div>
+          <div>${paceTip}</div>
+        </div>
+      </div>
     </div>
-    <div class="course-meta">
-      <div class="run-index-row" style="margin-bottom:4px;">
-        <strong>${runLabel}</strong> ${info.run_score ?? "?"}/100
-      </div>
-      ${
-        tags.length
-          ? `<div style="margin-bottom:4px;">
-               ${tags
-                 .map(
-                   (t) =>
-                     `<span class="badge" style="margin-right:4px;">${t}</span>`
-                 )
-                 .join("")}
-             </div>`
-          : ""
-      }
-      <div>
-        ${tempLabel} ${info.temperature.toFixed(
-    1
-  )}°C · ${feelsLabel} ${info.apparent_temperature.toFixed(1)}°C
-      </div>
-      <div>
-        ${windLabel} ${windText}
-      </div>
-      <div>
-        ${rainNowLabel} ${rainNow.toFixed(1)} mm · ${rain3hLabel} ${rain3h.toFixed(1)} mm
-      </div>
-      ${
-        showSnow
-          ? `<div>
-               ${snowNowLabel} ${snowNow.toFixed(1)} mm · ${snow3hLabel} ${snow3h.toFixed(1)} mm
-             </div>`
-          : ""
-      }
-      ${
-        airQualityHtml
-          ? `<div style="margin-top:4px;">${airQualityHtml}</div>`
-          : ""
-      }
-      <div class="location-row">
-        ${
-          lat != null && lon != null
-            ? `<div>${currentLang === "ko" ? "위치" : "Location"} ${lat.toFixed(5)}, ${lon.toFixed(5)}</div>
-               <div class="location-links">
-                 ${
-                   googleLink
-                     ? `<a class="location-link" href="${googleLink}" target="_blank" rel="noopener">
-                          ${currentLang === "ko" ? "구글맵에서 보기" : "Open in Google Maps"}
-                        </a>`
-                     : ""
-                 }
-               </div>`
-            : `<div>${currentLang === "ko" ? "위치 정보 없음" : "No location info"}</div>`
-        }
-      </div>
-      <div class="score-rows">
-        <div class="score-row">
-          <span class="score-label">${currentLang === "ko" ? "바람 점수" : "Wind score"}</span>
-          <span>${info.wind_score ?? "?"}/100 ${windTag ? `· ${windTag}` : ""}</span>
-        </div>
-        <div class="score-row">
-          <span class="score-label">${currentLang === "ko" ? "공기질" : "Air quality"}</span>
-          <span>${info.air_score ?? "?"}/100 ${airTag ? `· ${airTag}` : ""}</span>
-        </div>
-      </div>
-      ${
-        adviceShort || adviceDetail
-          ? `<div class="advice-box">
-               ${adviceShort ? `<div class="advice-short">${adviceShort}</div>` : ""}
-               ${adviceDetail ? `<div class="advice-detail">${adviceDetail}</div>` : ""}
-             </div>`
-          : ""
-      }
+
+    <!-- 카너 하단 구글맵 연동 -->
+    <div class="card-bottom-bar">
+      <span class="location-coords">GPS: ${info.lat ? info.lat.toFixed(3) : ''}, ${info.lon ? info.lon.toFixed(3) : ''}</span>
+      ${googleLink ? `<a href="${googleLink}" target="_blank" rel="noopener" class="map-btn">${uiText.openMap[currentLang]}</a>` : ""}
     </div>
   `;
   return div;
 }
 
+function getFilteredAndSortedCourses() {
+  if (!LAST_DATA || !LAST_DATA.courses) return [];
+  let courses = [...LAST_DATA.courses];
+
+  // 1) 검색어 필터ing
+  if (searchQuery.trim() !== "") {
+    const q = searchQuery.trim().toLowerCase();
+    courses = courses.filter(c => 
+      (c.name_ko && c.name_ko.toLowerCase().includes(q)) ||
+      (c.name_en && c.name_en.toLowerCase().includes(q))
+    );
+  }
+
+  // 2) 탭 필터링
+  if (currentFilter === "great") {
+    courses = courses.filter(c => (c.run_score ?? 0) >= 80);
+  } else if (currentFilter === "caution") {
+    courses = courses.filter(c => (c.run_score ?? 0) < 80);
+  }
+
+  // 3) 정렬
+  if (currentSort === "score-desc") {
+    courses.sort((a, b) => (b.run_score ?? 0) - (a.run_score ?? 0));
+  } else if (currentSort === "score-asc") {
+    courses.sort((a, b) => (a.run_score ?? 0) - (b.run_score ?? 0));
+  } else if (currentSort === "name") {
+    courses.sort((a, b) => (a.name_ko || "").localeCompare(b.name_ko || ""));
+  }
+
+  return courses;
+}
+
 function renderAllCourses() {
   if (!LAST_DATA) return;
-  const courses = LAST_DATA.courses || [];
+  const courses = getFilteredAndSortedCourses();
   coursesEl.innerHTML = "";
+  
+  if (courses.length === 0) {
+    coursesEl.innerHTML = `<div style="grid-column: 1/-1; text-align:center; padding: 40px; color:#94a3b8;">
+      ${currentLang === "ko" ? "조건에 해당하는 러닝 코스가 없습니다." : "No running courses match the criteria."}
+    </div>`;
+    return;
+  }
+
   courses.forEach((info) => {
     coursesEl.appendChild(renderCourseCard(info));
   });
 }
 
 function renderStatus() {
-  // 아직 데이터가 없으면 "로딩 중" 문구
   if (!LAST_DATA) {
     statusEl.innerHTML = `<p>${uiText.statusLoading[currentLang]}</p>`;
     return;
   }
-
-  // 데이터가 있으면 코스 개수 기준 문구
   const courses = LAST_DATA.courses || [];
   const text = uiText.statusLoaded(courses.length)[currentLang];
   statusEl.innerHTML = `<p>${text}</p>`;
 }
 
+function setupEventListeners() {
+  // 언어 스위치
+  document.querySelectorAll(".lang-btn").forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      currentLang = e.target.dataset.lang;
+      applyLanguage();
+    });
+  });
+
+  // 검색
+  if (searchInput) {
+    searchInput.addEventListener("input", (e) => {
+      searchQuery = e.target.value;
+      renderAllCourses();
+    });
+  }
+
+  // 필터 탭
+  [tabAll, tabGreat, tabCaution].forEach(btn => {
+    if (!btn) return;
+    btn.addEventListener("click", (e) => {
+      document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+      e.target.classList.add("active");
+      currentFilter = e.target.dataset.filter;
+      renderAllCourses();
+    });
+  });
+
+  // 정렬
+  if (sortSelect) {
+    sortSelect.addEventListener("change", (e) => {
+      currentSort = e.target.value;
+      renderAllCourses();
+    });
+  }
+}
+
 async function init() {
   try {
+    setupEventListeners();
     applyLanguage();
-    renderStatus(); // ✅ 처음에도 함수로 렌더
+    renderStatus();
 
     const resp = await fetch(`${JSON_URL}?t=${Date.now()}`, {
       cache: "no-store",
@@ -398,28 +378,18 @@ async function init() {
     if (!resp.ok) {
       throw new Error(`HTTP ${resp.status}`);
     }
-
     const data = await resp.json();
     LAST_DATA = data;
 
-    renderStatus(); // ✅ 데이터 받은 뒤에도 다시 호출
-    renderUpdatedAt();   // ✅ 데이터 로딩 후 갱신
+    renderStatus();
+    renderUpdatedAt();
     renderAllCourses();
   } catch (err) {
-    console.error("[weather-init-error]", err);
-    statusEl.innerHTML = `<p>${uiText.fail[currentLang]}</p>`;
+    console.error("Failed to load weather data:", err);
+    if (statusEl) {
+      statusEl.innerHTML = `<p style="color: #ef4444;">${uiText.fail[currentLang]}</p>`;
+    }
   }
 }
 
-// 언어 버튼 이벤트
-document.querySelectorAll(".lang-btn").forEach((btn) => {
-  btn.addEventListener("click", () => {
-    const lang = btn.dataset.lang;
-    if (!lang || lang === currentLang) return;
-    currentLang = lang;
-    applyLanguage();
-    renderAllCourses();
-  });
-});
-
-init();
+document.addEventListener("DOMContentLoaded", init);

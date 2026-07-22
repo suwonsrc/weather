@@ -227,9 +227,9 @@ def parse_pm_value(raw: Any) -> Optional[float]:
 
 def calc_apparent_temperature(temp_c: float, wind_speed_ms: float, humidity: float) -> float:
     """
-    기상청 실황(체감온도 제공 안 함) 값을 이용해 간단히 체감온도를 계산합니다.
+    기상청 실황(체감온도 제공 안 함) 값을 이용해 체감온도를 계산합니다.
     - 추울 때: 캐나다 윈드칠 공식
-    - 더울 때: NOAA Heat Index (섭씨 변환)
+    - 더울 때: NOAA Heat Index 및 고습도 체감 보정
     """
     wind_kmh = wind_speed_ms * 3.6
 
@@ -252,7 +252,98 @@ def calc_apparent_temperature(temp_c: float, wind_speed_ms: float, humidity: flo
         )
         return (hi_f - 32) * 5 / 9
 
+    # 22도 이상이면서 습도가 높은 한국 여름철 날씨 보정
+    if temp_c >= 22 and humidity >= 65:
+        return temp_c + ((humidity - 60) * 0.08)
+
     return temp_c
+
+
+def get_outfit_recommendation(
+    temp_c: float, apparent: float, rain_mm: float, snow_mm: float, wind_ms: float
+) -> Tuple[str, str]:
+    """기온, 체감온도, 강수량에 따른 러너 복장 가이드를 반환합니다."""
+    t = apparent if apparent is not None else temp_c
+    parts_ko = []
+    parts_en = []
+
+    if t >= 27:
+        parts_ko.append("싱글렛/민소매 + 초경량 러닝 숏츠 (선크림·모자 필수)")
+        parts_en.append("Singlet & ultra-light shorts (Sunscreen & cap required)")
+    elif t >= 20:
+        parts_ko.append("통풍 좋은 반팔 T셔츠 + 러닝 숏츠")
+        parts_en.append("Breathable short-sleeve T-shirt & running shorts")
+    elif t >= 13:
+        parts_ko.append("반팔 또는 얇은 긴팔 + 러닝 숏츠 (러닝 최적 복장)")
+        parts_en.append("Short/thin long sleeves & shorts (Optimal running gear)")
+    elif t >= 7:
+        parts_ko.append("긴팔 T셔츠 + 러닝 타이츠/팬츠 (얇은 바람막이 지참 권장)")
+        parts_en.append("Long sleeves & tights (Light windbreaker recommended)")
+    elif t >= 1:
+        parts_ko.append("기모 긴팔 + 방풍 자켓 + 롱타이츠 (얇은 장갑/모자)")
+        parts_en.append("Thermal long sleeves, windproof jacket, tights, gloves & beanie")
+    else:
+        parts_ko.append("방한 자켓 + 방풍 타이츠 + 귀마개·장갑·넥워머 필수")
+        parts_en.append("Thermal jacket, windproof tights, gloves, beanie & neck warmer")
+
+    if rain_mm > 0.5:
+        parts_ko.append("챙모자 / 방수 자켓 착용 추천")
+        parts_en.append("Cap / waterproof jacket recommended")
+    if snow_mm > 0.2:
+        parts_ko.append("접지력 뛰어난 러닝화(트레일화)")
+        parts_en.append("Running shoes with high grip (Trail shoes)")
+
+    return " | ".join(parts_ko), " | ".join(parts_en)
+
+
+def get_pace_and_running_tip(
+    temp_c: float,
+    apparent: float,
+    humidity: float,
+    wind_ms: float,
+    air_score: int,
+    surface_score: int,
+) -> Tuple[str, str]:
+    """기상 조건에 맞춰 러닝 페이스 및 수분 섭취, 안전 팁을 제공합니다."""
+    tips_ko = []
+    tips_en = []
+
+    t = apparent if apparent is not None else temp_c
+
+    if t >= 26 or (t >= 22 and humidity >= 70):
+        tips_ko.append(
+            "습도와 기온이 높아 땀 증발이 느립니다. 기존 목표 페이스보다 15~30초 낮추고 15분마다 수분을 섭취하세요."
+        )
+        tips_en.append(
+            "High heat and humidity slow sweat evaporation. Lower target pace by 15-30s and hydrate every 15m."
+        )
+    elif t <= 0:
+        tips_ko.append(
+            "한기로 인해 심박수가 빠르게 상승합니다. 웜업을 충분히(10~15분) 하고 초반 급가속을 피하세요."
+        )
+        tips_en.append(
+            "Cold air elevates heart rate quickly. Warm up thoroughly (10-15m) and avoid sudden sprints."
+        )
+    else:
+        tips_ko.append(
+            "체온 조절이 용이한 기온입니다. 충분한 워밍업 후 목표 페이스 유지를 시도해보세요."
+        )
+        tips_en.append(
+            "Great temperature for body temp regulation. Maintain target pace after a good warmup."
+        )
+
+    if surface_score <= 60:
+        tips_ko.append("노면이 젖어있으므로 코너링 및 보도블럭·만곡 구간에서 슬립에 주의하세요.")
+        tips_en.append("Surface is wet. Take extra caution on cornering and wet pavements.")
+    elif wind_ms >= 5.0:
+        tips_ko.append("강풍 구간에서는 맞바람 시 상체를 약간 낮추고 그룹 러닝 시 팩 후미에서 체력을 아끼세요.")
+        tips_en.append("In strong winds, lean forward into headwinds or draft behind a running pack.")
+
+    if air_score <= 55:
+        tips_ko.append("공기질 나쁨 수준입니다. 호흡수가 급증하는 고강도 훈련(인터벌)은 자제하는 것이 좋습니다.")
+        tips_en.append("Poor air quality. Avoid high-intensity interval workouts causing heavy breathing.")
+
+    return " ".join(tips_ko), " ".join(tips_en)
 
 
 def build_kma_url(base_url: str, service_key: str) -> str:
@@ -1020,87 +1111,47 @@ def summarize_course_weather(
         if current_air.get("pm2_5") is not None:
             pm25 = float(current_air["pm2_5"])
 
-    pm_for_score = pm25 if pm25 is not None else pm10
-
-    if pm_for_score is not None:
-        # PM2.5 우선 기준
-        if pm25 is not None:
-            v = pm25
-            if v <= 15:
-                air_score = 100
-                air_tag_ko = "공기질 좋음"
-                air_tag_en = "Good air"
-                air_comment_ko = "공기질이 좋아 러닝에 거의 지장이 없습니다."
-                air_comment_en = "Air quality is good with little impact on running."
-            elif v <= 35:
-                air_score = 80
-                air_tag_ko = "공기질 보통"
-                air_tag_en = "Moderate air"
-                air_comment_ko = (
-                    "공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다."
-                )
-                air_comment_en = (
-                    "Air quality is moderate. Consider a mask if you are sensitive to fine dust."
-                )
-            elif v <= 75:
-                air_score = 55
-                air_tag_ko = "공기질 나쁨"
-                air_tag_en = "Bad air"
-                air_comment_ko = (
-                    "공기질이 좋지 않습니다. 호흡기·심혈관 질환이 있다면 강한 야외 러닝은 피하는 것이 좋습니다."
-                )
-                air_comment_en = (
-                    "Air quality is poor. If you have respiratory or heart issues, avoid intense outdoor running."
-                )
-            else:
-                air_score = 30
-                air_tag_ko = "공기질 매우 나쁨"
-                air_tag_en = "Very bad air"
-                air_comment_ko = (
-                    "공기질이 매우 나쁩니다. 가능하면 실외 러닝 대신 실내 운동이나 휴식을 권장합니다."
-                )
-                air_comment_en = (
-                    "Air quality is very poor. Indoor exercise or rest is recommended instead of outdoor running."
-                )
-        # PM10만 있을 때
+    # PM10과 PM2.5 각각 점수 계산 후 최솟값(더 보수적인 점수) 적용
+    score_pm10 = 100
+    score_pm25 = 100
+    if pm10 is not None:
+        if pm10 <= 30:
+            score_pm10 = 100
+        elif pm10 <= 80:
+            score_pm10 = 80
+        elif pm10 <= 150:
+            score_pm10 = 55
         else:
-            v = pm10
-            if v <= 30:
-                air_score = 100
-                air_tag_ko = "공기질 좋음"
-                air_tag_en = "Good air"
-                air_comment_ko = "공기질이 좋아 러닝에 거의 지장이 없습니다."
-                air_comment_en = "Air quality is good with little impact on running."
-            elif v <= 80:
-                air_score = 80
-                air_tag_ko = "공기질 보통"
-                air_tag_en = "Moderate air"
-                air_comment_ko = (
-                    "공기질이 보통 수준입니다. 미세먼지에 민감하다면 마스크를 고려해도 좋습니다."
-                )
-                air_comment_en = (
-                    "Air quality is moderate. Consider a mask if you are sensitive to fine dust."
-                )
-            elif v <= 150:
-                air_score = 55
-                air_tag_ko = "공기질 나쁨"
-                air_tag_en = "Bad air"
-                air_comment_ko = (
-                    "공기질이 좋지 않습니다. 장시간·고강도 야외 러닝은 피하는 것이 좋습니다."
-                )
-                air_comment_en = (
-                    "Air quality is poor. Avoid long or intense outdoor runs."
-                )
-            else:
-                air_score = 30
-                air_tag_ko = "공기질 매우 나쁨"
-                air_tag_en = "Very bad air"
-                air_comment_ko = (
-                    "공기질이 매우 나쁩니다. 가능하면 실외 러닝 대신 실내 운동이나 휴식을 권장합니다."
-                )
-                air_comment_en = (
-                    "Air quality is very poor. Indoor exercise or rest is recommended instead of outdoor running."
-                )
+            score_pm10 = 30
+
+    if pm25 is not None:
+        if pm25 <= 15:
+            score_pm25 = 100
+        elif pm25 <= 35:
+            score_pm25 = 80
+        elif pm25 <= 75:
+            score_pm25 = 55
+        else:
+            score_pm25 = 30
+
+    if pm10 is not None or pm25 is not None:
+        air_score = min(score_pm10, score_pm25)
+        if air_score >= 90:
+            air_tag_ko, air_tag_en = "공기질 좋음", "Good air"
+            air_comment_ko = "공기질이 깨끗하여 야외 러닝에 적합합니다."
+            air_comment_en = "Air quality is clean and great for outdoor running."
+        elif air_score >= 70:
+            air_tag_ko, air_tag_en = "공기질 보통", "Moderate air"
+            air_comment_ko = "공기질이 보통 수준입니다. 민감군은 조심하세요."
+            air_comment_en = "Air quality is moderate."
+        elif air_score >= 50:
+            air_tag_ko, air_tag_en = "공기질 나쁨", "Bad air"
+            air_comment_ko = "공기질이 안 좋습니다. 고강도 훈련은 자제하세요."
+            air_comment_en = "Air quality is poor. Avoid intense workouts."
+        else:
+            air_tag_ko, air_tag_en = "공기질 매우 나쁨", "Very bad air"
+            air_comment_ko = "공기질이 매우 나쁩니다. 실내 러닝을 권장합니다."
+            air_comment_en = "Air quality is very poor. Indoor running recommended."
 
     # 공기질 수준에 따른 패널티 팩터
     if air_score >= 90:
@@ -1116,14 +1167,15 @@ def summarize_course_weather(
         risk_flags_ko.append("공기질 매우 나쁨")
         risk_flags_en.append("Very poor air")
 
-    # 야간(22~6시)에는 한 단계 보수적으로
+    # 야간(22~6시) 처리: 여름철(체감 20도 이상)에는 무더위 피하는 밤러닝 이점이 있으므로 점수 감점 없이 안전 주의 태그만 부여
     night_penalty = 1.0
     try:
         current_dt = datetime.fromisoformat(current["time"])
         if current_dt.hour >= 22 or current_dt.hour < 6:
-            night_penalty = 0.9
             risk_flags_ko.append("야간 주의")
             risk_flags_en.append("Night caution")
+            if apparent < 20:
+                night_penalty = 0.95
     except Exception:
         current_dt = None
     penalty_factor *= night_penalty
@@ -1146,6 +1198,14 @@ def summarize_course_weather(
         run_score = min(run_score, min(hard_caps))
 
     run_score = int(round(max(0, min(100, run_score))))
+
+    humidity = float(current.get("relative_humidity_2m", 60.0) or 60.0)
+    outfit_ko, outfit_en = get_outfit_recommendation(
+        current_temp, apparent, current_rain, current_snow, wind_speed
+    )
+    pace_tip_ko, pace_tip_en = get_pace_and_running_tip(
+        current_temp, apparent, humidity, wind_speed, air_score, surface_score
+    )
 
     # -----------------------------
     # 6) 종합 코멘트 및 태그 구성
@@ -1176,13 +1236,6 @@ def summarize_course_weather(
     if risk_flags_en:
         detail_parts_en.append(f"Extra cautions: {', '.join(risk_flags_en)}.")
 
-    detail_parts_ko.append(
-        "컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요."
-    )
-    detail_parts_en.append(
-        "Adjust intensity based on how you feel and check your condition more often than usual."
-    )
-
     advice_detail_ko = " ".join(detail_parts_ko)
     advice_detail_en = " ".join(detail_parts_en)
 
@@ -1207,22 +1260,29 @@ def summarize_course_weather(
         "lat": course.lat,
         "lon": course.lon,
         "temperature": float(current["temperature_2m"]),
-        "apparent_temperature": apparent,
+        "apparent_temperature": round(apparent, 1),
+        "humidity": round(humidity, 1),
         "wind_speed": wind_speed,          # m/s
         "wind_direction": wind_dir,
         "rain_now": current_rain,
         "snow_now": current_snow,
         "snow_memory_mm": round(snow_memory_mm, 2),
         "freeze_surface_risk": freeze_surface_risk,
-        "recent_rain_3h": recent_rain,
+        "forecast_rain_3h": recent_rain,
+        "forecast_snow_3h": recent_snow,
+        "recent_rain_3h": recent_rain,     # 하위 호환용
         "recent_snow_3h": recent_snow,
         "wet_badge": wet_badge,
         "run_score": run_score,
         "temp_score": temp_score,
         "wind_score": wind_score,
-        "wet_score": surface_score,        # 노면 점수 그대로 넣어둠
+        "wet_score": surface_score,
         "surface_score": surface_score,
         "air_score": air_score,
+        "outfit_ko": outfit_ko,
+        "outfit_en": outfit_en,
+        "pace_tip_ko": pace_tip_ko,
+        "pace_tip_en": pace_tip_en,
         "risk_flags_ko": risk_flags_ko,
         "risk_flags_en": risk_flags_en,
         "tags_ko": tags_ko,

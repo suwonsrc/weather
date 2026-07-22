@@ -55,7 +55,12 @@
       "advice_detail_ko": "조금 더운 편입니다. 강도 높은 훈련보다는 적당한 강도의 러닝이 좋습니다. 약한 바람으로 러닝에 큰 지장은 없습니다. 노면이 젖어 있어 미끄러운 구간이 있을 수 있습니다. 페이스를 약간 낮추고, 특히 내리막·코너 구간에서 발 조심해 주세요. 공기질이 좋아 러닝에 거의 지장이 없습니다. 추가 주의 요인: 야간 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
       "advice_detail_en": "Slightly hot. Moderate intensity runs are better than hard workouts. Light breeze with little impact on running. The surface is wet, and some sections may be slippery. Slightly lower your pace and take extra care on downhills and corners. Air quality is good with little impact on running. Extra cautions: Night caution. Adjust intensity based on how you feel and check your condition more often than usual.",
       "pm10": 26.0,
-      "pm25": 11.0
+      "pm25": 11.0,
+      "humidity": 65.0,
+      "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
+      "outfit_en": "Breathable running gear recommended",
+      "pace_tip_ko": "체온 조절이 용이한 기온입니다. 충분한 워밍업 후 목표 페이스 유지를 시도해보세요. 노면이 젖어있으므로 코너링 및 보도블럭 구간에서 슬립에 주의하세요.",
+      "pace_tip_en": "Adjust pace according to weather conditions."
     },
     {
       "id": "youth-center",
@@ -115,7 +120,12 @@
       "advice_detail_ko": "더운 편입니다. 강도를 낮추고 자주 수분을 섭취하는 것이 좋습니다. 약한 바람으로 러닝에 큰 지장은 없습니다. 노면이 살짝 젖어 있습니다. 코너링이나 브레이킹 시에만 미끄럼에 주의하면 러닝에 큰 지장은 없습니다. 공기질이 좋아 러닝에 거의 지장이 없습니다. 추가 주의 요인: 고온 주의, 야간 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
       "advice_detail_en": "Warm conditions. Lower your intensity and hydrate frequently. Light breeze with little impact on running. The surface is slightly wet. As long as you are careful when cornering or braking, running should be fine. Air quality is good with little impact on running. Extra cautions: Extreme heat, Night caution. Adjust intensity based on how you feel and check your condition more often than usual.",
       "pm10": 24.0,
-      "pm25": null
+      "pm25": null,
+      "humidity": 65.0,
+      "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
+      "outfit_en": "Breathable running gear recommended",
+      "pace_tip_ko": "습도와 기온이 높아 땀 증발이 느립니다. 기존 목표 페이스보다 15~30초 낮추고 15분마다 수분을 섭취하세요.",
+      "pace_tip_en": "Adjust pace according to weather conditions."
     },
     {
       "id": "gwanggyo-lake-park",
@@ -171,7 +181,12 @@
       "advice_detail_ko": "조금 더운 편입니다. 강도 높은 훈련보다는 적당한 강도의 러닝이 좋습니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 살짝 젖어 있습니다. 코너링이나 브레이킹 시에만 미끄럼에 주의하면 러닝에 큰 지장은 없습니다. 공기질이 좋아 러닝에 거의 지장이 없습니다. 추가 주의 요인: 야간 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
       "advice_detail_en": "Slightly hot. Moderate intensity runs are better than hard workouts. Almost no wind, good for maintaining your pace. The surface is slightly wet. As long as you are careful when cornering or braking, running should be fine. Air quality is good with little impact on running. Extra cautions: Night caution. Adjust intensity based on how you feel and check your condition more often than usual.",
       "pm10": 24.0,
-      "pm25": null
+      "pm25": null,
+      "humidity": 65.0,
+      "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
+      "outfit_en": "Breathable running gear recommended",
+      "pace_tip_ko": "체온 조절이 용이한 기온입니다. 충분한 워밍업 후 목표 페이스 유지를 시도해보세요.",
+      "pace_tip_en": "Adjust pace according to weather conditions."
     },
     {
       "id": "skku",
@@ -227,7 +242,12 @@
       "advice_detail_ko": "조금 더운 편입니다. 강도 높은 훈련보다는 적당한 강도의 러닝이 좋습니다. 약한 바람으로 러닝에 큰 지장은 없습니다. 노면이 젖어 있어 미끄러운 구간이 있을 수 있습니다. 페이스를 약간 낮추고, 특히 내리막·코너 구간에서 발 조심해 주세요. 공기질이 좋아 러닝에 거의 지장이 없습니다. 추가 주의 요인: 야간 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
       "advice_detail_en": "Slightly hot. Moderate intensity runs are better than hard workouts. Light breeze with little impact on running. The surface is wet, and some sections may be slippery. Slightly lower your pace and take extra care on downhills and corners. Air quality is good with little impact on running. Extra cautions: Night caution. Adjust intensity based on how you feel and check your condition more often than usual.",
       "pm10": 24.0,
-      "pm25": null
+      "pm25": null,
+      "humidity": 65.0,
+      "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
+      "outfit_en": "Breathable running gear recommended",
+      "pace_tip_ko": "체온 조절이 용이한 기온입니다. 충분한 워밍업 후 목표 페이스 유지를 시도해보세요. 노면이 젖어있으므로 코너링 및 보도블럭 구간에서 슬립에 주의하세요.",
+      "pace_tip_en": "Adjust pace according to weather conditions."
     },
     {
       "id": "woncheon-stream-sindong",
@@ -287,7 +307,12 @@
       "advice_detail_ko": "더운 편입니다. 강도를 낮추고 자주 수분을 섭취하는 것이 좋습니다. 약한 바람으로 러닝에 큰 지장은 없습니다. 노면이 살짝 젖어 있습니다. 코너링이나 브레이킹 시에만 미끄럼에 주의하면 러닝에 큰 지장은 없습니다. 공기질이 좋아 러닝에 거의 지장이 없습니다. 추가 주의 요인: 고온 주의, 야간 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
       "advice_detail_en": "Warm conditions. Lower your intensity and hydrate frequently. Light breeze with little impact on running. The surface is slightly wet. As long as you are careful when cornering or braking, running should be fine. Air quality is good with little impact on running. Extra cautions: Extreme heat, Night caution. Adjust intensity based on how you feel and check your condition more often than usual.",
       "pm10": 24.0,
-      "pm25": null
+      "pm25": null,
+      "humidity": 65.0,
+      "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
+      "outfit_en": "Breathable running gear recommended",
+      "pace_tip_ko": "습도와 기온이 높아 땀 증발이 느립니다. 기존 목표 페이스보다 15~30초 낮추고 15분마다 수분을 섭취하세요.",
+      "pace_tip_en": "Adjust pace according to weather conditions."
     },
     {
       "id": "paldalsan-hwaseong",
@@ -347,7 +372,12 @@
       "advice_detail_ko": "더운 편입니다. 강도를 낮추고 자주 수분을 섭취하는 것이 좋습니다. 약한 바람으로 러닝에 큰 지장은 없습니다. 노면이 건조해서 미끄럼 위험이 적습니다. 공기질이 좋아 러닝에 거의 지장이 없습니다. 추가 주의 요인: 고온 주의, 야간 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
       "advice_detail_en": "Warm conditions. Lower your intensity and hydrate frequently. Light breeze with little impact on running. Surface is dry with low risk of slipping. Air quality is good with little impact on running. Extra cautions: Extreme heat, Night caution. Adjust intensity based on how you feel and check your condition more often than usual.",
       "pm10": 24.0,
-      "pm25": null
+      "pm25": null,
+      "humidity": 65.0,
+      "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
+      "outfit_en": "Breathable running gear recommended",
+      "pace_tip_ko": "습도와 기온이 높아 땀 증발이 느립니다. 기존 목표 페이스보다 15~30초 낮추고 15분마다 수분을 섭취하세요.",
+      "pace_tip_en": "Adjust pace according to weather conditions."
     },
     {
       "id": "suwon-stream",
@@ -407,7 +437,12 @@
       "advice_detail_ko": "더운 편입니다. 강도를 낮추고 자주 수분을 섭취하는 것이 좋습니다. 약한 바람으로 러닝에 큰 지장은 없습니다. 노면이 살짝 젖어 있습니다. 코너링이나 브레이킹 시에만 미끄럼에 주의하면 러닝에 큰 지장은 없습니다. 공기질이 좋아 러닝에 거의 지장이 없습니다. 추가 주의 요인: 고온 주의, 야간 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
       "advice_detail_en": "Warm conditions. Lower your intensity and hydrate frequently. Light breeze with little impact on running. The surface is slightly wet. As long as you are careful when cornering or braking, running should be fine. Air quality is good with little impact on running. Extra cautions: Extreme heat, Night caution. Adjust intensity based on how you feel and check your condition more often than usual.",
       "pm10": 24.0,
-      "pm25": null
+      "pm25": null,
+      "humidity": 65.0,
+      "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
+      "outfit_en": "Breathable running gear recommended",
+      "pace_tip_ko": "습도와 기온이 높아 땀 증발이 느립니다. 기존 목표 페이스보다 15~30초 낮추고 15분마다 수분을 섭취하세요.",
+      "pace_tip_en": "Adjust pace according to weather conditions."
     },
     {
       "id": "gwanggyo-mountain",
@@ -463,7 +498,12 @@
       "advice_detail_ko": "조금 더운 편입니다. 강도 높은 훈련보다는 적당한 강도의 러닝이 좋습니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 살짝 젖어 있습니다. 코너링이나 브레이킹 시에만 미끄럼에 주의하면 러닝에 큰 지장은 없습니다. 공기질이 좋아 러닝에 거의 지장이 없습니다. 추가 주의 요인: 야간 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
       "advice_detail_en": "Slightly hot. Moderate intensity runs are better than hard workouts. Almost no wind, good for maintaining your pace. The surface is slightly wet. As long as you are careful when cornering or braking, running should be fine. Air quality is good with little impact on running. Extra cautions: Night caution. Adjust intensity based on how you feel and check your condition more often than usual.",
       "pm10": 24.0,
-      "pm25": null
+      "pm25": null,
+      "humidity": 65.0,
+      "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
+      "outfit_en": "Breathable running gear recommended",
+      "pace_tip_ko": "체온 조절이 용이한 기온입니다. 충분한 워밍업 후 목표 페이스 유지를 시도해보세요.",
+      "pace_tip_en": "Adjust pace according to weather conditions."
     },
     {
       "id": "suwon-worldcup",
@@ -519,7 +559,12 @@
       "advice_detail_ko": "조금 더운 편입니다. 강도 높은 훈련보다는 적당한 강도의 러닝이 좋습니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 살짝 젖어 있습니다. 코너링이나 브레이킹 시에만 미끄럼에 주의하면 러닝에 큰 지장은 없습니다. 공기질이 좋아 러닝에 거의 지장이 없습니다. 추가 주의 요인: 야간 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
       "advice_detail_en": "Slightly hot. Moderate intensity runs are better than hard workouts. Almost no wind, good for maintaining your pace. The surface is slightly wet. As long as you are careful when cornering or braking, running should be fine. Air quality is good with little impact on running. Extra cautions: Night caution. Adjust intensity based on how you feel and check your condition more often than usual.",
       "pm10": 24.0,
-      "pm25": null
+      "pm25": null,
+      "humidity": 65.0,
+      "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
+      "outfit_en": "Breathable running gear recommended",
+      "pace_tip_ko": "체온 조절이 용이한 기온입니다. 충분한 워밍업 후 목표 페이스 유지를 시도해보세요.",
+      "pace_tip_en": "Adjust pace according to weather conditions."
     },
     {
       "id": "dongtan-yeoul-park",
@@ -575,7 +620,12 @@
       "advice_detail_ko": "더운 편입니다. 강도를 낮추고 자주 수분을 섭취하는 것이 좋습니다. 바람이 거의 없어 페이스 유지에 유리합니다. 노면이 살짝 젖어 있습니다. 코너링이나 브레이킹 시에만 미끄럼에 주의하면 러닝에 큰 지장은 없습니다. 공기질이 좋아 러닝에 거의 지장이 없습니다. 추가 주의 요인: 야간 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
       "advice_detail_en": "Warm conditions. Lower your intensity and hydrate frequently. Almost no wind, good for maintaining your pace. The surface is slightly wet. As long as you are careful when cornering or braking, running should be fine. Air quality is good with little impact on running. Extra cautions: Night caution. Adjust intensity based on how you feel and check your condition more often than usual.",
       "pm10": 24.0,
-      "pm25": null
+      "pm25": null,
+      "humidity": 65.0,
+      "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
+      "outfit_en": "Breathable running gear recommended",
+      "pace_tip_ko": "습도와 기온이 높아 땀 증발이 느립니다. 기존 목표 페이스보다 15~30초 낮추고 15분마다 수분을 섭취하세요.",
+      "pace_tip_en": "Adjust pace according to weather conditions."
     },
     {
       "id": "yeongheung-forest-park",
@@ -635,7 +685,12 @@
       "advice_detail_ko": "더운 편입니다. 강도를 낮추고 자주 수분을 섭취하는 것이 좋습니다. 약한 바람으로 러닝에 큰 지장은 없습니다. 노면이 살짝 젖어 있습니다. 코너링이나 브레이킹 시에만 미끄럼에 주의하면 러닝에 큰 지장은 없습니다. 공기질이 좋아 러닝에 거의 지장이 없습니다. 추가 주의 요인: 고온 주의, 야간 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
       "advice_detail_en": "Warm conditions. Lower your intensity and hydrate frequently. Light breeze with little impact on running. The surface is slightly wet. As long as you are careful when cornering or braking, running should be fine. Air quality is good with little impact on running. Extra cautions: Extreme heat, Night caution. Adjust intensity based on how you feel and check your condition more often than usual.",
       "pm10": 24.0,
-      "pm25": null
+      "pm25": null,
+      "humidity": 65.0,
+      "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
+      "outfit_en": "Breathable running gear recommended",
+      "pace_tip_ko": "습도와 기온이 높아 땀 증발이 느립니다. 기존 목표 페이스보다 15~30초 낮추고 15분마다 수분을 섭취하세요.",
+      "pace_tip_en": "Adjust pace according to weather conditions."
     },
     {
       "id": "majung-park",
@@ -695,7 +750,12 @@
       "advice_detail_ko": "더운 편입니다. 강도를 낮추고 자주 수분을 섭취하는 것이 좋습니다. 약한 바람으로 러닝에 큰 지장은 없습니다. 노면이 살짝 젖어 있습니다. 코너링이나 브레이킹 시에만 미끄럼에 주의하면 러닝에 큰 지장은 없습니다. 공기질이 좋아 러닝에 거의 지장이 없습니다. 추가 주의 요인: 고온 주의, 야간 주의. 컨디션에 따라 강도를 조절하고, 평소보다 몸 상태를 더 자주 점검해 주세요.",
       "advice_detail_en": "Warm conditions. Lower your intensity and hydrate frequently. Light breeze with little impact on running. The surface is slightly wet. As long as you are careful when cornering or braking, running should be fine. Air quality is good with little impact on running. Extra cautions: Extreme heat, Night caution. Adjust intensity based on how you feel and check your condition more often than usual.",
       "pm10": 24.0,
-      "pm25": null
+      "pm25": null,
+      "humidity": 65.0,
+      "outfit_ko": "통풍 좋은 반팔 T셔츠 + 러닝 숏츠",
+      "outfit_en": "Breathable running gear recommended",
+      "pace_tip_ko": "습도와 기온이 높아 땀 증발이 느립니다. 기존 목표 페이스보다 15~30초 낮추고 15분마다 수분을 섭취하세요.",
+      "pace_tip_en": "Adjust pace according to weather conditions."
     }
   ]
 }
