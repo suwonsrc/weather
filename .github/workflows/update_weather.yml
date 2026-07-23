@@ -78,6 +78,11 @@ jobs:
 
           git add data/src_weather.json
 
-          git commit -m "Update Suwon weather data" || echo "No changes to commit"
-          git pull --rebase origin main || true
-          git push origin HEAD:main
+          if ! git diff --staged --quiet; then
+            git commit -m "Update Suwon weather data [auto]"
+            git fetch origin main
+            git rebase -X ours origin/main || (git rebase --abort && git pull origin main --no-rebase)
+            git push origin HEAD:main
+          else
+            echo "No weather data changes to commit."
+          fi
