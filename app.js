@@ -105,6 +105,7 @@ function formatUpdatedAtLocalized(isoLikeStr) {
 
 function getCommonUpdatedAt() {
   if (!LAST_DATA) return null;
+  if (LAST_DATA.generated_at) return LAST_DATA.generated_at;
   const courses = LAST_DATA.courses || [];
   if (!courses.length) return null;
   return courses[0].updated_at || null;
