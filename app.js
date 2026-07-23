@@ -200,10 +200,17 @@ const titleIcons = {
 
 function formatPaceTipHtml(tipStr) {
   if (!tipStr) return "";
-  const clean = stripEmojis(tipStr);
-  return clean.replace(/(\s*)(?=\[[^\]]+\])/g, (match, offset) => {
-    return offset > 0 ? "<br>" : "";
-  });
+  const clean = stripEmojis(tipStr).trim();
+  const parts = clean.split("[").filter(p => p.trim().length > 0);
+  
+  if (parts.length <= 1) {
+    return clean;
+  }
+
+  return parts.map(part => {
+    const itemText = part.trim();
+    return `<div class="pace-tip-item" style="margin-bottom: 6px; line-height: 1.45;">[${itemText}</div>`;
+  }).join("");
 }
 
 function renderCourseCard(info) {
