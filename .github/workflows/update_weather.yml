@@ -30,42 +30,32 @@ jobs:
 
       - name: Generate Suwon weather JSON
         env:
-          WEATHER_PROVIDER: ${{ secrets.WEATHER_PROVIDER }}
           KMA_SERVICE_KEY: ${{ secrets.KMA_SERVICE_KEY }}
-          AIR_PROVIDER: ${{ secrets.AIR_PROVIDER }}
-          KMA_AIR_SIDO_NAME: ${{ secrets.KMA_AIR_SIDO_NAME }}
         run: |
-          export WEATHER_PROVIDER=${WEATHER_PROVIDER:-kma}
-          export AIR_PROVIDER=${AIR_PROVIDER:-$WEATHER_PROVIDER}
-          export KMA_AIR_SIDO_NAME=${KMA_AIR_SIDO_NAME:-경기도}
+          run_provider="kma"
+          run_air="kma"
+          sido_name="경기도"
 
-          run_provider="$WEATHER_PROVIDER"
-          run_air="$AIR_PROVIDER"
-
-          # 키가 없으면 KMA 시도 대신 open-meteo로 자동 폴백
-          if { [ "$run_provider" = "kma" ] || [ "$run_air" = "kma" ]; } && [ -z "$KMA_SERVICE_KEY" ]; then
+          # 키가 없으면 KMA 대신 open-meteo로 자동 폴백
+          if [ -z "$KMA_SERVICE_KEY" ]; then
             echo "[WARN] KMA_SERVICE_KEY not set. Falling back to open-meteo for weather/air." >&2
             run_provider="open-meteo"
-            if [ -z "$AIR_PROVIDER" ]; then
-              run_air="open-meteo"
-            fi
+            run_air="open-meteo"
           fi
 
           python fetch_weather.py \
             --provider "$run_provider" \
             --air-provider "$run_air" \
-            --kma-air-sido-name "$KMA_AIR_SIDO_NAME" \
+            --kma-air-sido-name "$sido_name" \
             || {
               if [ "$run_provider" = "kma" ]; then
                 echo "[WARN] KMA fetch failed, retrying with open-meteo." >&2
                 run_provider="open-meteo"
-                if [ -z "$AIR_PROVIDER" ]; then
-                  run_air="open-meteo"
-                fi
+                run_air="open-meteo"
                 python fetch_weather.py \
                   --provider "$run_provider" \
                   --air-provider "$run_air" \
-                  --kma-air-sido-name "$KMA_AIR_SIDO_NAME"
+                  --kma-air-sido-name "$sido_name"
               fi
             }
 
