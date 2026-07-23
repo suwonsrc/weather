@@ -25,8 +25,8 @@ const uiText = {
     en: "Loading weather data…",
   },
   statusLoaded: (count) => ({
-    ko: `SRC 주요 ${count}개 코스 현황 모니터링 중`,
-    en: `Monitoring ${count} major SRC courses`,
+    ko: "SRC 주요 코스 날씨 현황",
+    en: "SRC Major Course Weather Status",
   }),
   fail: {
     ko: "코스 데이터를 불러오는데 실패했습니다. 잠시 후 다시 시도해 주세요.",
