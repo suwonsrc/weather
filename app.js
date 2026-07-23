@@ -435,10 +435,36 @@ function renderStatus() {
   statusEl.innerHTML = `<p>${text}</p>`;
 }
 
+async function refreshData() {
+  const refreshBtn = document.getElementById("refresh-btn");
+  const icon = refreshBtn ? refreshBtn.querySelector(".svg-refresh-icon") : null;
+  if (icon) icon.classList.add("spinning");
+
+  try {
+    const data = await fetchWeatherData();
+    LAST_DATA = data;
+    renderStatus();
+    renderUpdatedAt();
+    renderSummaryShortcuts();
+    renderAllCourses();
+  } catch (err) {
+    console.error("Manual refresh failed:", err);
+  } finally {
+    setTimeout(() => {
+      if (icon) icon.classList.remove("spinning");
+    }, 600);
+  }
+}
+
 function setupEventListeners() {
   const themeBtn = document.getElementById("theme-toggle");
   if (themeBtn) {
     themeBtn.addEventListener("click", toggleTheme);
+  }
+
+  const refreshBtn = document.getElementById("refresh-btn");
+  if (refreshBtn) {
+    refreshBtn.addEventListener("click", refreshData);
   }
 
   document.querySelectorAll(".lang-btn").forEach((btn) => {
