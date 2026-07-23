@@ -117,11 +117,9 @@ body {
 }
 
 .header-main {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  flex-wrap: nowrap;
-  gap: 12px;
   width: 100%;
 }
 
@@ -129,7 +127,7 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  flex-shrink: 0;
+  justify-self: start;
 }
 
 .src-logo img {
@@ -153,7 +151,7 @@ body {
   padding: 3px 5px;
   border-radius: 30px;
   box-shadow: var(--card-shadow);
-  flex-shrink: 0;
+  justify-self: end;
   white-space: nowrap;
 }
 
@@ -204,6 +202,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  justify-self: center;
 }
 
 .refresh-btn {
