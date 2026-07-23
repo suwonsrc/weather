@@ -1,8 +1,48 @@
 import math
-from datetime import datetime
-from typing import Dict, Any, Optional, List
+from datetime import datetime, time, timedelta
+from typing import Dict, Any, Optional, List, Tuple
 from src.config import Course, KST
 from src.advisor import get_outfit_recommendation, get_pace_and_running_tip
+
+def calculate_sunrise_sunset(lat: float, lon: float, date_obj: datetime.date) -> Tuple[datetime, datetime]:
+    """
+    Calculates exact Sunrise and Sunset datetimes for a given lat, lon, and date in KST.
+    Uses standard NOAA solar position algorithm.
+    """
+    day_of_year = date_obj.timetuple().tm_yday
+    gamma = 2.0 * math.pi / 365.0 * (day_of_year - 1)
+    
+    eqtime = 229.18 * (
+        0.000075 + 0.001868 * math.cos(gamma) - 0.032077 * math.sin(gamma)
+        - 0.014615 * math.cos(2 * gamma) - 0.040849 * math.sin(2 * gamma)
+    )
+    
+    decl = 0.006918 - 0.399912 * math.cos(gamma) + 0.070257 * math.sin(gamma) \
+           - 0.006758 * math.cos(2 * gamma) + 0.000907 * math.sin(2 * gamma) \
+           - 0.002697 * math.cos(3 * gamma) + 0.00148 * math.sin(3 * gamma)
+           
+    zenith = math.radians(90.833)
+    lat_rad = math.radians(lat)
+    
+    cos_ha = (math.cos(zenith) / (math.cos(lat_rad) * math.cos(decl))) - (math.tan(lat_rad) * math.tan(decl))
+    cos_ha = max(-1.0, min(1.0, cos_ha))
+    
+    ha_deg = math.degrees(math.acos(cos_ha))
+    
+    solar_noon_utc = 720.0 - (4.0 * lon) - eqtime
+    sunrise_utc_min = solar_noon_utc - (ha_deg * 4.0)
+    sunset_utc_min = solar_noon_utc + (ha_deg * 4.0)
+    
+    sunrise_kst_min = sunrise_utc_min + 540.0
+    sunset_kst_min = sunset_utc_min + 540.0
+    
+    sunrise_time = time(int((sunrise_kst_min // 60) % 24), int(sunrise_kst_min % 60))
+    sunset_time = time(int((sunset_kst_min // 60) % 24), int(sunset_kst_min % 60))
+    
+    sunrise_dt = datetime.combine(date_obj, sunrise_time, tzinfo=KST)
+    sunset_dt = datetime.combine(date_obj, sunset_time, tzinfo=KST)
+    
+    return sunrise_dt, sunset_dt
 
 def parse_iso_datetime(raw: Any) -> Optional[datetime]:
     if raw is None:
@@ -191,7 +231,8 @@ def summarize_course_weather(
         run_score = min(run_score, min(hard_caps))
 
     dt_now = parse_iso_datetime(current.get("time")) or datetime.now(tz=KST)
-    is_night = dt_now.hour >= 19 or dt_now.hour < 6
+    sunrise_dt, sunset_dt = calculate_sunrise_sunset(course.lat, course.lon, dt_now.date())
+    is_night = (dt_now < sunrise_dt) or (dt_now > sunset_dt)
 
     run_score = int(round(max(0, min(100, run_score))))
 
@@ -243,6 +284,9 @@ def summarize_course_weather(
         "location_en": getattr(course, "location_en", "Suwon Area"),
         "location_en_short": getattr(course, "location_en_short", course.location_en),
         "updated_at": current["time"],
+        "sunrise": sunrise_dt.strftime("%H:%M"),
+        "sunset": sunset_dt.strftime("%H:%M"),
+        "is_night": is_night,
         "lat": course.lat,
         "lon": course.lon,
         "temperature": current_temp,
