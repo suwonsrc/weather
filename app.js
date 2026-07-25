@@ -439,25 +439,12 @@ function renderStatus() {
   statusEl.innerHTML = `<p>${text}</p>`;
 }
 
-async function refreshData() {
+function hardRefreshPage() {
   const refreshBtn = document.getElementById("refresh-btn");
   const icon = refreshBtn ? refreshBtn.querySelector(".svg-refresh-icon") : null;
   if (icon) icon.classList.add("spinning");
-
-  try {
-    const data = await fetchWeatherData();
-    LAST_DATA = data;
-    renderStatus();
-    renderUpdatedAt();
-    renderSummaryShortcuts();
-    renderAllCourses();
-  } catch (err) {
-    console.error("Manual refresh failed:", err);
-  } finally {
-    setTimeout(() => {
-      if (icon) icon.classList.remove("spinning");
-    }, 600);
-  }
+  // HTML/JS/CSS/데이터를 전부 캐시 없이 새로 받아오도록 매번 새로운 URL로 이동
+  window.location.href = window.location.pathname + "?_=" + Date.now();
 }
 
 function setupEventListeners() {
@@ -468,7 +455,7 @@ function setupEventListeners() {
 
   const refreshBtn = document.getElementById("refresh-btn");
   if (refreshBtn) {
-    refreshBtn.addEventListener("click", refreshData);
+    refreshBtn.addEventListener("click", hardRefreshPage);
   }
 
   document.querySelectorAll(".lang-btn").forEach((btn) => {
