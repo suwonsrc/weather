@@ -230,11 +230,15 @@ def fetch_open_meteo_weather(course: Course) -> Optional[Dict[str, Any]]:
         resp = requests.get(url, timeout=10)
         resp.raise_for_status()
         data = resp.json()
-        curr = data.get("current", {})
-        hourly = data.get("hourly", {})
+        open_meteo_time = str(curr.get("time") or "").strip()
+        if open_meteo_time:
+            time_val = f"{open_meteo_time}:00+09:00" if len(open_meteo_time) == 13 else f"{open_meteo_time}+09:00"
+        else:
+            time_val = kst_now().replace(minute=0, second=0, microsecond=0).isoformat()
+
         return {
             "current": {
-                "time": kst_now().isoformat(),
+                "time": time_val,
                 "temperature_2m": float(curr.get("temperature_2m", 20.0)),
                 "apparent_temperature": float(curr.get("apparent_temperature", 20.0)),
                 "relative_humidity_2m": float(curr.get("relative_humidity_2m", 60.0)),
