@@ -87,19 +87,14 @@ function applyLanguage() {
 
 function formatUpdatedAtLocalized(isoLikeStr) {
   if (!isoLikeStr) return "";
-  const parts = String(isoLikeStr).split("T");
-  if (parts.length < 2) return "";
-  const datePart = parts[0];
-  const timePart = parts[1];
-  
-  const [y, m, d] = datePart.split("-");
-  const [hh, mm] = timePart.split(":");
-  const pad2 = (v) => String(v || "00").padStart(2, "0");
+  const match = String(isoLikeStr).match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/);
+  if (!match) return String(isoLikeStr);
+  const [, y, m, d, hh, mm] = match;
 
   if (currentLang === "ko") {
-    return `${y}년 ${Number(m)}월 ${Number(d)}일 ${pad2(hh)}시 ${pad2(mm)}분 관측 기준`;
+    return `${y}년 ${Number(m)}월 ${Number(d)}일 ${hh}시 ${mm}분 관측 기준`;
   } else {
-    return `Observed at ${y}-${pad2(m)}-${pad2(d)} ${pad2(hh)}:${pad2(mm)} (KST)`;
+    return `Observed at ${y}-${m}-${d} ${hh}:${mm} (KST)`;
   }
 }
 
