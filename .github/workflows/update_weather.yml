@@ -2,8 +2,8 @@ name: Update Suwon Weather
 
 on:
   schedule:
-    # 매시 정시 (매시 00분)
-    - cron: "0 * * * *"
+    # 30분 간격 (매시 00분, 30분)
+    - cron: "*/30 * * * *"
   workflow_dispatch: # 필요하면 GitHub UI에서 수동으로도 실행할 수 있게 함
     inputs: {}
 

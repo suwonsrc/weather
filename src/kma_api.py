@@ -230,6 +230,8 @@ def fetch_open_meteo_weather(course: Course) -> Optional[Dict[str, Any]]:
         resp = requests.get(url, timeout=10)
         resp.raise_for_status()
         data = resp.json()
+        curr = data.get("current", {})
+        hourly = data.get("hourly", {})
         open_meteo_time = str(curr.get("time") or "").strip()
         if open_meteo_time:
             time_val = f"{open_meteo_time}:00+09:00" if len(open_meteo_time) == 13 else f"{open_meteo_time}+09:00"
