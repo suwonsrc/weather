@@ -2,8 +2,8 @@ name: Update Suwon Weather
 
 on:
   schedule:
-    # 30분 간격 (매시 00분, 30분)
-    - cron: "*/30 * * * *"
+    # 30분 간격, 정각/반시(00분,30분) 혼잡 시간대를 피해 25분·55분에 실행
+    - cron: "25,55 * * * *"
   workflow_dispatch: # 필요하면 GitHub UI에서 수동으로도 실행할 수 있게 함
     inputs: {}
 
@@ -34,7 +34,7 @@ jobs:
         run: |
           run_provider="kma"
           run_air="kma"
-          sido_name="경기도"
+          sido_name="경기"
 
           # 키가 없으면 KMA 대신 open-meteo로 자동 폴백
           if [ -z "$KMA_SERVICE_KEY" ]; then

@@ -11,6 +11,7 @@ from src.config import (
     KMA_ULTRA_FCST_URL,
     KMA_AIR_QUALITY_URL,
     DEFAULT_KMA_AIR_SIDO,
+    KMA_AIR_STATION_COORDS,
 )
 
 def kst_now() -> datetime:
@@ -62,6 +63,14 @@ def latlon_to_kma_xy(lat: float, lon: float) -> Tuple[int, int]:
     x = int(ra * math.sin(theta) + XO + 1.5)
     y = int(ro - ra * math.cos(theta) + YO + 1.5)
     return x, y
+
+def haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
+    r = 6371.0
+    p1, p2 = math.radians(lat1), math.radians(lat2)
+    dphi = math.radians(lat2 - lat1)
+    dlambda = math.radians(lon2 - lon1)
+    a = math.sin(dphi / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dlambda / 2) ** 2
+    return 2 * r * math.asin(math.sqrt(a))
 
 def parse_precip_value(raw: Any) -> float:
     if raw is None:
@@ -208,7 +217,7 @@ def fetch_air_quality_kma(
         "sidoName": sido_name,
         "returnType": "json",
         "pageNo": 1,
-        "numOfRows": 100,
+        "numOfRows": 200,
         "ver": "1.3",
     }
     url = build_kma_url(KMA_AIR_QUALITY_URL, service_key)
@@ -216,11 +225,31 @@ def fetch_air_quality_kma(
         resp = requests.get(url, params=params, timeout=10)
         resp.raise_for_status()
         items = resp.json().get("response", {}).get("body", {}).get("items") or []
+
+        nearest_item, nearest_dist = None, None
         for item in items:
+            coords = KMA_AIR_STATION_COORDS.get(item.get("stationName"))
+            if coords is None:
+                continue
             pm10 = parse_pm_value(item.get("pm10Value"))
             pm25 = parse_pm_value(item.get("pm25Value"))
-            if pm10 is not None or pm25 is not None:
-                return {"current": {"time": item.get("dataTime"), "pm10": pm10, "pm2_5": pm25, "station": item.get("stationName")}}
+            if pm10 is None and pm25 is None:
+                continue
+            dist = haversine_km(course.lat, course.lon, coords[0], coords[1])
+            if nearest_dist is None or dist < nearest_dist:
+                nearest_item, nearest_dist = item, dist
+
+        if nearest_item is not None:
+            pm10 = parse_pm_value(nearest_item.get("pm10Value"))
+            pm25 = parse_pm_value(nearest_item.get("pm25Value"))
+            return {
+                "current": {
+                    "time": nearest_item.get("dataTime"),
+                    "pm10": pm10,
+                    "pm2_5": pm25,
+                    "station": nearest_item.get("stationName"),
+                }
+            }
     except Exception as e:
         print(f"[WARN] Air quality fetch error: {e}")
     return None

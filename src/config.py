@@ -39,4 +39,18 @@ KMA_ULTRA_NCST_URL = "https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/
 KMA_ULTRA_FCST_URL = "https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtFcst"
 KMA_AIR_QUALITY_URL = "https://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getCtprvnRltmMesureDnsty"
 
-DEFAULT_KMA_AIR_SIDO = os.getenv("KMA_AIR_SIDO_NAME", "경기도")
+DEFAULT_KMA_AIR_SIDO = os.getenv("KMA_AIR_SIDO_NAME", "경기")
+
+# 수원/화성 코스 인근 AirKorea 관측소의 근사 좌표(행정동 중심, WGS84).
+# 근접측정소 조회(getNearbyMsrstnList) API는 이 서비스키에 권한이 없어(403) 정적 좌표로 대체.
+KMA_AIR_STATION_COORDS = {
+    "신풍동": (37.2840, 127.0150),
+    "인계동": (37.2742, 127.0345),
+    "광교동": (37.2950, 127.0580),
+    "영통동": (37.2450, 127.0750),
+    "천천동": (37.2970, 126.9730),
+    "경수대로(동수원)": (37.2800, 127.0300),
+    "고색동": (37.2570, 126.9730),
+    "호매실": (37.2570, 126.9530),
+    "동탄": (37.2000, 127.0750),
+}
