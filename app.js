@@ -85,36 +85,44 @@ function applyLanguage() {
   renderAllCourses();
 }
 
-function formatUpdatedAtLocalized(isoLikeStr) {
+function formatUpdatedAtLocalized(isoLikeStr, provider) {
   if (!isoLikeStr) return "";
   const match = String(isoLikeStr).match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2})/);
   if (!match) return String(isoLikeStr);
   const [, y, m, d, hh] = match;
 
+  const tag = (provider === "kma") ? "(KMA)" : "(Meteo)";
+
   if (currentLang === "ko") {
-    return `${y}년 ${Number(m)}월 ${Number(d)}일 ${hh}시 관측 기준`;
+    return `${y}년 ${Number(m)}월 ${Number(d)}일 ${hh}시 관측 기준 ${tag}`;
   } else {
-    return `Observed at ${y}-${m}-${d} ${hh}:00 (KST)`;
+    return `Observed at ${y}-${m}-${d} ${hh}:00 (KST) ${tag}`;
   }
 }
 
-function getCommonUpdatedAt() {
-  if (!LAST_DATA) return null;
+function getCommonUpdatedInfo() {
+  if (!LAST_DATA) return { iso: null, provider: null };
   const courses = LAST_DATA.courses || [];
-  if (courses.length && courses[0].updated_at) {
-    return courses[0].updated_at;
+  if (courses.length) {
+    return {
+      iso: courses[0].updated_at || LAST_DATA.generated_at || null,
+      provider: courses[0].provider || "open-meteo"
+    };
   }
-  return LAST_DATA.generated_at || null;
+  return {
+    iso: LAST_DATA.generated_at || null,
+    provider: "open-meteo"
+  };
 }
 
 function renderUpdatedAt() {
   if (!courseListUpdatedEl) return;
-  const iso = getCommonUpdatedAt();
+  const { iso, provider } = getCommonUpdatedInfo();
   if (!iso) {
     courseListUpdatedEl.textContent = "";
     return;
   }
-  courseListUpdatedEl.textContent = formatUpdatedAtLocalized(iso);
+  courseListUpdatedEl.textContent = formatUpdatedAtLocalized(iso, provider);
 }
 
 function windDirectionToText(deg) {

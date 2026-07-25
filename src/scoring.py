@@ -276,6 +276,7 @@ def summarize_course_weather(
 
     return {
         "id": course.id,
+        "provider": raw_weather.get("provider", "open-meteo") if isinstance(raw_weather, dict) else "open-meteo",
         "name_ko": course.name_ko,
         "name_en": course.name_en,
         "name_en_short": getattr(course, "name_en_short", course.name_en),

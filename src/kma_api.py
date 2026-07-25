@@ -180,6 +180,7 @@ def fetch_kma_weather(course: Course, service_key: str) -> Optional[Dict[str, An
 
     obs_dt_str = f"{base_date[:4]}-{base_date[4:6]}-{base_date[6:8]}T{base_time[:2]}:{base_time[2:]}:00+09:00"
     return {
+        "provider": "kma",
         "current": {
             "time": obs_dt_str,
             "temperature_2m": temp_c,
@@ -239,6 +240,7 @@ def fetch_open_meteo_weather(course: Course) -> Optional[Dict[str, Any]]:
             time_val = kst_now().replace(minute=0, second=0, microsecond=0).isoformat()
 
         return {
+            "provider": "open-meteo",
             "current": {
                 "time": time_val,
                 "temperature_2m": float(curr.get("temperature_2m", 20.0)),
