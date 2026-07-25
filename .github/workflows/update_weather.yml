@@ -2,9 +2,10 @@ name: Update Suwon Weather
 
 on:
   schedule:
-    # 1시간 간격, 매시 03분에 실행
-    - cron: "3 * * * *"
-  workflow_dispatch: # 필요하면 GitHub UI에서 수동으로도 실행할 수 있게 함
+    # cron-job.org가 매시 0분·30분에 workflow_dispatch로 정확히 트리거하는 게 주 트리거.
+    # 이건 그게 실패했을 때를 위한 백업이라 1시간에 1회, 겹치지 않게 15분에 실행.
+    - cron: "15 * * * *"
+  workflow_dispatch: # cron-job.org(외부 스케줄러) 및 GitHub UI 수동 실행용
     inputs: {}
 
 permissions:
