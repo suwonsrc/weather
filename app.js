@@ -87,14 +87,14 @@ function applyLanguage() {
 
 function formatUpdatedAtLocalized(isoLikeStr) {
   if (!isoLikeStr) return "";
-  const match = String(isoLikeStr).match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/);
+  const match = String(isoLikeStr).match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2})/);
   if (!match) return String(isoLikeStr);
-  const [, y, m, d, hh, mm] = match;
+  const [, y, m, d, hh] = match;
 
   if (currentLang === "ko") {
-    return `${y}년 ${Number(m)}월 ${Number(d)}일 ${hh}시 ${mm}분 관측 기준`;
+    return `${y}년 ${Number(m)}월 ${Number(d)}일 ${hh}시 관측 기준`;
   } else {
-    return `Observed at ${y}-${m}-${d} ${hh}:${mm} (KST)`;
+    return `Observed at ${y}-${m}-${d} ${hh}:00 (KST)`;
   }
 }
 
