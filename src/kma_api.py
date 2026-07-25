@@ -178,10 +178,10 @@ def fetch_kma_weather(course: Course, service_key: str) -> Optional[Dict[str, An
         if t1h is not None:
             hourly_temp.append(t1h)
 
-    current_time = kst_now().replace(microsecond=0).isoformat()
+    obs_dt_str = f"{base_date[:4]}-{base_date[4:6]}-{base_date[6:8]}T{base_time[:2]}:{base_time[2:]}:00+09:00"
     return {
         "current": {
-            "time": current_time,
+            "time": obs_dt_str,
             "temperature_2m": temp_c,
             "apparent_temperature": temp_c,
             "relative_humidity_2m": humidity,

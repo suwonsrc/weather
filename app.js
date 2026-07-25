@@ -97,18 +97,19 @@ function formatUpdatedAtLocalized(isoLikeStr) {
   const pad2 = (v) => String(v || "00").padStart(2, "0");
 
   if (currentLang === "ko") {
-    return `${y}년 ${Number(m)}월 ${Number(d)}일 ${pad2(hh)}시 ${pad2(mm)}분 수집 기준`;
+    return `${y}년 ${Number(m)}월 ${Number(d)}일 ${pad2(hh)}시 ${pad2(mm)}분 관측 기준`;
   } else {
-    return `Updated at ${y}-${pad2(m)}-${pad2(d)} ${pad2(hh)}:${pad2(mm)} (KST)`;
+    return `Observed at ${y}-${pad2(m)}-${pad2(d)} ${pad2(hh)}:${pad2(mm)} (KST)`;
   }
 }
 
 function getCommonUpdatedAt() {
   if (!LAST_DATA) return null;
-  if (LAST_DATA.generated_at) return LAST_DATA.generated_at;
   const courses = LAST_DATA.courses || [];
-  if (!courses.length) return null;
-  return courses[0].updated_at || null;
+  if (courses.length && courses[0].updated_at) {
+    return courses[0].updated_at;
+  }
+  return LAST_DATA.generated_at || null;
 }
 
 function renderUpdatedAt() {

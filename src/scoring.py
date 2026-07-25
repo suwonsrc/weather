@@ -283,7 +283,11 @@ def summarize_course_weather(
         "location_ko": getattr(course, "location_ko", "수원시 코스"),
         "location_en": getattr(course, "location_en", "Suwon Area"),
         "location_en_short": getattr(course, "location_en_short", course.location_en),
-        "updated_at": datetime.now(KST).isoformat(),
+        "updated_at": (
+            raw_weather.get("current", {}).get("time")
+            if (isinstance(raw_weather, dict) and raw_weather.get("current", {}).get("time"))
+            else datetime.now(KST).isoformat()
+        ),
         "sunrise": sunrise_dt.strftime("%H:%M"),
         "sunset": sunset_dt.strftime("%H:%M"),
         "is_night": is_night,
