@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T00:03:17.165217+09:00",
+  "generated_at": "2026-07-28T00:16:42.085991+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 13.0,
-      "pm25": 11.0
+      "pm10": 15.0,
+      "pm25": 8.0
     },
     {
       "id": "youth-center",
@@ -126,7 +126,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 13.0,
+      "pm10": 14.0,
       "pm25": 7.0
     },
     {
@@ -190,12 +190,12 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 14.0,
-      "pm25": 4.0
+      "pm10": 15.0,
+      "pm25": 3.0
     },
     {
       "id": "skku",
-      "provider": "open-meteo",
+      "provider": "kma",
       "name_ko": "성균관대학교",
       "name_en": "Sungkyunkwan Univ. (Suwon)",
       "name_en_short": "SKKU (Suwon)",
@@ -203,17 +203,17 @@
       "location_ko": "수원시 장안구 율전동",
       "location_en": "Yuljeon-dong, Suwon",
       "location_en_short": "Yuljeon",
-      "updated_at": "2026-07-28T00:00+09:00",
-      "sunrise": "05:32",
-      "sunset": "19:44",
+      "updated_at": "2026-07-27T23:00:00+09:00",
+      "sunrise": "05:31",
+      "sunset": "19:45",
       "is_night": true,
       "lat": 37.293788,
       "lon": 126.974365,
-      "temperature": 25.6,
-      "apparent_temperature": 28.7,
-      "humidity": 99.0,
-      "wind_speed": 2.4722222222222223,
-      "wind_direction": 243.0,
+      "temperature": 26.6,
+      "apparent_temperature": 28.8,
+      "humidity": 88.0,
+      "wind_speed": 1.4,
+      "wind_direction": 222.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -254,8 +254,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 12.0,
-      "pm25": 5.0
+      "pm10": 16.0,
+      "pm25": 4.0
     },
     {
       "id": "woncheon-stream-sindong",
@@ -318,7 +318,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 13.0,
+      "pm10": 14.0,
       "pm25": 7.0
     },
     {
@@ -382,8 +382,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 13.0,
-      "pm25": 11.0
+      "pm10": 15.0,
+      "pm25": 8.0
     },
     {
       "id": "suwon-stream",
@@ -446,7 +446,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 13.0,
+      "pm10": 14.0,
       "pm25": 7.0
     },
     {
@@ -510,8 +510,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 14.0,
-      "pm25": 4.0
+      "pm10": 15.0,
+      "pm25": 3.0
     },
     {
       "id": "suwon-worldcup",
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 24.0,
-      "pm25": 5.0
+      "pm10": 23.0,
+      "pm25": 3.0
     },
     {
       "id": "dongtan-yeoul-park",
@@ -638,8 +638,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 13.0,
-      "pm25": 0.0
+      "pm10": 14.0,
+      "pm25": 7.0
     },
     {
       "id": "yeongheung-forest-park",
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 10.0,
-      "pm25": 5.0
+      "pm10": 12.0,
+      "pm25": 6.0
     },
     {
       "id": "majung-park",
@@ -766,7 +766,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 13.0,
+      "pm10": 14.0,
       "pm25": 7.0
     }
   ]
