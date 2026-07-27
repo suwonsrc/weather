@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T17:03:39.848390+09:00",
+  "generated_at": "2026-07-27T17:33:29.012079+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -27,9 +27,9 @@
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
       "forecast_rain_3h": 0.0,
-      "forecast_snow_3h": 1.0,
+      "forecast_snow_3h": 0.0,
       "recent_rain_3h": 0.0,
-      "recent_snow_3h": 1.0,
+      "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "good",
         "text_ko": "건조",
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 21.0,
-      "pm25": 5.0
+      "pm10": 19.7,
+      "pm25": 14.0
     },
     {
       "id": "youth-center",
@@ -91,9 +91,9 @@
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
       "forecast_rain_3h": 0.0,
-      "forecast_snow_3h": 1.0,
+      "forecast_snow_3h": 0.0,
       "recent_rain_3h": 0.0,
-      "recent_snow_3h": 1.0,
+      "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "good",
         "text_ko": "건조",
@@ -126,8 +126,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 11.0,
-      "pm25": 7.0
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "gwanggyo-lake-park",
@@ -155,9 +155,9 @@
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
       "forecast_rain_3h": 0.0,
-      "forecast_snow_3h": 1.0,
+      "forecast_snow_3h": 0.0,
       "recent_rain_3h": 0.0,
-      "recent_snow_3h": 1.0,
+      "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "good",
         "text_ko": "건조",
@@ -219,9 +219,9 @@
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
       "forecast_rain_3h": 0.0,
-      "forecast_snow_3h": 1.0,
+      "forecast_snow_3h": 0.0,
       "recent_rain_3h": 0.0,
-      "recent_snow_3h": 1.0,
+      "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "good",
         "text_ko": "건조",
@@ -254,8 +254,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": null,
-      "pm25": null
+      "pm10": 19.7,
+      "pm25": 14.0
     },
     {
       "id": "woncheon-stream-sindong",
@@ -283,9 +283,9 @@
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
       "forecast_rain_3h": 0.0,
-      "forecast_snow_3h": 1.0,
+      "forecast_snow_3h": 0.0,
       "recent_rain_3h": 0.0,
-      "recent_snow_3h": 1.0,
+      "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "good",
         "text_ko": "건조",
@@ -347,9 +347,9 @@
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
       "forecast_rain_3h": 0.0,
-      "forecast_snow_3h": 1.0,
+      "forecast_snow_3h": 0.0,
       "recent_rain_3h": 0.0,
-      "recent_snow_3h": 1.0,
+      "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "good",
         "text_ko": "건조",
@@ -411,9 +411,9 @@
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
       "forecast_rain_3h": 0.0,
-      "forecast_snow_3h": 1.0,
+      "forecast_snow_3h": 0.0,
       "recent_rain_3h": 0.0,
-      "recent_snow_3h": 1.0,
+      "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "good",
         "text_ko": "건조",
@@ -446,8 +446,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 18.5,
-      "pm25": 13.7
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "gwanggyo-mountain",
@@ -510,12 +510,12 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": null,
-      "pm25": null
+      "pm10": 18.5,
+      "pm25": 13.7
     },
     {
       "id": "suwon-worldcup",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "수원월드컵경기장",
       "name_en": "Suwon World Cup Stadium",
       "name_en_short": "Suwon World Cup",
@@ -523,25 +523,89 @@
       "location_ko": "수원시 팔달구 우만동",
       "location_en": "Uman-dong, Suwon",
       "location_en_short": "Uman",
-      "updated_at": "2026-07-27T16:00:00+09:00",
+      "updated_at": "2026-07-27T17:30+09:00",
       "sunrise": "05:31",
       "sunset": "19:45",
       "is_night": false,
       "lat": 37.286545,
       "lon": 127.036871,
-      "temperature": 31.3,
-      "apparent_temperature": 37.8,
-      "humidity": 68.0,
-      "wind_speed": 0.8,
-      "wind_direction": 256.0,
+      "temperature": 28.2,
+      "apparent_temperature": 33.3,
+      "humidity": 84.0,
+      "wind_speed": 3.416666666666667,
+      "wind_direction": 265.0,
+      "rain_now": 0.0,
+      "snow_now": 0.0,
+      "snow_memory_mm": 0.0,
+      "freeze_surface_risk": false,
+      "forecast_rain_3h": 0.4,
+      "forecast_snow_3h": 0.0,
+      "recent_rain_3h": 0.4,
+      "recent_snow_3h": 0.0,
+      "wet_badge": {
+        "level": "wet",
+        "text_ko": "살짝젖음",
+        "text_en": "Damp"
+      },
+      "run_score": 20,
+      "run_grade": "E",
+      "temp_score": 20,
+      "wind_score": 70,
+      "wet_score": 65,
+      "surface_score": 65,
+      "air_score": 100,
+      "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (선크림·햇빛 차단 모자 필수 ☀️)",
+      "outfit_en": "👕 Singlet & ultra-light shorts (Sunscreen & cap required ☀️)",
+      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요.",
+      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes.",
+      "risk_flags_ko": [],
+      "risk_flags_en": [],
+      "tags_ko": [
+        "폭염",
+        "다소바람",
+        "살짝젖음",
+        "공기좋음"
+      ],
+      "tags_en": [
+        "Extreme Heat",
+        "Moderate Wind",
+        "Damp",
+        "Good Air"
+      ],
+      "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
+      "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
+      "pm10": null,
+      "pm25": null
+    },
+    {
+      "id": "dongtan-yeoul-park",
+      "provider": "kma",
+      "name_ko": "동탄여울공원",
+      "name_en": "Dongtan Yeoul Park",
+      "name_en_short": "Dongtan Yeoul",
+      "name": "동탄여울공원",
+      "location_ko": "화성시 동탄 오산동",
+      "location_en": "Osan-dong, Dongtan",
+      "location_en_short": "Osan",
+      "updated_at": "2026-07-27T16:00:00+09:00",
+      "sunrise": "05:31",
+      "sunset": "19:44",
+      "is_night": false,
+      "lat": 37.198689,
+      "lon": 127.086609,
+      "temperature": 32.3,
+      "apparent_temperature": 38.8,
+      "humidity": 63.0,
+      "wind_speed": 2.9,
+      "wind_direction": 243.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
       "forecast_rain_3h": 0.0,
-      "forecast_snow_3h": 1.0,
+      "forecast_snow_3h": 0.0,
       "recent_rain_3h": 0.0,
-      "recent_snow_3h": 1.0,
+      "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "good",
         "text_ko": "건조",
@@ -576,70 +640,6 @@
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
       "pm10": 18.5,
       "pm25": 13.7
-    },
-    {
-      "id": "dongtan-yeoul-park",
-      "provider": "kma",
-      "name_ko": "동탄여울공원",
-      "name_en": "Dongtan Yeoul Park",
-      "name_en_short": "Dongtan Yeoul",
-      "name": "동탄여울공원",
-      "location_ko": "화성시 동탄 오산동",
-      "location_en": "Osan-dong, Dongtan",
-      "location_en_short": "Osan",
-      "updated_at": "2026-07-27T16:00:00+09:00",
-      "sunrise": "05:31",
-      "sunset": "19:44",
-      "is_night": false,
-      "lat": 37.198689,
-      "lon": 127.086609,
-      "temperature": 32.3,
-      "apparent_temperature": 38.8,
-      "humidity": 63.0,
-      "wind_speed": 2.9,
-      "wind_direction": 243.0,
-      "rain_now": 0.0,
-      "snow_now": 0.0,
-      "snow_memory_mm": 0.0,
-      "freeze_surface_risk": false,
-      "forecast_rain_3h": 0.0,
-      "forecast_snow_3h": 1.0,
-      "recent_rain_3h": 0.0,
-      "recent_snow_3h": 1.0,
-      "wet_badge": {
-        "level": "good",
-        "text_ko": "건조",
-        "text_en": "Dry"
-      },
-      "run_score": 20,
-      "run_grade": "E",
-      "temp_score": 20,
-      "wind_score": 100,
-      "wet_score": 100,
-      "surface_score": 100,
-      "air_score": 100,
-      "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (선크림·햇빛 차단 모자 필수 ☀️)",
-      "outfit_en": "👕 Singlet & ultra-light shorts (Sunscreen & cap required ☀️)",
-      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요.",
-      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes.",
-      "risk_flags_ko": [],
-      "risk_flags_en": [],
-      "tags_ko": [
-        "폭염",
-        "약한바람",
-        "건조",
-        "공기좋음"
-      ],
-      "tags_en": [
-        "Extreme Heat",
-        "Light Breeze",
-        "Dry",
-        "Good Air"
-      ],
-      "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
-      "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": null,
-      "pm25": null
     },
     {
       "id": "yeongheung-forest-park",
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 18.5,
-      "pm25": 13.7
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "majung-park",
@@ -766,8 +766,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": null,
-      "pm25": null
+      "pm10": 18.5,
+      "pm25": 13.7
     }
   ]
 }
