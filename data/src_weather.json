@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T08:04:09.966869+09:00",
+  "generated_at": "2026-07-29T08:32:28.666421+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 7.0,
-      "pm25": 4.0
+      "pm10": 2.0,
+      "pm25": 8.0
     },
     {
       "id": "youth-center",
@@ -126,12 +126,12 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 16.2,
-      "pm25": 12.4
+      "pm10": 9.0,
+      "pm25": 6.0
     },
     {
       "id": "gwanggyo-lake-park",
-      "provider": "open-meteo",
+      "provider": "kma",
       "name_ko": "광교호수공원",
       "name_en": "Gwanggyo Lake Park",
       "name_en_short": "Gwanggyo Lake",
@@ -139,17 +139,17 @@
       "location_ko": "수원시 영통구 하동",
       "location_en": "Ha-dong, Suwon",
       "location_en_short": "Hadong",
-      "updated_at": "2026-07-29T08:00+09:00",
+      "updated_at": "2026-07-29T07:00:00+09:00",
       "sunrise": "05:33",
       "sunset": "19:43",
       "is_night": false,
       "lat": 37.283439,
       "lon": 127.065989,
-      "temperature": 25.5,
-      "apparent_temperature": 28.1,
-      "humidity": 93.0,
-      "wind_speed": 2.388888888888889,
-      "wind_direction": 272.0,
+      "temperature": 27.5,
+      "apparent_temperature": 30.9,
+      "humidity": 80.0,
+      "wind_speed": 0.2,
+      "wind_direction": 315.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -163,9 +163,9 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 50,
-      "run_grade": "C",
-      "temp_score": 30,
+      "run_score": 78,
+      "run_grade": "B",
+      "temp_score": 50,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
@@ -177,13 +177,13 @@
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
-        "찜통",
+        "더움",
         "약한바람",
         "건조",
         "공기좋음"
       ],
       "tags_en": [
-        "Humid Heat",
+        "Warm",
         "Light Breeze",
         "Dry",
         "Good Air"
@@ -254,8 +254,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 8.0,
-      "pm25": 5.0
+      "pm10": 2.0,
+      "pm25": 6.0
     },
     {
       "id": "woncheon-stream-sindong",
@@ -319,7 +319,7 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 9.0,
-      "pm25": 2.0
+      "pm25": 6.0
     },
     {
       "id": "paldalsan-hwaseong",
@@ -382,8 +382,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": null,
-      "pm25": null
+      "pm10": 2.0,
+      "pm25": 8.0
     },
     {
       "id": "suwon-stream",
@@ -447,7 +447,7 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 9.0,
-      "pm25": 2.0
+      "pm25": 6.0
     },
     {
       "id": "gwanggyo-mountain",
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 10.0,
-      "pm25": 4.0
+      "pm10": 8.0,
+      "pm25": 3.0
     },
     {
       "id": "dongtan-yeoul-park",
@@ -638,8 +638,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 10.0,
-      "pm25": 3.0
+      "pm10": 11.0,
+      "pm25": 2.0
     },
     {
       "id": "yeongheung-forest-park",
@@ -702,7 +702,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 9.0,
+      "pm10": 8.0,
       "pm25": 5.0
     },
     {
@@ -767,7 +767,7 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 9.0,
-      "pm25": 2.0
+      "pm25": 6.0
     }
   ]
 }
