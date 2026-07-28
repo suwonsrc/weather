@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T09:03:32.171136+09:00",
+  "generated_at": "2026-07-28T09:13:03.784016+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -190,8 +190,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 18.6,
-      "pm25": 14.3
+      "pm10": 28.0,
+      "pm25": 8.0
     },
     {
       "id": "skku",
@@ -382,8 +382,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": null,
-      "pm25": null
+      "pm10": 21.0,
+      "pm25": 12.0
     },
     {
       "id": "suwon-stream",
@@ -643,7 +643,7 @@
     },
     {
       "id": "yeongheung-forest-park",
-      "provider": "open-meteo",
+      "provider": "kma",
       "name_ko": "영흥숲공원",
       "name_en": "Yeongheung Forest Park",
       "name_en_short": "Yeongheung Forest",
@@ -651,17 +651,17 @@
       "location_ko": "수원시 영통구 원천동",
       "location_en": "Woncheon-dong, Suwon",
       "location_en_short": "Woncheon",
-      "updated_at": "2026-07-28T09:00+09:00",
+      "updated_at": "2026-07-28T08:00:00+09:00",
       "sunrise": "05:32",
       "sunset": "19:44",
       "is_night": false,
       "lat": 37.261067,
       "lon": 127.07047,
-      "temperature": 26.9,
-      "apparent_temperature": 29.5,
-      "humidity": 93.0,
-      "wind_speed": 2.8055555555555554,
-      "wind_direction": 266.0,
+      "temperature": 28.4,
+      "apparent_temperature": 32.4,
+      "humidity": 76.0,
+      "wind_speed": 2.3,
+      "wind_direction": 255.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -675,9 +675,9 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 50,
-      "run_grade": "C",
-      "temp_score": 30,
+      "run_score": 78,
+      "run_grade": "B",
+      "temp_score": 50,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
@@ -689,13 +689,13 @@
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
-        "찜통",
+        "더움",
         "약한바람",
         "건조",
         "공기좋음"
       ],
       "tags_en": [
-        "Humid Heat",
+        "Warm",
         "Light Breeze",
         "Dry",
         "Good Air"
