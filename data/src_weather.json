@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T23:02:40.629372+09:00",
+  "generated_at": "2026-07-29T23:32:35.660075+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -382,8 +382,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 14.4,
-      "pm25": 11.8
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "suwon-stream",
@@ -446,8 +446,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": null,
-      "pm25": null
+      "pm10": 14.4,
+      "pm25": 11.8
     },
     {
       "id": "gwanggyo-mountain",
@@ -510,8 +510,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": null,
-      "pm25": null
+      "pm10": 14.4,
+      "pm25": 11.8
     },
     {
       "id": "suwon-worldcup",
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 14.4,
-      "pm25": 11.8
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "dongtan-yeoul-park",
