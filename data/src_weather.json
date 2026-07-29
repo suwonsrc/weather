@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T06:03:40.108815+09:00",
+  "generated_at": "2026-07-30T06:15:57.803829+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -195,7 +195,7 @@
     },
     {
       "id": "skku",
-      "provider": "open-meteo",
+      "provider": "kma",
       "name_ko": "성균관대학교",
       "name_en": "Sungkyunkwan Univ. (Suwon)",
       "name_en_short": "SKKU (Suwon)",
@@ -203,17 +203,17 @@
       "location_ko": "수원시 장안구 율전동",
       "location_en": "Yuljeon-dong, Suwon",
       "location_en_short": "Yuljeon",
-      "updated_at": "2026-07-30T06:00+09:00",
+      "updated_at": "2026-07-30T05:00:00+09:00",
       "sunrise": "05:34",
       "sunset": "19:43",
-      "is_night": false,
+      "is_night": true,
       "lat": 37.293788,
       "lon": 126.974365,
-      "temperature": 22.6,
-      "apparent_temperature": 25.7,
-      "humidity": 99.0,
-      "wind_speed": 0.3055555555555556,
-      "wind_direction": 90.0,
+      "temperature": 24.3,
+      "apparent_temperature": 26.9,
+      "humidity": 93.0,
+      "wind_speed": 1.4,
+      "wind_direction": 219.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -234,10 +234,10 @@
       "wet_score": 100,
       "surface_score": 100,
       "air_score": 100,
-      "outfit_ko": "👕 통풍 좋은 반팔 T셔츠 + 러닝 숏츠 (선크림 착용 권장 ☀️)",
-      "outfit_en": "👕 Breathable short-sleeve T-shirt & running shorts (Sunscreen recommended ☀️)",
-      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요.",
-      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes.",
+      "outfit_ko": "👕 통풍 좋은 반팔 T셔츠 + 러닝 숏츠 (야간 반사 밴드 🌙)",
+      "outfit_en": "👕 Breathable short-sleeve T-shirt & running shorts (Reflective band 🌙)",
+      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
+      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes. 🌙 [Night Running Safety] Wear reflective gear or LED band for visibility and traffic safety.",
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
@@ -254,8 +254,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 16.5,
-      "pm25": 12.6
+      "pm10": 11.0,
+      "pm25": 8.0
     },
     {
       "id": "woncheon-stream-sindong",
@@ -318,8 +318,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": null,
-      "pm25": null
+      "pm10": 8.0,
+      "pm25": 5.0
     },
     {
       "id": "paldalsan-hwaseong",
@@ -382,8 +382,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 7.0,
-      "pm25": 6.0
+      "pm10": 9.0,
+      "pm25": 8.0
     },
     {
       "id": "suwon-stream",
@@ -446,8 +446,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 10.0,
-      "pm25": 4.0
+      "pm10": 8.0,
+      "pm25": 5.0
     },
     {
       "id": "gwanggyo-mountain",
@@ -510,7 +510,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 14.0,
+      "pm10": 17.0,
       "pm25": 4.0
     },
     {
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 14.0,
-      "pm25": 3.0
+      "pm10": 9.0,
+      "pm25": 4.0
     },
     {
       "id": "dongtan-yeoul-park",
@@ -639,7 +639,7 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 17.0,
-      "pm25": 8.0
+      "pm25": 5.0
     },
     {
       "id": "yeongheung-forest-park",
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 12.0,
-      "pm25": 7.0
+      "pm10": 11.0,
+      "pm25": 11.0
     },
     {
       "id": "majung-park",
@@ -766,8 +766,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 10.0,
-      "pm25": 4.0
+      "pm10": 8.0,
+      "pm25": 5.0
     }
   ]
 }
