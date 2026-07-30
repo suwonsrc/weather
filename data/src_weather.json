@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T12:04:06.078077+09:00",
+  "generated_at": "2026-07-30T12:32:40.783061+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 7.0,
-      "pm25": 0.0
+      "pm10": 12.0,
+      "pm25": 2.0
     },
     {
       "id": "youth-center",
@@ -126,8 +126,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 16.7,
-      "pm25": 13.4
+      "pm10": 13.0,
+      "pm25": 11.0
     },
     {
       "id": "gwanggyo-lake-park",
@@ -190,8 +190,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": null,
-      "pm25": null
+      "pm10": 15.0,
+      "pm25": 6.0
     },
     {
       "id": "skku",
@@ -254,12 +254,12 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 19.4,
-      "pm25": 14.0
+      "pm10": 9.0,
+      "pm25": 4.0
     },
     {
       "id": "woncheon-stream-sindong",
-      "provider": "open-meteo",
+      "provider": "kma",
       "name_ko": "원천리천(신동)",
       "name_en": "Woncheon Stream (Sindong)",
       "name_en_short": "Woncheon Stream",
@@ -267,17 +267,17 @@
       "location_ko": "수원시 영통구 신동",
       "location_en": "Sin-dong, Suwon",
       "location_en_short": "Sindong",
-      "updated_at": "2026-07-30T12:00+09:00",
+      "updated_at": "2026-07-30T11:00:00+09:00",
       "sunrise": "05:34",
       "sunset": "19:42",
       "is_night": false,
       "lat": 37.248469,
       "lon": 127.041965,
-      "temperature": 29.4,
-      "apparent_temperature": 35.4,
-      "humidity": 78.0,
-      "wind_speed": 4.055555555555555,
-      "wind_direction": 280.0,
+      "temperature": 30.8,
+      "apparent_temperature": 34.9,
+      "humidity": 62.0,
+      "wind_speed": 3.0,
+      "wind_direction": 253.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -319,7 +319,7 @@
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
       "pm10": 13.0,
-      "pm25": 14.0
+      "pm25": 11.0
     },
     {
       "id": "paldalsan-hwaseong",
@@ -382,8 +382,72 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 7.0,
-      "pm25": 0.0
+      "pm10": 12.0,
+      "pm25": 2.0
+    },
+    {
+      "id": "suwon-stream",
+      "provider": "kma",
+      "name_ko": "수원천",
+      "name_en": "Suwoncheon Stream",
+      "name_en_short": "Suwon Stream",
+      "name": "수원천",
+      "location_ko": "수원시 팔달구 지동",
+      "location_en": "Ji-dong, Suwon",
+      "location_en_short": "Jidong",
+      "updated_at": "2026-07-30T11:00:00+09:00",
+      "sunrise": "05:34",
+      "sunset": "19:42",
+      "is_night": false,
+      "lat": 37.266571,
+      "lon": 127.015022,
+      "temperature": 30.8,
+      "apparent_temperature": 34.9,
+      "humidity": 62.0,
+      "wind_speed": 3.0,
+      "wind_direction": 253.0,
+      "rain_now": 0.0,
+      "snow_now": 0.0,
+      "snow_memory_mm": 0.0,
+      "freeze_surface_risk": false,
+      "forecast_rain_3h": 0.0,
+      "forecast_snow_3h": 0.0,
+      "recent_rain_3h": 0.0,
+      "recent_snow_3h": 0.0,
+      "wet_badge": {
+        "level": "good",
+        "text_ko": "건조",
+        "text_en": "Dry"
+      },
+      "run_score": 20,
+      "run_grade": "E",
+      "temp_score": 20,
+      "wind_score": 70,
+      "wet_score": 100,
+      "surface_score": 100,
+      "air_score": 100,
+      "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (선크림·햇빛 차단 모자 필수 ☀️)",
+      "outfit_en": "👕 Singlet & ultra-light shorts (Sunscreen & cap required ☀️)",
+      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요.",
+      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes.",
+      "risk_flags_ko": [],
+      "risk_flags_en": [],
+      "tags_ko": [
+        "폭염",
+        "다소바람",
+        "건조",
+        "공기좋음"
+      ],
+      "tags_en": [
+        "Extreme Heat",
+        "Moderate Wind",
+        "Dry",
+        "Good Air"
+      ],
+      "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
+      "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
+      "pm10": 13.0,
+      "pm25": 11.0
     },
     {
       "id": "gwanggyo-mountain",
@@ -446,8 +510,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 12.0,
-      "pm25": 3.0
+      "pm10": 15.0,
+      "pm25": 6.0
     },
     {
       "id": "suwon-worldcup",
@@ -510,7 +574,7 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 5.0,
+      "pm10": 14.0,
       "pm25": 3.0
     },
     {
@@ -574,8 +638,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 20.0,
-      "pm25": 3.0
+      "pm10": 21.0,
+      "pm25": 4.0
     },
     {
       "id": "yeongheung-forest-park",
@@ -638,8 +702,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 9.0,
-      "pm25": 6.0
+      "pm10": 8.0,
+      "pm25": 4.0
     },
     {
       "id": "majung-park",
@@ -703,7 +767,7 @@
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
       "pm10": 13.0,
-      "pm25": 14.0
+      "pm25": 11.0
     }
   ]
 }
