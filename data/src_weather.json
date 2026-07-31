@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T08:18:49.117582+09:00",
+  "generated_at": "2026-08-01T08:33:35.576970+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -67,7 +67,7 @@
     },
     {
       "id": "youth-center",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "청소년문화센터",
       "name_en": "Youth Culture Center",
       "name_en_short": "Youth Center",
@@ -75,17 +75,17 @@
       "location_ko": "수원시 팔달구 인계동",
       "location_en": "Ingye-dong, Suwon",
       "location_en_short": "Ingye",
-      "updated_at": "2026-08-01T07:00:00+09:00",
+      "updated_at": "2026-08-01T08:30+09:00",
       "sunrise": "05:35",
       "sunset": "19:40",
       "is_night": false,
       "lat": 37.274248,
       "lon": 127.034519,
-      "temperature": 28.0,
-      "apparent_temperature": 33.1,
-      "humidity": 86.0,
-      "wind_speed": 1.7,
-      "wind_direction": 204.0,
+      "temperature": 26.3,
+      "apparent_temperature": 29.3,
+      "humidity": 97.0,
+      "wind_speed": 1.972222222222222,
+      "wind_direction": 225.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -99,9 +99,9 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 20,
-      "run_grade": "E",
-      "temp_score": 20,
+      "run_score": 50,
+      "run_grade": "C",
+      "temp_score": 30,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
@@ -113,21 +113,21 @@
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
-        "폭염",
+        "찜통",
         "약한바람",
         "건조",
         "공기보통"
       ],
       "tags_en": [
-        "Extreme Heat",
+        "Humid Heat",
         "Light Breeze",
         "Dry",
         "Moderate Air"
       ],
-      "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
-      "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 29.0,
-      "pm25": 20.0
+      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
+      "advice_short_en": "Decent running condition 🙂",
+      "pm10": 25.2,
+      "pm25": 23.1
     },
     {
       "id": "gwanggyo-lake-park",
