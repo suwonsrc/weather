@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T19:02:14.450418+09:00",
+  "generated_at": "2026-08-04T19:31:24.122826+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 68.0,
-      "pm25": 37.0
+      "pm10": 66.0,
+      "pm25": 46.0
     },
     {
       "id": "youth-center",
@@ -126,7 +126,7 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 38.0,
+      "pm10": 46.0,
       "pm25": 35.0
     },
     {
@@ -155,9 +155,9 @@
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
       "forecast_rain_3h": 0.0,
-      "forecast_snow_3h": 3.0,
+      "forecast_snow_3h": 2.0,
       "recent_rain_3h": 0.0,
-      "recent_snow_3h": 3.0,
+      "recent_snow_3h": 2.0,
       "wet_badge": {
         "level": "good",
         "text_ko": "건조",
@@ -190,7 +190,7 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 41.0,
+      "pm10": 40.0,
       "pm25": 26.0
     },
     {
@@ -233,29 +233,29 @@
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 75,
+      "air_score": 40,
       "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (선크림·햇빛 차단 모자 필수 ☀️)",
       "outfit_en": "👕 Singlet & ultra-light shorts (Sunscreen & cap required ☀️)",
-      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요.",
-      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes.",
+      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. 😷 [공기질 나쁨] 미세먼지가 유입된 상태입니다. 호흡수가 급증하는 고강도 인터벌/빌드업 훈련은 자제하는 것이 좋습니다.",
+      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes. 😷 [Poor Air Quality] High PM concentrations. Avoid high-intensity interval workouts causing heavy breathing.",
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
         "폭염",
         "약한바람",
         "건조",
-        "공기보통"
+        "공기나쁨"
       ],
       "tags_en": [
         "Extreme Heat",
         "Light Breeze",
         "Dry",
-        "Moderate Air"
+        "Bad Air"
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 25.1,
-      "pm25": 24.6
+      "pm10": 71.0,
+      "pm25": 38.0
     },
     {
       "id": "woncheon-stream-sindong",
@@ -318,7 +318,7 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 38.0,
+      "pm10": 46.0,
       "pm25": 35.0
     },
     {
@@ -382,8 +382,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 68.0,
-      "pm25": 37.0
+      "pm10": 66.0,
+      "pm25": 46.0
     },
     {
       "id": "suwon-stream",
@@ -425,7 +425,7 @@
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 100,
+      "air_score": 75,
       "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (선크림·햇빛 차단 모자 필수 ☀️)",
       "outfit_en": "👕 Singlet & ultra-light shorts (Sunscreen & cap required ☀️)",
       "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요.",
@@ -436,18 +436,18 @@
         "폭염",
         "약한바람",
         "건조",
-        "공기좋음"
+        "공기보통"
       ],
       "tags_en": [
         "Extreme Heat",
         "Light Breeze",
         "Dry",
-        "Good Air"
+        "Moderate Air"
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": null,
-      "pm25": null
+      "pm10": 46.0,
+      "pm25": 35.0
     },
     {
       "id": "gwanggyo-mountain",
@@ -510,7 +510,7 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 41.0,
+      "pm10": 40.0,
       "pm25": 26.0
     },
     {
@@ -539,9 +539,9 @@
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
       "forecast_rain_3h": 0.0,
-      "forecast_snow_3h": 3.0,
+      "forecast_snow_3h": 2.0,
       "recent_rain_3h": 0.0,
-      "recent_snow_3h": 3.0,
+      "recent_snow_3h": 2.0,
       "wet_badge": {
         "level": "good",
         "text_ko": "건조",
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 17.9,
-      "pm25": 17.5
+      "pm10": 63.0,
+      "pm25": 22.0
     },
     {
       "id": "dongtan-yeoul-park",
@@ -638,8 +638,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 51.0,
-      "pm25": 31.0
+      "pm10": 39.0,
+      "pm25": 29.0
     },
     {
       "id": "yeongheung-forest-park",
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 40.0,
-      "pm25": 24.0
+      "pm10": 45.0,
+      "pm25": 29.0
     },
     {
       "id": "majung-park",
@@ -766,7 +766,7 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 38.0,
+      "pm10": 46.0,
       "pm25": 35.0
     }
   ]
