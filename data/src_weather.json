@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T00:31:39.365878+09:00",
+  "generated_at": "2026-08-05T00:37:05.464872+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -667,9 +667,9 @@
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
       "forecast_rain_3h": 0.0,
-      "forecast_snow_3h": 1.0,
+      "forecast_snow_3h": 0.0,
       "recent_rain_3h": 0.0,
-      "recent_snow_3h": 1.0,
+      "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "good",
         "text_ko": "건조",
