@@ -3,7 +3,7 @@
   "courses": [
     {
       "id": "seoho-park",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "서호공원",
       "name_en": "Seoho Park",
       "name_en_short": "Seoho Park",
@@ -105,7 +105,7 @@
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 100,
+      "air_score": 75,
       "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (야간 반사 밴드/리플렉티브 의류 🌙)",
       "outfit_en": "👕 Singlet & ultra-light shorts (Reflective gear recommended 🌙)",
       "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
@@ -116,22 +116,22 @@
         "찜통",
         "약한바람",
         "건조",
-        "공기좋음"
+        "공기보통"
       ],
       "tags_en": [
         "Humid Heat",
         "Light Breeze",
         "Dry",
-        "Good Air"
+        "Moderate Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 19.0,
-      "pm25": 8.0
+      "pm10": 20.3,
+      "pm25": 19.9
     },
     {
       "id": "gwanggyo-lake-park",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "광교호수공원",
       "name_en": "Gwanggyo Lake Park",
       "name_en_short": "Gwanggyo Lake",
@@ -163,9 +163,9 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 20,
-      "run_grade": "E",
-      "temp_score": 20,
+      "run_score": 50,
+      "run_grade": "C",
+      "temp_score": 30,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
@@ -177,25 +177,25 @@
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
-        "폭염",
+        "찜통",
         "약한바람",
         "건조",
         "공기좋음"
       ],
       "tags_en": [
-        "Extreme Heat",
+        "Humid Heat",
         "Light Breeze",
         "Dry",
         "Good Air"
       ],
-      "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
-      "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 19.0,
-      "pm25": 7.0
+      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
+      "advice_short_en": "Decent running condition 🙂",
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "skku",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "성균관대학교",
       "name_en": "Sungkyunkwan Univ. (Suwon)",
       "name_en_short": "SKKU (Suwon)",
@@ -297,7 +297,7 @@
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 100,
+      "air_score": 75,
       "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (야간 반사 밴드/리플렉티브 의류 🌙)",
       "outfit_en": "👕 Singlet & ultra-light shorts (Reflective gear recommended 🌙)",
       "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
@@ -308,22 +308,22 @@
         "찜통",
         "약한바람",
         "건조",
-        "공기좋음"
+        "공기보통"
       ],
       "tags_en": [
         "Humid Heat",
         "Light Breeze",
         "Dry",
-        "Good Air"
+        "Moderate Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 19.0,
-      "pm25": 8.0
+      "pm10": 20.3,
+      "pm25": 19.9
     },
     {
       "id": "paldalsan-hwaseong",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "팔달산(수원화성, 행궁동)",
       "name_en": "Paldalsan Fortress Area",
       "name_en_short": "Paldalsan Area",
@@ -446,12 +446,12 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 19.0,
-      "pm25": 8.0
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "gwanggyo-mountain",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "광교산",
       "name_en": "Gwanggyo Mountain",
       "name_en_short": "Mt. Gwanggyo",
@@ -483,27 +483,27 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 20,
-      "run_grade": "E",
-      "temp_score": 20,
+      "run_score": 78,
+      "run_grade": "B",
+      "temp_score": 50,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
       "air_score": 100,
-      "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (야간 반사 밴드/리플렉티브 의류 🌙)",
-      "outfit_en": "👕 Singlet & ultra-light shorts (Reflective gear recommended 🌙)",
+      "outfit_ko": "👕 통풍 좋은 반팔 T셔츠 + 러닝 숏츠 (야간 반사 밴드 🌙)",
+      "outfit_en": "👕 Breathable short-sleeve T-shirt & running shorts (Reflective band 🌙)",
       "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
       "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes. 🌙 [Night Running Safety] Wear reflective gear or LED band for visibility and traffic safety.",
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
-        "폭염",
+        "더움",
         "약한바람",
         "건조",
         "공기좋음"
       ],
       "tags_en": [
-        "Extreme Heat",
+        "Warm",
         "Light Breeze",
         "Dry",
         "Good Air"
@@ -579,7 +579,7 @@
     },
     {
       "id": "dongtan-yeoul-park",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "동탄여울공원",
       "name_en": "Dongtan Yeoul Park",
       "name_en_short": "Dongtan Yeoul",
@@ -602,9 +602,9 @@
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
-      "forecast_rain_3h": 0.0,
+      "forecast_rain_3h": 0.2,
       "forecast_snow_3h": 0.0,
-      "recent_rain_3h": 0.0,
+      "recent_rain_3h": 0.2,
       "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "good",
@@ -679,8 +679,8 @@
       "run_grade": "C",
       "temp_score": 30,
       "wind_score": 100,
-      "wet_score": 100,
-      "surface_score": 100,
+      "wet_score": 65,
+      "surface_score": 65,
       "air_score": 100,
       "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (야간 반사 밴드/리플렉티브 의류 🌙)",
       "outfit_en": "👕 Singlet & ultra-light shorts (Reflective gear recommended 🌙)",
@@ -691,23 +691,23 @@
       "tags_ko": [
         "찜통",
         "약한바람",
-        "건조",
+        "살짝젖음",
         "공기좋음"
       ],
       "tags_en": [
         "Humid Heat",
         "Light Breeze",
-        "Dry",
+        "Damp",
         "Good Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 18.0,
-      "pm25": 8.0
+      "pm10": 14.1,
+      "pm25": 13.6
     },
     {
       "id": "majung-park",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "마중공원",
       "name_en": "Majung Park",
       "name_en_short": "Majung Park",
@@ -766,8 +766,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 19.0,
-      "pm25": 8.0
+      "pm10": null,
+      "pm25": null
     }
   ]
 }
