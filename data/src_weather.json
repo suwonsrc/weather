@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T04:17:38.396454+09:00",
+  "generated_at": "2026-08-08T04:32:18.263726+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 14.9,
-      "pm25": 14.5
+      "pm10": 23.0,
+      "pm25": 12.0
     },
     {
       "id": "youth-center",
@@ -126,8 +126,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": null,
-      "pm25": null
+      "pm10": 11.0,
+      "pm25": 10.4
     },
     {
       "id": "gwanggyo-lake-park",
@@ -254,8 +254,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 18.0,
-      "pm25": 5.0
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "woncheon-stream-sindong",
@@ -446,8 +446,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 21.0,
-      "pm25": 12.0
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "gwanggyo-mountain",
@@ -510,8 +510,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": null,
-      "pm25": null
+      "pm10": 19.0,
+      "pm25": 7.0
     },
     {
       "id": "suwon-worldcup",
@@ -643,7 +643,7 @@
     },
     {
       "id": "yeongheung-forest-park",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "영흥숲공원",
       "name_en": "Yeongheung Forest Park",
       "name_en_short": "Yeongheung Forest",
@@ -651,17 +651,17 @@
       "location_ko": "수원시 영통구 원천동",
       "location_en": "Woncheon-dong, Suwon",
       "location_en_short": "Woncheon",
-      "updated_at": "2026-08-08T03:00:00+09:00",
+      "updated_at": "2026-08-08T04:30+09:00",
       "sunrise": "05:41",
       "sunset": "19:33",
       "is_night": true,
       "lat": 37.261067,
       "lon": 127.07047,
-      "temperature": 30.1,
-      "apparent_temperature": 35.0,
-      "humidity": 69.0,
-      "wind_speed": 2.0,
-      "wind_direction": 76.0,
+      "temperature": 24.8,
+      "apparent_temperature": 27.4,
+      "humidity": 92.0,
+      "wind_speed": 2.111111111111111,
+      "wind_direction": 82.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -675,13 +675,13 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 20,
-      "run_grade": "E",
-      "temp_score": 20,
+      "run_score": 58,
+      "run_grade": "C",
+      "temp_score": 50,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 100,
+      "air_score": 75,
       "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (야간 반사 밴드/리플렉티브 의류 🌙)",
       "outfit_en": "👕 Singlet & ultra-light shorts (Reflective gear recommended 🌙)",
       "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
@@ -689,21 +689,21 @@
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
-        "폭염",
+        "더움",
         "약한바람",
         "건조",
-        "공기좋음"
+        "공기보통"
       ],
       "tags_en": [
-        "Extreme Heat",
+        "Warm",
         "Light Breeze",
         "Dry",
-        "Good Air"
+        "Moderate Air"
       ],
-      "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
-      "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 11.0,
-      "pm25": 10.4
+      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
+      "advice_short_en": "Decent running condition 🙂",
+      "pm10": 22.0,
+      "pm25": 17.0
     },
     {
       "id": "majung-park",
