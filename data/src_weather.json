@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T16:35:25.872083+09:00",
+  "generated_at": "2026-08-07T16:46:49.211202+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -267,7 +267,7 @@
       "location_ko": "수원시 팔달구 우만동",
       "location_en": "Uman-dong, Suwon",
       "location_en_short": "Uman",
-      "updated_at": "2026-08-07T16:30+09:00",
+      "updated_at": "2026-08-07T16:45+09:00",
       "sunrise": "05:40",
       "sunset": "19:35",
       "is_night": false,
@@ -276,8 +276,8 @@
       "temperature": 35.0,
       "apparent_temperature": 42.7,
       "humidity": 55.0,
-      "wind_speed": 1.6944444444444442,
-      "wind_direction": 40.0,
+      "wind_speed": 1.6388888888888888,
+      "wind_direction": 43.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -331,17 +331,17 @@
       "location_ko": "수원시 영통구 원천동",
       "location_en": "Woncheon-dong, Suwon",
       "location_en_short": "Woncheon",
-      "updated_at": "2026-08-07T16:30+09:00",
+      "updated_at": "2026-08-07T16:45+09:00",
       "sunrise": "05:40",
       "sunset": "19:34",
       "is_night": false,
       "lat": 37.261067,
       "lon": 127.07047,
-      "temperature": 34.9,
-      "apparent_temperature": 42.5,
+      "temperature": 34.8,
+      "apparent_temperature": 42.2,
       "humidity": 55.0,
-      "wind_speed": 1.6388888888888888,
-      "wind_direction": 38.0,
+      "wind_speed": 1.5,
+      "wind_direction": 37.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -382,8 +382,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": null,
-      "pm25": null
+      "pm10": 8.1,
+      "pm25": 7.7
     }
   ]
 }
