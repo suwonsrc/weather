@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T13:29:27.856148+09:00",
+  "generated_at": "2026-08-08T13:31:28.698374+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -318,8 +318,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 4.8,
-      "pm25": 4.5
+      "pm10": 24.0,
+      "pm25": 2.0
     },
     {
       "id": "paldalsan-hwaseong",
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 4.8,
-      "pm25": 4.5
+      "pm10": 7.0,
+      "pm25": 2.0
     },
     {
       "id": "majung-park",
