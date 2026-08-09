@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T00:51:50.406736+09:00",
+  "generated_at": "2026-08-10T01:05:27.896788+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -11,7 +11,7 @@
       "location_ko": "수원시 권선구 서둔동",
       "location_en": "Seodun-dong, Suwon",
       "location_en_short": "Seodun",
-      "updated_at": "2026-08-10T00:45+09:00",
+      "updated_at": "2026-08-10T01:00+09:00",
       "sunrise": "05:43",
       "sunset": "19:31",
       "is_night": true,
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 5.7,
-      "pm25": 4.8
+      "pm10": 5.6,
+      "pm25": 4.7
     },
     {
       "id": "gwanggyo-lake-park",
@@ -75,7 +75,7 @@
       "location_ko": "수원시 영통구 하동",
       "location_en": "Ha-dong, Suwon",
       "location_en_short": "Hadong",
-      "updated_at": "2026-08-10T00:45+09:00",
+      "updated_at": "2026-08-10T01:00+09:00",
       "sunrise": "05:43",
       "sunset": "19:31",
       "is_night": true,
@@ -139,7 +139,7 @@
       "location_ko": "수원시 영통구 신동",
       "location_en": "Sin-dong, Suwon",
       "location_en_short": "Sindong",
-      "updated_at": "2026-08-10T00:45+09:00",
+      "updated_at": "2026-08-10T01:00+09:00",
       "sunrise": "05:43",
       "sunset": "19:31",
       "is_night": true,
@@ -190,8 +190,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 4.0,
-      "pm25": 3.3
+      "pm10": 3.7,
+      "pm25": 3.0
     },
     {
       "id": "suwon-stream",
@@ -203,7 +203,7 @@
       "location_ko": "수원시 팔달구 지동",
       "location_en": "Ji-dong, Suwon",
       "location_en_short": "Jidong",
-      "updated_at": "2026-08-10T00:45+09:00",
+      "updated_at": "2026-08-10T01:00+09:00",
       "sunrise": "05:43",
       "sunset": "19:31",
       "is_night": true,
@@ -267,7 +267,7 @@
       "location_ko": "수원시 팔달구 우만동",
       "location_en": "Uman-dong, Suwon",
       "location_en_short": "Uman",
-      "updated_at": "2026-08-10T00:45+09:00",
+      "updated_at": "2026-08-10T01:00+09:00",
       "sunrise": "05:43",
       "sunset": "19:31",
       "is_night": true,
@@ -318,8 +318,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 4.0,
-      "pm25": 3.3
+      "pm10": 3.7,
+      "pm25": 3.0
     },
     {
       "id": "yeongheung-forest-park",
@@ -331,7 +331,7 @@
       "location_ko": "수원시 영통구 원천동",
       "location_en": "Woncheon-dong, Suwon",
       "location_en_short": "Woncheon",
-      "updated_at": "2026-08-10T00:45+09:00",
+      "updated_at": "2026-08-10T01:00+09:00",
       "sunrise": "05:43",
       "sunset": "19:31",
       "is_night": true,
