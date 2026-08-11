@@ -35,10 +35,10 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 91,
+      "run_score": 84,
       "run_grade": "A",
       "temp_score": 80,
-      "wind_score": 100,
+      "wind_score": 70,
       "wet_score": 100,
       "surface_score": 100,
       "air_score": 100,
@@ -50,13 +50,13 @@
       "risk_flags_en": [],
       "tags_ko": [
         "쾌적",
-        "약한바람",
+        "다소바람",
         "건조",
         "공기좋음"
       ],
       "tags_en": [
         "Comfortable",
-        "Light Breeze",
+        "Moderate Wind",
         "Dry",
         "Good Air"
       ],
@@ -419,9 +419,9 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 91,
-      "run_grade": "A",
-      "temp_score": 80,
+      "run_score": 78,
+      "run_grade": "B",
+      "temp_score": 50,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
@@ -433,13 +433,13 @@
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
-        "쾌적",
+        "더움",
         "약한바람",
         "건조",
         "공기좋음"
       ],
       "tags_en": [
-        "Comfortable",
+        "Warm",
         "Light Breeze",
         "Dry",
         "Good Air"
