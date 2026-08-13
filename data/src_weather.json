@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T03:02:13.859305+09:00",
+  "generated_at": "2026-08-14T03:12:16.701570+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -382,8 +382,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 4.0,
-      "pm25": 3.0
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "suwon-stream",
@@ -510,8 +510,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 8.0,
-      "pm25": 3.0
+      "pm10": 9.6,
+      "pm25": 8.4
     },
     {
       "id": "suwon-worldcup",
