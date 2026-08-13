@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T04:27:18.025657+09:00",
+  "generated_at": "2026-08-14T04:32:05.897041+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 4.0,
-      "pm25": 1.0
+      "pm10": 11.5,
+      "pm25": 10.2
     },
     {
       "id": "youth-center",
@@ -126,8 +126,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 4.0,
-      "pm25": 2.0
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "gwanggyo-lake-park",
@@ -382,8 +382,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 4.0,
-      "pm25": 1.0
+      "pm10": 8.9,
+      "pm25": 7.8
     },
     {
       "id": "suwon-stream",
@@ -510,8 +510,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 7.0,
-      "pm25": 0.0
+      "pm10": 8.9,
+      "pm25": 7.8
     },
     {
       "id": "suwon-worldcup",
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 8.0,
-      "pm25": 5.0
+      "pm10": 8.9,
+      "pm25": 7.8
     },
     {
       "id": "majung-park",
