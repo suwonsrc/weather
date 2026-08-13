@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-13T21:01:54.953739+09:00",
+  "generated_at": "2026-08-13T21:31:38.188113+09:00",
   "courses": [
     {
       "id": "seoho-park",
-      "provider": "open-meteo",
+      "provider": "kma",
       "name_ko": "서호공원",
       "name_en": "Seoho Park",
       "name_en_short": "Seoho Park",
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 18.0,
-      "pm25": 4.0
+      "pm10": 13.0,
+      "pm25": 5.0
     },
     {
       "id": "youth-center",
@@ -131,7 +131,7 @@
     },
     {
       "id": "gwanggyo-lake-park",
-      "provider": "open-meteo",
+      "provider": "kma",
       "name_ko": "광교호수공원",
       "name_en": "Gwanggyo Lake Park",
       "name_en_short": "Gwanggyo Lake",
@@ -190,8 +190,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": null,
-      "pm25": null
+      "pm10": 13.0,
+      "pm25": 0.0
     },
     {
       "id": "skku",
@@ -254,12 +254,12 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 12.0,
-      "pm25": 5.0
+      "pm10": 8.0,
+      "pm25": 1.0
     },
     {
       "id": "woncheon-stream-sindong",
-      "provider": "open-meteo",
+      "provider": "kma",
       "name_ko": "원천리천(신동)",
       "name_en": "Woncheon Stream (Sindong)",
       "name_en_short": "Woncheon Stream",
@@ -291,8 +291,8 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 58,
-      "run_grade": "C",
+      "run_score": 78,
+      "run_grade": "B",
       "temp_score": 50,
       "wind_score": 100,
       "wet_score": 100,
@@ -308,18 +308,18 @@
         "더움",
         "약한바람",
         "건조",
-        "공기보통"
+        "공기좋음"
       ],
       "tags_en": [
         "Warm",
         "Light Breeze",
         "Dry",
-        "Moderate Air"
+        "Good Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 9.0,
-      "pm25": 7.0
+      "pm25": 10.0
     },
     {
       "id": "paldalsan-hwaseong",
@@ -387,7 +387,7 @@
     },
     {
       "id": "suwon-stream",
-      "provider": "open-meteo",
+      "provider": "kma",
       "name_ko": "수원천",
       "name_en": "Suwoncheon Stream",
       "name_en_short": "Suwon Stream",
@@ -447,7 +447,7 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 9.0,
-      "pm25": 7.0
+      "pm25": 10.0
     },
     {
       "id": "gwanggyo-mountain",
@@ -510,12 +510,12 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 7.0,
-      "pm25": null
+      "pm10": 13.0,
+      "pm25": 0.0
     },
     {
       "id": "suwon-worldcup",
-      "provider": "open-meteo",
+      "provider": "kma",
       "name_ko": "수원월드컵경기장",
       "name_en": "Suwon World Cup Stadium",
       "name_en_short": "Suwon World Cup",
@@ -547,8 +547,8 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 58,
-      "run_grade": "C",
+      "run_score": 78,
+      "run_grade": "B",
       "temp_score": 50,
       "wind_score": 100,
       "wet_score": 100,
@@ -564,22 +564,22 @@
         "더움",
         "약한바람",
         "건조",
-        "공기보통"
+        "공기좋음"
       ],
       "tags_en": [
         "Warm",
         "Light Breeze",
         "Dry",
-        "Moderate Air"
+        "Good Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 17.2,
-      "pm25": 16.2
+      "pm10": 11.0,
+      "pm25": 3.0
     },
     {
       "id": "dongtan-yeoul-park",
-      "provider": "open-meteo",
+      "provider": "kma",
       "name_ko": "동탄여울공원",
       "name_en": "Dongtan Yeoul Park",
       "name_en_short": "Dongtan Yeoul",
@@ -639,7 +639,7 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 6.0,
-      "pm25": 0.0
+      "pm25": 3.0
     },
     {
       "id": "yeongheung-forest-park",
@@ -702,12 +702,12 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 4.0,
-      "pm25": 6.0
+      "pm10": 5.0,
+      "pm25": 10.0
     },
     {
       "id": "majung-park",
-      "provider": "open-meteo",
+      "provider": "kma",
       "name_ko": "마중공원",
       "name_en": "Majung Park",
       "name_en_short": "Majung Park",
@@ -739,8 +739,8 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 58,
-      "run_grade": "C",
+      "run_score": 78,
+      "run_grade": "B",
       "temp_score": 50,
       "wind_score": 100,
       "wet_score": 100,
@@ -756,18 +756,18 @@
         "더움",
         "약한바람",
         "건조",
-        "공기보통"
+        "공기좋음"
       ],
       "tags_en": [
         "Warm",
         "Light Breeze",
         "Dry",
-        "Moderate Air"
+        "Good Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 17.2,
-      "pm25": 16.2
+      "pm10": 9.0,
+      "pm25": 10.0
     }
   ]
 }
