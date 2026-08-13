@@ -638,8 +638,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": null,
-      "pm25": null
+      "pm10": 9.8,
+      "pm25": 9.2
     },
     {
       "id": "yeongheung-forest-park",
