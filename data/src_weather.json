@@ -578,7 +578,7 @@
       "pm25": 1.0
     },
     {
-      "id": "dongtan-yeoul-park",
+      "id": "majung-park",
       "provider": "kma",
       "name_ko": "동탄여울공원",
       "name_en": "Dongtan Yeoul Park",
@@ -589,7 +589,7 @@
       "location_en_short": "Osan",
       "updated_at": "2026-08-14T08:00:00+09:00",
       "sunrise": "05:46",
-      "sunset": "19:26",
+      "sunset": "19:27",
       "is_night": false,
       "lat": 37.198689,
       "lon": 127.086609,
