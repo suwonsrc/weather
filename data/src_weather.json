@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T15:59:12.314212+09:00",
+  "generated_at": "2026-08-15T16:01:57.228652+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 27.0,
-      "pm25": 13.0
+      "pm10": 14.8,
+      "pm25": 14.3
     },
     {
       "id": "youth-center",
@@ -267,15 +267,15 @@
       "location_ko": "수원시 영통구 신동",
       "location_en": "Sin-dong, Suwon",
       "location_en_short": "Sindong",
-      "updated_at": "2026-08-15T15:45+09:00",
+      "updated_at": "2026-08-15T16:00+09:00",
       "sunrise": "05:47",
       "sunset": "19:25",
       "is_night": false,
       "lat": 37.248469,
       "lon": 127.041965,
-      "temperature": 26.8,
+      "temperature": 26.7,
       "apparent_temperature": 28.4,
-      "humidity": 80.0,
+      "humidity": 81.0,
       "wind_speed": 1.8611111111111112,
       "wind_direction": 126.0,
       "rain_now": 0.0,
@@ -510,8 +510,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 17.0,
-      "pm25": 14.0
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "suwon-worldcup",
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 18.0,
-      "pm25": 12.0
+      "pm10": 13.8,
+      "pm25": 13.0
     },
     {
       "id": "dongtan-yeoul-park",
