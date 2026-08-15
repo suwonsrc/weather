@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T12:55:52.719856+09:00",
+  "generated_at": "2026-08-15T13:01:27.243866+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -21,7 +21,7 @@
       "apparent_temperature": 31.7,
       "humidity": 70.0,
       "wind_speed": 0.9,
-      "wind_direction": 262.0,
+      "wind_direction": 264.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -149,7 +149,7 @@
       "apparent_temperature": 31.2,
       "humidity": 77.0,
       "wind_speed": 0.3,
-      "wind_direction": 116.0,
+      "wind_direction": 108.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -213,7 +213,7 @@
       "apparent_temperature": 31.7,
       "humidity": 70.0,
       "wind_speed": 0.9,
-      "wind_direction": 262.0,
+      "wind_direction": 264.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -469,7 +469,7 @@
       "apparent_temperature": 31.2,
       "humidity": 77.0,
       "wind_speed": 0.3,
-      "wind_direction": 116.0,
+      "wind_direction": 108.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -638,8 +638,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 16.0,
-      "pm25": 10.0
+      "pm10": 13.9,
+      "pm25": 13.2
     },
     {
       "id": "yeongheung-forest-park",
