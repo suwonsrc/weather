@@ -227,8 +227,8 @@
         "text_ko": "살짝젖음",
         "text_en": "Damp"
       },
-      "run_score": 67,
-      "run_grade": "B",
+      "run_score": 50,
+      "run_grade": "C",
       "temp_score": 50,
       "wind_score": 100,
       "wet_score": 65,
@@ -244,13 +244,13 @@
         "더움",
         "약한바람",
         "살짝젖음",
-        "공기좋음"
+        "공기보통"
       ],
       "tags_en": [
         "Warm",
         "Light Breeze",
         "Damp",
-        "Good Air"
+        "Moderate Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
