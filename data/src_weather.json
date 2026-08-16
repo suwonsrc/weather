@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T06:31:18.626877+09:00",
+  "generated_at": "2026-08-17T06:35:20.776767+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 3.0,
-      "pm25": 3.0
+      "pm10": 5.2,
+      "pm25": 5.2
     },
     {
       "id": "youth-center",
@@ -126,8 +126,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 4.0,
-      "pm25": 3.0
+      "pm10": 4.2,
+      "pm25": 4.1
     },
     {
       "id": "gwanggyo-lake-park",
@@ -318,8 +318,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 4.2,
-      "pm25": 4.1
+      "pm10": 4.0,
+      "pm25": 3.0
     },
     {
       "id": "paldalsan-hwaseong",
