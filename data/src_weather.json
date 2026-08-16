@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T04:31:29.977689+09:00",
+  "generated_at": "2026-08-17T04:35:40.861826+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 6.0,
-      "pm25": 0.0
+      "pm10": 5.5,
+      "pm25": 5.5
     },
     {
       "id": "youth-center",
@@ -318,8 +318,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 4.0,
-      "pm25": 2.0
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "paldalsan-hwaseong",
@@ -574,12 +574,12 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 6.0,
-      "pm25": 1.0
+      "pm10": 3.8,
+      "pm25": 3.7
     },
     {
       "id": "dongtan-yeoul-park",
-      "provider": "open-meteo",
+      "provider": "kma",
       "name_ko": "동탄여울공원",
       "name_en": "Dongtan Yeoul Park",
       "name_en_short": "Dongtan Yeoul",
@@ -587,24 +587,24 @@
       "location_ko": "화성시 동탄 오산동",
       "location_en": "Osan-dong, Dongtan",
       "location_en_short": "Osan",
-      "updated_at": "2026-08-17T04:30+09:00",
+      "updated_at": "2026-08-17T03:00:00+09:00",
       "sunrise": "05:49",
       "sunset": "19:23",
       "is_night": true,
       "lat": 37.198689,
       "lon": 127.086609,
-      "temperature": 22.4,
+      "temperature": 22.9,
       "apparent_temperature": 25.2,
-      "humidity": 95.0,
-      "wind_speed": 2.0,
-      "wind_direction": 96.0,
-      "rain_now": 0.1,
+      "humidity": 89.0,
+      "wind_speed": 1.2,
+      "wind_direction": 99.0,
+      "rain_now": 0.5,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
-      "forecast_rain_3h": 0.0,
+      "forecast_rain_3h": 2.0,
       "forecast_snow_3h": 0.0,
-      "recent_rain_3h": 0.0,
+      "recent_rain_3h": 2.0,
       "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "wet",
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 3.8,
-      "pm25": 3.7
+      "pm10": 4.0,
+      "pm25": 5.0
     },
     {
       "id": "majung-park",
