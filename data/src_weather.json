@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T16:17:41.397757+09:00",
+  "generated_at": "2026-08-17T16:31:48.212639+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -35,13 +35,13 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 58,
-      "run_grade": "C",
+      "run_score": 78,
+      "run_grade": "B",
       "temp_score": 50,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 75,
+      "air_score": 100,
       "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (선크림·햇빛 차단 모자 필수 ☀️)",
       "outfit_en": "👕 Singlet & ultra-light shorts (Sunscreen & cap required ☀️)",
       "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요.",
@@ -52,18 +52,18 @@
         "더움",
         "약한바람",
         "건조",
-        "공기보통"
+        "공기좋음"
       ],
       "tags_en": [
         "Warm",
         "Light Breeze",
         "Dry",
-        "Moderate Air"
+        "Good Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 21.0,
-      "pm25": 19.0
+      "pm10": 6.2,
+      "pm25": 6.0
     },
     {
       "id": "youth-center",
@@ -99,13 +99,13 @@
         "text_ko": "노면젖음",
         "text_en": "Wet"
       },
-      "run_score": 37,
+      "run_score": 40,
       "run_grade": "D",
       "temp_score": 30,
       "wind_score": 100,
       "wet_score": 35,
       "surface_score": 35,
-      "air_score": 75,
+      "air_score": 100,
       "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (선크림·햇빛 차단 모자 필수 ☀️)",
       "outfit_en": "👕 Singlet & ultra-light shorts (Sunscreen & cap required ☀️)",
       "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. ☔ 노면이 젖어있으므로 코너링 시 속도를 줄이고 내리막/만곡 보도블럭 구간에서 발목 착지에 유의하세요.",
@@ -116,18 +116,18 @@
         "찜통",
         "약한바람",
         "노면젖음",
-        "공기보통"
+        "공기좋음"
       ],
       "tags_en": [
         "Humid Heat",
         "Light Breeze",
         "Wet",
-        "Moderate Air"
+        "Good Air"
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 19.0,
-      "pm25": 16.0
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "gwanggyo-lake-park",
