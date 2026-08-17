@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 4.7,
-      "pm25": 4.6
+      "pm10": 5.2,
+      "pm25": 5.0
     },
     {
       "id": "youth-center",
@@ -177,13 +177,13 @@
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
-        "더움",
+        "폭염",
         "약한바람",
         "살짝젖음",
         "공기좋음"
       ],
       "tags_en": [
-        "Warm",
+        "Extreme Heat",
         "Light Breeze",
         "Damp",
         "Good Air"
@@ -444,8 +444,8 @@
         "Damp",
         "Good Air"
       ],
-      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
-      "advice_short_en": "Decent running condition 🙂",
+      "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
+      "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
       "pm10": null,
       "pm25": null
     },
@@ -497,13 +497,13 @@
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
-        "더움",
+        "폭염",
         "약한바람",
         "살짝젖음",
         "공기좋음"
       ],
       "tags_en": [
-        "Warm",
+        "Extreme Heat",
         "Light Breeze",
         "Damp",
         "Good Air"
@@ -764,8 +764,8 @@
         "Damp",
         "Good Air"
       ],
-      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
-      "advice_short_en": "Decent running condition 🙂",
+      "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
+      "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
       "pm10": null,
       "pm25": null
     }
