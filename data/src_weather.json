@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T12:01:53.236068+09:00",
+  "generated_at": "2026-08-17T12:13:46.672886+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -91,9 +91,9 @@
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
       "forecast_rain_3h": 0.0,
-      "forecast_snow_3h": 3.0,
+      "forecast_snow_3h": 4.0,
       "recent_rain_3h": 0.0,
-      "recent_snow_3h": 3.0,
+      "recent_snow_3h": 4.0,
       "wet_badge": {
         "level": "wet",
         "text_ko": "살짝젖음",
@@ -126,8 +126,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 4.7,
-      "pm25": 4.6
+      "pm10": 10.0,
+      "pm25": 11.0
     },
     {
       "id": "gwanggyo-lake-park",
@@ -190,7 +190,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": null,
+      "pm10": 8.0,
       "pm25": null
     },
     {
@@ -254,8 +254,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 5.5,
-      "pm25": 5.4
+      "pm10": 6.0,
+      "pm25": 3.0
     },
     {
       "id": "woncheon-stream-sindong",
@@ -283,9 +283,9 @@
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
       "forecast_rain_3h": 0.0,
-      "forecast_snow_3h": 3.0,
+      "forecast_snow_3h": 4.0,
       "recent_rain_3h": 0.0,
-      "recent_snow_3h": 3.0,
+      "recent_snow_3h": 4.0,
       "wet_badge": {
         "level": "wet",
         "text_ko": "살짝젖음",
@@ -411,9 +411,9 @@
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
       "forecast_rain_3h": 0.0,
-      "forecast_snow_3h": 3.0,
+      "forecast_snow_3h": 4.0,
       "recent_rain_3h": 0.0,
-      "recent_snow_3h": 3.0,
+      "recent_snow_3h": 4.0,
       "wet_badge": {
         "level": "wet",
         "text_ko": "살짝젖음",
@@ -667,9 +667,9 @@
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
       "forecast_rain_3h": 0.0,
-      "forecast_snow_3h": 3.0,
+      "forecast_snow_3h": 4.0,
       "recent_rain_3h": 0.0,
-      "recent_snow_3h": 3.0,
+      "recent_snow_3h": 4.0,
       "wet_badge": {
         "level": "wet",
         "text_ko": "살짝젖음",
@@ -731,9 +731,9 @@
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
       "forecast_rain_3h": 0.0,
-      "forecast_snow_3h": 3.0,
+      "forecast_snow_3h": 4.0,
       "recent_rain_3h": 0.0,
-      "recent_snow_3h": 3.0,
+      "recent_snow_3h": 4.0,
       "wet_badge": {
         "level": "wet",
         "text_ko": "살짝젖음",
