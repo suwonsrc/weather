@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 15.4,
-      "pm25": 14.0
+      "pm10": 15.7,
+      "pm25": 14.2
     },
     {
       "id": "gwanggyo-lake-park",
@@ -318,8 +318,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": null,
-      "pm25": null
+      "pm10": 18.7,
+      "pm25": 17.4
     },
     {
       "id": "dongtan-yeoul-park",
