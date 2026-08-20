@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T04:46:57.086767+09:00",
+  "generated_at": "2026-08-21T05:02:38.181314+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -17,11 +17,11 @@
       "is_night": true,
       "lat": 37.280325,
       "lon": 126.990396,
-      "temperature": 22.7,
-      "apparent_temperature": 25.6,
+      "temperature": 22.8,
+      "apparent_temperature": 25.7,
       "humidity": 96.0,
       "wind_speed": 1.6,
-      "wind_direction": 227.0,
+      "wind_direction": 225.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 35.0,
-      "pm25": 23.0
+      "pm10": 31.0,
+      "pm25": 30.7
     },
     {
       "id": "youth-center",
@@ -84,8 +84,8 @@
       "temperature": 24.7,
       "apparent_temperature": 27.1,
       "humidity": 90.0,
-      "wind_speed": 0.6,
-      "wind_direction": 81.0,
+      "wind_speed": 0.4,
+      "wind_direction": 346.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -99,13 +99,13 @@
         "text_ko": "살짝젖음",
         "text_en": "Damp"
       },
-      "run_score": 50,
-      "run_grade": "C",
+      "run_score": 67,
+      "run_grade": "B",
       "temp_score": 50,
       "wind_score": 100,
       "wet_score": 65,
       "surface_score": 65,
-      "air_score": 75,
+      "air_score": 100,
       "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (야간 반사 밴드/리플렉티브 의류 🌙)",
       "outfit_en": "👕 Singlet & ultra-light shorts (Reflective gear recommended 🌙)",
       "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
@@ -116,18 +116,18 @@
         "더움",
         "약한바람",
         "살짝젖음",
-        "공기보통"
+        "공기좋음"
       ],
       "tags_en": [
         "Warm",
         "Light Breeze",
         "Damp",
-        "Moderate Air"
+        "Good Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 34.0,
-      "pm25": 26.0
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "gwanggyo-lake-park",
@@ -145,18 +145,18 @@
       "is_night": true,
       "lat": 37.283439,
       "lon": 127.065989,
-      "temperature": 24.0,
-      "apparent_temperature": 27.2,
+      "temperature": 23.9,
+      "apparent_temperature": 27.1,
       "humidity": 100.0,
       "wind_speed": 0.1,
-      "wind_direction": 45.0,
+      "wind_direction": 90.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
-      "forecast_rain_3h": 3.0,
+      "forecast_rain_3h": 2.0,
       "forecast_snow_3h": 0.0,
-      "recent_rain_3h": 3.0,
+      "recent_rain_3h": 2.0,
       "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "wet",
@@ -169,29 +169,29 @@
       "wind_score": 100,
       "wet_score": 65,
       "surface_score": 65,
-      "air_score": 75,
+      "air_score": 40,
       "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (야간 반사 밴드/리플렉티브 의류 🌙)",
       "outfit_en": "👕 Singlet & ultra-light shorts (Reflective gear recommended 🌙)",
-      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
-      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes. 🌙 [Night Running Safety] Wear reflective gear or LED band for visibility and traffic safety.",
+      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요. 😷 [공기질 나쁨] 미세먼지가 유입된 상태입니다. 호흡수가 급증하는 고강도 인터벌/빌드업 훈련은 자제하는 것이 좋습니다.",
+      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes. 🌙 [Night Running Safety] Wear reflective gear or LED band for visibility and traffic safety. 😷 [Poor Air Quality] High PM concentrations. Avoid high-intensity interval workouts causing heavy breathing.",
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
         "더움",
         "약한바람",
         "살짝젖음",
-        "공기보통"
+        "공기나쁨"
       ],
       "tags_en": [
         "Warm",
         "Light Breeze",
         "Damp",
-        "Moderate Air"
+        "Bad Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 36.0,
-      "pm25": 23.0
+      "pm10": 36.6,
+      "pm25": 35.9
     },
     {
       "id": "skku",
@@ -209,11 +209,11 @@
       "is_night": true,
       "lat": 37.293788,
       "lon": 126.974365,
-      "temperature": 22.7,
-      "apparent_temperature": 25.6,
+      "temperature": 22.8,
+      "apparent_temperature": 25.7,
       "humidity": 96.0,
       "wind_speed": 1.6,
-      "wind_direction": 227.0,
+      "wind_direction": 225.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -227,13 +227,13 @@
         "text_ko": "살짝젖음",
         "text_en": "Damp"
       },
-      "run_score": 50,
-      "run_grade": "C",
+      "run_score": 67,
+      "run_grade": "B",
       "temp_score": 50,
       "wind_score": 100,
       "wet_score": 65,
       "surface_score": 65,
-      "air_score": 75,
+      "air_score": 100,
       "outfit_ko": "👕 통풍 좋은 반팔 T셔츠 + 러닝 숏츠 (야간 반사 밴드 🌙)",
       "outfit_en": "👕 Breathable short-sleeve T-shirt & running shorts (Reflective band 🌙)",
       "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
@@ -244,18 +244,18 @@
         "더움",
         "약한바람",
         "살짝젖음",
-        "공기보통"
+        "공기좋음"
       ],
       "tags_en": [
         "Warm",
         "Light Breeze",
         "Damp",
-        "Moderate Air"
+        "Good Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 46.0,
-      "pm25": 31.0
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "woncheon-stream-sindong",
@@ -276,8 +276,8 @@
       "temperature": 24.7,
       "apparent_temperature": 27.1,
       "humidity": 90.0,
-      "wind_speed": 0.6,
-      "wind_direction": 81.0,
+      "wind_speed": 0.4,
+      "wind_direction": 346.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -297,29 +297,29 @@
       "wind_score": 100,
       "wet_score": 65,
       "surface_score": 65,
-      "air_score": 75,
+      "air_score": 40,
       "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (야간 반사 밴드/리플렉티브 의류 🌙)",
       "outfit_en": "👕 Singlet & ultra-light shorts (Reflective gear recommended 🌙)",
-      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
-      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes. 🌙 [Night Running Safety] Wear reflective gear or LED band for visibility and traffic safety.",
+      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요. 😷 [공기질 나쁨] 미세먼지가 유입된 상태입니다. 호흡수가 급증하는 고강도 인터벌/빌드업 훈련은 자제하는 것이 좋습니다.",
+      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes. 🌙 [Night Running Safety] Wear reflective gear or LED band for visibility and traffic safety. 😷 [Poor Air Quality] High PM concentrations. Avoid high-intensity interval workouts causing heavy breathing.",
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
         "더움",
         "약한바람",
         "살짝젖음",
-        "공기보통"
+        "공기나쁨"
       ],
       "tags_en": [
         "Warm",
         "Light Breeze",
         "Damp",
-        "Moderate Air"
+        "Bad Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 34.0,
-      "pm25": 26.0
+      "pm10": 36.6,
+      "pm25": 35.9
     },
     {
       "id": "paldalsan-hwaseong",
@@ -340,8 +340,8 @@
       "temperature": 24.7,
       "apparent_temperature": 27.1,
       "humidity": 90.0,
-      "wind_speed": 0.6,
-      "wind_direction": 81.0,
+      "wind_speed": 0.4,
+      "wind_direction": 346.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -404,8 +404,8 @@
       "temperature": 24.7,
       "apparent_temperature": 27.1,
       "humidity": 90.0,
-      "wind_speed": 0.6,
-      "wind_direction": 81.0,
+      "wind_speed": 0.4,
+      "wind_direction": 346.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -419,13 +419,13 @@
         "text_ko": "살짝젖음",
         "text_en": "Damp"
       },
-      "run_score": 50,
-      "run_grade": "C",
+      "run_score": 67,
+      "run_grade": "B",
       "temp_score": 50,
       "wind_score": 100,
       "wet_score": 65,
       "surface_score": 65,
-      "air_score": 75,
+      "air_score": 100,
       "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (야간 반사 밴드/리플렉티브 의류 🌙)",
       "outfit_en": "👕 Singlet & ultra-light shorts (Reflective gear recommended 🌙)",
       "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
@@ -436,18 +436,18 @@
         "더움",
         "약한바람",
         "살짝젖음",
-        "공기보통"
+        "공기좋음"
       ],
       "tags_en": [
         "Warm",
         "Light Breeze",
         "Damp",
-        "Moderate Air"
+        "Good Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 34.0,
-      "pm25": 26.0
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "gwanggyo-mountain",
@@ -465,18 +465,18 @@
       "is_night": true,
       "lat": 37.328633,
       "lon": 127.038172,
-      "temperature": 24.0,
-      "apparent_temperature": 27.2,
+      "temperature": 23.9,
+      "apparent_temperature": 27.1,
       "humidity": 100.0,
       "wind_speed": 0.1,
-      "wind_direction": 45.0,
+      "wind_direction": 90.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
-      "forecast_rain_3h": 3.0,
+      "forecast_rain_3h": 2.0,
       "forecast_snow_3h": 0.0,
-      "recent_rain_3h": 3.0,
+      "recent_rain_3h": 2.0,
       "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "wet",
@@ -529,18 +529,18 @@
       "is_night": true,
       "lat": 37.286545,
       "lon": 127.036871,
-      "temperature": 24.0,
-      "apparent_temperature": 27.2,
+      "temperature": 23.9,
+      "apparent_temperature": 27.1,
       "humidity": 100.0,
       "wind_speed": 0.1,
-      "wind_direction": 45.0,
+      "wind_direction": 90.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
-      "forecast_rain_3h": 3.0,
+      "forecast_rain_3h": 2.0,
       "forecast_snow_3h": 0.0,
-      "recent_rain_3h": 3.0,
+      "recent_rain_3h": 2.0,
       "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "wet",
@@ -596,8 +596,8 @@
       "temperature": 24.2,
       "apparent_temperature": 27.1,
       "humidity": 96.0,
-      "wind_speed": 0.2,
-      "wind_direction": 333.0,
+      "wind_speed": 0.3,
+      "wind_direction": 72.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -660,8 +660,8 @@
       "temperature": 24.7,
       "apparent_temperature": 27.1,
       "humidity": 90.0,
-      "wind_speed": 0.6,
-      "wind_direction": 81.0,
+      "wind_speed": 0.4,
+      "wind_direction": 346.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -681,29 +681,29 @@
       "wind_score": 100,
       "wet_score": 65,
       "surface_score": 65,
-      "air_score": 75,
+      "air_score": 40,
       "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (야간 반사 밴드/리플렉티브 의류 🌙)",
       "outfit_en": "👕 Singlet & ultra-light shorts (Reflective gear recommended 🌙)",
-      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
-      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes. 🌙 [Night Running Safety] Wear reflective gear or LED band for visibility and traffic safety.",
+      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요. 😷 [공기질 나쁨] 미세먼지가 유입된 상태입니다. 호흡수가 급증하는 고강도 인터벌/빌드업 훈련은 자제하는 것이 좋습니다.",
+      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes. 🌙 [Night Running Safety] Wear reflective gear or LED band for visibility and traffic safety. 😷 [Poor Air Quality] High PM concentrations. Avoid high-intensity interval workouts causing heavy breathing.",
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
         "더움",
         "약한바람",
         "살짝젖음",
-        "공기보통"
+        "공기나쁨"
       ],
       "tags_en": [
         "Warm",
         "Light Breeze",
         "Damp",
-        "Moderate Air"
+        "Bad Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 33.0,
-      "pm25": 31.0
+      "pm10": 36.6,
+      "pm25": 35.9
     },
     {
       "id": "majung-park",
@@ -724,8 +724,8 @@
       "temperature": 24.7,
       "apparent_temperature": 27.1,
       "humidity": 90.0,
-      "wind_speed": 0.6,
-      "wind_direction": 81.0,
+      "wind_speed": 0.4,
+      "wind_direction": 346.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -745,29 +745,29 @@
       "wind_score": 100,
       "wet_score": 65,
       "surface_score": 65,
-      "air_score": 75,
+      "air_score": 40,
       "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (야간 반사 밴드/리플렉티브 의류 🌙)",
       "outfit_en": "👕 Singlet & ultra-light shorts (Reflective gear recommended 🌙)",
-      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
-      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes. 🌙 [Night Running Safety] Wear reflective gear or LED band for visibility and traffic safety.",
+      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요. 😷 [공기질 나쁨] 미세먼지가 유입된 상태입니다. 호흡수가 급증하는 고강도 인터벌/빌드업 훈련은 자제하는 것이 좋습니다.",
+      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes. 🌙 [Night Running Safety] Wear reflective gear or LED band for visibility and traffic safety. 😷 [Poor Air Quality] High PM concentrations. Avoid high-intensity interval workouts causing heavy breathing.",
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
         "더움",
         "약한바람",
         "살짝젖음",
-        "공기보통"
+        "공기나쁨"
       ],
       "tags_en": [
         "Warm",
         "Light Breeze",
         "Damp",
-        "Moderate Air"
+        "Bad Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 34.0,
-      "pm25": 26.0
+      "pm10": 36.6,
+      "pm25": 35.9
     }
   ]
 }
