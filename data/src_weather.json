@@ -32,32 +32,32 @@
       "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "bad",
-        "text_ko": "노면젖음",
-        "text_en": "Wet"
+        "text_ko": "폭우",
+        "text_en": "Heavy Rain"
       },
-      "run_score": 40,
-      "run_grade": "D",
+      "run_score": 20,
+      "run_grade": "E",
       "temp_score": 50,
       "wind_score": 100,
-      "wet_score": 35,
-      "surface_score": 35,
+      "wet_score": 15,
+      "surface_score": 15,
       "air_score": 100,
       "outfit_ko": "👕 통풍 좋은 반팔 T셔츠 + 러닝 숏츠 (야간 반사 밴드 🌙)",
       "outfit_en": "👕 Breathable short-sleeve T-shirt & running shorts (Reflective band 🌙)",
-      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. ☔ 노면이 젖어있으므로 코너링 시 속도를 줄이고 내리막/만곡 보도블럭 구간에서 발목 착지에 유의하세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
-      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes. ☔ Wet surface. Slow down on turns and exercise ankle care on slippery downhills. 🌙 [Night Running Safety] Wear reflective gear or LED band for visibility and traffic safety.",
+      "pace_tip_ko": "🚨 [야외 러닝 자제] 폭우 및 도로 물웅덩이로 인해 수막현상과 슬립 위험이 큽니다. 강도 높은 훈련을 중단하고 실내 운동을 권장합니다.",
+      "pace_tip_en": "🚨 [Avoid Outdoor Run] Heavy rain and puddles create high hydroplaning and slip hazards. Indoor workouts recommended.",
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
         "더움",
         "약한바람",
-        "노면젖음",
+        "폭우",
         "공기좋음"
       ],
       "tags_en": [
         "Warm",
         "Light Breeze",
-        "Wet",
+        "Heavy Rain",
         "Good Air"
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
@@ -96,32 +96,32 @@
       "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "bad",
-        "text_ko": "노면젖음",
-        "text_en": "Wet"
+        "text_ko": "폭우",
+        "text_en": "Heavy Rain"
       },
-      "run_score": 40,
-      "run_grade": "D",
+      "run_score": 20,
+      "run_grade": "E",
       "temp_score": 50,
       "wind_score": 100,
-      "wet_score": 35,
-      "surface_score": 35,
+      "wet_score": 15,
+      "surface_score": 15,
       "air_score": 100,
       "outfit_ko": "👕 통풍 좋은 반팔 T셔츠 + 러닝 숏츠 (야간 반사 밴드 🌙)",
       "outfit_en": "👕 Breathable short-sleeve T-shirt & running shorts (Reflective band 🌙)",
-      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. ☔ 노면이 젖어있으므로 코너링 시 속도를 줄이고 내리막/만곡 보도블럭 구간에서 발목 착지에 유의하세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
-      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes. ☔ Wet surface. Slow down on turns and exercise ankle care on slippery downhills. 🌙 [Night Running Safety] Wear reflective gear or LED band for visibility and traffic safety.",
+      "pace_tip_ko": "🚨 [야외 러닝 자제] 폭우 및 도로 물웅덩이로 인해 수막현상과 슬립 위험이 큽니다. 강도 높은 훈련을 중단하고 실내 운동을 권장합니다.",
+      "pace_tip_en": "🚨 [Avoid Outdoor Run] Heavy rain and puddles create high hydroplaning and slip hazards. Indoor workouts recommended.",
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
         "더움",
         "약한바람",
-        "노면젖음",
+        "폭우",
         "공기좋음"
       ],
       "tags_en": [
         "Warm",
         "Light Breeze",
-        "Wet",
+        "Heavy Rain",
         "Good Air"
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
@@ -160,15 +160,15 @@
       "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "bad",
-        "text_ko": "노면젖음",
-        "text_en": "Wet"
+        "text_ko": "폭우",
+        "text_en": "Heavy Rain"
       },
-      "run_score": 40,
-      "run_grade": "D",
+      "run_score": 20,
+      "run_grade": "E",
       "temp_score": 50,
       "wind_score": 100,
-      "wet_score": 35,
-      "surface_score": 35,
+      "wet_score": 15,
+      "surface_score": 15,
       "air_score": 100,
       "outfit_ko": "👕 통풍 좋은 반팔 T셔츠 + 러닝 숏츠 (야간 반사 밴드 🌙)",
       "outfit_en": "👕 Breathable short-sleeve T-shirt & running shorts (Reflective band 🌙)",
@@ -179,19 +179,19 @@
       "tags_ko": [
         "더움",
         "약한바람",
-        "노면젖음",
+        "폭우",
         "공기좋음"
       ],
       "tags_en": [
         "Warm",
         "Light Breeze",
-        "Wet",
+        "Heavy Rain",
         "Good Air"
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 14.0,
-      "pm25": 13.9
+      "pm10": 17.0,
+      "pm25": 7.0
     },
     {
       "id": "suwon-stream",
