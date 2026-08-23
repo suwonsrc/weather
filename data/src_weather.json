@@ -3,7 +3,7 @@
   "courses": [
     {
       "id": "seoho-park",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "서호공원",
       "name_en": "Seoho Park",
       "name_en_short": "Seoho Park",
@@ -49,13 +49,13 @@
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
-        "더움",
+        "폭염",
         "약한바람",
         "건조",
         "공기좋음"
       ],
       "tags_en": [
-        "Warm",
+        "Extreme Heat",
         "Light Breeze",
         "Dry",
         "Good Air"
@@ -259,7 +259,7 @@
     },
     {
       "id": "woncheon-stream-sindong",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "원천리천(신동)",
       "name_en": "Woncheon Stream (Sindong)",
       "name_en_short": "Woncheon Stream",
@@ -387,7 +387,7 @@
     },
     {
       "id": "suwon-stream",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "수원천",
       "name_en": "Suwoncheon Stream",
       "name_en_short": "Suwon Stream",
@@ -515,7 +515,7 @@
     },
     {
       "id": "suwon-worldcup",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "수원월드컵경기장",
       "name_en": "Suwon World Cup Stadium",
       "name_en_short": "Suwon World Cup",
@@ -643,7 +643,7 @@
     },
     {
       "id": "yeongheung-forest-park",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "영흥숲공원",
       "name_en": "Yeongheung Forest Park",
       "name_en_short": "Yeongheung Forest",
