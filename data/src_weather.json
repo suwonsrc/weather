@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T08:02:29.003593+09:00",
+  "generated_at": "2026-08-24T08:31:42.523309+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -126,8 +126,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": null,
-      "pm25": null
+      "pm10": 17.0,
+      "pm25": 13.0
     },
     {
       "id": "gwanggyo-lake-park",
@@ -163,35 +163,35 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 50,
-      "run_grade": "C",
+      "run_score": 78,
+      "run_grade": "B",
       "temp_score": 50,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 40,
+      "air_score": 100,
       "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (선크림·햇빛 차단 모자 필수 ☀️)",
       "outfit_en": "👕 Singlet & ultra-light shorts (Sunscreen & cap required ☀️)",
-      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. 😷 [공기질 나쁨] 미세먼지가 유입된 상태입니다. 호흡수가 급증하는 고강도 인터벌/빌드업 훈련은 자제하는 것이 좋습니다.",
-      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes. 😷 [Poor Air Quality] High PM concentrations. Avoid high-intensity interval workouts causing heavy breathing.",
+      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요.",
+      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes.",
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
         "더움",
         "약한바람",
         "건조",
-        "공기나쁨"
+        "공기좋음"
       ],
       "tags_en": [
         "Warm",
         "Light Breeze",
         "Dry",
-        "Bad Air"
+        "Good Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 45.6,
-      "pm25": 45.3
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "skku",
@@ -254,8 +254,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": null,
-      "pm25": null
+      "pm10": 16.0,
+      "pm25": 9.0
     },
     {
       "id": "woncheon-stream-sindong",
@@ -318,8 +318,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 15.0,
-      "pm25": 7.0
+      "pm10": 17.0,
+      "pm25": 13.0
     },
     {
       "id": "paldalsan-hwaseong",
@@ -361,29 +361,29 @@
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 40,
+      "air_score": 100,
       "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (선크림·햇빛 차단 모자 필수 ☀️)",
       "outfit_en": "👕 Singlet & ultra-light shorts (Sunscreen & cap required ☀️)",
-      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. 😷 [공기질 나쁨] 미세먼지가 유입된 상태입니다. 호흡수가 급증하는 고강도 인터벌/빌드업 훈련은 자제하는 것이 좋습니다.",
-      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes. 😷 [Poor Air Quality] High PM concentrations. Avoid high-intensity interval workouts causing heavy breathing.",
+      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요.",
+      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes.",
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
         "찜통",
         "약한바람",
         "건조",
-        "공기나쁨"
+        "공기좋음"
       ],
       "tags_en": [
         "Humid Heat",
         "Light Breeze",
         "Dry",
-        "Bad Air"
+        "Good Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 45.6,
-      "pm25": 45.3
+      "pm10": 14.0,
+      "pm25": 11.0
     },
     {
       "id": "suwon-stream",
@@ -446,8 +446,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 15.0,
-      "pm25": 7.0
+      "pm10": 17.0,
+      "pm25": 13.0
     },
     {
       "id": "gwanggyo-mountain",
@@ -510,8 +510,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": null,
-      "pm25": null
+      "pm10": 25.0,
+      "pm25": 6.0
     },
     {
       "id": "suwon-worldcup",
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 25.0,
-      "pm25": 6.0
+      "pm10": 28.0,
+      "pm25": 7.0
     },
     {
       "id": "dongtan-yeoul-park",
@@ -638,8 +638,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 16.0,
-      "pm25": 5.0
+      "pm10": 21.0,
+      "pm25": 7.0
     },
     {
       "id": "yeongheung-forest-park",
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 25.0,
-      "pm25": 15.0
+      "pm10": 23.0,
+      "pm25": 11.0
     },
     {
       "id": "majung-park",
@@ -745,29 +745,29 @@
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 100,
+      "air_score": 40,
       "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (선크림·햇빛 차단 모자 필수 ☀️)",
       "outfit_en": "👕 Singlet & ultra-light shorts (Sunscreen & cap required ☀️)",
-      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요.",
-      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes.",
+      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요. 😷 [공기질 나쁨] 미세먼지가 유입된 상태입니다. 호흡수가 급증하는 고강도 인터벌/빌드업 훈련은 자제하는 것이 좋습니다.",
+      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes. 😷 [Poor Air Quality] High PM concentrations. Avoid high-intensity interval workouts causing heavy breathing.",
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
         "찜통",
         "약한바람",
         "건조",
-        "공기좋음"
+        "공기나쁨"
       ],
       "tags_en": [
         "Humid Heat",
         "Light Breeze",
         "Dry",
-        "Good Air"
+        "Bad Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 15.0,
-      "pm25": 7.0
+      "pm10": 45.6,
+      "pm25": 45.3
     }
   ]
 }
