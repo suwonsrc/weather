@@ -3,7 +3,7 @@
   "courses": [
     {
       "id": "seoho-park",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "서호공원",
       "name_en": "Seoho Park",
       "name_en_short": "Seoho Park",
@@ -259,7 +259,7 @@
     },
     {
       "id": "woncheon-stream-sindong",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "원천리천(신동)",
       "name_en": "Woncheon Stream (Sindong)",
       "name_en_short": "Woncheon Stream",
@@ -382,12 +382,12 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 22.0,
-      "pm25": 23.0
+      "pm10": 18.3,
+      "pm25": 16.9
     },
     {
       "id": "suwon-stream",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "수원천",
       "name_en": "Suwoncheon Stream",
       "name_en_short": "Suwon Stream",
@@ -617,7 +617,7 @@
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 100,
+      "air_score": 75,
       "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (선크림·햇빛 차단 모자 필수 ☀️)",
       "outfit_en": "👕 Singlet & ultra-light shorts (Sunscreen & cap required ☀️)",
       "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요.",
@@ -628,22 +628,22 @@
         "폭염",
         "약한바람",
         "건조",
-        "공기좋음"
+        "공기보통"
       ],
       "tags_en": [
         "Extreme Heat",
         "Light Breeze",
         "Dry",
-        "Good Air"
+        "Moderate Air"
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 10.0,
-      "pm25": 10.0
+      "pm10": 19.2,
+      "pm25": 17.8
     },
     {
       "id": "yeongheung-forest-park",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "영흥숲공원",
       "name_en": "Yeongheung Forest Park",
       "name_en_short": "Yeongheung Forest",
