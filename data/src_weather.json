@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T23:02:47.203274+09:00",
+  "generated_at": "2026-08-31T23:31:41.834075+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -126,8 +126,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 9.0,
-      "pm25": 4.0
+      "pm10": 5.0,
+      "pm25": 5.0
     },
     {
       "id": "gwanggyo-lake-park",
@@ -154,9 +154,9 @@
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
-      "forecast_rain_3h": 4.0,
+      "forecast_rain_3h": 3.0,
       "forecast_snow_3h": 0.0,
-      "recent_rain_3h": 4.0,
+      "recent_rain_3h": 3.0,
       "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "wet",
@@ -190,8 +190,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 7.0,
-      "pm25": 4.0
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "skku",
@@ -254,8 +254,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 5.8,
-      "pm25": 4.8
+      "pm10": 2.0,
+      "pm25": 0.0
     },
     {
       "id": "woncheon-stream-sindong",
@@ -318,8 +318,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": null,
-      "pm25": null
+      "pm10": 5.0,
+      "pm25": 5.0
     },
     {
       "id": "paldalsan-hwaseong",
@@ -382,8 +382,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 7.3,
-      "pm25": 6.1
+      "pm10": 3.0,
+      "pm25": 0.0
     },
     {
       "id": "suwon-stream",
@@ -446,8 +446,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 9.0,
-      "pm25": 4.0
+      "pm10": 5.0,
+      "pm25": 5.0
     },
     {
       "id": "gwanggyo-mountain",
@@ -510,8 +510,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": null,
-      "pm25": null
+      "pm10": 9.0,
+      "pm25": 4.0
     },
     {
       "id": "suwon-worldcup",
@@ -538,9 +538,9 @@
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
-      "forecast_rain_3h": 4.0,
+      "forecast_rain_3h": 3.0,
       "forecast_snow_3h": 0.0,
-      "recent_rain_3h": 4.0,
+      "recent_rain_3h": 3.0,
       "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "wet",
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 7.3,
-      "pm25": 6.1
+      "pm10": 4.0,
+      "pm25": 0.0
     },
     {
       "id": "dongtan-yeoul-park",
@@ -638,7 +638,7 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 7.0,
+      "pm10": 3.0,
       "pm25": 1.0
     },
     {
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 7.0,
-      "pm25": 3.0
+      "pm10": 6.0,
+      "pm25": 2.0
     },
     {
       "id": "majung-park",
@@ -766,8 +766,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": null,
-      "pm25": null
+      "pm10": 5.0,
+      "pm25": 5.0
     }
   ]
 }
