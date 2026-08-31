@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T05:07:23.070093+09:00",
+  "generated_at": "2026-09-01T05:32:07.869903+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,7 +62,7 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 4.0,
+      "pm10": 5.0,
       "pm25": 7.0
     },
     {
@@ -126,8 +126,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 5.0,
-      "pm25": 6.0
+      "pm10": 7.9,
+      "pm25": 6.3
     },
     {
       "id": "gwanggyo-lake-park",
@@ -190,7 +190,7 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 13.0,
+      "pm10": null,
       "pm25": null
     },
     {
@@ -254,8 +254,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 7.0,
-      "pm25": 0.0
+      "pm10": 4.6,
+      "pm25": 3.6
     },
     {
       "id": "woncheon-stream-sindong",
@@ -318,8 +318,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 5.0,
-      "pm25": 6.0
+      "pm10": 8.0,
+      "pm25": 7.0
     },
     {
       "id": "paldalsan-hwaseong",
@@ -382,8 +382,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 4.0,
-      "pm25": 7.0
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "suwon-stream",
@@ -446,8 +446,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 5.0,
-      "pm25": 6.0
+      "pm10": 8.0,
+      "pm25": 7.0
     },
     {
       "id": "gwanggyo-mountain",
@@ -574,7 +574,7 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 9.0,
+      "pm10": 10.0,
       "pm25": 0.0
     },
     {
@@ -638,12 +638,12 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 6.0,
-      "pm25": 0.0
+      "pm10": 13.0,
+      "pm25": 10.0
     },
     {
       "id": "yeongheung-forest-park",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "영흥숲공원",
       "name_en": "Yeongheung Forest Park",
       "name_en_short": "Yeongheung Forest",
@@ -651,24 +651,24 @@
       "location_ko": "수원시 영통구 원천동",
       "location_en": "Woncheon-dong, Suwon",
       "location_en_short": "Woncheon",
-      "updated_at": "2026-09-01T04:00:00+09:00",
+      "updated_at": "2026-09-01T05:30+09:00",
       "sunrise": "06:01",
       "sunset": "19:02",
       "is_night": true,
       "lat": 37.261067,
       "lon": 127.07047,
-      "temperature": 23.2,
-      "apparent_temperature": 26.1,
-      "humidity": 96.0,
-      "wind_speed": 1.6,
-      "wind_direction": 194.0,
-      "rain_now": 1.1,
+      "temperature": 23.3,
+      "apparent_temperature": 26.4,
+      "humidity": 99.0,
+      "wind_speed": 2.0,
+      "wind_direction": 180.0,
+      "rain_now": 1.5,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
-      "forecast_rain_3h": 12.0,
+      "forecast_rain_3h": 7.2,
       "forecast_snow_3h": 0.0,
-      "recent_rain_3h": 12.0,
+      "recent_rain_3h": 7.2,
       "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "bad",
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 7.0,
-      "pm25": 0.0
+      "pm10": 8.0,
+      "pm25": 5.0
     },
     {
       "id": "majung-park",
@@ -766,8 +766,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 5.0,
-      "pm25": 6.0
+      "pm10": 8.0,
+      "pm25": 7.0
     }
   ]
 }
