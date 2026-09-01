@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T16:02:58.218303+09:00",
+  "generated_at": "2026-09-01T16:31:47.536759+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -90,6 +90,70 @@
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
+      "forecast_rain_3h": 4.0,
+      "forecast_snow_3h": 0.0,
+      "recent_rain_3h": 4.0,
+      "recent_snow_3h": 0.0,
+      "wet_badge": {
+        "level": "wet",
+        "text_ko": "살짝젖음",
+        "text_en": "Damp"
+      },
+      "run_score": 80,
+      "run_grade": "A",
+      "temp_score": 80,
+      "wind_score": 100,
+      "wet_score": 65,
+      "surface_score": 65,
+      "air_score": 100,
+      "outfit_ko": "👕 통풍 좋은 반팔 T셔츠 + 러닝 숏츠 (선크림 착용 권장 ☀️)",
+      "outfit_en": "👕 Breathable short-sleeve T-shirt & running shorts (Sunscreen recommended ☀️)",
+      "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요.",
+      "pace_tip_en": "🏃‍♂️ [Optimal Temp] Great running environment. Maintain your target pace after a proper warmup.",
+      "risk_flags_ko": [],
+      "risk_flags_en": [],
+      "tags_ko": [
+        "쾌적",
+        "약한바람",
+        "살짝젖음",
+        "공기좋음"
+      ],
+      "tags_en": [
+        "Comfortable",
+        "Light Breeze",
+        "Damp",
+        "Good Air"
+      ],
+      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
+      "advice_short_en": "Great running condition 😄",
+      "pm10": 4.0,
+      "pm25": 1.0
+    },
+    {
+      "id": "gwanggyo-lake-park",
+      "provider": "kma",
+      "name_ko": "광교호수공원",
+      "name_en": "Gwanggyo Lake Park",
+      "name_en_short": "Gwanggyo Lake",
+      "name": "광교호수공원",
+      "location_ko": "수원시 영통구 하동",
+      "location_en": "Ha-dong, Suwon",
+      "location_en_short": "Hadong",
+      "updated_at": "2026-09-01T15:00:00+09:00",
+      "sunrise": "06:01",
+      "sunset": "19:02",
+      "is_night": false,
+      "lat": 37.283439,
+      "lon": 127.065989,
+      "temperature": 21.5,
+      "apparent_temperature": 21.5,
+      "humidity": 100.0,
+      "wind_speed": 0.3,
+      "wind_direction": 162.0,
+      "rain_now": 0.5,
+      "snow_now": 0.0,
+      "snow_memory_mm": 0.0,
+      "freeze_surface_risk": false,
       "forecast_rain_3h": 3.0,
       "forecast_snow_3h": 0.0,
       "recent_rain_3h": 3.0,
@@ -126,71 +190,7 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 3.0,
-      "pm25": 1.0
-    },
-    {
-      "id": "gwanggyo-lake-park",
-      "provider": "kma",
-      "name_ko": "광교호수공원",
-      "name_en": "Gwanggyo Lake Park",
-      "name_en_short": "Gwanggyo Lake",
-      "name": "광교호수공원",
-      "location_ko": "수원시 영통구 하동",
-      "location_en": "Ha-dong, Suwon",
-      "location_en_short": "Hadong",
-      "updated_at": "2026-09-01T15:00:00+09:00",
-      "sunrise": "06:01",
-      "sunset": "19:02",
-      "is_night": false,
-      "lat": 37.283439,
-      "lon": 127.065989,
-      "temperature": 21.5,
-      "apparent_temperature": 21.5,
-      "humidity": 100.0,
-      "wind_speed": 0.3,
-      "wind_direction": 162.0,
-      "rain_now": 0.5,
-      "snow_now": 0.0,
-      "snow_memory_mm": 0.0,
-      "freeze_surface_risk": false,
-      "forecast_rain_3h": 2.0,
-      "forecast_snow_3h": 0.0,
-      "recent_rain_3h": 2.0,
-      "recent_snow_3h": 0.0,
-      "wet_badge": {
-        "level": "wet",
-        "text_ko": "살짝젖음",
-        "text_en": "Damp"
-      },
-      "run_score": 80,
-      "run_grade": "A",
-      "temp_score": 80,
-      "wind_score": 100,
-      "wet_score": 65,
-      "surface_score": 65,
-      "air_score": 100,
-      "outfit_ko": "👕 통풍 좋은 반팔 T셔츠 + 러닝 숏츠 (선크림 착용 권장 ☀️)",
-      "outfit_en": "👕 Breathable short-sleeve T-shirt & running shorts (Sunscreen recommended ☀️)",
-      "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요.",
-      "pace_tip_en": "🏃‍♂️ [Optimal Temp] Great running environment. Maintain your target pace after a proper warmup.",
-      "risk_flags_ko": [],
-      "risk_flags_en": [],
-      "tags_ko": [
-        "쾌적",
-        "약한바람",
-        "살짝젖음",
-        "공기좋음"
-      ],
-      "tags_en": [
-        "Comfortable",
-        "Light Breeze",
-        "Damp",
-        "Good Air"
-      ],
-      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
-      "advice_short_en": "Great running condition 😄",
-      "pm10": 5.0,
+      "pm10": null,
       "pm25": null
     },
     {
@@ -254,8 +254,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 9.0,
-      "pm25": 1.0
+      "pm10": 5.0,
+      "pm25": 0.0
     },
     {
       "id": "woncheon-stream-sindong",
@@ -282,9 +282,9 @@
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
-      "forecast_rain_3h": 3.0,
+      "forecast_rain_3h": 4.0,
       "forecast_snow_3h": 0.0,
-      "recent_rain_3h": 3.0,
+      "recent_rain_3h": 4.0,
       "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "wet",
@@ -318,8 +318,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "pm10": 4.0,
+      "pm25": 1.0
     },
     {
       "id": "paldalsan-hwaseong",
@@ -382,8 +382,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 9.7,
-      "pm25": 7.9
+      "pm10": 5.0,
+      "pm25": 0.0
     },
     {
       "id": "suwon-stream",
@@ -410,9 +410,9 @@
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
-      "forecast_rain_3h": 3.0,
+      "forecast_rain_3h": 0.0,
       "forecast_snow_3h": 0.0,
-      "recent_rain_3h": 3.0,
+      "recent_rain_3h": 0.0,
       "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "wet",
@@ -446,8 +446,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "pm10": 4.0,
+      "pm25": 1.0
     },
     {
       "id": "gwanggyo-mountain",
@@ -510,8 +510,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 9.7,
-      "pm25": 7.9
+      "pm10": 8.0,
+      "pm25": null
     },
     {
       "id": "suwon-worldcup",
@@ -538,9 +538,9 @@
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
-      "forecast_rain_3h": 2.0,
+      "forecast_rain_3h": 3.0,
       "forecast_snow_3h": 0.0,
-      "recent_rain_3h": 2.0,
+      "recent_rain_3h": 3.0,
       "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "wet",
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "pm10": 3.0,
+      "pm25": 0.0
     },
     {
       "id": "dongtan-yeoul-park",
@@ -602,9 +602,9 @@
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
-      "forecast_rain_3h": 3.0,
+      "forecast_rain_3h": 1.0,
       "forecast_snow_3h": 0.0,
-      "recent_rain_3h": 3.0,
+      "recent_rain_3h": 1.0,
       "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "bad",
@@ -638,7 +638,7 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 4.0,
+      "pm10": 3.0,
       "pm25": 0.0
     },
     {
@@ -666,9 +666,9 @@
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
-      "forecast_rain_3h": 3.0,
+      "forecast_rain_3h": 4.0,
       "forecast_snow_3h": 0.0,
-      "recent_rain_3h": 3.0,
+      "recent_rain_3h": 4.0,
       "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "wet",
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 9.7,
-      "pm25": 7.9
+      "pm10": 1.0,
+      "pm25": 2.0
     },
     {
       "id": "majung-park",
@@ -730,9 +730,9 @@
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
-      "forecast_rain_3h": 3.0,
+      "forecast_rain_3h": 4.0,
       "forecast_snow_3h": 0.0,
-      "recent_rain_3h": 3.0,
+      "recent_rain_3h": 4.0,
       "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "wet",
@@ -766,8 +766,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 9.7,
-      "pm25": 7.9
+      "pm10": 4.0,
+      "pm25": 1.0
     }
   ]
 }
