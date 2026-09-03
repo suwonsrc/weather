@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T07:31:59.037542+09:00",
+  "generated_at": "2026-09-04T07:36:27.841453+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 10.5,
-      "pm25": 9.0
+      "pm10": 7.0,
+      "pm25": 1.0
     },
     {
       "id": "youth-center",
@@ -190,8 +190,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "pm10": 15.0,
+      "pm25": 6.0
     },
     {
       "id": "skku",
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 9.7,
-      "pm25": 7.7
+      "pm10": 10.0,
+      "pm25": 3.0
     },
     {
       "id": "dongtan-yeoul-park",
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "pm10": 10.0,
+      "pm25": 8.0
     },
     {
       "id": "majung-park",
