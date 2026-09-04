@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T14:56:02.067581+09:00",
+  "generated_at": "2026-09-04T15:01:36.526129+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 12.7,
-      "pm25": 10.2
+      "pm10": 20.0,
+      "pm25": 8.0
     },
     {
       "id": "youth-center",
@@ -126,8 +126,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": null,
-      "pm25": null
+      "pm10": 3.0,
+      "pm25": 1.0
     },
     {
       "id": "gwanggyo-lake-park",
@@ -254,8 +254,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 19.0,
-      "pm25": 2.0
+      "pm10": 12.5,
+      "pm25": 9.9
     },
     {
       "id": "woncheon-stream-sindong",
@@ -451,7 +451,7 @@
     },
     {
       "id": "gwanggyo-mountain",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "광교산",
       "name_en": "Gwanggyo Mountain",
       "name_en_short": "Mt. Gwanggyo",
@@ -459,17 +459,17 @@
       "location_ko": "수원시 장안구 하광교동",
       "location_en": "Hagwanggyo-dong, Suwon",
       "location_en_short": "Hagwanggyo",
-      "updated_at": "2026-09-04T14:00:00+09:00",
+      "updated_at": "2026-09-04T15:00+09:00",
       "sunrise": "06:03",
       "sunset": "18:58",
       "is_night": false,
       "lat": 37.328633,
       "lon": 127.038172,
-      "temperature": 29.2,
-      "apparent_temperature": 29.1,
-      "humidity": 43.0,
-      "wind_speed": 1.0,
-      "wind_direction": 53.0,
+      "temperature": 25.9,
+      "apparent_temperature": 25.9,
+      "humidity": 49.0,
+      "wind_speed": 3.4722222222222223,
+      "wind_direction": 72.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -483,28 +483,28 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 78,
+      "run_score": 70,
       "run_grade": "B",
       "temp_score": 50,
-      "wind_score": 100,
+      "wind_score": 70,
       "wet_score": 100,
       "surface_score": 100,
       "air_score": 100,
-      "outfit_ko": "👕 싱글렛/민소매 + 초경량 러닝 숏츠 (선크림·햇빛 차단 모자 필수 ☀️)",
-      "outfit_en": "👕 Singlet & ultra-light shorts (Sunscreen & cap required ☀️)",
-      "pace_tip_ko": "☀️ [무더위/고습도] 체온 조절이 힘든 고습도 기온입니다. 목표 페이스보다 20~30초 낮추고 15분마다 이온음료 수분을 필수 섭취하세요.",
-      "pace_tip_en": "☀️ [High Heat & Humidity] Lower target pace by 20-30s and drink electrolyte fluids every 15 minutes.",
+      "outfit_ko": "👕 통풍 좋은 반팔 T셔츠 + 러닝 숏츠 (선크림 착용 권장 ☀️)",
+      "outfit_en": "👕 Breathable short-sleeve T-shirt & running shorts (Sunscreen recommended ☀️)",
+      "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요.",
+      "pace_tip_en": "🏃‍♂️ [Optimal Temp] Great running environment. Maintain your target pace after a proper warmup.",
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
         "더움",
-        "약한바람",
+        "다소바람",
         "건조",
         "공기좋음"
       ],
       "tags_en": [
         "Warm",
-        "Light Breeze",
+        "Moderate Wind",
         "Dry",
         "Good Air"
       ],
