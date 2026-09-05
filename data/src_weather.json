@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T06:16:15.321739+09:00",
+  "generated_at": "2026-09-06T06:31:46.405175+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -318,8 +318,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 5.0,
-      "pm25": 5.0
+      "pm10": 7.4,
+      "pm25": 6.1
     },
     {
       "id": "paldalsan-hwaseong",
@@ -446,8 +446,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 5.0,
-      "pm25": 5.0
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "gwanggyo-mountain",
@@ -510,8 +510,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 9.0,
-      "pm25": null
+      "pm10": 7.4,
+      "pm25": 6.1
     },
     {
       "id": "suwon-worldcup",
