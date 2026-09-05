@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T09:58:54.062643+09:00",
+  "generated_at": "2026-09-05T10:01:46.809116+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -190,8 +190,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 10.0,
-      "pm25": 6.0
+      "pm10": 11.2,
+      "pm25": 8.0
     },
     {
       "id": "skku",
@@ -318,8 +318,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 10.0,
-      "pm25": 10.0
+      "pm10": 11.2,
+      "pm25": 8.0
     },
     {
       "id": "paldalsan-hwaseong",
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 9.0,
-      "pm25": 2.0
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "dongtan-yeoul-park",
