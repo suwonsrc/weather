@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T21:01:31.194903+09:00",
+  "generated_at": "2026-09-09T21:32:05.973935+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,7 +62,7 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 20.0,
+      "pm10": 10.0,
       "pm25": 0.0
     },
     {
@@ -127,7 +127,7 @@
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
       "pm10": 12.0,
-      "pm25": 2.0
+      "pm25": 1.0
     },
     {
       "id": "gwanggyo-lake-park",
@@ -254,8 +254,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 14.0,
-      "pm25": 4.0
+      "pm10": 13.0,
+      "pm25": 1.0
     },
     {
       "id": "woncheon-stream-sindong",
@@ -318,8 +318,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 12.0,
-      "pm25": 2.0
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "paldalsan-hwaseong",
@@ -382,7 +382,7 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 20.0,
+      "pm10": 10.0,
       "pm25": 0.0
     },
     {
@@ -447,7 +447,7 @@
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
       "pm10": 12.0,
-      "pm25": 2.0
+      "pm25": 1.0
     },
     {
       "id": "gwanggyo-mountain",
@@ -510,8 +510,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 20.0,
-      "pm25": 7.0
+      "pm10": 23.0,
+      "pm25": 5.0
     },
     {
       "id": "suwon-worldcup",
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 18.0,
-      "pm25": 2.0
+      "pm10": 14.0,
+      "pm25": 3.0
     },
     {
       "id": "dongtan-yeoul-park",
@@ -638,8 +638,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 18.0,
-      "pm25": 1.0
+      "pm10": 10.8,
+      "pm25": 8.3
     },
     {
       "id": "yeongheung-forest-park",
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 17.0,
-      "pm25": 10.0
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "majung-park",
@@ -767,7 +767,7 @@
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
       "pm10": 12.0,
-      "pm25": 2.0
+      "pm25": 1.0
     }
   ]
 }
