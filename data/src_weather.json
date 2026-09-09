@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T11:01:26.603305+09:00",
+  "generated_at": "2026-09-09T11:31:34.320608+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 16.9,
-      "pm25": 12.6
+      "pm10": 13.0,
+      "pm25": 5.0
     },
     {
       "id": "youth-center",
@@ -126,8 +126,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 8.0,
-      "pm25": 5.0
+      "pm10": 15.0,
+      "pm25": 6.0
     },
     {
       "id": "gwanggyo-lake-park",
@@ -190,8 +190,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 16.0,
-      "pm25": 3.0
+      "pm10": 18.0,
+      "pm25": 2.0
     },
     {
       "id": "skku",
@@ -255,11 +255,11 @@
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
       "pm10": 10.0,
-      "pm25": 0.0
+      "pm25": null
     },
     {
       "id": "woncheon-stream-sindong",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "원천리천(신동)",
       "name_en": "Woncheon Stream (Sindong)",
       "name_en_short": "Woncheon Stream",
@@ -267,17 +267,17 @@
       "location_ko": "수원시 영통구 신동",
       "location_en": "Sin-dong, Suwon",
       "location_en_short": "Sindong",
-      "updated_at": "2026-09-09T10:00:00+09:00",
+      "updated_at": "2026-09-09T11:30+09:00",
       "sunrise": "06:08",
       "sunset": "18:50",
       "is_night": false,
       "lat": 37.248469,
       "lon": 127.041965,
-      "temperature": 21.9,
-      "apparent_temperature": 21.9,
-      "humidity": 52.0,
-      "wind_speed": 4.5,
-      "wind_direction": 90.0,
+      "temperature": 22.1,
+      "apparent_temperature": 22.6,
+      "humidity": 66.0,
+      "wind_speed": 4.444444444444445,
+      "wind_direction": 67.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -318,8 +318,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 8.0,
-      "pm25": 5.0
+      "pm10": 15.0,
+      "pm25": 6.0
     },
     {
       "id": "paldalsan-hwaseong",
@@ -382,7 +382,7 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 11.0,
+      "pm10": 13.0,
       "pm25": 5.0
     },
     {
@@ -446,8 +446,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 8.0,
-      "pm25": 5.0
+      "pm10": 15.0,
+      "pm25": 6.0
     },
     {
       "id": "gwanggyo-mountain",
@@ -510,8 +510,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 16.0,
-      "pm25": 3.0
+      "pm10": 18.0,
+      "pm25": 2.0
     },
     {
       "id": "suwon-worldcup",
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 19.0,
-      "pm25": 2.0
+      "pm10": 16.0,
+      "pm25": 1.0
     },
     {
       "id": "dongtan-yeoul-park",
@@ -638,8 +638,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 14.0,
-      "pm25": 8.0
+      "pm10": 13.0,
+      "pm25": 0.0
     },
     {
       "id": "yeongheung-forest-park",
@@ -703,7 +703,7 @@
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
       "pm10": 10.0,
-      "pm25": 3.0
+      "pm25": 5.0
     },
     {
       "id": "majung-park",
@@ -766,8 +766,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 8.0,
-      "pm25": 5.0
+      "pm10": 15.8,
+      "pm25": 11.4
     }
   ]
 }
