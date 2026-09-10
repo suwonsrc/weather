@@ -99,9 +99,9 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 100,
+      "run_score": 91,
       "run_grade": "A",
-      "temp_score": 100,
+      "temp_score": 80,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
@@ -113,21 +113,21 @@
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
-        "최적",
+        "쾌적",
         "약한바람",
         "건조",
         "공기좋음"
       ],
       "tags_en": [
-        "Optimal",
+        "Comfortable",
         "Light Breeze",
         "Dry",
         "Good Air"
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "pm10": 8.0,
+      "pm25": 1.0
     },
     {
       "id": "skku",
@@ -355,9 +355,9 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 100,
+      "run_score": 91,
       "run_grade": "A",
-      "temp_score": 100,
+      "temp_score": 80,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
@@ -369,13 +369,13 @@
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
-        "최적",
+        "쾌적",
         "약한바람",
         "건조",
         "공기좋음"
       ],
       "tags_en": [
-        "Optimal",
+        "Comfortable",
         "Light Breeze",
         "Dry",
         "Good Air"
