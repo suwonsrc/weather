@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T20:17:43.685198+09:00",
+  "generated_at": "2026-09-18T20:31:42.778890+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -254,8 +254,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 11.0,
-      "pm25": 5.0
+      "pm10": 14.3,
+      "pm25": 11.1
     },
     {
       "id": "woncheon-stream-sindong",
@@ -318,8 +318,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 18.0,
-      "pm25": 7.0
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "paldalsan-hwaseong",
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 15.0,
-      "pm25": 9.0
+      "pm10": 14.1,
+      "pm25": 10.7
     },
     {
       "id": "majung-park",
