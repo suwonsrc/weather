@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T03:32:39.061659+09:00",
+  "generated_at": "2026-09-26T03:38:46.537165+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -126,8 +126,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 8.6,
-      "pm25": 7.2
+      "pm10": 3.0,
+      "pm25": 4.0
     },
     {
       "id": "gwanggyo-lake-park",
@@ -190,8 +190,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "pm10": 13.0,
+      "pm25": 7.0
     },
     {
       "id": "skku",
@@ -515,7 +515,7 @@
     },
     {
       "id": "suwon-worldcup",
-      "provider": "open-meteo",
+      "provider": "kma",
       "name_ko": "수원월드컵경기장",
       "name_en": "Suwon World Cup Stadium",
       "name_en_short": "Suwon World Cup",
@@ -523,17 +523,17 @@
       "location_ko": "수원시 팔달구 우만동",
       "location_en": "Uman-dong, Suwon",
       "location_en_short": "Uman",
-      "updated_at": "2026-09-26T03:30+09:00",
+      "updated_at": "2026-09-26T02:00:00+09:00",
       "sunrise": "06:21",
       "sunset": "18:24",
       "is_night": true,
       "lat": 37.286545,
       "lon": 127.036871,
-      "temperature": 17.3,
-      "apparent_temperature": 17.3,
-      "humidity": 96.0,
-      "wind_speed": 2.138888888888889,
-      "wind_direction": 62.0,
+      "temperature": 18.0,
+      "apparent_temperature": 18.0,
+      "humidity": 100.0,
+      "wind_speed": 0.1,
+      "wind_direction": 315.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 8.6,
-      "pm25": 7.2
+      "pm10": 10.0,
+      "pm25": 3.0
     },
     {
       "id": "dongtan-yeoul-park",
@@ -638,8 +638,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "pm10": 9.0,
+      "pm25": 6.0
     },
     {
       "id": "yeongheung-forest-park",
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 8.6,
-      "pm25": 7.2
+      "pm10": 12.0,
+      "pm25": 14.0
     },
     {
       "id": "majung-park",
@@ -766,8 +766,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 3.0,
-      "pm25": 4.0
+      "pm10": 8.6,
+      "pm25": 7.2
     }
   ]
 }
