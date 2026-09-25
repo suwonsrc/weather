@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:50:49.819358+09:00",
+  "generated_at": "2026-09-25T17:02:26.446335+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -41,7 +41,7 @@
       "wind_score": 100,
       "wet_score": 15,
       "surface_score": 15,
-      "air_score": 75,
+      "air_score": 40,
       "outfit_ko": "👕 반팔 또는 얇은 긴팔 + 러닝 숏츠 (러닝 최적 복장)",
       "outfit_en": "👕 Short/thin long sleeves & shorts (Optimal running gear)",
       "pace_tip_ko": "🚨 [야외 러닝 자제] 폭우 및 도로 물웅덩이로 인해 수막현상과 슬립 위험이 큽니다. 강도 높은 훈련을 중단하고 실내 운동을 권장합니다.",
@@ -52,18 +52,18 @@
         "쾌적",
         "약한바람",
         "폭우",
-        "공기보통"
+        "공기나쁨"
       ],
       "tags_en": [
         "Comfortable",
         "Light Breeze",
         "Heavy Rain",
-        "Moderate Air"
+        "Bad Air"
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 38.0,
-      "pm25": 26.0
+      "pm10": 39.2,
+      "pm25": 37.8
     },
     {
       "id": "youth-center",
@@ -361,7 +361,7 @@
       "wind_score": 100,
       "wet_score": 15,
       "surface_score": 15,
-      "air_score": 75,
+      "air_score": 100,
       "outfit_ko": "👕 통풍 좋은 반팔 T셔츠 + 러닝 숏츠 (선크림 착용 권장 ☀️)",
       "outfit_en": "👕 Breathable short-sleeve T-shirt & running shorts (Sunscreen recommended ☀️)",
       "pace_tip_ko": "🚨 [야외 러닝 자제] 폭우 및 도로 물웅덩이로 인해 수막현상과 슬립 위험이 큽니다. 강도 높은 훈련을 중단하고 실내 운동을 권장합니다.",
@@ -372,18 +372,18 @@
         "쾌적",
         "약한바람",
         "폭우",
-        "공기보통"
+        "공기좋음"
       ],
       "tags_en": [
         "Comfortable",
         "Light Breeze",
         "Heavy Rain",
-        "Moderate Air"
+        "Good Air"
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 38.0,
-      "pm25": 26.0
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "suwon-stream",
@@ -425,7 +425,7 @@
       "wind_score": 100,
       "wet_score": 15,
       "surface_score": 15,
-      "air_score": 75,
+      "air_score": 40,
       "outfit_ko": "👕 통풍 좋은 반팔 T셔츠 + 러닝 숏츠 (선크림 착용 권장 ☀️)",
       "outfit_en": "👕 Breathable short-sleeve T-shirt & running shorts (Sunscreen recommended ☀️)",
       "pace_tip_ko": "🚨 [야외 러닝 자제] 폭우 및 도로 물웅덩이로 인해 수막현상과 슬립 위험이 큽니다. 강도 높은 훈련을 중단하고 실내 운동을 권장합니다.",
@@ -436,18 +436,18 @@
         "쾌적",
         "약한바람",
         "폭우",
-        "공기보통"
+        "공기나쁨"
       ],
       "tags_en": [
         "Comfortable",
         "Light Breeze",
         "Heavy Rain",
-        "Moderate Air"
+        "Bad Air"
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 26.0,
-      "pm25": 26.0
+      "pm10": 37.8,
+      "pm25": 35.7
     },
     {
       "id": "gwanggyo-mountain",
@@ -617,7 +617,7 @@
       "wind_score": 100,
       "wet_score": 15,
       "surface_score": 15,
-      "air_score": 75,
+      "air_score": 100,
       "outfit_ko": "👕 통풍 좋은 반팔 T셔츠 + 러닝 숏츠 (선크림 착용 권장 ☀️)",
       "outfit_en": "👕 Breathable short-sleeve T-shirt & running shorts (Sunscreen recommended ☀️)",
       "pace_tip_ko": "🚨 [야외 러닝 자제] 폭우 및 도로 물웅덩이로 인해 수막현상과 슬립 위험이 큽니다. 강도 높은 훈련을 중단하고 실내 운동을 권장합니다.",
@@ -628,18 +628,18 @@
         "쾌적",
         "약한바람",
         "폭우",
-        "공기보통"
+        "공기좋음"
       ],
       "tags_en": [
         "Comfortable",
         "Light Breeze",
         "Heavy Rain",
-        "Moderate Air"
+        "Good Air"
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 27.0,
-      "pm25": 17.0
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "yeongheung-forest-park",
@@ -745,7 +745,7 @@
       "wind_score": 100,
       "wet_score": 15,
       "surface_score": 15,
-      "air_score": 75,
+      "air_score": 40,
       "outfit_ko": "👕 통풍 좋은 반팔 T셔츠 + 러닝 숏츠 (선크림 착용 권장 ☀️)",
       "outfit_en": "👕 Breathable short-sleeve T-shirt & running shorts (Sunscreen recommended ☀️)",
       "pace_tip_ko": "🚨 [야외 러닝 자제] 폭우 및 도로 물웅덩이로 인해 수막현상과 슬립 위험이 큽니다. 강도 높은 훈련을 중단하고 실내 운동을 권장합니다.",
@@ -756,18 +756,18 @@
         "쾌적",
         "약한바람",
         "폭우",
-        "공기보통"
+        "공기나쁨"
       ],
       "tags_en": [
         "Comfortable",
         "Light Breeze",
         "Heavy Rain",
-        "Moderate Air"
+        "Bad Air"
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 26.0,
-      "pm25": 26.0
+      "pm10": 37.8,
+      "pm25": 35.7
     }
   ]
 }
