@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T08:03:28.529081+09:00",
+  "generated_at": "2026-10-12T08:31:50.614204+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -99,13 +99,13 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 91,
-      "run_grade": "A",
+      "run_score": 68,
+      "run_grade": "B",
       "temp_score": 80,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 100,
+      "air_score": 75,
       "outfit_ko": "👕 통풍 좋은 반팔 T셔츠 + 러닝 숏츠 (선크림 착용 권장 ☀️)",
       "outfit_en": "👕 Breathable short-sleeve T-shirt & running shorts (Sunscreen recommended ☀️)",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요.",
@@ -116,18 +116,18 @@
         "쾌적",
         "약한바람",
         "건조",
-        "공기좋음"
+        "공기보통"
       ],
       "tags_en": [
         "Comfortable",
         "Light Breeze",
         "Dry",
-        "Good Air"
+        "Moderate Air"
       ],
-      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
-      "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
+      "advice_short_en": "Decent running condition 🙂",
+      "pm10": 25.0,
+      "pm25": 20.0
     },
     {
       "id": "gwanggyo-lake-park",
@@ -163,13 +163,13 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 68,
-      "run_grade": "B",
+      "run_score": 91,
+      "run_grade": "A",
       "temp_score": 80,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 75,
+      "air_score": 100,
       "outfit_ko": "👕 반팔 또는 얇은 긴팔 + 러닝 숏츠 (러닝 최적 복장)",
       "outfit_en": "👕 Short/thin long sleeves & shorts (Optimal running gear)",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요.",
@@ -180,18 +180,18 @@
         "쾌적",
         "약한바람",
         "건조",
-        "공기보통"
+        "공기좋음"
       ],
       "tags_en": [
         "Comfortable",
         "Light Breeze",
         "Dry",
-        "Moderate Air"
+        "Good Air"
       ],
-      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
-      "advice_short_en": "Decent running condition 🙂",
-      "pm10": 16.5,
-      "pm25": 15.7
+      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
+      "advice_short_en": "Great running condition 😄",
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "skku",
@@ -227,13 +227,13 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 100,
-      "run_grade": "A",
+      "run_score": 75,
+      "run_grade": "B",
       "temp_score": 100,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 100,
+      "air_score": 75,
       "outfit_ko": "👕 반팔 또는 얇은 긴팔 + 러닝 숏츠 (러닝 최적 복장)",
       "outfit_en": "👕 Short/thin long sleeves & shorts (Optimal running gear)",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요.",
@@ -244,18 +244,18 @@
         "최적",
         "약한바람",
         "건조",
-        "공기좋음"
+        "공기보통"
       ],
       "tags_en": [
         "Optimal",
         "Light Breeze",
         "Dry",
-        "Good Air"
+        "Moderate Air"
       ],
-      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
-      "advice_short_en": "Great running condition 😄",
-      "pm10": 14.7,
-      "pm25": 14.1
+      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
+      "advice_short_en": "Decent running condition 🙂",
+      "pm10": 26.0,
+      "pm25": 16.0
     },
     {
       "id": "woncheon-stream-sindong",
@@ -291,13 +291,13 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 91,
-      "run_grade": "A",
+      "run_score": 68,
+      "run_grade": "B",
       "temp_score": 80,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 100,
+      "air_score": 75,
       "outfit_ko": "👕 통풍 좋은 반팔 T셔츠 + 러닝 숏츠 (선크림 착용 권장 ☀️)",
       "outfit_en": "👕 Breathable short-sleeve T-shirt & running shorts (Sunscreen recommended ☀️)",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요.",
@@ -308,18 +308,18 @@
         "쾌적",
         "약한바람",
         "건조",
-        "공기좋음"
+        "공기보통"
       ],
       "tags_en": [
         "Comfortable",
         "Light Breeze",
         "Dry",
-        "Good Air"
+        "Moderate Air"
       ],
-      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
-      "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
+      "advice_short_en": "Decent running condition 🙂",
+      "pm10": 25.0,
+      "pm25": 20.0
     },
     {
       "id": "paldalsan-hwaseong",
@@ -355,13 +355,13 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 91,
-      "run_grade": "A",
+      "run_score": 68,
+      "run_grade": "B",
       "temp_score": 80,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 100,
+      "air_score": 75,
       "outfit_ko": "👕 통풍 좋은 반팔 T셔츠 + 러닝 숏츠 (선크림 착용 권장 ☀️)",
       "outfit_en": "👕 Breathable short-sleeve T-shirt & running shorts (Sunscreen recommended ☀️)",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요.",
@@ -372,18 +372,18 @@
         "쾌적",
         "약한바람",
         "건조",
-        "공기좋음"
+        "공기보통"
       ],
       "tags_en": [
         "Comfortable",
         "Light Breeze",
         "Dry",
-        "Good Air"
+        "Moderate Air"
       ],
-      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
-      "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
+      "advice_short_en": "Decent running condition 🙂",
+      "pm10": 26.0,
+      "pm25": 20.0
     },
     {
       "id": "suwon-stream",
@@ -446,12 +446,12 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 23.0,
-      "pm25": 17.0
+      "pm10": 25.0,
+      "pm25": 20.0
     },
     {
       "id": "gwanggyo-mountain",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "광교산",
       "name_en": "Gwanggyo Mountain",
       "name_en_short": "Mt. Gwanggyo",
@@ -459,33 +459,33 @@
       "location_ko": "수원시 장안구 하광교동",
       "location_en": "Hagwanggyo-dong, Suwon",
       "location_en_short": "Hagwanggyo",
-      "updated_at": "2026-10-12T07:00:00+09:00",
+      "updated_at": "2026-10-12T08:30+09:00",
       "sunrise": "06:35",
       "sunset": "18:00",
       "is_night": false,
       "lat": 37.328633,
       "lon": 127.038172,
-      "temperature": 18.1,
-      "apparent_temperature": 18.1,
-      "humidity": 93.0,
-      "wind_speed": 0.1,
-      "wind_direction": 315.0,
+      "temperature": 16.9,
+      "apparent_temperature": 16.9,
+      "humidity": 88.0,
+      "wind_speed": 1.777777777777778,
+      "wind_direction": 117.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
-      "forecast_rain_3h": 1.0,
+      "forecast_rain_3h": 0.1,
       "forecast_snow_3h": 0.0,
-      "recent_rain_3h": 1.0,
+      "recent_rain_3h": 0.1,
       "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "wet",
         "text_ko": "살짝젖음",
         "text_en": "Damp"
       },
-      "run_score": 60,
-      "run_grade": "C",
-      "temp_score": 80,
+      "run_score": 67,
+      "run_grade": "B",
+      "temp_score": 100,
       "wind_score": 100,
       "wet_score": 65,
       "surface_score": 65,
@@ -497,21 +497,21 @@
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
-        "쾌적",
+        "최적",
         "약한바람",
         "살짝젖음",
         "공기보통"
       ],
       "tags_en": [
-        "Comfortable",
+        "Optimal",
         "Light Breeze",
         "Damp",
         "Moderate Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 23.0,
-      "pm25": 19.0
+      "pm10": 26.0,
+      "pm25": 20.0
     },
     {
       "id": "suwon-worldcup",
@@ -574,7 +574,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 33.0,
+      "pm10": 32.0,
       "pm25": 16.0
     },
     {
@@ -638,8 +638,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 16.5,
-      "pm25": 15.7
+      "pm10": 32.0,
+      "pm25": 10.0
     },
     {
       "id": "yeongheung-forest-park",
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 23.0,
-      "pm25": 19.0
+      "pm10": 24.0,
+      "pm25": 16.0
     },
     {
       "id": "majung-park",
@@ -739,13 +739,13 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 91,
-      "run_grade": "A",
+      "run_score": 68,
+      "run_grade": "B",
       "temp_score": 80,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 100,
+      "air_score": 75,
       "outfit_ko": "👕 통풍 좋은 반팔 T셔츠 + 러닝 숏츠 (선크림 착용 권장 ☀️)",
       "outfit_en": "👕 Breathable short-sleeve T-shirt & running shorts (Sunscreen recommended ☀️)",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요.",
@@ -756,18 +756,18 @@
         "쾌적",
         "약한바람",
         "건조",
-        "공기좋음"
+        "공기보통"
       ],
       "tags_en": [
         "Comfortable",
         "Light Breeze",
         "Dry",
-        "Good Air"
+        "Moderate Air"
       ],
-      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
-      "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
+      "advice_short_en": "Decent running condition 🙂",
+      "pm10": 25.0,
+      "pm25": 20.0
     }
   ]
 }
