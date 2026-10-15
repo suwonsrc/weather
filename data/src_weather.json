@@ -382,8 +382,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "pm10": 19.0,
+      "pm25": 4.0
     }
   ]
 }
