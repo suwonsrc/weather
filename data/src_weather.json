@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T10:23:03.119735+09:00",
+  "generated_at": "2026-10-16T10:32:06.019678+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 16.9,
-      "pm25": 14.4
+      "pm10": 21.0,
+      "pm25": 13.0
     },
     {
       "id": "youth-center",
@@ -131,7 +131,7 @@
     },
     {
       "id": "gwanggyo-lake-park",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "광교호수공원",
       "name_en": "Gwanggyo Lake Park",
       "name_en_short": "Gwanggyo Lake",
@@ -139,17 +139,17 @@
       "location_ko": "수원시 영통구 하동",
       "location_en": "Ha-dong, Suwon",
       "location_en_short": "Hadong",
-      "updated_at": "2026-10-16T09:00:00+09:00",
+      "updated_at": "2026-10-16T10:30+09:00",
       "sunrise": "06:39",
       "sunset": "17:54",
       "is_night": false,
       "lat": 37.283439,
       "lon": 127.065989,
-      "temperature": 17.7,
-      "apparent_temperature": 17.7,
-      "humidity": 74.0,
-      "wind_speed": 0.3,
-      "wind_direction": 198.0,
+      "temperature": 18.1,
+      "apparent_temperature": 18.1,
+      "humidity": 81.0,
+      "wind_speed": 2.305555555555556,
+      "wind_direction": 180.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -163,13 +163,13 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 100,
-      "run_grade": "A",
-      "temp_score": 100,
+      "run_score": 68,
+      "run_grade": "B",
+      "temp_score": 80,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 100,
+      "air_score": 75,
       "outfit_ko": "👕 반팔 또는 얇은 긴팔 + 러닝 숏츠 (러닝 최적 복장)",
       "outfit_en": "👕 Short/thin long sleeves & shorts (Optimal running gear)",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요.",
@@ -177,21 +177,21 @@
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
-        "최적",
+        "쾌적",
         "약한바람",
         "건조",
-        "공기좋음"
+        "공기보통"
       ],
       "tags_en": [
-        "Optimal",
+        "Comfortable",
         "Light Breeze",
         "Dry",
-        "Good Air"
+        "Moderate Air"
       ],
-      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
-      "advice_short_en": "Great running condition 😄",
-      "pm10": 21.0,
-      "pm25": 2.0
+      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
+      "advice_short_en": "Decent running condition 🙂",
+      "pm10": 21.4,
+      "pm25": 16.6
     },
     {
       "id": "skku",
@@ -510,8 +510,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "pm10": 21.0,
+      "pm25": 2.0
     },
     {
       "id": "suwon-worldcup",
@@ -766,8 +766,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 21.0,
-      "pm25": 11.0
+      "pm10": null,
+      "pm25": null
     }
   ]
 }
