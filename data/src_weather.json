@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T16:01:47.929217+09:00",
+  "generated_at": "2026-10-17T16:31:17.309515+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,7 +62,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 48.0,
+      "pm10": 47.0,
       "pm25": 19.0
     },
     {
@@ -126,8 +126,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 34.9,
-      "pm25": 21.1
+      "pm10": 34.0,
+      "pm25": 15.0
     },
     {
       "id": "gwanggyo-lake-park",
@@ -190,8 +190,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 40.0,
-      "pm25": 7.0
+      "pm10": 39.0,
+      "pm25": 5.0
     },
     {
       "id": "skku",
@@ -254,8 +254,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 51.0,
-      "pm25": 28.0
+      "pm10": 47.0,
+      "pm25": 29.0
     },
     {
       "id": "woncheon-stream-sindong",
@@ -318,8 +318,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 37.0,
-      "pm25": 19.0
+      "pm10": 34.0,
+      "pm25": 15.0
     },
     {
       "id": "paldalsan-hwaseong",
@@ -382,7 +382,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 48.0,
+      "pm10": 47.0,
       "pm25": 19.0
     },
     {
@@ -446,8 +446,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 37.0,
-      "pm25": 19.0
+      "pm10": 34.0,
+      "pm25": 15.0
     },
     {
       "id": "gwanggyo-mountain",
@@ -510,8 +510,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 40.0,
-      "pm25": 7.0
+      "pm10": 39.0,
+      "pm25": 5.0
     },
     {
       "id": "suwon-worldcup",
@@ -547,13 +547,13 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 78,
-      "run_grade": "B",
+      "run_score": 58,
+      "run_grade": "C",
       "temp_score": 50,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 100,
+      "air_score": 75,
       "outfit_ko": "👕 통풍 좋은 반팔 T셔츠 + 러닝 숏츠 (선크림 착용 권장 ☀️)",
       "outfit_en": "👕 Breathable short-sleeve T-shirt & running shorts (Sunscreen recommended ☀️)",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요.",
@@ -564,18 +564,18 @@
         "더움",
         "약한바람",
         "건조",
-        "공기좋음"
+        "공기보통"
       ],
       "tags_en": [
         "Warm",
         "Light Breeze",
         "Dry",
-        "Good Air"
+        "Moderate Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": null,
-      "pm25": null
+      "pm10": 38.0,
+      "pm25": 14.0
     },
     {
       "id": "dongtan-yeoul-park",
@@ -638,12 +638,12 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 39.0,
-      "pm25": 19.0
+      "pm10": 34.0,
+      "pm25": 15.0
     },
     {
       "id": "yeongheung-forest-park",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "영흥숲공원",
       "name_en": "Yeongheung Forest Park",
       "name_en_short": "Yeongheung Forest",
@@ -651,17 +651,17 @@
       "location_ko": "수원시 영통구 원천동",
       "location_en": "Woncheon-dong, Suwon",
       "location_en_short": "Woncheon",
-      "updated_at": "2026-10-17T15:00:00+09:00",
+      "updated_at": "2026-10-17T16:30+09:00",
       "sunrise": "06:40",
       "sunset": "17:53",
       "is_night": false,
       "lat": 37.261067,
       "lon": 127.07047,
-      "temperature": 25.6,
-      "apparent_temperature": 25.6,
-      "humidity": 44.0,
-      "wind_speed": 4.1,
-      "wind_direction": 117.0,
+      "temperature": 22.2,
+      "apparent_temperature": 22.8,
+      "humidity": 67.0,
+      "wind_speed": 3.7777777777777777,
+      "wind_direction": 122.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -675,9 +675,9 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 52,
+      "run_score": 63,
       "run_grade": "C",
-      "temp_score": 50,
+      "temp_score": 80,
       "wind_score": 70,
       "wet_score": 100,
       "surface_score": 100,
@@ -689,21 +689,21 @@
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
-        "더움",
+        "쾌적",
         "다소바람",
         "건조",
         "공기보통"
       ],
       "tags_en": [
-        "Warm",
+        "Comfortable",
         "Moderate Wind",
         "Dry",
         "Moderate Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 31.0,
-      "pm25": 6.0
+      "pm10": 41.0,
+      "pm25": 10.0
     },
     {
       "id": "majung-park",
@@ -766,8 +766,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 37.0,
-      "pm25": 19.0
+      "pm10": 34.0,
+      "pm25": 15.0
     }
   ]
 }
