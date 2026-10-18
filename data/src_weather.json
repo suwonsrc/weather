@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T10:01:32.102977+09:00",
+  "generated_at": "2026-10-18T10:04:17.616010+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -318,8 +318,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 12.3,
-      "pm25": 9.7
+      "pm10": 17.0,
+      "pm25": 6.0
     },
     {
       "id": "paldalsan-hwaseong",
