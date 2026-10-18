@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T13:01:55.170629+09:00",
+  "generated_at": "2026-10-18T13:32:10.598851+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -63,7 +63,7 @@
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
       "pm10": 33.0,
-      "pm25": 12.0
+      "pm25": 19.0
     },
     {
       "id": "youth-center",
@@ -105,7 +105,7 @@
       "wind_score": 100,
       "wet_score": 35,
       "surface_score": 35,
-      "air_score": 75,
+      "air_score": 100,
       "outfit_ko": "👕 반팔 또는 얇은 긴팔 + 러닝 숏츠 (러닝 최적 복장)",
       "outfit_en": "👕 Short/thin long sleeves & shorts (Optimal running gear)",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요. ☔ 노면이 젖어있으므로 코너링 시 속도를 줄이고 내리막/만곡 보도블럭 구간에서 발목 착지에 유의하세요.",
@@ -116,18 +116,18 @@
         "쾌적",
         "약한바람",
         "노면젖음",
-        "공기보통"
+        "공기좋음"
       ],
       "tags_en": [
         "Comfortable",
         "Light Breeze",
         "Wet",
-        "Moderate Air"
+        "Good Air"
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 31.0,
-      "pm25": 21.0
+      "pm10": 10.8,
+      "pm25": 8.6
     },
     {
       "id": "gwanggyo-lake-park",
@@ -190,8 +190,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 29.0,
-      "pm25": 6.0
+      "pm10": 27.0,
+      "pm25": 12.0
     },
     {
       "id": "skku",
@@ -254,8 +254,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 29.0,
-      "pm25": 7.0
+      "pm10": 7.7,
+      "pm25": 5.9
     },
     {
       "id": "woncheon-stream-sindong",
@@ -297,7 +297,7 @@
       "wind_score": 100,
       "wet_score": 35,
       "surface_score": 35,
-      "air_score": 75,
+      "air_score": 100,
       "outfit_ko": "👕 반팔 또는 얇은 긴팔 + 러닝 숏츠 (러닝 최적 복장)",
       "outfit_en": "👕 Short/thin long sleeves & shorts (Optimal running gear)",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요. ☔ 노면이 젖어있으므로 코너링 시 속도를 줄이고 내리막/만곡 보도블럭 구간에서 발목 착지에 유의하세요.",
@@ -308,18 +308,18 @@
         "쾌적",
         "약한바람",
         "노면젖음",
-        "공기보통"
+        "공기좋음"
       ],
       "tags_en": [
         "Comfortable",
         "Light Breeze",
         "Wet",
-        "Moderate Air"
+        "Good Air"
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 31.0,
-      "pm25": 21.0
+      "pm10": 10.8,
+      "pm25": 8.6
     },
     {
       "id": "paldalsan-hwaseong",
@@ -361,7 +361,7 @@
       "wind_score": 100,
       "wet_score": 35,
       "surface_score": 35,
-      "air_score": 75,
+      "air_score": 100,
       "outfit_ko": "👕 반팔 또는 얇은 긴팔 + 러닝 숏츠 (러닝 최적 복장)",
       "outfit_en": "👕 Short/thin long sleeves & shorts (Optimal running gear)",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요. ☔ 노면이 젖어있으므로 코너링 시 속도를 줄이고 내리막/만곡 보도블럭 구간에서 발목 착지에 유의하세요.",
@@ -372,18 +372,18 @@
         "쾌적",
         "약한바람",
         "노면젖음",
-        "공기보통"
+        "공기좋음"
       ],
       "tags_en": [
         "Comfortable",
         "Light Breeze",
         "Wet",
-        "Moderate Air"
+        "Good Air"
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 33.0,
-      "pm25": 12.0
+      "pm10": 10.8,
+      "pm25": 8.6
     },
     {
       "id": "suwon-stream",
@@ -425,7 +425,7 @@
       "wind_score": 100,
       "wet_score": 35,
       "surface_score": 35,
-      "air_score": 75,
+      "air_score": 100,
       "outfit_ko": "👕 반팔 또는 얇은 긴팔 + 러닝 숏츠 (러닝 최적 복장)",
       "outfit_en": "👕 Short/thin long sleeves & shorts (Optimal running gear)",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요. ☔ 노면이 젖어있으므로 코너링 시 속도를 줄이고 내리막/만곡 보도블럭 구간에서 발목 착지에 유의하세요.",
@@ -436,18 +436,18 @@
         "쾌적",
         "약한바람",
         "노면젖음",
-        "공기보통"
+        "공기좋음"
       ],
       "tags_en": [
         "Comfortable",
         "Light Breeze",
         "Wet",
-        "Moderate Air"
+        "Good Air"
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 31.0,
-      "pm25": 21.0
+      "pm10": 10.8,
+      "pm25": 8.6
     },
     {
       "id": "gwanggyo-mountain",
@@ -510,8 +510,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 10.8,
-      "pm25": 8.6
+      "pm10": 27.0,
+      "pm25": 12.0
     },
     {
       "id": "suwon-worldcup",
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 45.0,
-      "pm25": 11.0
+      "pm10": 46.0,
+      "pm25": 13.0
     },
     {
       "id": "dongtan-yeoul-park",
@@ -638,7 +638,7 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 32.0,
+      "pm10": 25.0,
       "pm25": 17.0
     },
     {
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": null,
-      "pm25": null
+      "pm10": 19.0,
+      "pm25": 11.0
     },
     {
       "id": "majung-park",
