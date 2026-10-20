@@ -126,8 +126,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 26.0,
-      "pm25": 20.0
+      "pm10": 18.5,
+      "pm25": 16.9
     },
     {
       "id": "gwanggyo-lake-park",
@@ -256,6 +256,70 @@
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 42.0,
       "pm25": 26.0
+    },
+    {
+      "id": "woncheon-stream-sindong",
+      "provider": "kma",
+      "name_ko": "원천리천(신동)",
+      "name_en": "Woncheon Stream (Sindong)",
+      "name_en_short": "Woncheon Stream",
+      "name": "원천리천(신동)",
+      "location_ko": "수원시 영통구 신동",
+      "location_en": "Sin-dong, Suwon",
+      "location_en_short": "Sindong",
+      "updated_at": "2026-10-20T14:00:00+09:00",
+      "sunrise": "06:43",
+      "sunset": "17:49",
+      "is_night": false,
+      "lat": 37.248469,
+      "lon": 127.041965,
+      "temperature": 23.1,
+      "apparent_temperature": 23.1,
+      "humidity": 40.0,
+      "wind_speed": 1.0,
+      "wind_direction": 202.0,
+      "rain_now": 0.0,
+      "snow_now": 0.0,
+      "snow_memory_mm": 0.0,
+      "freeze_surface_risk": false,
+      "forecast_rain_3h": 0.0,
+      "forecast_snow_3h": 0.0,
+      "recent_rain_3h": 0.0,
+      "recent_snow_3h": 0.0,
+      "wet_badge": {
+        "level": "good",
+        "text_ko": "건조",
+        "text_en": "Dry"
+      },
+      "run_score": 68,
+      "run_grade": "B",
+      "temp_score": 80,
+      "wind_score": 100,
+      "wet_score": 100,
+      "surface_score": 100,
+      "air_score": 75,
+      "outfit_ko": "👕 통풍 좋은 반팔 T셔츠 + 러닝 숏츠 (선크림 착용 권장 ☀️)",
+      "outfit_en": "👕 Breathable short-sleeve T-shirt & running shorts (Sunscreen recommended ☀️)",
+      "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요.",
+      "pace_tip_en": "🏃‍♂️ [Optimal Temp] Great running environment. Maintain your target pace after a proper warmup.",
+      "risk_flags_ko": [],
+      "risk_flags_en": [],
+      "tags_ko": [
+        "쾌적",
+        "약한바람",
+        "건조",
+        "공기보통"
+      ],
+      "tags_en": [
+        "Comfortable",
+        "Light Breeze",
+        "Dry",
+        "Moderate Air"
+      ],
+      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
+      "advice_short_en": "Decent running condition 🙂",
+      "pm10": 26.0,
+      "pm25": 20.0
     },
     {
       "id": "woncheon-stream-sindong",
@@ -574,11 +638,11 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "pm10": 23.0,
+      "pm25": 6.0
     },
     {
-      "id": "dongtan-yeoul-park",
+      "id": "suwon-worldcup",
       "provider": "kma",
       "name_ko": "동탄여울공원",
       "name_en": "Dongtan Yeoul Park",
