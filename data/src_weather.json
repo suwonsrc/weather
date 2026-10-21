@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T18:04:21.110591+09:00",
+  "generated_at": "2026-10-21T18:33:54.834174+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -382,8 +382,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 9.5,
-      "pm25": 7.8
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "suwon-stream",
@@ -510,8 +510,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "pm10": 9.5,
+      "pm25": 7.8
     },
     {
       "id": "suwon-worldcup",
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "pm10": 9.5,
+      "pm25": 7.8
     },
     {
       "id": "dongtan-yeoul-park",
@@ -766,8 +766,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "pm10": 9.5,
+      "pm25": 7.8
     }
   ]
 }
