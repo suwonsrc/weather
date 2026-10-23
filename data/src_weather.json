@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T04:15:44.028806+09:00",
+  "generated_at": "2026-10-24T04:31:27.609329+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -510,8 +510,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 13.8,
-      "pm25": 10.3
+      "pm10": 18.0,
+      "pm25": 3.0
     },
     {
       "id": "suwon-worldcup",
