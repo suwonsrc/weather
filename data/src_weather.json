@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T04:01:37.689196+09:00",
+  "generated_at": "2026-10-25T04:30:24.971102+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 16.0,
-      "pm25": 7.0
+      "pm10": 13.0,
+      "pm25": 8.0
     },
     {
       "id": "youth-center",
@@ -126,8 +126,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 18.0,
-      "pm25": 10.0
+      "pm10": 17.0,
+      "pm25": 9.0
     },
     {
       "id": "gwanggyo-lake-park",
@@ -190,8 +190,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 14.0,
-      "pm25": null
+      "pm10": 21.0,
+      "pm25": 0.0
     },
     {
       "id": "skku",
@@ -254,7 +254,7 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 17.0,
+      "pm10": 21.0,
       "pm25": 13.0
     },
     {
@@ -318,8 +318,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 18.0,
-      "pm25": 10.0
+      "pm10": 17.0,
+      "pm25": 9.0
     },
     {
       "id": "paldalsan-hwaseong",
@@ -382,8 +382,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 16.0,
-      "pm25": 7.0
+      "pm10": 13.0,
+      "pm25": 8.0
     },
     {
       "id": "suwon-stream",
@@ -446,8 +446,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 18.0,
-      "pm25": 10.0
+      "pm10": 17.0,
+      "pm25": 9.0
     },
     {
       "id": "gwanggyo-mountain",
@@ -510,8 +510,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 14.0,
-      "pm25": null
+      "pm10": 21.0,
+      "pm25": 0.0
     },
     {
       "id": "suwon-worldcup",
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 15.0,
-      "pm25": 9.0
+      "pm10": 21.0,
+      "pm25": 8.0
     },
     {
       "id": "dongtan-yeoul-park",
@@ -638,8 +638,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 16.0,
-      "pm25": 8.0
+      "pm10": 15.0,
+      "pm25": 11.0
     },
     {
       "id": "yeongheung-forest-park",
@@ -703,11 +703,11 @@
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
       "pm10": 15.0,
-      "pm25": 10.0
+      "pm25": 13.0
     },
     {
       "id": "majung-park",
-      "provider": "open-meteo",
+      "provider": "kma",
       "name_ko": "마중공원",
       "name_en": "Majung Park",
       "name_en_short": "Majung Park",
@@ -715,17 +715,17 @@
       "location_ko": "수원시 권선구 세류동",
       "location_en": "Seryu-dong, Suwon",
       "location_en_short": "Seryu",
-      "updated_at": "2026-10-25T04:00+09:00",
+      "updated_at": "2026-10-25T03:00:00+09:00",
       "sunrise": "06:48",
       "sunset": "17:43",
       "is_night": true,
       "lat": 37.236832,
       "lon": 127.020592,
-      "temperature": 10.7,
-      "apparent_temperature": 10.7,
-      "humidity": 98.0,
-      "wind_speed": 1.8333333333333333,
-      "wind_direction": 13.0,
+      "temperature": 13.9,
+      "apparent_temperature": 13.9,
+      "humidity": 93.0,
+      "wind_speed": 0.4,
+      "wind_direction": 256.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -766,8 +766,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 18.0,
-      "pm25": 10.0
+      "pm10": 17.0,
+      "pm25": 9.0
     }
   ]
 }
