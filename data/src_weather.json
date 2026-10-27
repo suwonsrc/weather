@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T14:01:40.870336+09:00",
+  "generated_at": "2026-10-27T14:31:21.073693+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,7 +62,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 40.0,
+      "pm10": 45.0,
       "pm25": 13.0
     },
     {
@@ -126,8 +126,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 37.0,
-      "pm25": 12.0
+      "pm10": 32.0,
+      "pm25": 19.0
     },
     {
       "id": "gwanggyo-lake-park",
@@ -191,7 +191,7 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 35.0,
-      "pm25": 5.0
+      "pm25": 2.0
     },
     {
       "id": "skku",
@@ -227,13 +227,13 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 100,
-      "run_grade": "A",
+      "run_score": 75,
+      "run_grade": "B",
       "temp_score": 100,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 100,
+      "air_score": 75,
       "outfit_ko": "👕 반팔 또는 얇은 긴팔 + 러닝 숏츠 (러닝 최적 복장)",
       "outfit_en": "👕 Short/thin long sleeves & shorts (Optimal running gear)",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요.",
@@ -244,18 +244,18 @@
         "최적",
         "약한바람",
         "건조",
-        "공기좋음"
+        "공기보통"
       ],
       "tags_en": [
         "Optimal",
         "Light Breeze",
         "Dry",
-        "Good Air"
+        "Moderate Air"
       ],
-      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
-      "advice_short_en": "Great running condition 😄",
-      "pm10": 28.0,
-      "pm25": 14.0
+      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
+      "advice_short_en": "Decent running condition 🙂",
+      "pm10": 32.0,
+      "pm25": 12.0
     },
     {
       "id": "woncheon-stream-sindong",
@@ -291,13 +291,13 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 92,
-      "run_grade": "A",
+      "run_score": 69,
+      "run_grade": "B",
       "temp_score": 100,
       "wind_score": 70,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 100,
+      "air_score": 75,
       "outfit_ko": "👕 반팔 또는 얇은 긴팔 + 러닝 숏츠 (러닝 최적 복장)",
       "outfit_en": "👕 Short/thin long sleeves & shorts (Optimal running gear)",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요. 💨 맞바람이 강하므로 시선과 상체를 약간 낮추고, 크루원들과 그룹 주행 시 팩 후미에서 체력을 안배하세요.",
@@ -308,18 +308,18 @@
         "최적",
         "다소바람",
         "건조",
-        "공기좋음"
+        "공기보통"
       ],
       "tags_en": [
         "Optimal",
         "Moderate Wind",
         "Dry",
-        "Good Air"
+        "Moderate Air"
       ],
-      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
-      "advice_short_en": "Great running condition 😄",
-      "pm10": 26.0,
-      "pm25": 10.0
+      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
+      "advice_short_en": "Decent running condition 🙂",
+      "pm10": 32.0,
+      "pm25": 19.0
     },
     {
       "id": "paldalsan-hwaseong",
@@ -382,7 +382,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 40.0,
+      "pm10": 45.0,
       "pm25": 13.0
     },
     {
@@ -446,8 +446,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 40.0,
-      "pm25": 13.0
+      "pm10": 32.0,
+      "pm25": 19.0
     },
     {
       "id": "gwanggyo-mountain",
@@ -511,7 +511,7 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 35.0,
-      "pm25": 5.0
+      "pm25": 2.0
     },
     {
       "id": "suwon-worldcup",
@@ -575,11 +575,11 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 37.0,
-      "pm25": 12.0
+      "pm25": 10.0
     },
     {
       "id": "dongtan-yeoul-park",
-      "provider": "open-meteo",
+      "provider": "kma",
       "name_ko": "동탄여울공원",
       "name_en": "Dongtan Yeoul Park",
       "name_en_short": "Dongtan Yeoul",
@@ -587,17 +587,17 @@
       "location_ko": "화성시 동탄 오산동",
       "location_en": "Osan-dong, Dongtan",
       "location_en_short": "Osan",
-      "updated_at": "2026-10-27T14:00+09:00",
+      "updated_at": "2026-10-27T13:00:00+09:00",
       "sunrise": "06:49",
       "sunset": "17:40",
       "is_night": false,
       "lat": 37.198689,
       "lon": 127.086609,
-      "temperature": 14.5,
-      "apparent_temperature": 14.5,
-      "humidity": 62.0,
-      "wind_speed": 6.499999999999999,
-      "wind_direction": 301.0,
+      "temperature": 15.7,
+      "apparent_temperature": 15.7,
+      "humidity": 31.0,
+      "wind_speed": 4.3,
+      "wind_direction": 288.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -611,35 +611,35 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 64,
-      "run_grade": "C",
+      "run_score": 69,
+      "run_grade": "B",
       "temp_score": 100,
-      "wind_score": 40,
+      "wind_score": 70,
       "wet_score": 100,
       "surface_score": 100,
       "air_score": 75,
       "outfit_ko": "👕 반팔 또는 얇은 긴팔 + 러닝 숏츠 (러닝 최적 복장)",
       "outfit_en": "👕 Short/thin long sleeves & shorts (Optimal running gear)",
-      "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요. 💨 맞바람이 강하므로 시선과 상체를 약간 낮추고, 크루원들과 그룹 주행 시 팩 후미에서 체력을 안배하세요.",
-      "pace_tip_en": "🏃‍♂️ [Optimal Temp] Great running environment. Maintain your target pace after a proper warmup. 💨 Strong headwinds. Lean slightly forward and draft behind your running pack to save energy.",
+      "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요.",
+      "pace_tip_en": "🏃‍♂️ [Optimal Temp] Great running environment. Maintain your target pace after a proper warmup.",
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
         "최적",
-        "강풍",
+        "다소바람",
         "건조",
         "공기보통"
       ],
       "tags_en": [
         "Optimal",
-        "Strong Wind",
+        "Moderate Wind",
         "Dry",
         "Moderate Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 31.0,
-      "pm25": 12.0
+      "pm10": 35.0,
+      "pm25": 13.0
     },
     {
       "id": "yeongheung-forest-park",
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 26.0,
-      "pm25": 10.0
+      "pm10": 28.0,
+      "pm25": 8.0
     },
     {
       "id": "majung-park",
@@ -767,7 +767,7 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 32.0,
-      "pm25": 11.0
+      "pm25": 19.0
     }
   ]
 }
