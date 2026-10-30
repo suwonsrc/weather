@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T16:01:23.681059+09:00",
+  "generated_at": "2026-10-30T16:08:53.200238+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -707,7 +707,7 @@
     },
     {
       "id": "majung-park",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "마중공원",
       "name_en": "Majung Park",
       "name_en_short": "Majung Park",
@@ -715,17 +715,17 @@
       "location_ko": "수원시 권선구 세류동",
       "location_en": "Seryu-dong, Suwon",
       "location_en_short": "Seryu",
-      "updated_at": "2026-10-30T15:00:00+09:00",
+      "updated_at": "2026-10-30T16:00+09:00",
       "sunrise": "06:53",
       "sunset": "17:37",
       "is_night": false,
       "lat": 37.236832,
       "lon": 127.020592,
-      "temperature": 19.1,
-      "apparent_temperature": 19.1,
-      "humidity": 42.0,
-      "wind_speed": 2.6,
-      "wind_direction": 266.0,
+      "temperature": 16.5,
+      "apparent_temperature": 16.5,
+      "humidity": 66.0,
+      "wind_speed": 3.861111111111111,
+      "wind_direction": 253.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -739,10 +739,10 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 68,
+      "run_score": 69,
       "run_grade": "B",
-      "temp_score": 80,
-      "wind_score": 100,
+      "temp_score": 100,
+      "wind_score": 70,
       "wet_score": 100,
       "surface_score": 100,
       "air_score": 75,
@@ -753,14 +753,14 @@
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
-        "쾌적",
-        "약한바람",
+        "최적",
+        "다소바람",
         "건조",
         "공기보통"
       ],
       "tags_en": [
-        "Comfortable",
-        "Light Breeze",
+        "Optimal",
+        "Moderate Wind",
         "Dry",
         "Moderate Air"
       ],
