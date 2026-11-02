@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T02:01:26.737215+09:00",
+  "generated_at": "2026-11-03T02:31:17.828600+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,7 +62,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 37.0,
+      "pm10": 42.0,
       "pm25": 18.0
     },
     {
@@ -127,7 +127,7 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 32.0,
-      "pm25": 13.0
+      "pm25": 14.0
     },
     {
       "id": "gwanggyo-lake-park",
@@ -190,7 +190,7 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 26.0,
+      "pm10": 25.0,
       "pm25": 6.0
     },
     {
@@ -254,8 +254,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 34.0,
-      "pm25": 16.0
+      "pm10": 36.0,
+      "pm25": 18.0
     },
     {
       "id": "woncheon-stream-sindong",
@@ -319,7 +319,7 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 32.0,
-      "pm25": 13.0
+      "pm25": 14.0
     },
     {
       "id": "paldalsan-hwaseong",
@@ -382,7 +382,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 37.0,
+      "pm10": 42.0,
       "pm25": 18.0
     },
     {
@@ -447,7 +447,7 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 32.0,
-      "pm25": 13.0
+      "pm25": 14.0
     },
     {
       "id": "gwanggyo-mountain",
@@ -510,7 +510,7 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 26.0,
+      "pm10": 25.0,
       "pm25": 6.0
     },
     {
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 49.0,
-      "pm25": 17.0
+      "pm10": 37.0,
+      "pm25": 16.0
     },
     {
       "id": "dongtan-yeoul-park",
@@ -638,7 +638,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 30.0,
+      "pm10": 24.0,
       "pm25": 18.0
     },
     {
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 28.0,
-      "pm25": 27.0
+      "pm10": 26.0,
+      "pm25": 22.0
     },
     {
       "id": "majung-park",
@@ -767,7 +767,7 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 32.0,
-      "pm25": 13.0
+      "pm25": 14.0
     }
   ]
 }
