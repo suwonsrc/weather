@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T19:56:17.847827+09:00",
+  "generated_at": "2026-11-06T20:02:07.987078+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 6.6,
-      "pm25": 6.2
+      "pm10": 7.3,
+      "pm25": 6.8
     },
     {
       "id": "youth-center",
@@ -126,7 +126,7 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 8.5,
+      "pm10": 8.7,
       "pm25": 8.4
     },
     {
@@ -318,7 +318,7 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 8.5,
+      "pm10": 8.7,
       "pm25": 8.4
     },
     {
@@ -382,7 +382,7 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 8.5,
+      "pm10": 8.7,
       "pm25": 8.4
     },
     {
@@ -446,8 +446,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "pm10": 8.7,
+      "pm25": 8.4
     },
     {
       "id": "gwanggyo-mountain",
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 8.5,
-      "pm25": 8.4
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "dongtan-yeoul-park",
@@ -638,8 +638,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 8.5,
-      "pm25": 8.4
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "yeongheung-forest-park",
@@ -702,7 +702,7 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 8.5,
+      "pm10": 8.7,
       "pm25": 8.4
     },
     {
@@ -766,8 +766,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "pm10": 8.7,
+      "pm25": 8.4
     }
   ]
 }
