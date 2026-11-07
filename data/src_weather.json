@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T04:01:40.055682+09:00",
+  "generated_at": "2026-11-08T04:31:18.932754+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 22.0,
-      "pm25": 9.0
+      "pm10": 21.0,
+      "pm25": 12.0
     },
     {
       "id": "youth-center",
@@ -126,12 +126,12 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 25.0,
-      "pm25": 14.0
+      "pm10": 26.0,
+      "pm25": 13.0
     },
     {
       "id": "gwanggyo-lake-park",
-      "provider": "open-meteo",
+      "provider": "kma",
       "name_ko": "광교호수공원",
       "name_en": "Gwanggyo Lake Park",
       "name_en_short": "Gwanggyo Lake",
@@ -139,17 +139,17 @@
       "location_ko": "수원시 영통구 하동",
       "location_en": "Ha-dong, Suwon",
       "location_en_short": "Hadong",
-      "updated_at": "2026-11-08T04:00+09:00",
+      "updated_at": "2026-11-08T03:00:00+09:00",
       "sunrise": "07:02",
       "sunset": "17:28",
       "is_night": true,
       "lat": 37.283439,
       "lon": 127.065989,
-      "temperature": 0.1,
-      "apparent_temperature": -1.7,
-      "humidity": 70.0,
-      "wind_speed": 1.5277777777777777,
-      "wind_direction": 32.0,
+      "temperature": 1.0,
+      "apparent_temperature": 1.0,
+      "humidity": 76.0,
+      "wind_speed": 0.1,
+      "wind_direction": 270.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -163,9 +163,9 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 73,
-      "run_grade": "B",
-      "temp_score": 40,
+      "run_score": 91,
+      "run_grade": "A",
+      "temp_score": 80,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
@@ -177,20 +177,20 @@
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
-        "쌀쌀",
+        "쾌적",
         "약한바람",
         "건조",
         "공기좋음"
       ],
       "tags_en": [
-        "Chilly",
+        "Comfortable",
         "Light Breeze",
         "Dry",
         "Good Air"
       ],
-      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
-      "advice_short_en": "Decent running condition 🙂",
-      "pm10": 17.0,
+      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
+      "advice_short_en": "Great running condition 😄",
+      "pm10": 22.0,
       "pm25": 3.0
     },
     {
@@ -254,8 +254,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 19.0,
-      "pm25": 12.0
+      "pm10": 22.0,
+      "pm25": 11.0
     },
     {
       "id": "woncheon-stream-sindong",
@@ -318,8 +318,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 25.0,
-      "pm25": 14.0
+      "pm10": 26.0,
+      "pm25": 13.0
     },
     {
       "id": "paldalsan-hwaseong",
@@ -382,8 +382,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 22.0,
-      "pm25": 9.0
+      "pm10": 21.0,
+      "pm25": 12.0
     },
     {
       "id": "suwon-stream",
@@ -446,8 +446,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 25.0,
-      "pm25": 14.0
+      "pm10": 26.0,
+      "pm25": 13.0
     },
     {
       "id": "gwanggyo-mountain",
@@ -510,7 +510,7 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 17.0,
+      "pm10": 22.0,
       "pm25": 3.0
     },
     {
@@ -579,7 +579,7 @@
     },
     {
       "id": "dongtan-yeoul-park",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "동탄여울공원",
       "name_en": "Dongtan Yeoul Park",
       "name_en_short": "Dongtan Yeoul",
@@ -587,17 +587,17 @@
       "location_ko": "화성시 동탄 오산동",
       "location_en": "Osan-dong, Dongtan",
       "location_en_short": "Osan",
-      "updated_at": "2026-11-08T03:00:00+09:00",
+      "updated_at": "2026-11-08T04:30+09:00",
       "sunrise": "07:02",
       "sunset": "17:28",
       "is_night": true,
       "lat": 37.198689,
       "lon": 127.086609,
-      "temperature": -0.1,
-      "apparent_temperature": -0.1,
-      "humidity": 74.0,
-      "wind_speed": 0.5,
-      "wind_direction": 22.0,
+      "temperature": 0.4,
+      "apparent_temperature": 0.4,
+      "humidity": 69.0,
+      "wind_speed": 0.6111111111111112,
+      "wind_direction": 99.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -611,9 +611,9 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 73,
-      "run_grade": "B",
-      "temp_score": 40,
+      "run_score": 91,
+      "run_grade": "A",
+      "temp_score": 80,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
@@ -625,21 +625,21 @@
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
-        "쌀쌀",
+        "쾌적",
         "약한바람",
         "건조",
         "공기좋음"
       ],
       "tags_en": [
-        "Chilly",
+        "Comfortable",
         "Light Breeze",
         "Dry",
         "Good Air"
       ],
-      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
-      "advice_short_en": "Decent running condition 🙂",
-      "pm10": 25.0,
-      "pm25": 14.0
+      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
+      "advice_short_en": "Great running condition 😄",
+      "pm10": 22.0,
+      "pm25": 11.0
     },
     {
       "id": "yeongheung-forest-park",
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 25.0,
-      "pm25": 14.0
+      "pm10": 22.0,
+      "pm25": 11.0
     },
     {
       "id": "majung-park",
@@ -766,8 +766,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 25.0,
-      "pm25": 14.0
+      "pm10": 26.0,
+      "pm25": 13.0
     }
   ]
 }
