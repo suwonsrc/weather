@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T20:02:22.685005+09:00",
+  "generated_at": "2026-11-08T20:31:54.340591+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -154,70 +154,6 @@
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
-      "forecast_rain_3h": 0.0,
-      "forecast_snow_3h": 0.0,
-      "recent_rain_3h": 0.0,
-      "recent_snow_3h": 0.0,
-      "wet_badge": {
-        "level": "good",
-        "text_ko": "건조",
-        "text_en": "Dry"
-      },
-      "run_score": 100,
-      "run_grade": "A",
-      "temp_score": 100,
-      "wind_score": 100,
-      "wet_score": 100,
-      "surface_score": 100,
-      "air_score": 100,
-      "outfit_ko": "👕 기모 긴팔 + 방풍 자켓 + 롱타이츠 + 러닝 장갑 필수 🧤 (손 체온 보호 및 보온)",
-      "outfit_en": "👕 Thermal long sleeves, windproof jacket, tights & running gloves required 🧤",
-      "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
-      "pace_tip_en": "🏃‍♂️ [Optimal Temp] Great running environment. Maintain your target pace after a proper warmup. 🌙 [Night Running Safety] Wear reflective gear or LED band for visibility and traffic safety.",
-      "risk_flags_ko": [],
-      "risk_flags_en": [],
-      "tags_ko": [
-        "최적",
-        "약한바람",
-        "건조",
-        "공기좋음"
-      ],
-      "tags_en": [
-        "Optimal",
-        "Light Breeze",
-        "Dry",
-        "Good Air"
-      ],
-      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
-      "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
-    },
-    {
-      "id": "skku",
-      "provider": "kma",
-      "name_ko": "성균관대학교",
-      "name_en": "Sungkyunkwan Univ. (Suwon)",
-      "name_en_short": "SKKU (Suwon)",
-      "name": "성균관대학교",
-      "location_ko": "수원시 장안구 율전동",
-      "location_en": "Yuljeon-dong, Suwon",
-      "location_en_short": "Yuljeon",
-      "updated_at": "2026-11-08T19:00:00+09:00",
-      "sunrise": "07:03",
-      "sunset": "17:28",
-      "is_night": true,
-      "lat": 37.293788,
-      "lon": 126.974365,
-      "temperature": 6.2,
-      "apparent_temperature": 5.0,
-      "humidity": 81.0,
-      "wind_speed": 1.8,
-      "wind_direction": 36.0,
-      "rain_now": 0.0,
-      "snow_now": 0.0,
-      "snow_memory_mm": 0.0,
-      "freeze_surface_risk": false,
       "forecast_rain_3h": 3.0,
       "forecast_snow_3h": 0.0,
       "recent_rain_3h": 3.0,
@@ -227,13 +163,77 @@
         "text_ko": "살짝젖음",
         "text_en": "Damp"
       },
-      "run_score": 80,
-      "run_grade": "A",
+      "run_score": 67,
+      "run_grade": "B",
+      "temp_score": 100,
+      "wind_score": 100,
+      "wet_score": 65,
+      "surface_score": 65,
+      "air_score": 75,
+      "outfit_ko": "👕 기모 긴팔 + 방풍 자켓 + 롱타이츠 + 러닝 장갑 필수 🧤 (손 체온 보호 및 보온)",
+      "outfit_en": "👕 Thermal long sleeves, windproof jacket, tights & running gloves required 🧤",
+      "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
+      "pace_tip_en": "🏃‍♂️ [Optimal Temp] Great running environment. Maintain your target pace after a proper warmup. 🌙 [Night Running Safety] Wear reflective gear or LED band for visibility and traffic safety.",
+      "risk_flags_ko": [],
+      "risk_flags_en": [],
+      "tags_ko": [
+        "최적",
+        "약한바람",
+        "살짝젖음",
+        "공기보통"
+      ],
+      "tags_en": [
+        "Optimal",
+        "Light Breeze",
+        "Damp",
+        "Moderate Air"
+      ],
+      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
+      "advice_short_en": "Decent running condition 🙂",
+      "pm10": 20.8,
+      "pm25": 17.9
+    },
+    {
+      "id": "skku",
+      "provider": "open-meteo",
+      "name_ko": "성균관대학교",
+      "name_en": "Sungkyunkwan Univ. (Suwon)",
+      "name_en_short": "SKKU (Suwon)",
+      "name": "성균관대학교",
+      "location_ko": "수원시 장안구 율전동",
+      "location_en": "Yuljeon-dong, Suwon",
+      "location_en_short": "Yuljeon",
+      "updated_at": "2026-11-08T20:30+09:00",
+      "sunrise": "07:03",
+      "sunset": "17:28",
+      "is_night": true,
+      "lat": 37.293788,
+      "lon": 126.974365,
+      "temperature": 4.4,
+      "apparent_temperature": 2.5,
+      "humidity": 93.0,
+      "wind_speed": 2.138888888888889,
+      "wind_direction": 49.0,
+      "rain_now": 0.1,
+      "snow_now": 0.0,
+      "snow_memory_mm": 0.0,
+      "freeze_surface_risk": false,
+      "forecast_rain_3h": 0.0,
+      "forecast_snow_3h": 0.0,
+      "recent_rain_3h": 0.0,
+      "recent_snow_3h": 0.0,
+      "wet_badge": {
+        "level": "wet",
+        "text_ko": "살짝젖음",
+        "text_en": "Damp"
+      },
+      "run_score": 60,
+      "run_grade": "C",
       "temp_score": 80,
       "wind_score": 100,
       "wet_score": 65,
       "surface_score": 65,
-      "air_score": 100,
+      "air_score": 75,
       "outfit_ko": "👕 기모 긴팔 + 방풍 자켓 + 롱타이츠 + 러닝 장갑 필수 🧤 (손 체온 보호 및 보온)",
       "outfit_en": "👕 Thermal long sleeves, windproof jacket, tights & running gloves required 🧤",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
@@ -244,18 +244,18 @@
         "쾌적",
         "약한바람",
         "살짝젖음",
-        "공기좋음"
+        "공기보통"
       ],
       "tags_en": [
         "Comfortable",
         "Light Breeze",
         "Damp",
-        "Good Air"
+        "Moderate Air"
       ],
-      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
-      "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
+      "advice_short_en": "Decent running condition 🙂",
+      "pm10": 25.0,
+      "pm25": 22.6
     },
     {
       "id": "woncheon-stream-sindong",
@@ -355,13 +355,13 @@
         "text_ko": "살짝젖음",
         "text_en": "Damp"
       },
-      "run_score": 67,
-      "run_grade": "B",
+      "run_score": 90,
+      "run_grade": "A",
       "temp_score": 100,
       "wind_score": 100,
       "wet_score": 65,
       "surface_score": 65,
-      "air_score": 75,
+      "air_score": 100,
       "outfit_ko": "👕 기모 긴팔 + 방풍 자켓 + 롱타이츠 + 러닝 장갑 필수 🧤 (손 체온 보호 및 보온)",
       "outfit_en": "👕 Thermal long sleeves, windproof jacket, tights & running gloves required 🧤",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
@@ -372,18 +372,18 @@
         "최적",
         "약한바람",
         "살짝젖음",
-        "공기보통"
+        "공기좋음"
       ],
       "tags_en": [
         "Optimal",
         "Light Breeze",
         "Damp",
-        "Moderate Air"
+        "Good Air"
       ],
-      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
-      "advice_short_en": "Decent running condition 🙂",
-      "pm10": 20.8,
-      "pm25": 17.9
+      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
+      "advice_short_en": "Great running condition 😄",
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "suwon-stream",
@@ -483,13 +483,13 @@
         "text_ko": "살짝젖음",
         "text_en": "Damp"
       },
-      "run_score": 90,
-      "run_grade": "A",
+      "run_score": 67,
+      "run_grade": "B",
       "temp_score": 100,
       "wind_score": 100,
       "wet_score": 65,
       "surface_score": 65,
-      "air_score": 100,
+      "air_score": 75,
       "outfit_ko": "👕 기모 긴팔 + 방풍 자켓 + 롱타이츠 + 러닝 장갑 필수 🧤 (손 체온 보호 및 보온)",
       "outfit_en": "👕 Thermal long sleeves, windproof jacket, tights & running gloves required 🧤",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
@@ -500,18 +500,18 @@
         "최적",
         "약한바람",
         "살짝젖음",
-        "공기좋음"
+        "공기보통"
       ],
       "tags_en": [
         "Optimal",
         "Light Breeze",
         "Damp",
-        "Good Air"
+        "Moderate Air"
       ],
-      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
-      "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
+      "advice_short_en": "Decent running condition 🙂",
+      "pm10": 20.8,
+      "pm25": 17.9
     },
     {
       "id": "suwon-worldcup",
@@ -611,13 +611,13 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 100,
-      "run_grade": "A",
+      "run_score": 75,
+      "run_grade": "B",
       "temp_score": 100,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 100,
+      "air_score": 75,
       "outfit_ko": "👕 기모 긴팔 + 방풍 자켓 + 롱타이츠 + 러닝 장갑 필수 🧤 (손 체온 보호 및 보온)",
       "outfit_en": "👕 Thermal long sleeves, windproof jacket, tights & running gloves required 🧤",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
@@ -628,18 +628,18 @@
         "최적",
         "약한바람",
         "건조",
-        "공기좋음"
+        "공기보통"
       ],
       "tags_en": [
         "Optimal",
         "Light Breeze",
         "Dry",
-        "Good Air"
+        "Moderate Air"
       ],
-      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
-      "advice_short_en": "Great running condition 😄",
-      "pm10": null,
-      "pm25": null
+      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
+      "advice_short_en": "Decent running condition 🙂",
+      "pm10": 20.8,
+      "pm25": 17.9
     },
     {
       "id": "yeongheung-forest-park",
@@ -675,13 +675,13 @@
         "text_ko": "살짝젖음",
         "text_en": "Damp"
       },
-      "run_score": 67,
-      "run_grade": "B",
+      "run_score": 90,
+      "run_grade": "A",
       "temp_score": 100,
       "wind_score": 100,
       "wet_score": 65,
       "surface_score": 65,
-      "air_score": 75,
+      "air_score": 100,
       "outfit_ko": "👕 기모 긴팔 + 방풍 자켓 + 롱타이츠 + 러닝 장갑 필수 🧤 (손 체온 보호 및 보온)",
       "outfit_en": "👕 Thermal long sleeves, windproof jacket, tights & running gloves required 🧤",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
@@ -692,18 +692,18 @@
         "최적",
         "약한바람",
         "살짝젖음",
-        "공기보통"
+        "공기좋음"
       ],
       "tags_en": [
         "Optimal",
         "Light Breeze",
         "Damp",
-        "Moderate Air"
+        "Good Air"
       ],
-      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
-      "advice_short_en": "Decent running condition 🙂",
-      "pm10": 20.8,
-      "pm25": 17.9
+      "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
+      "advice_short_en": "Great running condition 😄",
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "majung-park",
