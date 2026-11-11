@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T04:01:22.145452+09:00",
+  "generated_at": "2026-11-12T04:31:25.018425+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 39.0,
-      "pm25": 28.0
+      "pm10": 35.0,
+      "pm25": 23.0
     },
     {
       "id": "youth-center",
@@ -126,8 +126,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 50.0,
-      "pm25": 34.0
+      "pm10": 49.0,
+      "pm25": 35.0
     },
     {
       "id": "gwanggyo-lake-park",
@@ -190,8 +190,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 36.0,
-      "pm25": 20.0
+      "pm10": 34.0,
+      "pm25": 19.0
     },
     {
       "id": "skku",
@@ -254,8 +254,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 30.0,
-      "pm25": 33.0
+      "pm10": 33.0,
+      "pm25": 31.0
     },
     {
       "id": "woncheon-stream-sindong",
@@ -318,8 +318,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 50.0,
-      "pm25": 34.0
+      "pm10": 49.0,
+      "pm25": 35.0
     },
     {
       "id": "paldalsan-hwaseong",
@@ -382,8 +382,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 39.0,
-      "pm25": 28.0
+      "pm10": 35.0,
+      "pm25": 23.0
     },
     {
       "id": "suwon-stream",
@@ -446,8 +446,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 50.0,
-      "pm25": 34.0
+      "pm10": 49.0,
+      "pm25": 35.0
     },
     {
       "id": "gwanggyo-mountain",
@@ -510,12 +510,12 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 36.0,
-      "pm25": 20.0
+      "pm10": 34.0,
+      "pm25": 19.0
     },
     {
       "id": "suwon-worldcup",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "수원월드컵경기장",
       "name_en": "Suwon World Cup Stadium",
       "name_en_short": "Suwon World Cup",
@@ -523,17 +523,17 @@
       "location_ko": "수원시 팔달구 우만동",
       "location_en": "Uman-dong, Suwon",
       "location_en_short": "Uman",
-      "updated_at": "2026-11-12T03:00:00+09:00",
+      "updated_at": "2026-11-12T04:30+09:00",
       "sunrise": "07:07",
       "sunset": "17:25",
       "is_night": true,
       "lat": 37.286545,
       "lon": 127.036871,
-      "temperature": 3.7,
-      "apparent_temperature": 3.7,
+      "temperature": 3.5,
+      "apparent_temperature": 2.1,
       "humidity": 100.0,
-      "wind_speed": 0.1,
-      "wind_direction": 270.0,
+      "wind_speed": 1.611111111111111,
+      "wind_direction": 112.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 43.0,
-      "pm25": 28.0
+      "pm10": 47.0,
+      "pm25": 27.0
     },
     {
       "id": "dongtan-yeoul-park",
@@ -638,8 +638,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 36.0,
-      "pm25": 27.0
+      "pm10": 32.0,
+      "pm25": 28.0
     },
     {
       "id": "yeongheung-forest-park",
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 46.0,
-      "pm25": 40.0
+      "pm10": 45.0,
+      "pm25": 37.0
     },
     {
       "id": "majung-park",
@@ -766,8 +766,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 50.0,
-      "pm25": 34.0
+      "pm10": 49.0,
+      "pm25": 35.0
     }
   ]
 }
