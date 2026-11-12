@@ -323,7 +323,7 @@
     },
     {
       "id": "paldalsan-hwaseong",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "팔달산(수원화성, 행궁동)",
       "name_en": "Paldalsan Fortress Area",
       "name_en_short": "Paldalsan Area",
