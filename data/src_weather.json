@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T02:01:42.025764+09:00",
+  "generated_at": "2026-11-14T02:31:23.989569+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 60.0,
-      "pm25": 48.0
+      "pm10": 49.0,
+      "pm25": 50.0
     },
     {
       "id": "youth-center",
@@ -126,8 +126,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 56.0,
-      "pm25": 57.0
+      "pm10": 50.0,
+      "pm25": 50.0
     },
     {
       "id": "gwanggyo-lake-park",
@@ -191,11 +191,11 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 61.0,
-      "pm25": 48.0
+      "pm25": 44.0
     },
     {
       "id": "skku",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "성균관대학교",
       "name_en": "Sungkyunkwan Univ. (Suwon)",
       "name_en_short": "SKKU (Suwon)",
@@ -203,24 +203,24 @@
       "location_ko": "수원시 장안구 율전동",
       "location_en": "Yuljeon-dong, Suwon",
       "location_en_short": "Yuljeon",
-      "updated_at": "2026-11-14T01:00:00+09:00",
+      "updated_at": "2026-11-14T02:30+09:00",
       "sunrise": "07:09",
       "sunset": "17:23",
       "is_night": true,
       "lat": 37.293788,
       "lon": 126.974365,
-      "temperature": 10.6,
-      "apparent_temperature": 10.6,
-      "humidity": 95.0,
-      "wind_speed": 0.9,
-      "wind_direction": 193.0,
-      "rain_now": 1.5,
+      "temperature": 9.9,
+      "apparent_temperature": 9.0,
+      "humidity": 94.0,
+      "wind_speed": 2.138888888888889,
+      "wind_direction": 79.0,
+      "rain_now": 0.1,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
-      "forecast_rain_3h": 3.0,
+      "forecast_rain_3h": 1.2999999999999998,
       "forecast_snow_3h": 0.0,
-      "recent_rain_3h": 3.0,
+      "recent_rain_3h": 1.2999999999999998,
       "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "wet",
@@ -254,7 +254,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 45.0,
+      "pm10": 36.0,
       "pm25": null
     },
     {
@@ -282,9 +282,9 @@
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
-      "forecast_rain_3h": 0.0,
+      "forecast_rain_3h": 4.0,
       "forecast_snow_3h": 0.0,
-      "recent_rain_3h": 0.0,
+      "recent_rain_3h": 4.0,
       "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "wet",
@@ -318,8 +318,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 56.0,
-      "pm25": 57.0
+      "pm10": 50.0,
+      "pm25": 50.0
     },
     {
       "id": "paldalsan-hwaseong",
@@ -382,8 +382,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 60.0,
-      "pm25": 48.0
+      "pm10": 49.0,
+      "pm25": 50.0
     },
     {
       "id": "suwon-stream",
@@ -446,8 +446,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 56.0,
-      "pm25": 57.0
+      "pm10": 50.0,
+      "pm25": 50.0
     },
     {
       "id": "gwanggyo-mountain",
@@ -511,7 +511,7 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 61.0,
-      "pm25": 48.0
+      "pm25": 44.0
     },
     {
       "id": "suwon-worldcup",
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 89.0,
-      "pm25": 50.0
+      "pm10": 68.0,
+      "pm25": 48.0
     },
     {
       "id": "dongtan-yeoul-park",
@@ -639,11 +639,11 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 48.0,
-      "pm25": 47.0
+      "pm25": 48.0
     },
     {
       "id": "yeongheung-forest-park",
-      "provider": "open-meteo",
+      "provider": "kma",
       "name_ko": "영흥숲공원",
       "name_en": "Yeongheung Forest Park",
       "name_en_short": "Yeongheung Forest",
@@ -651,24 +651,24 @@
       "location_ko": "수원시 영통구 원천동",
       "location_en": "Woncheon-dong, Suwon",
       "location_en_short": "Woncheon",
-      "updated_at": "2026-11-14T02:00+09:00",
+      "updated_at": "2026-11-14T01:00:00+09:00",
       "sunrise": "07:09",
       "sunset": "17:23",
       "is_night": true,
       "lat": 37.261067,
       "lon": 127.07047,
-      "temperature": 9.7,
-      "apparent_temperature": 8.5,
-      "humidity": 94.0,
-      "wind_speed": 2.4166666666666665,
-      "wind_direction": 85.0,
-      "rain_now": 0.1,
+      "temperature": 11.5,
+      "apparent_temperature": 11.5,
+      "humidity": 92.0,
+      "wind_speed": 0.7,
+      "wind_direction": 74.0,
+      "rain_now": 0.6,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
       "freeze_surface_risk": false,
-      "forecast_rain_3h": 1.6,
+      "forecast_rain_3h": 4.0,
       "forecast_snow_3h": 0.0,
-      "recent_rain_3h": 1.6,
+      "recent_rain_3h": 4.0,
       "recent_snow_3h": 0.0,
       "wet_badge": {
         "level": "wet",
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 62.0,
-      "pm25": 64.0
+      "pm10": 56.0,
+      "pm25": 57.0
     },
     {
       "id": "majung-park",
@@ -766,8 +766,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 56.0,
-      "pm25": 57.0
+      "pm10": 50.0,
+      "pm25": 50.0
     }
   ]
 }
