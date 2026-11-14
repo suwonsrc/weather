@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T00:01:43.152973+09:00",
+  "generated_at": "2026-11-15T00:31:14.648128+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,7 +62,7 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 7.0,
+      "pm10": 8.0,
       "pm25": 0.0
     },
     {
@@ -126,7 +126,7 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 5.0,
+      "pm10": 7.0,
       "pm25": null
     },
     {
@@ -190,8 +190,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 6.0,
-      "pm25": 0.0
+      "pm10": 17.0,
+      "pm25": 2.0
     },
     {
       "id": "skku",
@@ -254,7 +254,7 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 6.0,
+      "pm10": 9.0,
       "pm25": 0.0
     },
     {
@@ -318,7 +318,7 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 5.0,
+      "pm10": 7.0,
       "pm25": null
     },
     {
@@ -382,7 +382,7 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 7.0,
+      "pm10": 8.0,
       "pm25": 0.0
     },
     {
@@ -446,7 +446,7 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 5.0,
+      "pm10": 7.0,
       "pm25": null
     },
     {
@@ -510,8 +510,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 6.0,
-      "pm25": 0.0
+      "pm10": 17.0,
+      "pm25": 2.0
     },
     {
       "id": "suwon-worldcup",
@@ -638,8 +638,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 6.0,
-      "pm25": 8.0
+      "pm10": 4.0,
+      "pm25": 7.0
     },
     {
       "id": "yeongheung-forest-park",
@@ -766,7 +766,7 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 5.0,
+      "pm10": 7.0,
       "pm25": null
     }
   ]
