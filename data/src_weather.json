@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T11:41:06.198593+09:00",
+  "generated_at": "2026-11-15T12:01:16.076923+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -190,8 +190,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 17.3,
-      "pm25": 14.9
+      "pm10": 22.0,
+      "pm25": 9.0
     },
     {
       "id": "skku",
