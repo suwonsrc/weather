@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T13:30:27.128939+09:00",
+  "generated_at": "2026-11-17T13:31:24.127743+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 13.4,
-      "pm25": 9.9
+      "pm10": 12.0,
+      "pm25": 3.0
     },
     {
       "id": "dongtan-yeoul-park",
