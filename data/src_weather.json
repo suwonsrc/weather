@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T01:01:29.234258+09:00",
+  "generated_at": "2026-11-19T01:31:17.038590+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -63,7 +63,7 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 27.0,
-      "pm25": 6.0
+      "pm25": 14.0
     },
     {
       "id": "youth-center",
@@ -127,7 +127,7 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 20.0,
-      "pm25": 12.0
+      "pm25": 14.0
     },
     {
       "id": "gwanggyo-lake-park",
@@ -190,8 +190,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 33.0,
-      "pm25": 11.0
+      "pm10": 31.0,
+      "pm25": 10.0
     },
     {
       "id": "skku",
@@ -254,8 +254,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 23.0,
-      "pm25": 12.0
+      "pm10": 24.0,
+      "pm25": 13.0
     },
     {
       "id": "woncheon-stream-sindong",
@@ -319,7 +319,7 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 20.0,
-      "pm25": 12.0
+      "pm25": 14.0
     },
     {
       "id": "paldalsan-hwaseong",
@@ -383,7 +383,7 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 27.0,
-      "pm25": 6.0
+      "pm25": 14.0
     },
     {
       "id": "suwon-stream",
@@ -447,7 +447,7 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 20.0,
-      "pm25": 12.0
+      "pm25": 14.0
     },
     {
       "id": "gwanggyo-mountain",
@@ -510,8 +510,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 33.0,
-      "pm25": 11.0
+      "pm10": 31.0,
+      "pm25": 10.0
     },
     {
       "id": "suwon-worldcup",
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 45.0,
-      "pm25": 16.0
+      "pm10": 40.0,
+      "pm25": 18.0
     },
     {
       "id": "dongtan-yeoul-park",
@@ -638,8 +638,8 @@
       ],
       "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
       "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 22.0,
-      "pm25": 17.0
+      "pm10": 34.0,
+      "pm25": 23.0
     },
     {
       "id": "yeongheung-forest-park",
@@ -675,13 +675,13 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 49,
-      "run_grade": "D",
+      "run_score": 66,
+      "run_grade": "B",
       "temp_score": 40,
       "wind_score": 70,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 75,
+      "air_score": 100,
       "outfit_ko": "👕 방한 자켓 + 방풍 타이츠 + 두꺼운 방한 러닝 장갑 필수 🧤 (손 시림 방지) + 넥워머·귀마개 모자",
       "outfit_en": "👕 Thermal jacket, windproof tights, heavy running gloves 🧤 & neck warmer",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요. 💨 맞바람이 강하므로 시선과 상체를 약간 낮추고, 크루원들과 그룹 주행 시 팩 후미에서 체력을 안배하세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
@@ -692,18 +692,18 @@
         "쌀쌀",
         "다소바람",
         "건조",
-        "공기보통"
+        "공기좋음"
       ],
       "tags_en": [
         "Chilly",
         "Moderate Wind",
         "Dry",
-        "Moderate Air"
+        "Good Air"
       ],
-      "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
-      "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 33.0,
-      "pm25": 13.0
+      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
+      "advice_short_en": "Decent running condition 🙂",
+      "pm10": 30.0,
+      "pm25": 8.0
     },
     {
       "id": "majung-park",
@@ -767,7 +767,7 @@
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
       "pm10": 20.0,
-      "pm25": 12.0
+      "pm25": 14.0
     }
   ]
 }
