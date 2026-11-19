@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T22:11:57.979894+09:00",
+  "generated_at": "2026-11-19T22:32:12.249833+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -190,12 +190,12 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": null,
-      "pm25": null
+      "pm10": 14.1,
+      "pm25": 12.4
     },
     {
       "id": "skku",
-      "provider": "kma",
+      "provider": "open-meteo",
       "name_ko": "성균관대학교",
       "name_en": "Sungkyunkwan Univ. (Suwon)",
       "name_en_short": "SKKU (Suwon)",
@@ -203,17 +203,17 @@
       "location_ko": "수원시 장안구 율전동",
       "location_en": "Yuljeon-dong, Suwon",
       "location_en_short": "Yuljeon",
-      "updated_at": "2026-11-19T21:00:00+09:00",
+      "updated_at": "2026-11-19T22:30+09:00",
       "sunrise": "07:15",
       "sunset": "17:20",
       "is_night": true,
       "lat": 37.293788,
       "lon": 126.974365,
-      "temperature": 0.3,
-      "apparent_temperature": -2.4,
-      "humidity": 50.0,
-      "wind_speed": 2.2,
-      "wind_direction": 38.0,
+      "temperature": -1.4,
+      "apparent_temperature": -4.7,
+      "humidity": 73.0,
+      "wind_speed": 2.5277777777777777,
+      "wind_direction": 326.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -318,8 +318,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 14.1,
-      "pm25": 12.4
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "paldalsan-hwaseong",
@@ -382,8 +382,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 14.1,
-      "pm25": 12.4
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "suwon-stream",
