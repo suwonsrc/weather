@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T08:01:42.252299+09:00",
+  "generated_at": "2026-11-20T08:31:24.496838+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 22.0,
-      "pm25": 5.0
+      "pm10": 27.0,
+      "pm25": 12.0
     },
     {
       "id": "youth-center",
@@ -126,7 +126,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 20.0,
+      "pm10": 24.0,
       "pm25": 13.0
     },
     {
@@ -163,13 +163,13 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 73,
-      "run_grade": "B",
+      "run_score": 55,
+      "run_grade": "C",
       "temp_score": 40,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 100,
+      "air_score": 75,
       "outfit_ko": "👕 방한 자켓 + 방풍 타이츠 + 두꺼운 방한 러닝 장갑 필수 🧤 (손 시림 방지) + 넥워머·귀마개 모자",
       "outfit_en": "👕 Thermal jacket, windproof tights, heavy running gloves 🧤 & neck warmer",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
@@ -180,18 +180,18 @@
         "쌀쌀",
         "약한바람",
         "건조",
-        "공기좋음"
+        "공기보통"
       ],
       "tags_en": [
         "Chilly",
         "Light Breeze",
         "Dry",
-        "Good Air"
+        "Moderate Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 28.0,
-      "pm25": 0.0
+      "pm10": 33.0,
+      "pm25": 3.0
     },
     {
       "id": "skku",
@@ -254,8 +254,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 20.0,
-      "pm25": 10.0
+      "pm10": 29.0,
+      "pm25": 11.0
     },
     {
       "id": "woncheon-stream-sindong",
@@ -318,7 +318,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 20.0,
+      "pm10": 24.0,
       "pm25": 13.0
     },
     {
@@ -382,8 +382,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 22.0,
-      "pm25": 5.0
+      "pm10": 27.0,
+      "pm25": 12.0
     },
     {
       "id": "suwon-stream",
@@ -446,7 +446,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 20.0,
+      "pm10": 24.0,
       "pm25": 13.0
     },
     {
@@ -470,134 +470,6 @@
       "humidity": 50.0,
       "wind_speed": 1.2,
       "wind_direction": 355.0,
-      "rain_now": 0.0,
-      "snow_now": 0.0,
-      "snow_memory_mm": 0.0,
-      "freeze_surface_risk": false,
-      "forecast_rain_3h": 0.0,
-      "forecast_snow_3h": 0.0,
-      "recent_rain_3h": 0.0,
-      "recent_snow_3h": 0.0,
-      "wet_badge": {
-        "level": "good",
-        "text_ko": "건조",
-        "text_en": "Dry"
-      },
-      "run_score": 73,
-      "run_grade": "B",
-      "temp_score": 40,
-      "wind_score": 100,
-      "wet_score": 100,
-      "surface_score": 100,
-      "air_score": 100,
-      "outfit_ko": "👕 방한 자켓 + 방풍 타이츠 + 두꺼운 방한 러닝 장갑 필수 🧤 (손 시림 방지) + 넥워머·귀마개 모자",
-      "outfit_en": "👕 Thermal jacket, windproof tights, heavy running gloves 🧤 & neck warmer",
-      "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
-      "pace_tip_en": "🏃‍♂️ [Optimal Temp] Great running environment. Maintain your target pace after a proper warmup. 🌙 [Night Running Safety] Wear reflective gear or LED band for visibility and traffic safety.",
-      "risk_flags_ko": [],
-      "risk_flags_en": [],
-      "tags_ko": [
-        "쌀쌀",
-        "약한바람",
-        "건조",
-        "공기좋음"
-      ],
-      "tags_en": [
-        "Chilly",
-        "Light Breeze",
-        "Dry",
-        "Good Air"
-      ],
-      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
-      "advice_short_en": "Decent running condition 🙂",
-      "pm10": 28.0,
-      "pm25": 0.0
-    },
-    {
-      "id": "suwon-worldcup",
-      "provider": "kma",
-      "name_ko": "수원월드컵경기장",
-      "name_en": "Suwon World Cup Stadium",
-      "name_en_short": "Suwon World Cup",
-      "name": "수원월드컵경기장",
-      "location_ko": "수원시 팔달구 우만동",
-      "location_en": "Uman-dong, Suwon",
-      "location_en_short": "Uman",
-      "updated_at": "2026-11-20T07:00:00+09:00",
-      "sunrise": "07:15",
-      "sunset": "17:19",
-      "is_night": true,
-      "lat": 37.286545,
-      "lon": 127.036871,
-      "temperature": -1.5,
-      "apparent_temperature": -1.5,
-      "humidity": 50.0,
-      "wind_speed": 1.2,
-      "wind_direction": 355.0,
-      "rain_now": 0.0,
-      "snow_now": 0.0,
-      "snow_memory_mm": 0.0,
-      "freeze_surface_risk": false,
-      "forecast_rain_3h": 0.0,
-      "forecast_snow_3h": 0.0,
-      "recent_rain_3h": 0.0,
-      "recent_snow_3h": 0.0,
-      "wet_badge": {
-        "level": "good",
-        "text_ko": "건조",
-        "text_en": "Dry"
-      },
-      "run_score": 73,
-      "run_grade": "B",
-      "temp_score": 40,
-      "wind_score": 100,
-      "wet_score": 100,
-      "surface_score": 100,
-      "air_score": 100,
-      "outfit_ko": "👕 방한 자켓 + 방풍 타이츠 + 두꺼운 방한 러닝 장갑 필수 🧤 (손 시림 방지) + 넥워머·귀마개 모자",
-      "outfit_en": "👕 Thermal jacket, windproof tights, heavy running gloves 🧤 & neck warmer",
-      "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
-      "pace_tip_en": "🏃‍♂️ [Optimal Temp] Great running environment. Maintain your target pace after a proper warmup. 🌙 [Night Running Safety] Wear reflective gear or LED band for visibility and traffic safety.",
-      "risk_flags_ko": [],
-      "risk_flags_en": [],
-      "tags_ko": [
-        "쌀쌀",
-        "약한바람",
-        "건조",
-        "공기좋음"
-      ],
-      "tags_en": [
-        "Chilly",
-        "Light Breeze",
-        "Dry",
-        "Good Air"
-      ],
-      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
-      "advice_short_en": "Decent running condition 🙂",
-      "pm10": 26.0,
-      "pm25": 11.0
-    },
-    {
-      "id": "dongtan-yeoul-park",
-      "provider": "kma",
-      "name_ko": "동탄여울공원",
-      "name_en": "Dongtan Yeoul Park",
-      "name_en_short": "Dongtan Yeoul",
-      "name": "동탄여울공원",
-      "location_ko": "화성시 동탄 오산동",
-      "location_en": "Osan-dong, Dongtan",
-      "location_en_short": "Osan",
-      "updated_at": "2026-11-20T07:00:00+09:00",
-      "sunrise": "07:15",
-      "sunset": "17:19",
-      "is_night": true,
-      "lat": 37.198689,
-      "lon": 127.086609,
-      "temperature": -0.8,
-      "apparent_temperature": -3.3,
-      "humidity": 44.0,
-      "wind_speed": 1.9,
-      "wind_direction": 288.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -638,8 +510,136 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 38.1,
-      "pm25": 26.0
+      "pm10": 33.0,
+      "pm25": 3.0
+    },
+    {
+      "id": "suwon-worldcup",
+      "provider": "kma",
+      "name_ko": "수원월드컵경기장",
+      "name_en": "Suwon World Cup Stadium",
+      "name_en_short": "Suwon World Cup",
+      "name": "수원월드컵경기장",
+      "location_ko": "수원시 팔달구 우만동",
+      "location_en": "Uman-dong, Suwon",
+      "location_en_short": "Uman",
+      "updated_at": "2026-11-20T07:00:00+09:00",
+      "sunrise": "07:15",
+      "sunset": "17:19",
+      "is_night": true,
+      "lat": 37.286545,
+      "lon": 127.036871,
+      "temperature": -1.5,
+      "apparent_temperature": -1.5,
+      "humidity": 50.0,
+      "wind_speed": 1.2,
+      "wind_direction": 355.0,
+      "rain_now": 0.0,
+      "snow_now": 0.0,
+      "snow_memory_mm": 0.0,
+      "freeze_surface_risk": false,
+      "forecast_rain_3h": 0.0,
+      "forecast_snow_3h": 0.0,
+      "recent_rain_3h": 0.0,
+      "recent_snow_3h": 0.0,
+      "wet_badge": {
+        "level": "good",
+        "text_ko": "건조",
+        "text_en": "Dry"
+      },
+      "run_score": 55,
+      "run_grade": "C",
+      "temp_score": 40,
+      "wind_score": 100,
+      "wet_score": 100,
+      "surface_score": 100,
+      "air_score": 75,
+      "outfit_ko": "👕 방한 자켓 + 방풍 타이츠 + 두꺼운 방한 러닝 장갑 필수 🧤 (손 시림 방지) + 넥워머·귀마개 모자",
+      "outfit_en": "👕 Thermal jacket, windproof tights, heavy running gloves 🧤 & neck warmer",
+      "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
+      "pace_tip_en": "🏃‍♂️ [Optimal Temp] Great running environment. Maintain your target pace after a proper warmup. 🌙 [Night Running Safety] Wear reflective gear or LED band for visibility and traffic safety.",
+      "risk_flags_ko": [],
+      "risk_flags_en": [],
+      "tags_ko": [
+        "쌀쌀",
+        "약한바람",
+        "건조",
+        "공기보통"
+      ],
+      "tags_en": [
+        "Chilly",
+        "Light Breeze",
+        "Dry",
+        "Moderate Air"
+      ],
+      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
+      "advice_short_en": "Decent running condition 🙂",
+      "pm10": 31.0,
+      "pm25": 11.0
+    },
+    {
+      "id": "dongtan-yeoul-park",
+      "provider": "open-meteo",
+      "name_ko": "동탄여울공원",
+      "name_en": "Dongtan Yeoul Park",
+      "name_en_short": "Dongtan Yeoul",
+      "name": "동탄여울공원",
+      "location_ko": "화성시 동탄 오산동",
+      "location_en": "Osan-dong, Dongtan",
+      "location_en_short": "Osan",
+      "updated_at": "2026-11-20T08:30+09:00",
+      "sunrise": "07:15",
+      "sunset": "17:19",
+      "is_night": false,
+      "lat": 37.198689,
+      "lon": 127.086609,
+      "temperature": -3.3,
+      "apparent_temperature": -6.0,
+      "humidity": 62.0,
+      "wind_speed": 1.777777777777778,
+      "wind_direction": 344.0,
+      "rain_now": 0.0,
+      "snow_now": 0.0,
+      "snow_memory_mm": 0.0,
+      "freeze_surface_risk": false,
+      "forecast_rain_3h": 0.0,
+      "forecast_snow_3h": 0.0,
+      "recent_rain_3h": 0.0,
+      "recent_snow_3h": 0.0,
+      "wet_badge": {
+        "level": "good",
+        "text_ko": "건조",
+        "text_en": "Dry"
+      },
+      "run_score": 73,
+      "run_grade": "B",
+      "temp_score": 40,
+      "wind_score": 100,
+      "wet_score": 100,
+      "surface_score": 100,
+      "air_score": 100,
+      "outfit_ko": "👕 방한 자켓 + 방풍 타이츠 + 두꺼운 방한 러닝 장갑 필수 🧤 (손 시림 방지) + 넥워머·귀마개 모자",
+      "outfit_en": "👕 Thermal jacket, windproof tights, heavy running gloves 🧤 & neck warmer",
+      "pace_tip_ko": "❄️ [한파 주의] 강한 한기로 심박수가 급상승합니다. 웜업을 15분 이상 충분히 하고 호흡 시 넥워머로 차가운 공기를 가려주세요.",
+      "pace_tip_en": "❄️ [Severe Cold] Warm up thoroughly for 15+ minutes and use a neck warmer to shield lungs from freezing air.",
+      "risk_flags_ko": [],
+      "risk_flags_en": [],
+      "tags_ko": [
+        "쌀쌀",
+        "약한바람",
+        "건조",
+        "공기좋음"
+      ],
+      "tags_en": [
+        "Chilly",
+        "Light Breeze",
+        "Dry",
+        "Good Air"
+      ],
+      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
+      "advice_short_en": "Decent running condition 🙂",
+      "pm10": 29.0,
+      "pm25": 13.0
     },
     {
       "id": "yeongheung-forest-park",
@@ -675,13 +675,13 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 73,
-      "run_grade": "B",
+      "run_score": 55,
+      "run_grade": "C",
       "temp_score": 40,
       "wind_score": 100,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 100,
+      "air_score": 75,
       "outfit_ko": "👕 방한 자켓 + 방풍 타이츠 + 두꺼운 방한 러닝 장갑 필수 🧤 (손 시림 방지) + 넥워머·귀마개 모자",
       "outfit_en": "👕 Thermal jacket, windproof tights, heavy running gloves 🧤 & neck warmer",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
@@ -692,18 +692,18 @@
         "쌀쌀",
         "약한바람",
         "건조",
-        "공기좋음"
+        "공기보통"
       ],
       "tags_en": [
         "Chilly",
         "Light Breeze",
         "Dry",
-        "Good Air"
+        "Moderate Air"
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 20.0,
-      "pm25": 13.0
+      "pm10": 23.0,
+      "pm25": 17.0
     },
     {
       "id": "majung-park",
@@ -766,7 +766,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 20.0,
+      "pm10": 24.0,
       "pm25": 13.0
     }
   ]
