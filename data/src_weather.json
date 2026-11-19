@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T23:02:31.464833+09:00",
+  "generated_at": "2026-11-19T23:32:02.953554+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -446,12 +446,12 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 14.4,
-      "pm25": 12.5
+      "pm10": null,
+      "pm25": null
     },
     {
       "id": "gwanggyo-mountain",
-      "provider": "open-meteo",
+      "provider": "kma",
       "name_ko": "광교산",
       "name_en": "Gwanggyo Mountain",
       "name_en_short": "Mt. Gwanggyo",
@@ -459,17 +459,17 @@
       "location_ko": "수원시 장안구 하광교동",
       "location_en": "Hagwanggyo-dong, Suwon",
       "location_en_short": "Hagwanggyo",
-      "updated_at": "2026-11-19T23:00+09:00",
+      "updated_at": "2026-11-19T22:00:00+09:00",
       "sunrise": "07:14",
       "sunset": "17:20",
       "is_night": true,
       "lat": 37.328633,
       "lon": 127.038172,
-      "temperature": -3.6,
-      "apparent_temperature": -7.5,
-      "humidity": 65.0,
-      "wind_speed": 2.6666666666666665,
-      "wind_direction": 326.0,
+      "temperature": 0.7,
+      "apparent_temperature": -1.7,
+      "humidity": 51.0,
+      "wind_speed": 2.0,
+      "wind_direction": 333.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -492,8 +492,8 @@
       "air_score": 100,
       "outfit_ko": "👕 방한 자켓 + 방풍 타이츠 + 두꺼운 방한 러닝 장갑 필수 🧤 (손 시림 방지) + 넥워머·귀마개 모자",
       "outfit_en": "👕 Thermal jacket, windproof tights, heavy running gloves 🧤 & neck warmer",
-      "pace_tip_ko": "❄️ [한파 주의] 강한 한기로 심박수가 급상승합니다. 웜업을 15분 이상 충분히 하고 호흡 시 넥워머로 차가운 공기를 가려주세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
-      "pace_tip_en": "❄️ [Severe Cold] Warm up thoroughly for 15+ minutes and use a neck warmer to shield lungs from freezing air. 🌙 [Night Running Safety] Wear reflective gear or LED band for visibility and traffic safety.",
+      "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
+      "pace_tip_en": "🏃‍♂️ [Optimal Temp] Great running environment. Maintain your target pace after a proper warmup. 🌙 [Night Running Safety] Wear reflective gear or LED band for visibility and traffic safety.",
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
@@ -574,8 +574,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": null,
-      "pm25": null
+      "pm10": 14.4,
+      "pm25": 12.5
     },
     {
       "id": "dongtan-yeoul-park",
@@ -766,8 +766,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": null,
-      "pm25": null
+      "pm10": 14.4,
+      "pm25": 12.5
     }
   ]
 }
