@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T08:01:30.169520+09:00",
+  "generated_at": "2026-11-21T08:31:16.425264+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -62,8 +62,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 14.0,
-      "pm25": 0.0
+      "pm10": 12.0,
+      "pm25": 1.0
     },
     {
       "id": "youth-center",
@@ -126,7 +126,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 9.0,
+      "pm10": 10.0,
       "pm25": 3.0
     },
     {
@@ -190,7 +190,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 18.0,
+      "pm10": 21.0,
       "pm25": 1.0
     },
     {
@@ -254,12 +254,12 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 13.0,
-      "pm25": 7.0
+      "pm10": 12.0,
+      "pm25": 4.0
     },
     {
       "id": "woncheon-stream-sindong",
-      "provider": "open-meteo",
+      "provider": "kma",
       "name_ko": "원천리천(신동)",
       "name_en": "Woncheon Stream (Sindong)",
       "name_en_short": "Woncheon Stream",
@@ -267,17 +267,17 @@
       "location_ko": "수원시 영통구 신동",
       "location_en": "Sin-dong, Suwon",
       "location_en_short": "Sindong",
-      "updated_at": "2026-11-21T08:00+09:00",
+      "updated_at": "2026-11-21T07:00:00+09:00",
       "sunrise": "07:16",
       "sunset": "17:19",
-      "is_night": false,
+      "is_night": true,
       "lat": 37.248469,
       "lon": 127.041965,
-      "temperature": -6.2,
-      "apparent_temperature": -9.5,
-      "humidity": 66.0,
-      "wind_speed": 1.8611111111111112,
-      "wind_direction": 254.0,
+      "temperature": -3.0,
+      "apparent_temperature": -5.5,
+      "humidity": 31.0,
+      "wind_speed": 1.7,
+      "wind_direction": 322.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -300,8 +300,8 @@
       "air_score": 100,
       "outfit_ko": "👕 방한 자켓 + 방풍 타이츠 + 두꺼운 방한 러닝 장갑 필수 🧤 (손 시림 방지) + 넥워머·귀마개 모자",
       "outfit_en": "👕 Thermal jacket, windproof tights, heavy running gloves 🧤 & neck warmer",
-      "pace_tip_ko": "❄️ [한파 주의] 강한 한기로 심박수가 급상승합니다. 웜업을 15분 이상 충분히 하고 호흡 시 넥워머로 차가운 공기를 가려주세요.",
-      "pace_tip_en": "❄️ [Severe Cold] Warm up thoroughly for 15+ minutes and use a neck warmer to shield lungs from freezing air.",
+      "pace_tip_ko": "❄️ [한파 주의] 강한 한기로 심박수가 급상승합니다. 웜업을 15분 이상 충분히 하고 호흡 시 넥워머로 차가운 공기를 가려주세요. 🌙 [야간 러닝 시야] 어두운 밤 러닝 시 야간 시야 확보와 차량 유의를 위해 발광 밴드/반사 조끼를 착용하세요.",
+      "pace_tip_en": "❄️ [Severe Cold] Warm up thoroughly for 15+ minutes and use a neck warmer to shield lungs from freezing air. 🌙 [Night Running Safety] Wear reflective gear or LED band for visibility and traffic safety.",
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
@@ -318,7 +318,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 9.0,
+      "pm10": 10.0,
       "pm25": 3.0
     },
     {
@@ -382,8 +382,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 14.0,
-      "pm25": 0.0
+      "pm10": 12.0,
+      "pm25": 1.0
     },
     {
       "id": "suwon-stream",
@@ -446,7 +446,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 9.0,
+      "pm10": 10.0,
       "pm25": 3.0
     },
     {
@@ -510,7 +510,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 18.0,
+      "pm10": 21.0,
       "pm25": 1.0
     },
     {
@@ -574,7 +574,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 13.0,
+      "pm10": 15.0,
       "pm25": 3.0
     },
     {
@@ -638,7 +638,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 15.0,
+      "pm10": 12.0,
       "pm25": 8.0
     },
     {
@@ -702,8 +702,8 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 11.0,
-      "pm25": 5.0
+      "pm10": 14.0,
+      "pm25": 7.0
     },
     {
       "id": "majung-park",
@@ -766,7 +766,7 @@
       ],
       "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
       "advice_short_en": "Decent running condition 🙂",
-      "pm10": 9.0,
+      "pm10": 10.0,
       "pm25": 3.0
     }
   ]
