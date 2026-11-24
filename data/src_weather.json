@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T09:53:04.727516+09:00",
+  "generated_at": "2026-11-24T10:01:29.577620+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -227,13 +227,13 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 49,
-      "run_grade": "D",
+      "run_score": 66,
+      "run_grade": "B",
       "temp_score": 40,
       "wind_score": 70,
       "wet_score": 100,
       "surface_score": 100,
-      "air_score": 75,
+      "air_score": 100,
       "outfit_ko": "👕 방한 자켓 + 방풍 타이츠 + 두꺼운 방한 러닝 장갑 필수 🧤 (손 시림 방지) + 넥워머·귀마개 모자",
       "outfit_en": "👕 Thermal jacket, windproof tights, heavy running gloves 🧤 & neck warmer",
       "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요.",
@@ -244,18 +244,18 @@
         "쌀쌀",
         "다소바람",
         "건조",
-        "공기보통"
+        "공기좋음"
       ],
       "tags_en": [
         "Chilly",
         "Moderate Wind",
         "Dry",
-        "Moderate Air"
+        "Good Air"
       ],
-      "advice_short_ko": "🚨 기상/공기질 불량 - 야외 러닝을 자제하고 실내 운동을 권장합니다.",
-      "advice_short_en": "🚨 Poor conditions! Reduce intensity or train indoors.",
-      "pm10": 34.0,
-      "pm25": 7.0
+      "advice_short_ko": "주의하면서 뛰기 좋은 컨디션입니다 🙂",
+      "advice_short_en": "Decent running condition 🙂",
+      "pm10": 17.3,
+      "pm25": 11.4
     },
     {
       "id": "woncheon-stream-sindong",
@@ -643,7 +643,7 @@
     },
     {
       "id": "yeongheung-forest-park",
-      "provider": "open-meteo",
+      "provider": "kma",
       "name_ko": "영흥숲공원",
       "name_en": "Yeongheung Forest Park",
       "name_en_short": "Yeongheung Forest",
@@ -651,17 +651,17 @@
       "location_ko": "수원시 영통구 원천동",
       "location_en": "Woncheon-dong, Suwon",
       "location_en_short": "Woncheon",
-      "updated_at": "2026-11-24T09:45+09:00",
+      "updated_at": "2026-11-24T09:00:00+09:00",
       "sunrise": "07:19",
       "sunset": "17:17",
       "is_night": false,
       "lat": 37.261067,
       "lon": 127.07047,
-      "temperature": -0.1,
-      "apparent_temperature": -5.7,
-      "humidity": 63.0,
-      "wind_speed": 6.25,
-      "wind_direction": 328.0,
+      "temperature": 1.6,
+      "apparent_temperature": -1.8,
+      "humidity": 39.0,
+      "wind_speed": 3.3,
+      "wind_direction": 305.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -675,28 +675,28 @@
         "text_ko": "건조",
         "text_en": "Dry"
       },
-      "run_score": 58,
-      "run_grade": "C",
+      "run_score": 66,
+      "run_grade": "B",
       "temp_score": 40,
-      "wind_score": 40,
+      "wind_score": 70,
       "wet_score": 100,
       "surface_score": 100,
       "air_score": 100,
       "outfit_ko": "👕 방한 자켓 + 방풍 타이츠 + 두꺼운 방한 러닝 장갑 필수 🧤 (손 시림 방지) + 넥워머·귀마개 모자",
       "outfit_en": "👕 Thermal jacket, windproof tights, heavy running gloves 🧤 & neck warmer",
-      "pace_tip_ko": "❄️ [한파 주의] 강한 한기로 심박수가 급상승합니다. 웜업을 15분 이상 충분히 하고 호흡 시 넥워머로 차가운 공기를 가려주세요. 💨 맞바람이 강하므로 시선과 상체를 약간 낮추고, 크루원들과 그룹 주행 시 팩 후미에서 체력을 안배하세요.",
-      "pace_tip_en": "❄️ [Severe Cold] Warm up thoroughly for 15+ minutes and use a neck warmer to shield lungs from freezing air. 💨 Strong headwinds. Lean slightly forward and draft behind your running pack to save energy.",
+      "pace_tip_ko": "🏃‍♂️ [쾌적 기온] 체온 유지가 용이한 좋은 러닝 환경입니다. 충분한 워밍업 후 주행 목표 페이스 유지를 시도해보세요.",
+      "pace_tip_en": "🏃‍♂️ [Optimal Temp] Great running environment. Maintain your target pace after a proper warmup.",
       "risk_flags_ko": [],
       "risk_flags_en": [],
       "tags_ko": [
         "쌀쌀",
-        "강풍",
+        "다소바람",
         "건조",
         "공기좋음"
       ],
       "tags_en": [
         "Chilly",
-        "Strong Wind",
+        "Moderate Wind",
         "Dry",
         "Good Air"
       ],
