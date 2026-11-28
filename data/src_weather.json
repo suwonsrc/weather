@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T12:55:38.251668+09:00",
+  "generated_at": "2026-11-28T13:01:28.330726+09:00",
   "courses": [
     {
       "id": "seoho-park",
@@ -331,17 +331,17 @@
       "location_ko": "수원시 팔달구 행궁동",
       "location_en": "Haenggung-dong, Suwon",
       "location_en_short": "Haenggung",
-      "updated_at": "2026-11-28T12:45+09:00",
+      "updated_at": "2026-11-28T13:00+09:00",
       "sunrise": "07:24",
       "sunset": "17:16",
       "is_night": false,
       "lat": 37.277614,
       "lon": 127.01065,
-      "temperature": 7.0,
-      "apparent_temperature": 3.3,
+      "temperature": 6.9,
+      "apparent_temperature": 3.1,
       "humidity": 61.0,
-      "wind_speed": 6.361111111111111,
-      "wind_direction": 307.0,
+      "wind_speed": 6.472222222222222,
+      "wind_direction": 305.0,
       "rain_now": 0.0,
       "snow_now": 0.0,
       "snow_memory_mm": 0.0,
@@ -766,8 +766,8 @@
       ],
       "advice_short_ko": "러닝하기 아주 좋은 컨디션입니다 😄",
       "advice_short_en": "Great running condition 😄",
-      "pm10": 17.3,
-      "pm25": 11.0
+      "pm10": 23.0,
+      "pm25": 9.0
     }
   ]
 }
